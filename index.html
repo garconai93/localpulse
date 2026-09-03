@@ -1755,14 +1755,74 @@ function shareEvent(event, city) {
 }
 
 /* ============================================
-   SERVICE WORKER REGISTRATION
+   SERVICE WORKER REGISTRATION + UPDATE PROMPT
 ============================================ */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
-      .then(reg => console.log('SW registered:', reg.scope))
+      .then(reg => {
+        console.log('SW registered:', reg.scope);
+
+        // Check for updates on every page load
+        reg.update();
+
+        // Listen for new SW waiting in queue
+        if (reg.waiting) {
+          promptUpdate(reg.waiting);
+        }
+        reg.addEventListener('updatefound', () => {
+          const newSW = reg.installing;
+          if (!newSW) return;
+          newSW.addEventListener('statechange', () => {
+            if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+              promptUpdate(newSW);
+            }
+          });
+        });
+
+        // Handle controllerchange — reload to pick up new version
+        let refreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (refreshing) return;
+          refreshing = true;
+          window.location.reload();
+        });
+      })
       .catch(err => console.log('SW registration failed:', err));
   });
+
+  function promptUpdate(worker) {
+    // Simple toast — bottom-center
+    const toast = document.createElement('div');
+    toast.style.cssText = `
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      background: var(--bg-card); border: 1px solid var(--accent);
+      border-radius: 14px; padding: 14px 20px; z-index: 9999;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.4);
+      display: flex; gap: 12px; align-items: center;
+      font-size: 14px; font-weight: 600; color: var(--text);
+      max-width: 90vw; animation: slideUp 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    `;
+    toast.innerHTML = `
+      <span>🚀 Versiune nouă disponibilă</span>
+      <button id="reloadBtn" style="
+        background: var(--accent); color: #fff; border: none;
+        border-radius: 8px; padding: 8px 14px; font-weight: 700;
+        cursor: pointer; font-size: 13px; font-family: inherit;
+      ">Reîncarcă</button>
+      <button id="dismissBtn" style="
+        background: transparent; color: var(--text-dim); border: none;
+        cursor: pointer; font-size: 18px; padding: 0 4px;
+      ">✕</button>
+    `;
+    document.body.appendChild(toast);
+    document.getElementById('reloadBtn').addEventListener('click', () => {
+      worker.postMessage({ type: 'SKIP_WAITING' });
+    });
+    document.getElementById('dismissBtn').addEventListener('click', () => {
+      toast.remove();
+    });
+  }
 }
 
 /* ============================================
