@@ -8,6 +8,14 @@
 <title>LocalEvent — ce se întâmplă în orașul tău</title>
 <meta name="description" content="Agregator de evenimente mici din 7 orașe mari din România. Feed unic, filtre inteligente, design 2026.">
 
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="LocalEvent">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -145,6 +153,31 @@ a { color: inherit; }
 [data-theme="dark"] .theme-toggle .moon { opacity: 1; transform: rotate(0) scale(1); }
 [data-theme="light"] .theme-toggle .sun { opacity: 1; transform: rotate(0) scale(1); }
 [data-theme="light"] .theme-toggle .moon { opacity: 0; transform: rotate(90deg) scale(0); position: absolute; }
+
+/* Language toggle */
+.lang-toggle {
+  height: 38px;
+  padding: 0 12px;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.lang-toggle:hover { background: var(--bg-card-hover); border-color: var(--border-strong); color: var(--text); }
+.lang-toggle:active { transform: scale(0.95); }
+.lang-current { color: var(--text); }
+.lang-divider { color: var(--text-faint); font-weight: 400; }
+.lang-alt { color: var(--text-faint); font-weight: 500; }
+.lang-toggle:hover .lang-alt { color: var(--text-dim); }
 
 /* ============================================
    HERO
@@ -799,6 +832,15 @@ h1 .accent {
 }
 .event-action.secondary:hover { background: var(--bg-card); border-color: var(--border-strong); }
 .event-action svg { width: 14px; height: 14px; flex-shrink: 0; }
+.event-share {
+  background: var(--bg-card-hover);
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-family: inherit;
+  cursor: pointer;
+}
+.event-share:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.event-share:active { transform: scale(0.96); }
 
 /* Empty state */
 .empty {
@@ -859,6 +901,11 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
       <div class="brand-name">Local<span>Event</span></div>
     </div>
     <div class="header-actions">
+      <button id="langToggle" class="lang-toggle" aria-label="Schimbă limba">
+        <span class="lang-current">RO</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-alt">EN</span>
+      </button>
       <button id="themeToggle" class="theme-toggle" aria-label="Comută tema day/night">
         <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
         <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
@@ -870,10 +917,10 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
 <section class="hero">
   <div class="eyebrow">
     <span class="eyebrow-dot">●</span>
-    <span id="liveDot">Live · septembrie 2026</span>
+    <span id="liveDot" data-i18n="hero_eyebrow">Live · septembrie 2026</span>
   </div>
-  <h1>Ce se întâmplă în <span class="accent">orașul tău</span> diseară sau weekendul ăsta.</h1>
-  <p class="lead">Filme indie, târguri de vintage, expoziții temporare, concerte mici, workshop-uri, board games. Agregate din 15+ surse locale într-un singur feed — fără scroll 40 de minute.</p>
+  <h1 data-i18n="hero_title">Ce se întâmplă în <span class="accent">orașul tău</span> diseară sau weekendul ăsta.</h1>
+  <p class="lead" data-i18n="hero_lead">Filme indie, târguri de vintage, expoziții temporare, concerte mici, workshop-uri, board games. Agregate din 15+ surse locale într-un singur feed — fără scroll 40 de minute.</p>
 
   <div class="controls">
     <div class="city-tabs" id="cityTabs" role="tablist"></div>
@@ -884,36 +931,36 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
   </div>
 
   <div class="stats">
-    <div class="stat"><div class="stat-num accent" id="statTotal">—</div><div class="stat-label">Evenimente</div></div>
-    <div class="stat"><div class="stat-num success" id="statFree">—</div><div class="stat-label">Gratuite</div></div>
-    <div class="stat"><div class="stat-num warning" id="statWeekend">—</div><div class="stat-label">În weekend</div></div>
-    <div class="stat"><div class="stat-num blue" id="statCategories">—</div><div class="stat-label">Categorii</div></div>
+    <div class="stat"><div class="stat-num accent" id="statTotal">—</div><div class="stat-label" data-i18n="stat_total">Evenimente</div></div>
+    <div class="stat"><div class="stat-num success" id="statFree">—</div><div class="stat-label" data-i18n="stat_free">Gratuite</div></div>
+    <div class="stat"><div class="stat-num warning" id="statWeekend">—</div><div class="stat-label" data-i18n="stat_weekend">În weekend</div></div>
+    <div class="stat"><div class="stat-num blue" id="statCategories">—</div><div class="stat-label" data-i18n="stat_categories">Categorii</div></div>
   </div>
 
   <div class="filters" id="filters">
     <div class="filter-row" data-key="cand">
-      <span class="filter-label">Când</span>
+      <span class="filter-label" data-i18n="filter_when">Când</span>
       <div class="filter-chips">
-        <button class="filter-chip active" data-period="all">Toate</button>
-        <button class="filter-chip" data-period="today">Azi</button>
-        <button class="filter-chip" data-period="weekend">Weekend</button>
-        <button class="filter-chip" data-period="next7">7 zile</button>
+        <button class="filter-chip active" data-period="all" data-i18n="filter_all">Toate</button>
+        <button class="filter-chip" data-period="today" data-i18n="filter_today">Azi</button>
+        <button class="filter-chip" data-period="weekend" data-i18n="filter_weekend">Weekend</button>
+        <button class="filter-chip" data-period="next7" data-i18n="filter_next7">7 zile</button>
       </div>
     </div>
     <div class="filter-row" data-key="pret">
-      <span class="filter-label">Preț</span>
+      <span class="filter-label" data-i18n="filter_price">Preț</span>
       <div class="filter-chips">
-        <button class="filter-chip" data-price="free">Gratuit</button>
-        <button class="filter-chip" data-price="paid">Plătit</button>
+        <button class="filter-chip" data-price="free" data-i18n="filter_free">Gratuit</button>
+        <button class="filter-chip" data-price="paid" data-i18n="filter_paid">Plătit</button>
       </div>
     </div>
     <div class="filter-row" data-key="vibe">
-      <span class="filter-label">Vibe</span>
+      <span class="filter-label" data-i18n="filter_vibe">Vibe</span>
       <div class="filter-chips">
-        <button class="filter-chip" data-vibe="intim">Intim</button>
-        <button class="filter-chip" data-vibe="loud">Loud</button>
-        <button class="filter-chip" data-vibe="casual">Casual</button>
-        <button class="filter-chip" data-vibe="family">Family</button>
+        <button class="filter-chip" data-vibe="intim" data-i18n="vibe_intim">Intim</button>
+        <button class="filter-chip" data-vibe="loud" data-i18n="vibe_loud">Loud</button>
+        <button class="filter-chip" data-vibe="casual" data-i18n="vibe_casual">Casual</button>
+        <button class="filter-chip" data-vibe="family" data-i18n="vibe_family">Family</button>
       </div>
     </div>
   </div>
@@ -929,15 +976,15 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
     <div class="weekend-icon">⚡</div>
     <div class="weekend-text">
       <div class="weekend-title" id="weekendTitle">— evenimente în weekend</div>
-      <div class="weekend-sub">Filme indie, târguri, expoziții, board games, workshop-uri</div>
+      <div class="weekend-sub" data-i18n="weekend_sub">Filme indie, târguri, expoziții, board games, workshop-uri</div>
     </div>
   </div>
 
   <div id="bento" class="bento"></div>
   <div id="empty" class="empty" style="display:none">
     <div class="empty-icon">🔍</div>
-    <div>Niciun eveniment pentru filtrele astea.</div>
-    <div style="margin-top:6px;font-size:13px">Încearcă alte combinații sau schimbă orașul.</div>
+    <div data-i18n="no_events">Niciun eveniment pentru filtrele astea.</div>
+    <div style="margin-top:6px;font-size:13px" data-i18n="no_events_sub">Încearcă alte combinații sau schimbă orașul.</div>
   </div>
 </main>
 
@@ -969,7 +1016,7 @@ async function loadData() {
     init();
   } catch (e) {
     document.getElementById('bento').innerHTML =
-      '<div class="empty"><div class="empty-icon">⚠️</div>Nu pot încărca evenimentele. Reîncarcă pagina.</div>';
+      '<div class="empty"><div class="empty-icon">⚠️</div>' + t('loading_error') + '</div>';
   }
 }
 
@@ -1172,7 +1219,13 @@ function buildMapsUrl(lat, lon, name) {
 }
 
 function vibeLabel(v) {
-  return { intim: 'Intim', loud: 'Loud', casual: 'Casual', family: 'Family' }[v] || v;
+  const map = {
+    intim: () => t('vibe_intim'),
+    loud: () => t('vibe_loud'),
+    casual: () => t('vibe_casual'),
+    family: () => t('vibe_family')
+  };
+  return (map[v] || (() => v))();
 }
 
 /* ============================================
@@ -1223,7 +1276,7 @@ function render() {
   // Weekend banner
   const banner = document.getElementById('weekendBanner');
   if (state.period === 'all' && weekend > 0) {
-    document.getElementById('weekendTitle').textContent = `${weekend} evenimente în weekend în ${city.name}`;
+    document.getElementById('weekendTitle').textContent = t('weekend_title_count')(weekend, city.name);
     banner.style.display = 'flex';
   } else banner.style.display = 'none';
 
@@ -1267,7 +1320,7 @@ function render() {
         <div class="event-head-row">
           <span class="price-pill ${e.price === 'free' ? 'price-free' : 'price-paid'}">${e.price === 'free' ? 'GRATUIT' : e.price_value + ' lei'}</span>
           <span class="expand-toggle" aria-hidden="true">
-            Detalii
+            <span data-i18n="details">Detalii</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
           </span>
         </div>
@@ -1278,21 +1331,25 @@ function render() {
               ${(e.highlights || []).map(h => `<li>${h}</li>`).join('')}
             </ul>
             <div class="event-meta-grid">
-              <div class="meta-cell"><span class="meta-cell-label">Durată</span><span class="meta-cell-value">${e.duration}</span></div>
-              <div class="meta-cell"><span class="meta-cell-label">Vârstă</span><span class="meta-cell-value">${e.age}</span></div>
-              <div class="meta-cell"><span class="meta-cell-label">Locație</span><span class="meta-cell-value">${e.venue}</span></div>
-              <div class="meta-cell"><span class="meta-cell-label">Organizator</span><span class="meta-cell-value">${e.organizer}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label" data-i18n="duration">Durată</span><span class="meta-cell-value">${e.duration}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label" data-i18n="age">Vârstă</span><span class="meta-cell-value">${e.age}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label" data-i18n="location">Locație</span><span class="meta-cell-value">${e.venue}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label" data-i18n="organizer">Organizator</span><span class="meta-cell-value">${e.organizer}</span></div>
             </div>
             ${tags ? `<div class="event-tags">${tags}</div>` : ''}
             <div class="event-actions">
               <a class="event-action primary" href="${e.url}" target="_blank" rel="noopener" data-action="link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"></path></svg>
-                Bilete / Info
+                <span data-i18n="tickets">Bilete / Info</span>
               </a>
               <a class="event-action secondary" href="${buildMapsUrl(e.lat, e.lon, e.venue)}" target="_blank" rel="noopener" data-action="map">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l20-9-9 20-2-9-9-2z"></path></svg>
-                Indicații
+                <span data-i18n="directions">Indicații</span>
               </a>
+              <button class="event-action secondary event-share" data-action="share" data-event-id="${e.id}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                <span data-i18n="share">Distribuie</span>
+              </button>
             </div>
           </div>
         </div>
@@ -1303,10 +1360,191 @@ function render() {
   // Bind expand toggles (but NOT the action buttons inside)
   container.querySelectorAll('.event').forEach(card => {
     card.addEventListener('click', e => {
-      // Don't toggle if user clicked an action button/link
+      // Don't toggle if user clicked an action button/link/share
       if (e.target.closest('[data-action]')) return;
       card.classList.toggle('expanded');
     });
+  });
+
+  // Bind share buttons
+  container.querySelectorAll('.event-share').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const id = btn.dataset.eventId;
+      const event = city.events.find(ev => ev.id === id);
+      if (event) shareEvent(event, city);
+    });
+  });
+}
+
+/* ============================================
+   INTERNATIONALIZATION (i18n)
+============================================ */
+const I18N = {
+  ro: {
+    hero_eyebrow: 'Live · septembrie 2026',
+    hero_title_html: 'Ce se întâmplă în <span class="accent">orașul tău</span> diseară sau weekendul ăsta.',
+    hero_lead: 'Filme indie, târguri de vintage, expoziții temporare, concerte mici, workshop-uri, board games. Agregate din 15+ surse locale într-un singur feed — fără scroll 40 de minute.',
+    geo_text: 'Locația mea',
+    stat_total: 'Evenimente',
+    stat_free: 'Gratuite',
+    stat_weekend: 'În weekend',
+    stat_categories: 'Categorii',
+    filter_when: 'Când',
+    filter_all: 'Toate',
+    filter_today: 'Azi',
+    filter_weekend: 'Weekend',
+    filter_next7: '7 zile',
+    filter_price: 'Preț',
+    filter_free: 'Gratuit',
+    filter_paid: 'Plătit',
+    filter_vibe: 'Vibe',
+    vibe_intim: 'Intim',
+    vibe_loud: 'Loud',
+    vibe_casual: 'Casual',
+    vibe_family: 'Family',
+    weekend_title_count: (n, city) => `${n} evenimente în weekend în ${city}`,
+    weekend_sub: 'Filme indie, târguri, expoziții, board games, workshop-uri',
+    details: 'Detalii',
+    duration: 'Durată',
+    age: 'Vârstă',
+    location: 'Locație',
+    organizer: 'Organizator',
+    share: 'Distribuie',
+    directions: 'Indicații',
+    tickets: 'Bilete / Info',
+    no_events: 'Niciun eveniment pentru filtrele astea.',
+    no_events_sub: 'Încearcă alte combinații sau schimbă orașul.',
+    loading_error: 'Nu pot încărca evenimentele. Reîncarcă pagina.',
+  },
+  en: {
+    hero_eyebrow: 'Live · September 2026',
+    hero_title_html: 'What\'s happening in <span class="accent">your city</span> tonight or this weekend.',
+    hero_lead: 'Indie films, vintage fairs, temporary exhibitions, small concerts, workshops, board games. Aggregated from 15+ local sources in one feed — no 40-minute scrolling.',
+    geo_text: 'My location',
+    stat_total: 'Events',
+    stat_free: 'Free',
+    stat_weekend: 'This weekend',
+    stat_categories: 'Categories',
+    filter_when: 'When',
+    filter_all: 'All',
+    filter_today: 'Today',
+    filter_weekend: 'Weekend',
+    filter_next7: '7 days',
+    filter_price: 'Price',
+    filter_free: 'Free',
+    filter_paid: 'Paid',
+    filter_vibe: 'Vibe',
+    vibe_intim: 'Intimate',
+    vibe_loud: 'Loud',
+    vibe_casual: 'Casual',
+    vibe_family: 'Family',
+    weekend_title_count: (n, city) => `${n} events this weekend in ${city}`,
+    weekend_sub: 'Indie films, fairs, exhibitions, board games, workshops',
+    details: 'Details',
+    duration: 'Duration',
+    age: 'Age',
+    location: 'Location',
+    organizer: 'Organizer',
+    share: 'Share',
+    directions: 'Directions',
+    tickets: 'Tickets / Info',
+    no_events: 'No events match these filters.',
+    no_events_sub: 'Try different combinations or switch cities.',
+    loading_error: 'Couldn\'t load events. Refresh the page.',
+  }
+};
+
+const state_i18n = { lang: 'ro' };
+
+function t(key) { return I18N[state_i18n.lang][key] || key; }
+
+function applyI18n() {
+  document.documentElement.setAttribute('lang', state_i18n.lang);
+  // Static text
+  document.querySelector('[data-i18n="hero_eyebrow"]').textContent = t('hero_eyebrow');
+  document.querySelector('[data-i18n="hero_title"]').innerHTML = t('hero_title_html');
+  document.querySelector('[data-i18n="hero_lead"]').textContent = t('hero_lead');
+  document.querySelector('[data-i18n="geo_text"]').textContent = t('geo_text');
+  document.querySelector('[data-i18n="stat_total"]').textContent = t('stat_total');
+  document.querySelector('[data-i18n="stat_free"]').textContent = t('stat_free');
+  document.querySelector('[data-i18n="stat_weekend"]').textContent = t('stat_weekend');
+  document.querySelector('[data-i18n="stat_categories"]').textContent = t('stat_categories');
+  document.querySelector('[data-i18n="filter_when"]').textContent = t('filter_when');
+  document.querySelector('[data-i18n="filter_all"]').textContent = t('filter_all');
+  document.querySelector('[data-i18n="filter_today"]').textContent = t('filter_today');
+  document.querySelector('[data-i18n="filter_weekend"]').textContent = t('filter_weekend');
+  document.querySelector('[data-i18n="filter_next7"]').textContent = t('filter_next7');
+  document.querySelector('[data-i18n="filter_price"]').textContent = t('filter_price');
+  document.querySelector('[data-i18n="filter_free"]').textContent = t('filter_free');
+  document.querySelector('[data-i18n="filter_paid"]').textContent = t('filter_paid');
+  document.querySelector('[data-i18n="filter_vibe"]').textContent = t('filter_vibe');
+  document.querySelectorAll('[data-i18n="vibe_intim"]').forEach(el => el.textContent = t('vibe_intim'));
+  document.querySelectorAll('[data-i18n="vibe_loud"]').forEach(el => el.textContent = t('vibe_loud'));
+  document.querySelectorAll('[data-i18n="vibe_casual"]').forEach(el => el.textContent = t('vibe_casual'));
+  document.querySelectorAll('[data-i18n="vibe_family"]').forEach(el => el.textContent = t('vibe_family'));
+  document.querySelector('[data-i18n="weekend_sub"]').textContent = t('weekend_sub');
+  document.querySelector('[data-i18n="no_events"]').textContent = t('no_events');
+  document.querySelector('[data-i18n="no_events_sub"]').textContent = t('no_events_sub');
+  // Update lang toggle visual
+  const langBtn = document.getElementById('langToggle');
+  if (langBtn) {
+    langBtn.querySelector('.lang-current').textContent = state_i18n.lang.toUpperCase();
+    langBtn.querySelector('.lang-alt').textContent = state_i18n.lang === 'ro' ? 'EN' : 'RO';
+  }
+}
+
+function initLang() {
+  const saved = localStorage.getItem('localevent_lang');
+  const sysLang = navigator.language?.slice(0, 2).toLowerCase();
+  if (saved && (saved === 'ro' || saved === 'en')) {
+    state_i18n.lang = saved;
+  } else if (sysLang === 'en') {
+    state_i18n.lang = 'en';
+  }
+  document.getElementById('langToggle').addEventListener('click', () => {
+    state_i18n.lang = state_i18n.lang === 'ro' ? 'en' : 'ro';
+    localStorage.setItem('localevent_lang', state_i18n.lang);
+    applyI18n();
+    render();
+  });
+}
+
+/* ============================================
+   SHARE API
+============================================ */
+async function shareEvent(event, city) {
+  const url = event.url;
+  const text = state_i18n.lang === 'ro'
+    ? `${event.title}\n${event.date} la ${event.time} @ ${event.venue}, ${city.name}\n\nVezi detalii pe LocalEvent.ro`
+    : `${event.title}\n${event.date} at ${event.time} @ ${event.venue}, ${city.name}\n\nSee details on LocalEvent.ro`;
+  const shareData = {
+    title: 'LocalEvent',
+    text: text,
+    url: url,
+  };
+  if (navigator.share) {
+    try {
+      await navigator.share(shareData);
+    } catch (e) {
+      // User cancelled or error
+    }
+  } else if (navigator.clipboard) {
+    try {
+      await navigator.clipboard.writeText(`${text}\n${url}`);
+      // Could show a toast here
+    } catch (e) {}
+  }
+}
+
+/* ============================================
+   SERVICE WORKER REGISTRATION
+============================================ */
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then(reg => console.log('SW registered:', reg.scope))
+      .catch(err => console.log('SW registration failed:', err));
   });
 }
 
@@ -1315,6 +1553,7 @@ function render() {
 ============================================ */
 migrateStorage();
 initTheme();
+initLang();
 loadData();
 </script>
 </body>
