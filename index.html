@@ -1,0 +1,1159 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0b0a10" />
+<meta name="description" content="LocalPulse — ce se întâmplă diseară în orașul tău. Un singur feed pentru toate evenimentele locale: muzică, artă, film, food, sport, comunitar. Fără scroll infinit, fără 12 surse diferite." />
+<meta name="color-scheme" content="dark" />
+<title>LocalPulse — ce se întâmplă diseară în orașul tău</title>
+
+<!-- Open Graph -->
+<meta property="og:title" content="LocalPulse — evenimentele orașului tău, într-un singur feed" />
+<meta property="og:description" content="Concerte, expoziții, filme indie, târguri, reprezentații de teatru — toate într-un singur loc, în 30 de secunde." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://garconai93.github.io/localpulse/" />
+<meta property="og:locale" content="ro_RO" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff7a3d'/%3E%3Cstop offset='1' stop-color='%23ffb347'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='%230b0a10'/%3E%3Cpath d='M14 70 L30 30 L44 60 L56 24 L72 70' fill='none' stroke='url(%23g)' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='86' cy='22' r='6' fill='%23ffb347'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+/* ============================================================
+   LocalPulse — landing page
+   dark mode · mobile-first · no build tools
+   ============================================================ */
+
+/* --- Tokens ------------------------------------------------- */
+:root {
+  --bg: #0b0a10;
+  --bg-elev: #13111c;
+  --bg-card: #181524;
+  --bg-soft: #1f1c2c;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.14);
+
+  --text: #f3f0e9;
+  --text-mute: #aea9bf;
+  --text-dim: #807a92;
+
+  --accent: #ff7a3d;        /* warm ember */
+  --accent-2: #ffb347;      /* amber */
+  --accent-3: #ffd58a;      /* cream highlight */
+  --good: #7be0a4;
+  --bad: #ff6b6b;
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+
+  --shadow-1: 0 1px 0 rgba(255,255,255,.04) inset, 0 8px 24px rgba(0,0,0,.35);
+  --shadow-glow: 0 0 0 1px rgba(255,122,61,.35), 0 12px 40px -8px rgba(255,122,61,.35);
+
+  --maxw: 1160px;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+*::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+a {
+  color: var(--accent-2);
+  text-decoration: none;
+  transition: color .15s ease;
+}
+a:hover { color: var(--accent-3); }
+
+button { font: inherit; cursor: pointer; }
+
+::selection { background: var(--accent); color: #0b0a10; }
+
+/* Subtle aurora background */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 50% at 80% -10%, rgba(255, 122, 61, 0.18), transparent 60%),
+    radial-gradient(50% 40% at 0% 10%, rgba(255, 179, 71, 0.10), transparent 60%),
+    radial-gradient(40% 35% at 50% 100%, rgba(123, 224, 164, 0.06), transparent 60%);
+  z-index: -1;
+}
+
+/* --- Layout primitives ------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section { padding: 72px 0; }
+.section--tight { padding: 56px 0; }
+.section--hero { padding: 96px 0 64px; }
+
+@media (min-width: 768px) {
+  .container { padding: 0 32px; }
+  .section { padding: 104px 0; }
+  .section--tight { padding: 80px 0; }
+  .section--hero { padding: 120px 0 96px; }
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  background: rgba(255,255,255,.02);
+}
+.eyebrow .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent);
+  animation: pulse 1.8s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,100% { opacity: 1; transform: scale(1); }
+  50%     { opacity: .55; transform: scale(.8); }
+}
+
+h1, h2, h3 { font-family: var(--font-display); margin: 0; letter-spacing: -.02em; line-height: 1.08; }
+h1 { font-size: clamp(2.2rem, 5.4vw, 4.2rem); font-weight: 700; }
+h2 { font-size: clamp(1.7rem, 3.4vw, 2.6rem); font-weight: 700; }
+h3 { font-size: clamp(1.15rem, 1.8vw, 1.35rem); font-weight: 600; }
+
+.lede { color: var(--text-mute); font-size: clamp(1rem, 1.6vw, 1.18rem); max-width: 60ch; }
+
+/* --- Buttons ------------------------------------------------ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid transparent;
+  transition: transform .12s ease, background .15s ease, box-shadow .15s ease, color .15s ease, border-color .15s ease;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.btn:active { transform: translateY(1px); }
+
+.btn--primary {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  color: #1a0f08;
+  box-shadow: var(--shadow-glow);
+}
+.btn--primary:hover { color: #1a0f08; box-shadow: 0 0 0 1px rgba(255,179,71,.6), 0 18px 50px -8px rgba(255,122,61,.55); }
+
+.btn--ghost {
+  background: rgba(255,255,255,.04);
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+.btn--ghost:hover { background: rgba(255,255,255,.08); color: var(--text); }
+
+.btn--sm { padding: 10px 14px; font-size: 14px; border-radius: 10px; }
+
+.btn-row { display: flex; flex-wrap: wrap; gap: 12px; }
+
+/* --- Nav ---------------------------------------------------- */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  background: rgba(11, 10, 16, 0.72);
+  border-bottom: 1px solid var(--line);
+}
+.nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 0;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text);
+  letter-spacing: -.01em;
+}
+.brand__mark {
+  width: 30px; height: 30px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  display: grid; place-items: center;
+  box-shadow: 0 6px 18px -4px rgba(255,122,61,.5);
+}
+.brand__mark svg { width: 18px; height: 18px; }
+.nav__links {
+  display: none;
+  gap: 26px;
+  font-size: 14px;
+  color: var(--text-mute);
+}
+.nav__links a { color: var(--text-mute); }
+.nav__links a:hover { color: var(--text); }
+@media (min-width: 820px) {
+  .nav__links { display: inline-flex; }
+}
+.nav__cta { display: inline-flex; gap: 10px; align-items: center; }
+
+/* --- Hero --------------------------------------------------- */
+.hero {
+  position: relative;
+  text-align: left;
+}
+.hero__grid {
+  display: grid;
+  gap: 48px;
+  align-items: center;
+}
+@media (min-width: 980px) {
+  .hero__grid { grid-template-columns: 1.05fr .95fr; gap: 64px; }
+}
+
+.hero h1 { margin-top: 18px; }
+.hero h1 .hl {
+  background: linear-gradient(120deg, var(--accent) 0%, var(--accent-2) 50%, var(--accent-3) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero__lede { margin-top: 18px; }
+
+.hero__cta { margin-top: 28px; }
+.hero__meta {
+  margin-top: 24px;
+  display: flex; flex-wrap: wrap; gap: 18px 28px;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.hero__meta b { color: var(--text); font-weight: 600; }
+.hero__meta .check { color: var(--good); margin-right: 6px; }
+
+/* Phone mockup */
+.phone {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  aspect-ratio: 9 / 19;
+  background: linear-gradient(160deg, #1d1a28 0%, #0f0d16 100%);
+  border: 1px solid var(--line-strong);
+  border-radius: 42px;
+  padding: 14px;
+  box-shadow:
+    0 50px 80px -30px rgba(0,0,0,.7),
+    0 0 0 1px rgba(255,255,255,.04),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+.phone__notch {
+  position: absolute;
+  top: 14px; left: 50%; transform: translateX(-50%);
+  width: 100px; height: 22px;
+  background: #06050a;
+  border-radius: 999px;
+  z-index: 2;
+}
+.phone__screen {
+  position: relative;
+  width: 100%; height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #0d0c14;
+  padding: 50px 16px 20px;
+  display: flex; flex-direction: column;
+  gap: 12px;
+}
+.phone__status {
+  position: absolute; top: 16px; right: 18px;
+  font-size: 11px; color: var(--text-mute); font-weight: 600;
+}
+.phone__status .dot-live {
+  display: inline-block; width: 6px; height: 6px;
+  border-radius: 50%; background: var(--good);
+  margin-right: 4px; vertical-align: 1px;
+  box-shadow: 0 0 6px var(--good);
+}
+.phone__title {
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: var(--font-display);
+  font-size: 16px; font-weight: 700;
+}
+.phone__title .sub { font-size: 10px; color: var(--text-dim); font-weight: 500; letter-spacing: .04em; text-transform: uppercase; }
+.phone__pills {
+  display: flex; gap: 6px; overflow: hidden;
+  margin: 0 -16px; padding: 0 16px;
+  scrollbar-width: none;
+}
+.phone__pills::-webkit-scrollbar { display: none; }
+.phone__pill {
+  flex: 0 0 auto;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.05);
+  border: 1px solid var(--line);
+  font-size: 11px; color: var(--text-mute);
+  white-space: nowrap;
+}
+.phone__pill.active {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #1a0f08; border-color: transparent; font-weight: 600;
+}
+
+.evt {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  padding: 12px;
+  background: rgba(255,255,255,.03);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  transition: background .2s ease, transform .2s ease;
+}
+.evt:hover { background: rgba(255,255,255,.06); transform: translateY(-1px); }
+.evt__date {
+  background: linear-gradient(160deg, rgba(255,122,61,.18), rgba(255,179,71,.08));
+  border: 1px solid rgba(255,122,61,.3);
+  border-radius: 10px;
+  text-align: center;
+  padding: 6px 4px;
+  display: flex; flex-direction: column; justify-content: center;
+  align-items: center;
+  height: 56px;
+}
+.evt__date .d { font-size: 18px; font-weight: 700; font-family: var(--font-display); color: var(--accent-3); }
+.evt__date .m { font-size: 9px; letter-spacing: .12em; color: var(--accent-2); text-transform: uppercase; font-weight: 600; }
+
+.evt__body { min-width: 0; }
+.evt__row1 { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.evt__title { font-weight: 600; font-size: 13px; line-height: 1.25; color: var(--text); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.evt__meta { margin-top: 4px; font-size: 10.5px; color: var(--text-dim); display: flex; gap: 8px; flex-wrap: wrap; }
+.evt__meta span { display: inline-flex; align-items: center; gap: 3px; }
+.evt__tag {
+  font-size: 9.5px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: rgba(255,122,61,.15);
+  color: var(--accent-2);
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.evt__tag.tag--art { background: rgba(123,224,164,.15); color: var(--good); }
+.evt__tag.tag--film { background: rgba(120,180,255,.15); color: #8db8ff; }
+.evt__tag.tag--food { background: rgba(255,213,138,.15); color: var(--accent-3); }
+.evt__tag.tag--sport { background: rgba(255,107,107,.15); color: var(--bad); }
+
+.phone__glow {
+  position: absolute;
+  width: 80%; height: 80%;
+  left: 10%; top: 10%;
+  background: radial-gradient(circle at 50% 40%, rgba(255,122,61,.25), transparent 60%);
+  filter: blur(30px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* --- Section header ---------------------------------------- */
+.sec-head {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 40px;
+  max-width: 720px;
+}
+.sec-head h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); }
+.sec-head p { color: var(--text-mute); font-size: 1.05rem; margin: 0; }
+
+/* --- Problem section --------------------------------------- */
+.problem { background: var(--bg-elev); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.problem__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .problem__grid { grid-template-columns: repeat(3, 1fr); }
+}
+.problem__card {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  transition: transform .2s ease, border-color .2s ease;
+}
+.problem__card:hover { transform: translateY(-3px); border-color: var(--line-strong); }
+.problem__card .num {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 12px;
+  letter-spacing: .04em;
+}
+.problem__card h3 { color: var(--text); }
+.problem__card p { color: var(--text-mute); margin: 10px 0 0; font-size: 15px; }
+
+/* --- Features ---------------------------------------------- */
+.features__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+  .features__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1020px) {
+  .features__grid { grid-template-columns: repeat(3, 1fr); }
+}
+.feat {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px;
+  display: flex; flex-direction: column;
+  transition: transform .2s ease, border-color .2s ease, background .2s ease;
+}
+.feat:hover { transform: translateY(-3px); border-color: rgba(255,122,61,.35); }
+.feat__icon {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(255,122,61,.18), rgba(255,179,71,.08));
+  border: 1px solid rgba(255,122,61,.25);
+  display: grid; place-items: center;
+  color: var(--accent-2);
+  margin-bottom: 18px;
+}
+.feat__icon svg { width: 22px; height: 22px; }
+.feat h3 { color: var(--text); margin-bottom: 8px; }
+.feat p { color: var(--text-mute); margin: 0; font-size: 15px; }
+
+/* --- How it works ------------------------------------------ */
+.steps { background: var(--bg-elev); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.steps__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+  counter-reset: stepc;
+}
+@media (min-width: 720px) { .steps__grid { grid-template-columns: repeat(3, 1fr); } }
+.step {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 26px 24px 28px;
+  counter-increment: stepc;
+}
+.step::before {
+  content: counter(stepc, decimal-leading-zero);
+  position: absolute;
+  top: 18px; right: 22px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: .04em;
+}
+.step h3 { margin-bottom: 8px; }
+.step p { color: var(--text-mute); margin: 0; font-size: 15px; }
+
+/* --- Sources / trust --------------------------------------- */
+.sources {
+  text-align: center;
+}
+.sources__label {
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 28px;
+  font-weight: 600;
+}
+.sources__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 28px 44px;
+  opacity: .85;
+}
+.src {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--text-mute);
+  letter-spacing: -.01em;
+  transition: color .15s ease;
+}
+.src:hover { color: var(--text); }
+.src .accent { color: var(--accent-2); }
+
+/* --- Pricing ----------------------------------------------- */
+.pricing__grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 880px) { .pricing__grid { grid-template-columns: repeat(3, 1fr); } }
+.plan {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex; flex-direction: column;
+  position: relative;
+}
+.plan--featured {
+  border-color: rgba(255,122,61,.5);
+  background: linear-gradient(160deg, rgba(255,122,61,.10), rgba(255,179,71,.05) 60%, var(--bg-card));
+  box-shadow: 0 20px 60px -20px rgba(255,122,61,.25);
+}
+.plan__badge {
+  position: absolute; top: -10px; left: 24px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #1a0f08;
+  font-size: 11px; font-weight: 700; letter-spacing: .08em;
+  padding: 4px 10px; border-radius: 999px;
+}
+.plan__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text);
+}
+.plan__price { margin-top: 12px; display: flex; align-items: baseline; gap: 6px; }
+.plan__price .num {
+  font-family: var(--font-display);
+  font-size: 38px; font-weight: 700; color: var(--text);
+  letter-spacing: -.02em;
+}
+.plan__price .per { color: var(--text-dim); font-size: 14px; }
+.plan__tag { color: var(--text-mute); font-size: 14px; margin-top: 4px; }
+
+.plan__list { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 10px; }
+.plan__list li {
+  display: grid; grid-template-columns: 18px 1fr; gap: 10px;
+  align-items: start;
+  font-size: 14.5px; color: var(--text);
+}
+.plan__list li svg { color: var(--good); margin-top: 3px; }
+.plan__list li.dim { color: var(--text-mute); }
+.plan__list li.dim svg { color: var(--text-dim); }
+
+.plan__cta { margin-top: auto; padding-top: 24px; }
+.plan__cta .btn { width: 100%; }
+
+/* --- FAQ --------------------------------------------------- */
+.faq { background: var(--bg-elev); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.faq__list { display: grid; gap: 10px; max-width: 820px; margin: 0 auto; }
+details.faq__item {
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0;
+  transition: border-color .15s ease;
+}
+details.faq__item[open] { border-color: rgba(255,122,61,.4); }
+details.faq__item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 18px 22px;
+  font-weight: 600;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 16px;
+}
+details.faq__item summary::-webkit-details-marker { display: none; }
+details.faq__item summary::after {
+  content: "";
+  width: 12px; height: 12px;
+  border-right: 2px solid var(--accent-2);
+  border-bottom: 2px solid var(--accent-2);
+  transform: rotate(45deg);
+  margin-top: -4px;
+  transition: transform .2s ease;
+  flex-shrink: 0;
+}
+details.faq__item[open] summary::after { transform: rotate(-135deg); margin-top: 4px; }
+details.faq__item .faq__body {
+  padding: 0 22px 20px;
+  color: var(--text-mute);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* --- CTA banner -------------------------------------------- */
+.cta-banner {
+  position: relative;
+  text-align: center;
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(60% 80% at 50% 0%, rgba(255,122,61,.25), transparent 70%),
+    linear-gradient(180deg, var(--bg-card), var(--bg-soft));
+  border: 1px solid var(--line-strong);
+  padding: 56px 28px;
+  overflow: hidden;
+}
+.cta-banner h2 { font-size: clamp(1.6rem, 3.4vw, 2.4rem); }
+.cta-banner p { color: var(--text-mute); margin: 14px auto 26px; max-width: 56ch; }
+.cta-banner__form {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 10px; max-width: 460px; margin: 0 auto;
+}
+.cta-banner__form input {
+  flex: 1; min-width: 220px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  padding: 13px 16px;
+  font: inherit;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.cta-banner__form input:focus {
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px rgba(255,122,61,.18);
+}
+.cta-banner__note {
+  margin-top: 14px; font-size: 13px; color: var(--text-dim);
+}
+.cta-banner__note b { color: var(--good); font-weight: 600; }
+
+/* --- Footer ------------------------------------------------ */
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 40px 0 56px;
+  color: var(--text-mute);
+  font-size: 14px;
+}
+.footer__inner {
+  display: flex; flex-wrap: wrap; gap: 24px;
+  align-items: flex-start; justify-content: space-between;
+}
+.footer__brand p { margin: 12px 0 0; max-width: 36ch; font-size: 13.5px; }
+.footer__cols { display: flex; gap: 48px; flex-wrap: wrap; }
+.footer__col h4 { font-family: var(--font-sans); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--text-dim); margin: 0 0 12px; font-weight: 600; }
+.footer__col a { display: block; padding: 4px 0; color: var(--text-mute); font-size: 14px; }
+.footer__col a:hover { color: var(--text); }
+.footer__legal {
+  width: 100%;
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; gap: 12px;
+  justify-content: space-between;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+/* --- Reveal on scroll (respect reduced motion) ----------- */
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .eyebrow .dot { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* --- Skip link --------------------------------------------- */
+.skip-link {
+  position: absolute;
+  left: -1000px; top: 0;
+  background: var(--accent); color: #0b0a10;
+  padding: 10px 14px; border-radius: 8px;
+  font-weight: 600; z-index: 100;
+}
+.skip-link:focus { left: 12px; top: 12px; }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Sari la conținut</a>
+
+<!-- ============== NAV ============== -->
+<header class="nav" role="banner">
+  <div class="container nav__inner">
+    <a href="#" class="brand" aria-label="LocalPulse — acasă">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#1a0f08" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 14 L7 6 L11 12 L14 5 L17 14 L21 8" />
+        </svg>
+      </span>
+      LocalPulse
+    </a>
+    <nav class="nav__links" aria-label="Navigare principală">
+      <a href="#features">Ce oferim</a>
+      <a href="#cum-functioneaza">Cum funcționează</a>
+      <a href="#preturi">Prețuri</a>
+      <a href="#faq">Întrebări</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="#alatura" class="btn btn--sm btn--primary">Deschide în curând</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============== HERO ============== -->
+<section class="section section--hero">
+  <div class="container hero">
+    <div class="hero__grid">
+      <div>
+        <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Lansare beta — București, toamna 2026</span>
+        <h1>Ce se <span class="hl">întâmplă diseară</span> în orașul tău, într-un singur feed.</h1>
+        <p class="lede hero__lede">
+          Concerte în baruri, filme indie la cinema de artă, târguri de vintage, expoziții temporare, reprezentații de teatru independent. Agregate din 20+ surse locale, normalizate într-un singur loc — ca să decizi în 30 de secunde unde ieși diseară, nu în 40 de minute de scroll.
+        </p>
+        <div class="btn-row hero__cta">
+          <a href="#alatura" class="btn btn--primary">
+            Vreau acces prioritar
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#cum-functioneaza" class="btn btn--ghost">Vezi cum funcționează</a>
+        </div>
+        <div class="hero__meta">
+          <div><span class="check">✓</span> Fără reclame, fără spam</div>
+          <div><span class="check">✓</span> Date locale, <b>nu globale</b></div>
+          <div><span class="check">✓</span> <b>1.200+</b> oameni pe lista de așteptare</div>
+        </div>
+      </div>
+
+      <!-- Phone mockup -->
+      <div aria-hidden="true">
+        <div class="phone">
+          <div class="phone__notch"></div>
+          <div class="phone__screen">
+            <div class="phone__status"><span class="dot-live"></span> acum</div>
+            <div class="phone__title">
+              <div>Seara asta
+                <div class="sub">București · 12 evenimente</div>
+              </div>
+              <div style="font-size:18px;">⋯</div>
+            </div>
+
+            <div class="phone__pills">
+              <div class="phone__pill active">Toate</div>
+              <div class="phone__pill">Muzică</div>
+              <div class="phone__pill">Artă</div>
+              <div class="phone__pill">Film</div>
+              <div class="phone__pill">Food</div>
+            </div>
+
+            <div class="evt">
+              <div class="evt__date"><div class="d">03</div><div class="m">Sep</div></div>
+              <div class="evt__body">
+                <div class="evt__row1"><span class="evt__tag">Muzică</span><span class="evt__tag tag--food">Free</span></div>
+                <div class="evt__title">Jazz la subsol — trupa Hot Club BNR</div>
+                <div class="evt__meta">
+                  <span>📍 Control Club</span>
+                  <span>⏰ 21:30</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="evt">
+              <div class="evt__date"><div class="d">03</div><div class="m">Sep</div></div>
+              <div class="evt__body">
+                <div class="evt__row1"><span class="evt__tag tag--film">Film</span></div>
+                <div class="evt__title">Stalker · Tarkovsky · proiecție 35mm</div>
+                <div class="evt__meta">
+                  <span>📍 Cinema Elvire Popesco</span>
+                  <span>⏰ 20:00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="evt">
+              <div class="evt__date"><div class="d">04</div><div class="m">Sep</div></div>
+              <div class="evt__body">
+                <div class="evt__row1"><span class="evt__tag tag--art">Artă</span></div>
+                <div class="evt__title">Vernisaj: „Orașul de sub oraș" — foto</div>
+                <div class="evt__meta">
+                  <span>📍 Galeria Rotenberg</span>
+                  <span>⏰ 19:00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="evt">
+              <div class="evt__date"><div class="d">05</div><div class="m">Sep</div></div>
+              <div class="evt__body">
+                <div class="evt__row1"><span class="evt__tag tag--food">Food</span></div>
+                <div class="evt__title">Târg de producători locali &amp; street food</div>
+                <div class="evt__meta">
+                  <span>📍 Piața Amzei</span>
+                  <span>⏰ 10:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone__glow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROBLEM ============== -->
+<section class="section problem" id="de-ce">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Problema</span>
+      <h2>Informația despre orașul tău e <span style="color:var(--accent-2)">spartă în 12 surse</span> pe care nu ai timp să le urmărești.</h2>
+      <p>Evenimentele mici — cele care fac diferența între o seară banală și una memorabilă — trăiesc pe Facebook Events, Instagram, Eventbrite, site-uri de cinema, panouri fizice din cartier. Până le agregezi mental, e prea târziu.</p>
+    </div>
+
+    <div class="problem__grid">
+      <div class="problem__card reveal">
+        <div class="num">/ 01</div>
+        <h3>Scroll 40 de minute ca să afli ce e diseară</h3>
+        <p>Deschizi FB Events, apoi IG, apoi 3 grupuri de Telegram, apoi site-ul cinematografului. Jumătate din evenimente au trecut deja.</p>
+      </div>
+      <div class="problem__card reveal">
+        <div class="num">/ 02</div>
+        <h3>Recomandări generice, nu pentru cartierul tău</h3>
+        <p>Algoritmii globali nu știu că în cartierul tău e un jam session miercurea, sau că sâmbătă e film mut la muzeu.</p>
+      </div>
+      <div class="problem__card reveal">
+        <div class="num">/ 03</div>
+        <h3>Grupurile de prieteni nu se aliniază niciodată</h3>
+        <p>„Ce facem diseară?" durează 45 de minute pe WhatsApp. Nimeni nu vrea să fie cel care alege. Toată lumea amână.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FEATURES ============== -->
+<section class="section" id="features">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Ce face LocalPulse</span>
+      <h2>Un singur feed, inteligent, pentru tot ce se mișcă în oraș.</h2>
+      <p>Fără grupuri inactive, fără reclame mascate, fără evenimente care nu mai există. Doar ce contează, acum și în weekend.</p>
+    </div>
+
+    <div class="features__grid">
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+        </div>
+        <h3>Feed unic, agregat din 20+ surse</h3>
+        <p>Facebook Events public, Eventbrite, site-uri de cinema, conturi IG de locații, calendare de galerie — toate normalizate într-un singur cronologic curat.</p>
+      </div>
+
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/><path d="M11 8v6M8 11h6"/></svg>
+        </div>
+        <h3>Filtre care chiar ajută</h3>
+        <p>„Diseară" · „Sub 50 lei" · „Cu locuri afară" · „Intim sau loud" · „Fără rezervare" — combinații care chiar îți schimbă seara.</p>
+      </div>
+
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="4"/></svg>
+        </div>
+        <h3>Personal Radar</h3>
+        <p>Spune-ne 5 lucruri care te interesează — primești un feed croit pe tine, plus un weekly digest vineri seara cu cele mai bune 5.</p>
+      </div>
+
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/></svg>
+        </div>
+        <h3>Save + invită prietenii</h3>
+        <p>Tap pe eveniment → „vin cu 3 prieteni" → share direct în WhatsApp sau Telegram cu link, locație, ora. Fără copy-paste.</p>
+      </div>
+
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1A4 4 0 0 1 16 11"/></svg>
+        </div>
+        <h3>Ambasadori locali, pe cartiere</h3>
+        <p>Câte un om per cartier care validează 3–5 evenimente pe săptămână. Plătit per eveniment. Calitate umană, nu doar scraping automat.</p>
+      </div>
+
+      <div class="feat reveal">
+        <div class="feat__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 9.5 8 10 4.5-.5 8-5 8-10V6l-8-4z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <h3>Fără evenimente fantomă</h3>
+        <p>Dacă un eveniment s-a anulat, dispare în 5 minute. Dacă locul e plin, ți se spune onest, nu te lăsăm să alergi 40 de minute degeaba.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== HOW IT WORKS ============== -->
+<section class="section steps" id="cum-functioneaza">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Cum funcționează</span>
+      <h2>Trei pași. Zero efort.</h2>
+      <p>Deschizi aplicația, scrii ce-ți place, decizi unde ieși. Gata.</p>
+    </div>
+
+    <div class="steps__grid">
+      <div class="step reveal">
+        <h3>Alege-ți vibe-ul</h3>
+        <p>La onboarding selectezi 5 interese: muzică live, artă, film, food, sport, comunitar. Poți schimba oricând.</p>
+      </div>
+      <div class="step reveal">
+        <h3>Primești feed-ul</h3>
+        <p>În fiecare seară și vineri la 18:00, primești un digest cu cele mai bune evenimente din orașul tău, potrivit gusturilor tale.</p>
+      </div>
+      <div class="step reveal">
+        <h3>Iesi în oraș</h3>
+        <p>Tap pe eveniment, vezi detalii, salvezi, inviți 2-3 prieteni pe WhatsApp, mergi. Fără grup infinit, fără „ce facem".</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SOURCES ============== -->
+<section class="section section--tight sources">
+  <div class="container">
+    <p class="sources__label">Agregăm din toate sursele locale care contează</p>
+    <div class="sources__row">
+      <div class="src">Facebook Events</div>
+      <div class="src">Eventbrite</div>
+      <div class="src">Instagram Locations</div>
+      <div class="src">Cinema Elvire <span class="accent">·</span> Muzeul Național</div>
+      <div class="src">Rețele culturale</div>
+      <div class="src">Site-uri de galerie</div>
+      <div class="src">+ încă 14 surse</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PRICING ============== -->
+<section class="section" id="preturi">
+  <div class="container">
+    <div class="sec-head">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Prețuri</span>
+      <h2>Simplu, transparent, fără surprize.</h2>
+      <p>Gratuit e suficient pentru majoritatea oamenilor. Pro e pentru cei care ies des și vor mai mult. Organizatorii plătesc doar dacă vor vizibilitate.</p>
+    </div>
+
+    <div class="pricing__grid">
+      <div class="plan reveal">
+        <div class="plan__name">Free</div>
+        <div class="plan__price"><span class="num">0</span><span class="per">lei</span></div>
+        <div class="plan__tag">Pentru toată lumea</div>
+        <ul class="plan__list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Feed complet, zilnic</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Până la 10 salvări</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Filtre de bază</li>
+          <li class="dim"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg> Personal Radar</li>
+          <li class="dim"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg> Weekly digest</li>
+        </ul>
+        <div class="plan__cta"><a href="#alatura" class="btn btn--ghost">Începe gratuit</a></div>
+      </div>
+
+      <div class="plan plan--featured reveal">
+        <div class="plan__badge">Cel mai popular</div>
+        <div class="plan__name">Pro</div>
+        <div class="plan__price"><span class="num">19<sup style="font-size:18px; color:var(--text-mute);">.99</sup></span><span class="per">lei / lună</span></div>
+        <div class="plan__tag">Pentru cei care ies des</div>
+        <ul class="plan__list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Tot din Free</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Salvări nelimitate</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Personal Radar + AI recommendations</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Weekly digest vineri seara</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Fără reclame, forever</li>
+        </ul>
+        <div class="plan__cta"><a href="#alatura" class="btn btn--primary">Începe Pro · 14 zile gratis</a></div>
+      </div>
+
+      <div class="plan reveal">
+        <div class="plan__name">Organizatori</div>
+        <div class="plan__price"><span class="num">29<sup style="font-size:18px; color:var(--text-mute);">€</sup></span><span class="per">/ lună</span></div>
+        <div class="plan__tag">Pentru locații &amp; promotori</div>
+        <ul class="plan__list">
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Evenimente featured în feed</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Geo-targeting per cartier</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Statistici anonime de audiență</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Badge „verificat" în feed</li>
+          <li class="dim"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg> Comisioane per ticketing</li>
+        </ul>
+        <div class="plan__cta"><a href="#alatura" class="btn btn--ghost">Contactează-ne</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FAQ ============== -->
+<section class="section faq" id="faq">
+  <div class="container">
+    <div class="sec-head" style="text-align:center; margin-left:auto; margin-right:auto;">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Întrebări frecvente</span>
+      <h2>Ce vrei să știi înainte.</h2>
+    </div>
+
+    <div class="faq__list">
+      <details class="faq__item" open>
+        <summary>Când lansează LocalPulse în orașul meu?</summary>
+        <div class="faq__body">Prima versiune beta lansează în București în toamna 2026. Cluj-Napoca și Iași urmează în Q1 2027, apoi Timișoara, Brașov, Constanța. Dacă intri pe lista de așteptare acum, primești acces cu 2 săptămâni înainte de lansarea oficială în orașul tău.</div>
+      </details>
+      <details class="faq__item">
+        <summary>De unde luați evenimentele?</summary>
+        <div class="faq__body">Agregăm automat din Facebook Events (doar evenimente publice), Eventbrite, site-uri oficiale de cinema și galerie, calendare de muzee, conturi de Instagram ale locațiilor și o serie de surse locale fiecărui oraș. Plus: 1 ambasador uman per cartier care validează 3–5 evenimente pe săptămână. Când o sursă publică un eveniment anulat, îl scoatem din feed în mai puțin de 5 minute.</div>
+      </details>
+      <details class="faq__item">
+        <summary>Este gratuit?</summary>
+        <div class="faq__body">Da. Versiunea Free e complet funcțională pentru majoritatea oamenilor: feed zilnic, până la 10 salvări, filtre de bază. Pro (19,99 lei/lună) deblochează salvări nelimitate, Personal Radar cu AI, weekly digest și zero reclame. Poți anula oricând.</div>
+      </details>
+      <details class="faq__item">
+        <summary>Datele mele rămân private?</summary>
+        <div class="faq__body">Da. Nu vindem date personale, nu partajăm cu terți în scopuri publicitare. Locația ta e folosită doar pentru a-ți arăta evenimente apropriate și nu e stocată mai mult de 24h decât dacă-ți activezi explicit Personal Radar. Poți șterge contul și toate datele asociate cu un singur tap.</div>
+      </details>
+      <details class="faq__item">
+        <summary>Sunt organizator de evenimente — cum listez?</summary>
+        <div class="faq__body">Poți trimite evenimente gratuit prin formularul de pe site (vor apărea în feed-ul public, fără boost). Pachetul Organizatori (29 €/lună) adaugă featured placement, geo-targeting per cartier și badge „verificat". Pentru parteneriate instituționale (primării, centre culturale) avem un pachet dedicat — scrie-ne.</div>
+      </details>
+      <details class="faq__item">
+        <summary>Pe ce platforme va fi disponibilă?</summary>
+        <div class="faq__body">iOS și Android la lansare, cu o versiune web (PWA) la 4–6 săptămâni după beta. Watch support pentru weekly digest vine în primăvara 2027.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CTA BANNER ============== -->
+<section class="section" id="alatura">
+  <div class="container">
+    <div class="cta-banner">
+      <span class="eyebrow"><span class="dot" aria-hidden="true"></span> Lista de așteptare</span>
+      <h2 style="margin-top: 14px;">Fii primul care știe ce se întâmplă în oraș.</h2>
+      <p>Intră pe lista de așteptare. Primești acces beta cu 2 săptămâni înainte, plus un weekly digest al celor mai interesante evenimente din orașul tău, înainte de lansare.</p>
+      <form class="cta-banner__form" onsubmit="onCtaSubmit(event)">
+        <input type="email" name="email" placeholder="adresa.ta@email.com" required aria-label="Adresa de email" />
+        <button type="submit" class="btn btn--primary">Vreau acces</button>
+      </form>
+      <p class="cta-banner__note"><b>1.247 oameni</b> deja pe listă · fără spam, promitem</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer" role="contentinfo">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#" class="brand">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#1a0f08" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 14 L7 6 L11 12 L14 5 L17 14 L21 8" />
+          </svg>
+        </span>
+        LocalPulse
+      </a>
+      <p>Un singur feed pentru tot ce se mișcă în orașul tău. Facut cu drag în București.</p>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4>Produs</h4>
+        <a href="#features">Ce oferim</a>
+        <a href="#cum-functioneaza">Cum funcționează</a>
+        <a href="#preturi">Prețuri</a>
+        <a href="#alatura">Lista de așteptare</a>
+      </div>
+      <div class="footer__col">
+        <h4>Pentru organizatori</h4>
+        <a href="#alatura">Listează un eveniment</a>
+        <a href="#alatura">Plan Organizatori</a>
+        <a href="#alatura">Parteneriate instituționale</a>
+      </div>
+      <div class="footer__col">
+        <h4>Companie</h4>
+        <a href="#faq">Întrebări frecvente</a>
+        <a href="mailto:hello@localpulse.app">hello@localpulse.app</a>
+        <a href="#">Termeni &amp; condiții</a>
+        <a href="#">Politica de confidențialitate</a>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <div>© 2026 LocalPulse · Toate drepturile rezervate</div>
+      <div>Făcut cu drag în România · v0.1 beta</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // CTA form: graceful "thanks" state without backend
+  function onCtaSubmit(e) {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const input = form.querySelector('input[type="email"]');
+    const note = form.parentElement.querySelector('.cta-banner__note');
+    if (!input.value) return;
+    form.innerHTML = '<div style="color:var(--good); font-weight:600; padding:13px 0;">✓ Ești pe listă! Verifică-ți inbox-ul în câteva minute.</div>';
+    if (note) note.innerHTML = '<b>Mulțumim!</b> Te contactăm cu prima previzualizare în curând.';
+  }
+
+  // Reveal on scroll (lightweight, no deps)
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach((el) => el.classList.add('in'));
+  }
+</script>
+
+</body>
+</html>
