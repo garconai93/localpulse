@@ -1,0 +1,83 @@
+name: Daily Event Scraper
+
+# Rulează zilnic la 06:00 UTC (08:00 RO), și poate fi declanșat manual din Actions tab
+on:
+  schedule:
+    # Cron: minute hour day month weekday (UTC)
+    # 06:00 UTC = 08:00 RO (vara) sau 07:00 RO (iarna)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Câte zile în viitor să scrape-uiesc'
+        required: false
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Fetch new events
+        id: fetch
+        run: |
+          cd scripts
+          DAYS="${{ github.event.inputs.days || '30' }}"
+          python fetch_events.py --days "$DAYS" > new_events.json
+          NEW_COUNT=$(python -c "import json; d=json.load(open('new_events.json')); print(sum(len(c['events']) for c in d))")
+          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          echo "✓ Fetched $NEW_COUNT new events" >&2
+
+      - name: Merge into events.json
+        run: |
+          cd scripts
+          cat new_events.json | python merge_events.py
+
+      - name: Check if events.json changed
+        id: diff
+        run: |
+          if git diff --quiet events.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to events.json" >&2
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✓ events.json has new data" >&2
+          fi
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "Garcon Bot"
+          git config user.email "garcon@garconai.dev"
+          git add events.json
+          TODAY=$(date -u +'%Y-%m-%d')
+          NEW_COUNT=${{ steps.fetch.outputs.new_count }}
+          git commit -m "🤖 Daily scrape: $NEW_COUNT new events added ($TODAY)"
+          git push origin main
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Daily scrape summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- New events added: ${{ steps.fetch.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY

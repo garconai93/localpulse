@@ -1183,6 +1183,8 @@ function getEvents() {
   if (!city) return [];
   let evs = city.events.slice();
   const today = new Date().toISOString().slice(0, 10);
+  // Hide past events (auto-marked by merge_events.py) unless user explicitly filters to past
+  evs = evs.filter(e => !e.past);
   if (state.period === 'today') evs = evs.filter(e => e.date === today);
   else if (state.period === 'weekend') {
     const [sat, sun] = getWeekendDates();
