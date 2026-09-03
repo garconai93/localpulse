@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<title>Despre LocalEvent</title>
+<meta name="description" content="LocalEvent — agregator independent de evenimente din România. Despre proiect, surse, cum funcționează.">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg, #0a0a0f);
+  color: var(--text, #f5f5f7);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image: radial-gradient(900px 500px at 85% -10%, rgba(255, 94, 91, 0.08), transparent 60%),
+                    radial-gradient(700px 400px at -5% 30%, rgba(91, 140, 255, 0.06), transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+[data-theme="light"] body { --bg: #fafafa; --text: #0a0a0f; --text-dim: #5a5f6e; --border: rgba(0,0,0,0.08); --bg-card: #ffffff; --bg-elev: rgba(255,255,255,0.7); --accent: #ff3b30; }
+[data-theme="dark"] body { --bg: #0a0a0f; --text: #f5f5f7; --text-dim: #a8acb8; --border: rgba(255,255,255,0.06); --bg-card: #15171f; --bg-elev: rgba(20,22,32,0.6); --accent: #ff5e5b; }
+
+.header {
+  position: sticky; top: 0; z-index: 100;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: var(--bg-elev);
+  border-bottom: 1px solid var(--border);
+}
+.header-inner {
+  max-width: 1100px; margin: 0 auto; padding: 14px 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark {
+  width: 40px; height: 40px; border-radius: 10px;
+  background: var(--bg-card);
+  display: grid; place-items: center;
+  box-shadow: 0 4px 12px rgba(255,94,91,0.18);
+  overflow: hidden;
+}
+.brand-mark img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; }
+.brand-name span { color: var(--accent); }
+.back-link { color: var(--text-dim); text-decoration: none; font-size: 14px; font-weight: 600; }
+.back-link:hover { color: var(--accent); }
+
+.content {
+  max-width: 760px; margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+h1 { font-size: clamp(32px, 5vw, 48px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.1; margin: 0 0 12px; }
+.lead { color: var(--text-dim); font-size: 16px; margin: 0 0 40px; line-height: 1.5; }
+
+h2 {
+  font-size: 22px; font-weight: 700; letter-spacing: -0.02em;
+  margin: 40px 0 16px;
+}
+p { font-size: 15px; line-height: 1.65; color: var(--text-dim); margin: 0 0 14px; }
+strong { color: var(--text); font-weight: 600; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.callout {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 24px 0;
+  border-left: 3px solid var(--accent);
+}
+.callout-title { font-weight: 700; color: var(--text); margin-bottom: 6px; font-size: 14px; }
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+.feature {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+.feature-icon {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  background: rgba(255,94,91,0.12);
+  color: var(--accent);
+  display: grid; place-items: center;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.feature-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; color: var(--text); }
+.feature-desc { font-size: 13px; color: var(--text-dim); line-height: 1.4; margin: 0; }
+
+.footer {
+  max-width: 1100px; margin: 0 auto;
+  padding: 32px 24px; border-top: 1px solid var(--border);
+  color: var(--text-dim); font-size: 13px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.footer a { color: var(--text-dim); text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .content { padding: 32px 20px 60px; }
+  .header-inner { padding: 12px 18px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark"><img src="icons/icon-512.png" alt="LocalEvent"></div>
+      <div class="brand-name">Local<span>Event</span></div>
+    </div>
+    <a href="./" class="back-link">← Înapoi la evenimente</a>
+  </div>
+</header>
+
+<main class="content">
+  <h1>Despre LocalEvent</h1>
+  <p class="lead">Un proiect independent care aduce evenimentele din orașele mari ale României într-un singur feed curat, fără reclame și fără tracking.</p>
+
+  <h2>Ce este LocalEvent</h2>
+  <p>LocalEvent este un <strong>agregator independent de evenimente</strong> din România. Colecționăm zilnic evenimente culturale, artistice și de divertisment din <strong>7 orașe mari</strong> — București, Cluj-Napoca, Timișoara, Iași, Constanța, Sibiu, Craiova — și le prezentăm într-un singur feed curat.</p>
+
+  <p>Suntem proiect <strong>demonstrativ</strong>, fără scop comercial în prezent. Nu vindem bilete, nu intermediem tranzacții, nu percepem comisioane. Nu afișăm publicitate.</p>
+
+  <h2>Ce vei găsi aici</h2>
+  <div class="feature-grid">
+    <div class="feature">
+      <div class="feature-icon">♪</div>
+      <div class="feature-title">Concerte & muzică</div>
+      <p class="feature-desc">Rock, jazz, clasic, electronic, folk — de la artiști locali la internaționali.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">◐</div>
+      <div class="feature-title">Teatru & spectacole</div>
+      <p class="feature-desc">Piese clasice și contemporane, comedii, drame, one-man-shows.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">▣</div>
+      <div class="feature-title">Expoziții & muzee</div>
+      <p class="feature-desc">Artă contemporană, fotografie, instalații, expoziții temporare.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">▶</div>
+      <div class="feature-title">Cinema & filme</div>
+      <p class="feature-desc">Filme indie, proiecții speciale, retrospective.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">✦</div>
+      <div class="feature-title">Festivaluri</div>
+      <p class="feature-desc">Festivaluri de film, muzică, cultură, artă — multi-day events.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">✎</div>
+      <div class="feature-title">Workshop-uri</div>
+      <p class="feature-desc">Ateliere creative, cursuri de dezvoltare personală, networking.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">♟</div>
+      <div class="feature-title">Board games & sociale</div>
+      <p class="feature-desc">Seari de Catan, D&D, întâlniri ale comunităților locale.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">♢</div>
+      <div class="feature-title">Pentru copii</div>
+      <p class="feature-desc">Spectacole interactive, piese de teatru, ateliere creative.</p>
+    </div>
+  </div>
+
+  <h2>Surse</h2>
+  <p>Datele vin din surse publice:</p>
+  <ul>
+    <li><a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a> — platformă de ticketing</li>
+    <li><a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a> — platformă de ticketing</li>
+    <li><a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a> — platformă de ticketing</li>
+    <li>clujtourism.ro — portal turistic Cluj-Napoca</li>
+    <li>litoralpress.ro — agregator de știri Litoral</li>
+  </ul>
+  <p>Pentru bilete, te redirectăm direct la organizator sau platforma de ticketing — <strong>noi nu vindem și nu intermediem nimic</strong>.</p>
+
+  <h2>Cum funcționează</h2>
+  <p>Actualizăm evenimentele <strong>zilnic, automat</strong>, prin GitHub Actions. Un script Python scrape-uiază sursele noastre, normalizează datele (dată, categorie, vibe) și le adaugă în <code>events.json</code>. Apoi site-ul se actualizează automat.</p>
+
+  <p>Evenimentele trecute sunt marcate cu <code>past:true</code> și ascunse automat din feed. Le păstrăm pentru integritatea datelor.</p>
+
+  <div class="callout">
+    <div class="callout-title">⚠️ Disclaimer despre prețuri</div>
+    <p>Prețurile și orarul se pot modifica. Te rugăm să verifici întotdeauna pe pagina oficială a organizatorului înainte de a cumpăra bilete.</p>
+  </div>
+
+  <h2>Funcționalități</h2>
+  <ul>
+    <li><strong>Detectare automată a orașului</strong> pe baza geolocației (sau alegere manuală din tabs)</li>
+    <li><strong>Filtre inteligente</strong> — perioadă (Azi / Weekend / 7 zile), preț (Gratuit / Plătit), vibe (Intim / Loud / Casual / Family)</li>
+    <li><strong>Expand pe card</strong> — descrieri, highlights, durată, vârstă, locație, organizator</li>
+    <li><strong>Indicații Maps</strong> — Apple Maps / Google Maps cu rută calculată</li>
+    <li><strong>Share</strong> — WhatsApp, Telegram, Email sau copy link</li>
+    <li><strong>Multi-language</strong> — Română și Engleză</li>
+    <li><strong>Day/Night theme</strong> — cu salvare automată</li>
+    <li><strong>PWA</strong> — instalabil pe iPhone/Android, funcționează offline</li>
+  </ul>
+
+  <h2>Confidențialitate</h2>
+  <p>Nu colectăm date personale. Nu avem conturi de utilizator. Nu folosim cookie-uri de tracking. Singurele date salvate sunt în browserul tău (localStorage) pentru a-ți aminti orașul ales și tema preferată.</p>
+
+  <p>Geolocația (dacă o acorzi) este folosită doar local, în browserul tău, pentru a calcula care oraș e cel mai aproape. Nu este transmisă către niciun server.</p>
+
+  <h2>Contact</h2>
+  <p>Pentru întrebări, sesizări sau cereri de actualizare a datelor: <strong><a href="mailto:contact@localevent.ro">contact@localevent.ro</a></strong></p>
+
+  <p>Proiect demonstrativ. Toate mărcile comerciale (teatre, festivaluri, artiști) aparțin proprietarilor lor legali.</p>
+</main>
+
+<footer class="footer">
+  <div>LocalEvent · agregator demonstrativ de evenimente · septembrie 2026</div>
+  <div><a href="./privacy.html">Confidențialitate</a> · <a href="./terms.html">Termeni</a> · <a href="./despre.html">Despre</a> · <a href="mailto:contact@localevent.ro">Contact</a></div>
+</footer>
+
+</body>
+</html>
