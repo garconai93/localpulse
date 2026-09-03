@@ -1146,7 +1146,7 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
     <a href="mailto:contact@localevent.ro">Contact</a>
   </p>
   <p style="font-size:12px;opacity:0.7">Prețurile și orarul se pot modifica. Verifică pe pagina oficială înainte de a cumpăra bilete.</p>
-  <p style="font-size:12px;opacity:0.7">Agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, <a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a>, clujtourism.ro, litoralpress.ro · <span class="mono" id="ts">—</span></p>
+  <p style="font-size:12px;opacity:0.7">Agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, <a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a>, clujtourism.ro, litoralpress.ro</p>
 </footer>
 
 <script>
@@ -1234,7 +1234,7 @@ function init() {
   });
 
   // Footer timestamp
-  document.getElementById('ts').textContent = 'updated ' + DATA.generated_at;
+  // Footer timestamp (kept for last_scraped reference, not displayed)
 
   // Theme toggle
   document.getElementById('themeToggle').addEventListener('click', toggleTheme);
