@@ -902,14 +902,35 @@ footer {
   color: var(--text-faint);
   font-size: 13px;
   border-top: 1px solid var(--border);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 12px;
+  text-align: center;
 }
+footer p { margin: 0 0 12px; }
+footer p:last-child { margin-bottom: 0; }
 footer a { color: var(--text-dim); text-decoration: none; transition: color 0.15s; }
-footer a:hover { color: var(--accent); }
+footer a:hover { color: var(--accent); text-decoration: underline; }
 footer .mono { font-family: 'JetBrains Mono', monospace; }
+
+.about-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  border-top: 1px solid var(--border);
+}
+.about-section h2 {
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 16px;
+}
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0 0 14px;
+  max-width: 760px;
+}
+.about-section a { color: var(--accent); text-decoration: none; }
+.about-section a:hover { text-decoration: underline; }
 
 /* ============================================
    MOBILE
@@ -1054,6 +1075,14 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
   </div>
 </section>
 
+<section id="despre" class="about-section">
+  <h2>Despre LocalEvent</h2>
+  <p>LocalEvent este un agregator independent de evenimente din România. Colecționăm zilnic evenimente culturale, artistice și de divertisment din 7 orașe mari — București, Cluj-Napoca, Timișoara, Iași, Constanța, Sibiu, Craiova — și le prezentăm într-un singur feed curat, fără reclame și fără tracking.</p>
+  <p>Datele vin din surse publice: <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, <a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a>, clujtourism.ro, litoralpress.ro. Pentru bilete, te redirectăm direct la organizator sau platforma de ticketing — noi nu vindem și nu intermediem nimic.</p>
+  <p>Actualizăm evenimentele zilnic, automat, prin GitHub Actions. Poți folosi gratuit LocalEvent pe orice dispozitiv. Proiect demonstrativ, fără scop comercial în prezent.</p>
+  <p>Dacă ai întrebări sau sesizări: <a href="mailto:contact@localevent.ro">contact@localevent.ro</a></p>
+</section>
+
 <main class="feed">
   <div class="feed-header">
     <div class="feed-title"><span class="city-mark"></span><span id="feedTitle">Toate</span></div>
@@ -1109,19 +1138,15 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
 </div>
 
 <footer>
-  <div>
-    LocalEvent · agregator demonstrativ · agregat din
-    <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>,
-    <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>,
-    <a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a>,
-    clujtourism.ro, litoralpress.ro<br>
-    <span style="font-size:12px;opacity:0.7">Prețurile și orarul se pot modifica. Verifică pe pagina oficială înainte de a cumpăra bilete.</span><br>
-    <span style="font-size:12px;opacity:0.7">Contact: <a href="mailto:contact@localevent.ro" style="color:var(--accent);text-decoration:none">contact@localevent.ro</a></span>
-  </div>
-  <div>
-    <a href="privacy.html">Confidențialitate</a> · <a href="terms.html">Termeni</a><br>
-    <span class="mono" id="ts">—</span>
-  </div>
+  <p>© 2026 LocalEvent. Toate drepturile rezervate.</p>
+  <p>
+    <a href="terms.html" target="_blank" rel="noopener">Termeni și Condiții</a> |
+    <a href="privacy.html" target="_blank" rel="noopener">Politica de Confidențialitate</a> |
+    <a href="#despre">Despre</a> |
+    <a href="mailto:contact@localevent.ro">Contact</a>
+  </p>
+  <p style="font-size:12px;opacity:0.7">Prețurile și orarul se pot modifica. Verifică pe pagina oficială înainte de a cumpăra bilete.</p>
+  <p style="font-size:12px;opacity:0.7">Agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, <a href="https://www.bilete.ro" target="_blank" rel="noopener">bilete.ro</a>, clujtourism.ro, litoralpress.ro · <span class="mono" id="ts">—</span></p>
 </footer>
 
 <script>
