@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<title>Termeni și Condiții — LocalEvent</title>
+<meta name="description" content="Termeni și condiții de utilizare LocalEvent — agregator de evenimente din România.">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg, #0a0a0f);
+  color: var(--text, #f5f5f7);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image: radial-gradient(900px 500px at 85% -10%, rgba(255, 94, 91, 0.08), transparent 60%),
+                    radial-gradient(700px 400px at -5% 30%, rgba(91, 140, 255, 0.06), transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+[data-theme="light"] body { --bg: #fafafa; --text: #0a0a0f; --text-dim: #5a5f6e; --border: rgba(0,0,0,0.08); --bg-card: #ffffff; --accent: #ff3b30; }
+[data-theme="dark"] body { --bg: #0a0a0f; --text: #f5f5f7; --text-dim: #a8acb8; --border: rgba(255,255,255,0.06); --bg-card: #15171f; --accent: #ff5e5b; }
+
+.header {
+  position: sticky; top: 0; z-index: 100;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: var(--bg-elev, rgba(20, 22, 32, 0.6));
+  border-bottom: 1px solid var(--border);
+}
+.header-inner {
+  max-width: 1100px; margin: 0 auto; padding: 14px 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark {
+  width: 32px; height: 32px; border-radius: 9px;
+  background: linear-gradient(135deg, var(--accent), #ff8a5b);
+  display: grid; place-items: center; font-weight: 800; color: #fff; font-size: 16px;
+}
+.brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; }
+.brand-name span { color: var(--accent); }
+.back-link { color: var(--text-dim); text-decoration: none; font-size: 14px; font-weight: 600; }
+.back-link:hover { color: var(--accent); }
+
+.content {
+  max-width: 760px; margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+h1 { font-size: clamp(32px, 5vw, 48px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.1; margin: 0 0 12px; }
+.lead { color: var(--text-dim); font-size: 16px; margin: 0 0 40px; line-height: 1.5; }
+
+h2 {
+  font-size: 22px; font-weight: 700; letter-spacing: -0.02em;
+  margin: 48px 0 16px; padding-top: 24px; border-top: 1px solid var(--border);
+}
+h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+
+p, li { font-size: 15px; line-height: 1.65; color: var(--text-dim); }
+p { margin: 0 0 14px; }
+strong { color: var(--text); font-weight: 600; }
+ul, ol { padding-left: 22px; margin: 0 0 16px; }
+li { margin-bottom: 6px; }
+
+.callout {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 24px 0;
+  border-left: 3px solid var(--accent);
+}
+.callout-title { font-weight: 700; color: var(--text); margin-bottom: 6px; font-size: 14px; }
+.callout p:last-child { margin-bottom: 0; }
+
+.footer {
+  max-width: 1100px; margin: 0 auto;
+  padding: 32px 24px; border-top: 1px solid var(--border);
+  color: var(--text-dim); font-size: 13px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.footer a { color: var(--text-dim); text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .content { padding: 32px 20px 60px; }
+  .header-inner { padding: 12px 18px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">L</div>
+      <div class="brand-name">Local<span>Event</span></div>
+    </div>
+    <a href="./" class="back-link">← Înapoi la evenimente</a>
+  </div>
+</header>
+
+<main class="content">
+  <h1>Termeni și Condiții</h1>
+  <p class="lead">Ultima actualizare: 3 septembrie 2026. Prin utilizarea LocalEvent accepți acești termeni.</p>
+
+  <h2>1. Ce este LocalEvent</h2>
+  <p><strong>LocalEvent</strong> este un agregator de evenimente care colectează și afișează informații publice despre evenimente culturale, artistice și de divertisment din 7 orașe din România (București, Cluj-Napoca, Timișoara, Iași, Constanța, Sibiu, Craiova).</p>
+  <p>Site-ul este un proiect demonstrativ, fără scop comercial în prezent. Nu vindem bilete, nu intermediem tranzacții și nu percepem comisioane.</p>
+
+  <h2>2. Ce date afișăm</h2>
+  <p>Datele afișate provin din surse publice:</p>
+  <ul>
+    <li><a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a> — platformă de ticketing</li>
+    <li><a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a> — platformă de ticketing</li>
+    <li>clujtourism.ro — portal turistic Cluj-Napoca</li>
+    <li>litoralpress.ro — agregator de știri Litoral</li>
+  </ul>
+  <p>Pentru fiecare eveniment afișăm: titlu, dată, oră, locație, preț, link către pagina oficială de bilete. Nu reproducem descrieri copyrighate, fotografii sau materiale promoționale.</p>
+
+  <div class="callout">
+    <div class="callout-title">⚠️ Informațiile pot fi modificate</div>
+    <p>Prețurile, orarul și disponibilitatea biletelor se pot modifica fără notificare prealabilă. Te rugăm să verifici întotdeauna pe pagina oficială a organizatorului înainte de a cumpăra bilete.</p>
+  </div>
+
+  <h2>3. Limitarea răspunderii</h2>
+  <p><strong>LocalEvent nu este responsabil pentru:</strong></p>
+  <ul>
+    <li>Exactitatea informațiilor afișate (deși facem eforturi să le menținem corecte și actualizate)</li>
+    <li>Modificări de ultimă oră (anulări, reprogramări, schimbări de preț)</li>
+    <li>Tranzacții comerciale între tine și organizatorii de evenimente sau platformele de ticketing</li>
+    <li>Calitatea evenimentelor afișate</li>
+    <li>Daune directe sau indirecte rezultate din utilizarea informațiilor de pe site</li>
+  </ul>
+  <p>Toate tranzacțiile se desfășoară direct între tine și platformele de ticketing partenere. LocalEvent nu stochează date de plată și nu procesează plăți.</p>
+
+  <h2>4. Proprietate intelectuală</h2>
+  <p>Conținutul generat de LocalEvent (cod, design, selecție de evenimente) este proprietatea noastră.</p>
+  <p>Datele despre evenimente aparțin organizatorilor și platformelor de ticketing. Folosirea lor se face cu bună-credință, cu linkare clară către sursă.</p>
+  <p>Mărcile comerciale (nume de teatre, festivaluri, artiști) aparțin proprietarilor lor legali.</p>
+
+  <h2>5. Link-uri externe</h2>
+  <p>LocalEvent conține link-uri către site-uri terțe (iabilet.ro, ticketstore.ro, Google Maps, Apple Maps, etc.). Nu suntem responsabili pentru conținutul, politicile de confidențialitate sau practicile acestor site-uri.</p>
+
+  <h2>6. Utilizarea site-ului</h2>
+  <p>Utilizarea LocalEvent este gratuită. Nu colectăm date personale, nu avem conturi de utilizator, nu afișăm publicitate în prezent.</p>
+
+  <h2>7. Modificări</h2>
+  <p>Ne rezervăm dreptul de a modifica acești termeni oricând. Modificările vor fi publicate pe această pagină cu data actualizată. Utilizarea continuă a site-ului după modificări constituie acceptarea noilor termeni.</p>
+
+  <h2>8. Legea aplicabilă</h2>
+  <p>Acești termeni sunt guvernați de legislația română. Orice dispută va fi soluționată de instanțele competente din România.</p>
+
+  <h2>9. Contact</h2>
+  <p>Pentru întrebări, sesizări sau cereri de actualizare a datelor (inclusiv dreptul la rectificare sau ștergere conform GDPR), te rugăm să ne contactezi.</p>
+  <p>Email: <strong>localevent@example.com</strong></p>
+</main>
+
+<footer class="footer">
+  <div>LocalEvent · agregator demonstrativ de evenimente · septembrie 2026</div>
+  <div><a href="./privacy.html">Confidențialitate</a> · <a href="./terms.html">Termeni</a></div>
+</footer>
+
+</body>
+</html>

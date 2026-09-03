@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ro" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<title>Politica de Confidențialitate — LocalEvent</title>
+<meta name="description" content="Politica de confidențialitate LocalEvent — date, cookies, GDPR.">
+
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg, #0a0a0f);
+  color: var(--text, #f5f5f7);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image: radial-gradient(900px 500px at 85% -10%, rgba(255, 94, 91, 0.08), transparent 60%),
+                    radial-gradient(700px 400px at -5% 30%, rgba(91, 140, 255, 0.06), transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+[data-theme="light"] body { --bg: #fafafa; --text: #0a0a0f; --text-dim: #5a5f6e; --border: rgba(0,0,0,0.08); --bg-card: #ffffff; --success: #00875a; --accent: #ff3b30; }
+[data-theme="dark"] body { --bg: #0a0a0f; --text: #f5f5f7; --text-dim: #a8acb8; --border: rgba(255,255,255,0.06); --bg-card: #15171f; --success: #3ecf8e; --accent: #ff5e5b; }
+
+.header {
+  position: sticky; top: 0; z-index: 100;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: var(--bg-elev, rgba(20, 22, 32, 0.6));
+  border-bottom: 1px solid var(--border);
+}
+.header-inner {
+  max-width: 1100px; margin: 0 auto; padding: 14px 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark {
+  width: 32px; height: 32px; border-radius: 9px;
+  background: linear-gradient(135deg, var(--accent), #ff8a5b);
+  display: grid; place-items: center; font-weight: 800; color: #fff; font-size: 16px;
+}
+.brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; }
+.brand-name span { color: var(--accent); }
+.back-link { color: var(--text-dim); text-decoration: none; font-size: 14px; font-weight: 600; }
+.back-link:hover { color: var(--accent); }
+
+.content {
+  max-width: 760px; margin: 0 auto;
+  padding: 60px 24px 80px;
+}
+h1 { font-size: clamp(32px, 5vw, 48px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.1; margin: 0 0 12px; }
+.lead { color: var(--text-dim); font-size: 16px; margin: 0 0 40px; line-height: 1.5; }
+
+h2 {
+  font-size: 22px; font-weight: 700; letter-spacing: -0.02em;
+  margin: 48px 0 16px; padding-top: 24px; border-top: 1px solid var(--border);
+}
+h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+
+p, li { font-size: 15px; line-height: 1.65; color: var(--text-dim); }
+p { margin: 0 0 14px; }
+strong { color: var(--text); font-weight: 600; }
+ul, ol { padding-left: 22px; margin: 0 0 16px; }
+li { margin-bottom: 6px; }
+
+.callout {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 22px;
+  margin: 24px 0;
+  border-left: 3px solid var(--success);
+}
+.callout-title { font-weight: 700; color: var(--text); margin-bottom: 6px; font-size: 14px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 24px;
+  font-size: 14px;
+}
+th, td {
+  text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border);
+}
+th { color: var(--text); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.05em; }
+td { color: var(--text-dim); }
+td.mono { font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+
+.footer {
+  max-width: 1100px; margin: 0 auto;
+  padding: 32px 24px; border-top: 1px solid var(--border);
+  color: var(--text-dim); font-size: 13px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px;
+}
+.footer a { color: var(--text-dim); text-decoration: none; }
+.footer a:hover { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .content { padding: 32px 20px 60px; }
+  .header-inner { padding: 12px 18px; }
+  table { font-size: 12px; }
+  th, td { padding: 8px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">L</div>
+      <div class="brand-name">Local<span>Event</span></div>
+    </div>
+    <a href="./" class="back-link">← Înapoi la evenimente</a>
+  </div>
+</header>
+
+<main class="content">
+  <h1>Politica de Confidențialitate</h1>
+  <p class="lead">Ultima actualizare: 3 septembrie 2026. Respectăm pe deplin GDPR (Regulamentul UE 2016/679).</p>
+
+  <div class="callout">
+    <div class="callout-title">✓ Rezumat pe scurt</div>
+    <p><strong>LocalEvent nu colectează date personale.</strong> Nu avem conturi de utilizator, nu colectăm email-uri, nu folosim cookie-uri de tracking, nu avem advertising. Singurele date salvate sunt în browserul tău (localStorage) pentru a-și aminti orașul și tema preferată.</p>
+  </div>
+
+  <h2>1. Ce date colectăm</h2>
+  <p><strong>Date personale: ZERO.</strong> Nu colectăm nume, email-uri, numere de telefon sau orice altă informație personală.</p>
+  <p><strong>Date tehnice salvate local în browserul tău (localStorage):</strong></p>
+  <table>
+    <thead>
+      <tr><th>Key</th><th>Scop</th><th>Durată</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="mono">localevent_city</td><td>Slug-ul orașului selectat (ex: „bucuresti")</td><td>Persistent</td></tr>
+      <tr><td class="mono">localevent_theme</td><td>Tema selectată („dark" sau „light")</td><td>Persistent</td></tr>
+    </tbody>
+  </table>
+  <p>Aceste date rămân pe dispozitivul tău. Nu sunt transmise către niciun server. Le poți șterge oricând din setările browserului (Storage / Site Data).</p>
+
+  <h2>2. Geolocația</h2>
+  <p>Dacă apeși butonul „Locația mea", browserul îți cere permisiunea de a-ți accesa locația curentă (latitudine, longitudine). Aceste coordonate sunt folosite <strong>doar local, în browserul tău</strong>, pentru a calcula care oraș din lista noastră e cel mai aproape. Nu sunt transmise către niciun server, nu sunt stocate.</p>
+
+  <h2>3. Cookie-uri</h2>
+  <p><strong>Nu folosim cookie-uri de tracking sau publicitare.</strong> Site-ul funcționează fără cookie-uri. Singurele „cookie-like" storage sunt localStorage (vezi secțiunea 1), care nu sunt cookie-uri în sensul tehnic sau juridic.</p>
+
+  <h2>4. Link-uri către terți</h2>
+  <p>Site-ul conține link-uri către:</p>
+  <ul>
+    <li><strong>iabilet.ro, ticketstore.ro</strong> — platforme de ticketing. Dacă accesezi aceste site-uri, ele au propriile politici de confidențialitate.</li>
+    <li><strong>Apple Maps / Google Maps</strong> — când apeși „Indicații". Aceste aplicații colectează date conform politicilor proprii.</li>
+    <li><strong>Google Fonts</strong> — folosim fonturile Inter și JetBrains Mono de la Google. Google poate colecta date tehnice (IP, user agent) la încărcarea fonturilor.</li>
+  </ul>
+
+  <h2>5. Server, hosting și logging</h2>
+  <p>Site-ul este găzduit pe GitHub Pages. GitHub poate colecta log-uri tehnice (IP, user agent, pagini accesate) conform <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">politicii lor de confidențialitate</a>. Aceste date nu sunt controlate de noi.</p>
+
+  <h2>6. Drepturile tale conform GDPR</h2>
+  <p>Chiar dacă nu colectăm date personale, îți amintești că ai următoarele drepturi:</p>
+  <ul>
+    <li><strong>Dreptul de acces</strong> — poți solicita ce date avem despre tine (răspuns: niciuna)</li>
+    <li><strong>Dreptul la rectificare</strong> — poți cere corectarea datelor</li>
+    <li><strong>Dreptul la ștergere</strong> — poți cere ștergerea datelor</li>
+    <li><strong>Dreptul la portabilitate</strong> — poți cere datele într-un format portabil</li>
+    <li><strong>Dreptul la opoziție</strong> — te poți opune prelucrării</li>
+  </ul>
+  <p>Pentru orice cerere, contactează-ne la <strong>localevent@example.com</strong>.</p>
+
+  <h2>7. Securitate</h2>
+  <p>Site-ul este servit prin HTTPS (certificat automat GitHub Pages). Nu procesăm date personale, deci suprafața de atac e minimă.</p>
+
+  <h2>8. Minorii</h2>
+  <p>Site-ul este destinat publicului general. Nu colectăm cu bună știință date de la minori sub 16 ani.</p>
+
+  <h2>9. Modificări</h2>
+  <p>Putem modifica această politică oricând. Modificările vor fi publicate pe această pagină cu data actualizată.</p>
+
+  <h2>10. Contact</h2>
+  <p>Pentru întrebări despre confidențialitate: <strong>localevent@example.com</strong></p>
+  <p>Operator: LocalEvent (proiect demonstrativ)</p>
+</main>
+
+<footer class="footer">
+  <div>LocalEvent · agregator demonstrativ de evenimente · septembrie 2026</div>
+  <div><a href="./privacy.html">Confidențialitate</a> · <a href="./terms.html">Termeni</a></div>
+</footer>
+
+</body>
+</html>
