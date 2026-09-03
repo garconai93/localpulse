@@ -844,7 +844,6 @@ h1 .accent {
 .event-share:active { transform: scale(0.96); }
 
 /* Always-visible share icon in card header */
-.event-share-icon {
   position: absolute;
   top: 18px;
   right: 18px;
@@ -921,6 +920,59 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
   .geo-btn { width: 100%; justify-content: center; }
   .feed-title { font-size: 19px; }
 }
+/* ============================================
+   SHARE ICON + MODAL
+============================================ */
+.event-share-icon {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: all 0.2s ease;
+  z-index: 5;
+  padding: 0;
+  font-family: inherit;
+}
+.event-share-icon:hover { background: var(--accent); color: #fff; border-color: var(--accent); transform: scale(1.05); }
+.event-share-icon:active { transform: scale(0.92); }
+.event-share-icon svg { width: 16px; height: 16px; }
+.event-share-icon.toast { background: var(--success); color: #fff; border-color: var(--success); }
+.event-head { padding-right: 50px; }
+
+.share-modal { position: fixed; inset: 0; z-index: 9999; display: grid; place-items: center; padding: 20px; animation: fadeIn 0.2s ease; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.share-modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.65); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.share-modal-content { position: relative; background: var(--bg); border: 1px solid var(--border); border-radius: 20px; padding: 28px 28px 24px; max-width: 420px; width: 100%; box-shadow: 0 24px 64px rgba(0,0,0,0.5); animation: slideUp 0.25s cubic-bezier(0.4, 0, 0.2, 1); }
+@keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.share-modal-close { position: absolute; top: 14px; right: 14px; width: 32px; height: 32px; border-radius: 8px; background: var(--bg-card); border: 1px solid var(--border); color: var(--text-dim); cursor: pointer; font-size: 14px; display: grid; place-items: center; transition: all 0.15s; }
+.share-modal-close:hover { background: var(--bg-card-hover); color: var(--text); }
+.share-modal-title { font-size: 18px; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 4px; }
+.share-modal-subtitle { font-size: 13px; color: var(--text-dim); margin: 0 0 20px; line-height: 1.4; }
+.share-modal-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+.share-btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px 14px; border-radius: 12px; font-size: 14px; font-weight: 600; text-decoration: none; cursor: pointer; border: 1px solid var(--border); background: var(--bg-card); color: var(--text); font-family: inherit; transition: all 0.15s ease; }
+.share-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(0,0,0,0.3); }
+.share-btn svg { width: 18px; height: 18px; }
+.share-whatsapp { color: #25D366; }
+.share-whatsapp:hover { background: #25D366; color: #fff; border-color: #25D366; }
+.share-telegram { color: #0088cc; }
+.share-telegram:hover { background: #0088cc; color: #fff; border-color: #0088cc; }
+.share-email { color: var(--accent-2); }
+.share-email:hover { background: var(--accent-2); color: #fff; border-color: var(--accent-2); }
+.share-copy { color: var(--text); }
+.share-copy.copied { background: var(--success); color: #fff; border-color: var(--success); }
+.share-modal-link { display: flex; gap: 8px; align-items: center; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 8px; }
+.share-modal-link input { flex: 1; background: transparent; border: none; color: var(--text); font-size: 12px; font-family: 'JetBrains Mono', monospace; padding: 4px 8px; outline: none; }
+.share-link-copy { background: var(--bg-card-hover); color: var(--text-dim); border: none; border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: inherit; transition: all 0.15s; }
+.share-link-copy:hover { background: var(--accent); color: #fff; }
+.share-link-copy.copied { background: var(--success); color: #fff; }
 </style>
 </head>
 <body>
@@ -1018,6 +1070,38 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
     <div style="margin-top:6px;font-size:13px" data-i18n="no_events_sub">Încearcă alte combinații sau schimbă orașul.</div>
   </div>
 </main>
+
+<!-- Share Modal -->
+<div id="shareModal" class="share-modal" style="display:none" role="dialog" aria-modal="true">
+  <div class="share-modal-backdrop" data-share-close></div>
+  <div class="share-modal-content">
+    <button class="share-modal-close" data-share-close aria-label="Close">✕</button>
+    <h3 class="share-modal-title" id="shareModalTitle">Distribuie evenimentul</h3>
+    <p class="share-modal-subtitle" id="shareModalSubtitle"></p>
+    <div class="share-modal-buttons">
+      <a id="shareWhatsApp" class="share-btn share-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <a id="shareTelegram" class="share-btn share-telegram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+        <span>Telegram</span>
+      </a>
+      <a id="shareEmail" class="share-btn share-email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+        <span>Email</span>
+      </a>
+      <button id="shareCopy" class="share-btn share-copy">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        <span id="shareCopyLabel">Copy link</span>
+      </button>
+    </div>
+    <div class="share-modal-link">
+      <input type="text" id="shareLinkInput" readonly>
+      <button id="shareLinkCopy" class="share-link-copy">Copy</button>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div>
@@ -1404,11 +1488,10 @@ function render() {
       const id = btn.dataset.eventId;
       const event = city.events.find(ev => ev.id === id);
       if (!event) return;
-      shareEvent(event, city).then(() => {
-        // Visual feedback: turn green briefly
-        btn.classList.add('toast');
-        setTimeout(() => btn.classList.remove('toast'), 1200);
-      });
+      shareEvent(event, city);
+      // Visual feedback: turn green briefly
+      btn.classList.add('toast');
+      setTimeout(() => btn.classList.remove('toast'), 1200);
     });
   });
 }
@@ -1549,28 +1632,120 @@ function initLang() {
 /* ============================================
    SHARE API
 ============================================ */
-async function shareEvent(event, city) {
+function buildShareText(event, city) {
   const url = event.url;
-  const text = state_i18n.lang === 'ro'
+  const isRO = state_i18n.lang === 'ro';
+  const text = isRO
     ? `${event.title}\n${event.date} la ${event.time} @ ${event.venue}, ${city.name}\n\nVezi detalii pe LocalEvent.ro`
     : `${event.title}\n${event.date} at ${event.time} @ ${event.venue}, ${city.name}\n\nSee details on LocalEvent.ro`;
-  const shareData = {
-    title: 'LocalEvent',
-    text: text,
-    url: url,
-  };
-  if (navigator.share) {
-    try {
-      await navigator.share(shareData);
-    } catch (e) {
-      // User cancelled or error
-    }
-  } else if (navigator.clipboard) {
-    try {
-      await navigator.clipboard.writeText(`${text}\n${url}`);
-      // Could show a toast here
-    } catch (e) {}
+  return { text, url };
+}
+
+function showShareModal(event, city) {
+  const modal = document.getElementById('shareModal');
+  const isRO = state_i18n.lang === 'ro';
+  const { text, url } = buildShareText(event, city);
+
+  // Set subtitle to event title
+  document.getElementById('shareModalSubtitle').textContent = event.title;
+
+  // Set WhatsApp link
+  const waText = encodeURIComponent(text);
+  document.getElementById('shareWhatsApp').href = `https://wa.me/?text=${waText}`;
+
+  // Set Telegram link
+  document.getElementById('shareTelegram').href = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${waText}`;
+
+  // Set Email link
+  const subject = isRO ? `Eveniment: ${event.title}` : `Event: ${event.title}`;
+  const body = text + '\n\n' + url;
+  document.getElementById('shareEmail').href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  // Set Copy button label
+  document.getElementById('shareCopyLabel').textContent = isRO ? 'Copy link' : 'Copy link';
+
+  // Set the link input
+  document.getElementById('shareLinkInput').value = url;
+
+  // Show modal
+  modal.style.display = 'grid';
+  document.body.style.overflow = 'hidden';
+
+  // Bind close handlers (once)
+  if (!modal.dataset.bound) {
+    modal.dataset.bound = 'true';
+    modal.querySelectorAll('[data-share-close]').forEach(el => {
+      el.addEventListener('click', () => {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      });
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && modal.style.display === 'grid') {
+        modal.style.display = 'none';
+        document.body.style.overflow = '';
+      }
+    });
+    // Copy button (full text + url)
+    document.getElementById('shareCopy').addEventListener('click', () => {
+      const fullText = text + '\n' + url;
+      copyToClipboard(fullText).then(ok => {
+        const btn = document.getElementById('shareCopy');
+        btn.classList.add('copied');
+        const labelEl = document.getElementById('shareCopyLabel');
+        const orig = labelEl.textContent;
+        labelEl.textContent = isRO ? '✓ Copiat' : '✓ Copied';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          labelEl.textContent = orig;
+        }, 2000);
+      });
+    });
+    // Link copy button
+    document.getElementById('shareLinkCopy').addEventListener('click', () => {
+      copyToClipboard(url).then(ok => {
+        const btn = document.getElementById('shareLinkCopy');
+        btn.classList.add('copied');
+        const orig = btn.textContent;
+        btn.textContent = '✓';
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.textContent = orig;
+        }, 2000);
+      });
+    });
   }
+}
+
+function copyToClipboard(text) {
+  // Try modern API first
+  if (navigator.clipboard && window.isSecureContext) {
+    return navigator.clipboard.writeText(text).then(() => true).catch(() => fallbackCopy(text));
+  }
+  return Promise.resolve(fallbackCopy(text));
+}
+
+function fallbackCopy(text) {
+  // Universal fallback using execCommand
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    ta.style.top = '0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    return ok;
+  } catch (e) {
+    return false;
+  }
+}
+
+function shareEvent(event, city) {
+  showShareModal(event, city);
 }
 
 /* ============================================
