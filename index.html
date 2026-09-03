@@ -217,7 +217,7 @@ h1 .accent {
   margin-bottom: 24px;
   box-shadow: var(--shadow-soft);
 }
-.city-tabs { display: flex; gap: 4px; flex-wrap: wrap; flex: 1; }
+.city-tabs { display: flex; gap: 4px; flex-wrap: wrap; flex: 1; min-width: 0; }
 .city-tab {
   background: transparent;
   border: none;
@@ -248,13 +248,14 @@ h1 .accent {
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  display: flex; align-items: center; gap: 6px;
+  display: inline-flex; align-items: center; gap: 6px;
   transition: all 0.2s ease;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 .geo-btn:hover { color: var(--text); border-color: var(--border-strong); }
 .geo-btn.detected { background: var(--success); color: #fff; border-color: var(--success); }
-.geo-btn svg { width: 14px; height: 14px; }
+.geo-btn svg { width: 14px; height: 14px; flex-shrink: 0; }
 
 /* ============================================
    STATS BENTO
@@ -614,6 +615,170 @@ h1 .accent {
 .event-cta svg { width: 12px; height: 12px; transition: transform 0.2s; }
 .event-cta:hover svg { transform: translateX(2px); }
 
+/* ============================================
+   EXPANDABLE DETAILS (grid-template-rows trick)
+============================================ */
+.event {
+  cursor: pointer;
+}
+.event-head-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.expand-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  user-select: none;
+  transition: color 0.2s;
+}
+.event:hover .expand-toggle { color: var(--text-dim); }
+.expand-toggle svg {
+  width: 14px;
+  height: 14px;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.event.expanded .expand-toggle svg { transform: rotate(180deg); }
+
+.expand-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              margin-top 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 0;
+}
+.event.expanded .expand-content {
+  grid-template-rows: 1fr;
+  margin-top: 14px;
+}
+.expand-content > div {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.event-description {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  margin: 0 0 14px;
+}
+
+.event-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.event-highlights li {
+  font-size: 13px;
+  color: var(--text-dim);
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.4;
+}
+.event-highlights li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--accent);
+  opacity: 0.7;
+}
+
+.event-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  padding: 14px;
+  background: var(--bg-2);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  margin-bottom: 14px;
+}
+.meta-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.meta-cell-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  font-weight: 600;
+}
+.meta-cell-value {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.event-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.event-tag {
+  font-size: 11px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: var(--bg-card-hover);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.event-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.event-action {
+  flex: 1;
+  min-width: 130px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+.event-action.primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.event-action.primary:hover { background: #ff4543; transform: translateY(-1px); }
+.event-action.secondary {
+  background: var(--bg-card-hover);
+  color: var(--text);
+}
+.event-action.secondary:hover { background: var(--bg-card); border-color: var(--border-strong); }
+.event-action svg { width: 14px; height: 14px; flex-shrink: 0; }
+
 /* Empty state */
 .empty {
   background: var(--bg-card);
@@ -655,11 +820,11 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
 @media (max-width: 640px) {
   .header-inner { padding: 12px 18px; }
   .brand-name { font-size: 15px; }
-  .controls { padding: 6px; border-radius: 16px; }
-  .city-tab { padding: 8px 12px; font-size: 13px; }
+  .controls { padding: 6px; border-radius: 16px; flex-direction: column; align-items: stretch; }
   .city-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .city-tabs::-webkit-scrollbar { display: none; }
-  .geo-btn { margin-left: auto; }
+  .city-tab { padding: 8px 12px; font-size: 13px; }
+  .geo-btn { width: 100%; justify-content: center; }
   .feed-title { font-size: 19px; }
 }
 </style>
@@ -1007,8 +1172,9 @@ function render() {
   container.innerHTML = evs.map((e, i) => {
     const d = fmtDate(e.date);
     const isFeatured = i < 2 && state.period === 'all';
+    const tags = (e.tags || []).map(t => `<span class="event-tag">#${t}</span>`).join('');
     return `
-      <article class="event cat-${e.category} vibe-${e.vibe} ${isFeatured ? 'featured' : ''}">
+      <article class="event cat-${e.category} vibe-${e.vibe} ${isFeatured ? 'featured' : ''}" data-event-id="${e.id}">
         <div class="event-stripe"></div>
         <div class="event-head">
           <span class="event-cat">${catIcon(e.category)} ${catLabel(e.category)}</span>
@@ -1029,16 +1195,50 @@ function render() {
             <span class="vibe-tag"><span class="vibe-dot"></span>${vibeLabel(e.vibe)}</span>
           </div>
         </div>
-        <div class="event-foot">
+        <div class="event-head-row">
           <span class="price-pill ${e.price === 'free' ? 'price-free' : 'price-paid'}">${e.price === 'free' ? 'GRATUIT' : e.price_value + ' lei'}</span>
-          <a class="event-cta" href="${e.url}" target="_blank" rel="noopener">
-            Bilete
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
-          </a>
+          <span class="expand-toggle" aria-hidden="true">
+            Detalii
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </span>
+        </div>
+        <div class="expand-content">
+          <div>
+            <p class="event-description">${e.description}</p>
+            <ul class="event-highlights">
+              ${(e.highlights || []).map(h => `<li>${h}</li>`).join('')}
+            </ul>
+            <div class="event-meta-grid">
+              <div class="meta-cell"><span class="meta-cell-label">Durată</span><span class="meta-cell-value">${e.duration}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label">Vârstă</span><span class="meta-cell-value">${e.age}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label">Locație</span><span class="meta-cell-value">${e.venue}</span></div>
+              <div class="meta-cell"><span class="meta-cell-label">Organizator</span><span class="meta-cell-value">${e.organizer}</span></div>
+            </div>
+            ${tags ? `<div class="event-tags">${tags}</div>` : ''}
+            <div class="event-actions">
+              <a class="event-action primary" href="${e.url}" target="_blank" rel="noopener" data-action="link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"></path></svg>
+                Bilete / Info
+              </a>
+              <a class="event-action secondary" href="${e.map_url}" target="_blank" rel="noopener" data-action="map">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Hartă
+              </a>
+            </div>
+          </div>
         </div>
       </article>
     `;
   }).join('');
+
+  // Bind expand toggles (but NOT the action buttons inside)
+  container.querySelectorAll('.event').forEach(card => {
+    card.addEventListener('click', e => {
+      // Don't toggle if user clicked an action button/link
+      if (e.target.closest('[data-action]')) return;
+      card.classList.toggle('expanded');
+    });
+  });
 }
 
 /* ============================================
