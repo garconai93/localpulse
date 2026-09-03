@@ -1305,6 +1305,542 @@
           "lon": 28.6557
         }
       ]
+    },
+    {
+      "slug": "sibiu",
+      "name": "Sibiu",
+      "lat": 45.7876,
+      "lon": 24.1435,
+      "events": [
+        {
+          "id": "sb-001",
+          "title": "Sibiu Jazz Festival 2026 – Day 2",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-03",
+          "time": "20:00",
+          "venue": "Filarmonica de Stat Sibiu - Sala Thalia",
+          "address": "Str. Cetății 3-5, Sibiu",
+          "price": "paid",
+          "price_value": 90,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-jazz-festival-2026-day-2-130261/",
+          "lat": 45.7876,
+          "lon": 24.1435,
+          "description": "Sibiu Jazz Festival, ediția 2026 — 4 zile de jazz contemporan cu artiști din Europa. Day 2 propune un set de trio + invitați speciali, în sala cu acustică excelentă a Filarmonicii de Stat.",
+          "highlights": [
+            "4 zile de festival, line-up internațional",
+            "Sala Thalia - acustică excelentă",
+            "1h 45min + jam session la final",
+            "vin și bere artizanală la foyer"
+          ],
+          "duration": "1h 45min",
+          "age": "All ages",
+          "tags": [
+            "jazz",
+            "festival",
+            "indoor"
+          ],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu",
+          "organizer": "Sibiu Jazz Festival"
+        },
+        {
+          "id": "sb-002",
+          "title": "Piazzolla Tango Night – Pian & Bandoneon",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-04",
+          "time": "20:00",
+          "venue": "Biblioteca Astra - Sala festiva",
+          "address": "Str. George Barițiu 5, Sibiu",
+          "price": "paid",
+          "price_value": 80,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-piazzolla-tango-night-concert-de-pian-si-bandoneon-129310/",
+          "lat": 45.7868,
+          "lon": 24.1505,
+          "description": "O seară dedicată lui Astor Piazzolla, cu recital de pian și bandoneon — Nuevo Tango interpretat de muzicieni români cu pregătire argentiniană. Sală de bibliotecă, lumină caldă, 60 locuri.",
+          "highlights": [
+            "Piazzolla integral",
+            "recital la lumina lumânărilor",
+            "60 locuri - intime",
+            "Q&A cu muzicienii la final"
+          ],
+          "duration": "1h 20min",
+          "age": "All ages",
+          "tags": [
+            "tango",
+            "intimate",
+            "indoor",
+            "classical"
+          ],
+          "map_url": "https://maps.google.com/?q=Biblioteca+Astra+Sibiu",
+          "organizer": "Piazzolla Tango Collective"
+        },
+        {
+          "id": "sb-003",
+          "title": "Sibiu Jazz Festival 2026 – Day 3",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-04",
+          "time": "21:00",
+          "venue": "Filarmonica de Stat Sibiu - Sala Thalia",
+          "address": "Str. Cetății 3-5, Sibiu",
+          "price": "paid",
+          "price_value": 95,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-jazz-festival-2026-day-3-130264/",
+          "lat": 45.7876,
+          "lon": 24.1435,
+          "description": "Day 3 al Sibiu Jazz Festival — headliner night cu un cvartet din Italia + jam session deschis publicului. Biletele se epuizează în avans, e cea mai populară seară a festivalului.",
+          "highlights": [
+            "headliner night",
+            "cvartet italian + jam session",
+            "2h cu pauză",
+            "meet & greet la foyer"
+          ],
+          "duration": "2h (cu pauză)",
+          "age": "All ages",
+          "tags": [
+            "jazz",
+            "festival",
+            "indoor"
+          ],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu",
+          "organizer": "Sibiu Jazz Festival"
+        },
+        {
+          "id": "sb-004",
+          "title": "Sibiu Jazz Festival 2026 – Day 4",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-05",
+          "time": "20:00",
+          "venue": "Filarmonica de Stat Sibiu - Sala Thalia",
+          "address": "Str. Cetății 3-5, Sibiu",
+          "price": "paid",
+          "price_value": 95,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-jazz-festival-2026-day-4-130265/",
+          "lat": 45.7876,
+          "lon": 24.1435,
+          "description": "Day 4 și ultima seară a Sibiu Jazz Festival — big band + dansatoare, eveniment de închidere. Program special cu bis-uri și moment surpriză cu toți artiștii festivalului.",
+          "highlights": [
+            "big band + dans",
+            "închidere festival",
+            "toți artiștii pe scenă",
+            "after-party la Grădina BIS"
+          ],
+          "duration": "2h 30min",
+          "age": "All ages",
+          "tags": [
+            "jazz",
+            "festival",
+            "indoor",
+            "big-band"
+          ],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu",
+          "organizer": "Sibiu Jazz Festival"
+        },
+        {
+          "id": "sb-005",
+          "title": "Evoluție | Turneu Leo de la Roșiori",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-06",
+          "time": "20:00",
+          "venue": "Sala Transilvania",
+          "address": "Str. Constituției 1, Sibiu",
+          "price": "paid",
+          "price_value": 70,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-evolutie-turneu-leo-de-la-rosiori-123656/",
+          "lat": 45.789,
+          "lon": 24.1487,
+          "description": "Leo de la Roșiori în turneu național cu spectacolul 'Evoluție' — muzică de petrecere, lăutărească și coveruri. Show cu orchestră live, dans și atmosferă de nuntă.",
+          "highlights": [
+            "orchestră live",
+            "muzică de petrecere",
+            "2h 30min fără pauză",
+            "dans liber în sală"
+          ],
+          "duration": "2h 30min",
+          "age": "All ages",
+          "tags": [
+            "lăutărească",
+            "petrecere",
+            "indoor",
+            "orchestră"
+          ],
+          "map_url": "https://maps.google.com/?q=Sala+Transilvania+Sibiu",
+          "organizer": "Leo de la Roșiori"
+        },
+        {
+          "id": "sb-006",
+          "title": "Nemanja Radulović & Laure Favre-Kahn – Enescu",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-08",
+          "time": "20:00",
+          "venue": "Filarmonica de Stat Sibiu - Sala Thalia",
+          "address": "Str. Cetății 3-5, Sibiu",
+          "price": "paid",
+          "price_value": 150,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-sibiu-nemanja-radulovic-laure-favre-kahn-o-concursul-international-george-enescu-129277/",
+          "lat": 45.7876,
+          "lon": 24.1435,
+          "description": "Nemanja Radulović (vioară, Serbia) și Laure Favre-Kahn (pian, Franța) — recital în cadrul Concursului Internațional George Enescu. Program Enescu, Beethoven, Ravel.",
+          "highlights": [
+            "violonist de talie mondială",
+            "program Enescu integral",
+            "1h 30min fără pauză",
+            "Sala Thalia - acustică perfectă"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "clasică",
+            "international",
+            "indoor",
+            "enescu"
+          ],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu",
+          "organizer": "Concursul Internațional George Enescu"
+        },
+        {
+          "id": "sb-007",
+          "title": "Guitar Meeting Festival 2026",
+          "category": "festival",
+          "vibe": "casual",
+          "date": "2026-09-03",
+          "time": "18:00",
+          "venue": "Centrul Cultural Ion Besoiu",
+          "address": "Piața Mare 6, Sibiu",
+          "price": "paid",
+          "price_value": 120,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-guitar-meeting-festival-2026-115793/",
+          "lat": 45.7894,
+          "lon": 24.1505,
+          "description": "Festivalul de chitară clasică și flamenco — 4 zile, 12 artiști, masterclass-uri și recitaluri. Ediția 2026 aduce chitariști din Spania, Italia și România.",
+          "highlights": [
+            "4 zile de festival",
+            "12 artiști internaționali",
+            "masterclass-uri incluse",
+            "Piața Mare - în aer liber"
+          ],
+          "duration": "4 zile (3-6 sept)",
+          "age": "All ages",
+          "tags": [
+            "chitară",
+            "festival",
+            "outdoor",
+            "international"
+          ],
+          "map_url": "https://maps.google.com/?q=Centrul+Cultural+Ion+Besoiu+Sibiu",
+          "organizer": "Guitar Meeting"
+        }
+      ]
+    },
+    {
+      "slug": "craiova",
+      "name": "Craiova",
+      "lat": 44.319,
+      "lon": 23.7967,
+      "events": [
+        {
+          "id": "cr-001",
+          "title": "Stand-up Comedy – Dan Țuțu & Cristi Manolescu",
+          "category": "standup",
+          "vibe": "loud",
+          "date": "2026-09-06",
+          "time": "21:00",
+          "venue": "Enoteca Social Bar",
+          "address": "Str. Popa Șapcă 5, Craiova",
+          "price": "paid",
+          "price_value": 70,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-stand-up-comedy-dan-tutu-si-cristi-manolescu-130426/",
+          "lat": 44.3184,
+          "lon": 23.7967,
+          "description": "Dan Țuțu și Cristi Manolescu într-o seară cu materiale noi — observații pe viața de familie, corporație și social media. Enoteca Social Bar, sală mică, vibe intim cu public.",
+          "highlights": [
+            "2 comedianți, 2 seturi",
+            "materiale noi nerostite online",
+            "sală mică 80 locuri",
+            "vin la pahar inclus"
+          ],
+          "duration": "1h 45min",
+          "age": "18+",
+          "tags": [
+            "standup",
+            "indoor",
+            "wine"
+          ],
+          "map_url": "https://maps.google.com/?q=Enoteca+Social+Bar+Craiova",
+          "organizer": "Enoteca Comedy"
+        },
+        {
+          "id": "cr-002",
+          "title": "Stand-up cu Irina Marinescu, Kiara Firan, Larisa Bănuță, Claudia Amuzică",
+          "category": "standup",
+          "vibe": "loud",
+          "date": "2026-09-12",
+          "time": "21:00",
+          "venue": "Fado Irish Pub",
+          "address": "Str. Arieș 12, Craiova",
+          "price": "paid",
+          "price_value": 80,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-stand-up-comedy-cu-irina-marinescu-kiara-firan-larisa-banuta-claudia-amuzica-130759/",
+          "lat": 44.3196,
+          "lon": 23.7962,
+          "description": "4 comedianțe într-o seară cu mult stand-up feminin — observații ascuțite pe viața reală, relații, presiune socială. Fado Irish Pub, atmosferă relaxată.",
+          "highlights": [
+            "linie all-female",
+            "4 headlineri într-o seară",
+            "2h 30min",
+            "bere Guinness la reducere"
+          ],
+          "duration": "2h 30min",
+          "age": "18+",
+          "tags": [
+            "standup",
+            "indoor",
+            "all-female"
+          ],
+          "map_url": "https://maps.google.com/?q=Fado+Irish+Pub+Craiova",
+          "organizer": "Fado Comedy Night"
+        },
+        {
+          "id": "cr-003",
+          "title": "Toulouse Lautrec (Concert Rock)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-13",
+          "time": "20:00",
+          "venue": "Biergarten Craiova",
+          "address": "Parcul Romanescu, intrarea dinspre lac, Craiova",
+          "price": "paid",
+          "price_value": 75,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-toulouse-lautrec-130272/",
+          "lat": 44.318,
+          "lon": 23.7975,
+          "description": "Toulouse Lautrec — una dintre cele mai iubite trupe de rock alternativ din România anilor 2000 — revine cu un concert-acustic în Parcul Romanescu. Piese vechi, reinterpretate.",
+          "highlights": [
+            "reuniune rară",
+            "concert acustic",
+            "Parcul Romanescu",
+            "1h 30min + Q&A"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "rock",
+            "outdoor",
+            "acoustic",
+            "nostalgic"
+          ],
+          "map_url": "https://maps.google.com/?q=Biergarten+Craiova+Parcul+Romanescu",
+          "organizer": "Toulouse Lautrec"
+        },
+        {
+          "id": "cr-004",
+          "title": "Ziua mea norocoasă (Teatru)",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-14",
+          "time": "19:00",
+          "venue": "Teatrul National Marin Sorescu",
+          "address": "Str. Alexandru Ioan Cuza 11, Craiova",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-ziua-mea-norocoasa-129972/",
+          "lat": 44.319,
+          "lon": 23.7967,
+          "description": "Spectacol inspirat din memoriile lui Marius Tucă — o seară despre noroc, întâmplare și oamenii care ne marchează viața. Regia: Alexandru Darie (reluare postumă).",
+          "highlights": [
+            "regia lui Alexandru Darie",
+            "1h 45min fără pauză",
+            "sală principală",
+            "discuție cu echipa la final"
+          ],
+          "duration": "1h 45min",
+          "age": "14+",
+          "tags": [
+            "teatru",
+            "dramă",
+            "indoor"
+          ],
+          "map_url": "https://maps.google.com/?q=Teatrul+National+Marin+Sorescu+Craiova",
+          "organizer": "TNMS Craiova"
+        },
+        {
+          "id": "cr-005",
+          "title": "Concert Trooper (Metal)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-18",
+          "time": "21:00",
+          "venue": "Cinema Patria",
+          "address": "Str. Popa Șapcă 8, Craiova",
+          "price": "paid",
+          "price_value": 80,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-concert-trooper-125083/",
+          "lat": 44.3184,
+          "lon": 23.7957,
+          "description": "Trooper — trupa emblematică de heavy metal din România — la Cinema Patria. Show cu piese clasice + piese noi de pe 'Stefan', 1h 45min de metal cu chitară și sonorități noi.",
+          "highlights": [
+            "legendă a metalului RO",
+            "1h 45min",
+            "merch oficial la fața locului",
+            "sală 400 locuri"
+          ],
+          "duration": "1h 45min",
+          "age": "16+",
+          "tags": [
+            "metal",
+            "indoor",
+            "merch"
+          ],
+          "map_url": "https://maps.google.com/?q=Cinema+Patria+Craiova",
+          "organizer": "Trooper"
+        },
+        {
+          "id": "cr-006",
+          "title": "Metal Bunker XIV (Festival)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-18",
+          "time": "20:00",
+          "venue": "Backstage Casa de Cultura a Studentilor Craiova",
+          "address": "Str. Arieș 14, Craiova",
+          "price": "paid",
+          "price_value": 65,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-metal-bunker-xiv-130447/",
+          "lat": 44.3203,
+          "lon": 23.7955,
+          "description": "Ediția 14 a Metal Bunker — festival underground cu 8 trupe din România și Bulgaria, 2 scene, mâncare și bere artizanală. All-night până la 04:00.",
+          "highlights": [
+            "8 trupe underground",
+            "2 scene",
+            "all-night până la 04:00",
+            "food trucks"
+          ],
+          "duration": "8h (20:00-04:00)",
+          "age": "18+",
+          "tags": [
+            "metal",
+            "festival",
+            "indoor",
+            "late-night"
+          ],
+          "map_url": "https://maps.google.com/?q=Backstage+Casa+de+Cultura+a+Studentilor+Craiova",
+          "organizer": "Metal Bunker Collective"
+        },
+        {
+          "id": "cr-007",
+          "title": "Vizionarii (Conferință)",
+          "category": "conferinta",
+          "vibe": "intim",
+          "date": "2026-09-20",
+          "time": "10:00",
+          "venue": "Teatrul National Marin Sorescu",
+          "address": "Str. Alexandru Ioan Cuza 11, Craiova",
+          "price": "paid",
+          "price_value": 150,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-vizionarii-122439/",
+          "lat": 44.319,
+          "lon": 23.7967,
+          "description": "Conferință de business & tech — antreprenori vizionari din Oltenia și nu numei, paneluri despre AI, scale-up, investiții. Networking lunch inclus.",
+          "highlights": [
+            "20+ speakeri",
+            "panel despre AI în business",
+            "networking lunch",
+            "bilete limitate - 300 persoane"
+          ],
+          "duration": "1 zi (10:00-18:00)",
+          "age": "18+",
+          "tags": [
+            "conferință",
+            "business",
+            "networking"
+          ],
+          "map_url": "https://maps.google.com/?q=Teatrul+National+Marin+Sorescu+Craiova",
+          "organizer": "Vizionarii"
+        },
+        {
+          "id": "cr-008",
+          "title": "Femeile nu sunt îngeri (Teatru)",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-29",
+          "time": "19:00",
+          "venue": "Teatrul National Marin Sorescu",
+          "address": "Str. Alexandru Ioan Cuza 11, Craiova",
+          "price": "paid",
+          "price_value": 50,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-femeile-nu-sunt-ingeri-130503/",
+          "lat": 44.319,
+          "lon": 23.7967,
+          "description": "Comedie amară despre 5 femei care se întâlnesc la o petrecere și fiecare crede că e 'cea mai norocoasă'. Regie fresh, distribuție tânără, 1h 30min.",
+          "highlights": [
+            "comedie contemporană",
+            "distribuție tânără",
+            "1h 30min fără pauză",
+            "sală principală TNMS"
+          ],
+          "duration": "1h 30min",
+          "age": "14+",
+          "tags": [
+            "teatru",
+            "comedie",
+            "indoor"
+          ],
+          "map_url": "https://maps.google.com/?q=Teatrul+National+Marin+Sorescu+Craiova",
+          "organizer": "TNMS Craiova"
+        },
+        {
+          "id": "cr-009",
+          "title": "Dezvoltare • Networking • Degustare: Despre Burnout",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-09-29",
+          "time": "19:00",
+          "venue": "Enoteca Social Bar",
+          "address": "Str. Popa Șapcă 5, Craiova",
+          "price": "paid",
+          "price_value": 90,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-craiova-dezvoltare-o-networking-o-degustare-despre-burnout-130163/",
+          "lat": 44.3184,
+          "lon": 23.7967,
+          "description": "Workshop interactiv despre burnout — cu psiholog, coach și degustare de vin. 2h de conversație sinceră, exerciții practice și 3 pahare de vin. Max 20 persoane.",
+          "highlights": [
+            "psiholog + coach certificat",
+            "degustare de vin inclusă",
+            "max 20 persoane",
+            "kit cu exerciții take-home"
+          ],
+          "duration": "2h",
+          "age": "21+",
+          "tags": [
+            "workshop",
+            "wellness",
+            "indoor",
+            "cu-vin"
+          ],
+          "map_url": "https://maps.google.com/?q=Enoteca+Social+Bar+Craiova",
+          "organizer": "Enoteca Talks"
+        }
+      ]
     }
   ]
 }

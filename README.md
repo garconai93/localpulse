@@ -1,12 +1,12 @@
 # LocalEvent
 
-**LocalEvent** — agregator de evenimente mici din 5 orașe mari din România (București, Cluj-Napoca, Timișoara, Iași, Constanța).
+**LocalEvent** — agregator de evenimente mici din 7 orașe mari din România (București, Cluj-Napoca, Timișoara, Iași, Constanța, Sibiu, Craiova).
 
 În loc să cauți pe 12 surse (FB Events, IG, site-uri locale, Eventbrite), LocalEvent îți dă un singur feed curat, cu filtre pe dată, preț și vibe.
 
 ## Funcționalități MVP
 
-- ✅ **5 orașe** cu evenimente reale din septembrie 2026 (colectate din iabilet.ro, ticketstore.ro, clujtourism.ro, litoralpress.ro)
+- ✅ **7 orașe** cu evenimente reale din septembrie 2026 (colectate din iabilet.ro, ticketstore.ro, clujtourism.ro, litoralpress.ro)
 - ✅ **Detectare automată a orașului** pe baza geolocației (haversine pe lat/lon)
 - ✅ **Dropdown manual** pentru schimbare oraș
 - ✅ **Filtre** — perioadă (azi / weekend / 7 zile / toate), preț (gratuit / plătit), vibe (intim / loud / casual / family)
