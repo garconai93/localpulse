@@ -309,30 +309,44 @@ h1 .accent {
 }
 
 /* ============================================
-   FILTERS
+   FILTERS — vertical stack per group
 ============================================ */
 .filters {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  flex-direction: column;
+  gap: 14px;
   margin-bottom: 28px;
-  padding-bottom: 4px;
+  padding: 18px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
 }
-.filter-group { display: flex; gap: 4px; align-items: center; padding-right: 12px; }
-.filter-divider { width: 1px; height: 20px; background: var(--border); margin: 0 4px; }
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.filter-row + .filter-row {
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
 .filter-label {
   font-size: 12px;
-  color: var(--text);
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 800;
-  padding: 0 8px;
+  padding: 0;
+  min-width: 64px;
+  flex-shrink: 0;
 }
-.filters > .filter-group:nth-child(1) .filter-label { color: var(--accent); }
-.filters > .filter-group:nth-child(3) .filter-label { color: var(--success); }
-.filters > .filter-group:nth-child(5) .filter-label { color: var(--accent-2); }
+.filter-row[data-key="cand"] .filter-label { color: var(--accent); }
+.filter-row[data-key="pret"] .filter-label { color: var(--success); }
+.filter-row[data-key="vibe"] .filter-label { color: var(--accent-2); }
+.filter-chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .filter-chip {
-  background: var(--bg-card);
+  background: var(--bg-card-hover);
   color: var(--text-dim);
   border: 1px solid var(--border);
   border-radius: 999px;
@@ -348,6 +362,10 @@ h1 .accent {
   background: var(--text);
   color: var(--bg);
   border-color: var(--text);
+}
+@media (max-width: 480px) {
+  .filter-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .filter-label { min-width: 0; }
 }
 
 /* ============================================
@@ -873,26 +891,30 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
   </div>
 
   <div class="filters" id="filters">
-    <div class="filter-group">
+    <div class="filter-row" data-key="cand">
       <span class="filter-label">Când</span>
-      <button class="filter-chip active" data-period="all">Toate</button>
-      <button class="filter-chip" data-period="today">Azi</button>
-      <button class="filter-chip" data-period="weekend">Weekend</button>
-      <button class="filter-chip" data-period="next7">7 zile</button>
+      <div class="filter-chips">
+        <button class="filter-chip active" data-period="all">Toate</button>
+        <button class="filter-chip" data-period="today">Azi</button>
+        <button class="filter-chip" data-period="weekend">Weekend</button>
+        <button class="filter-chip" data-period="next7">7 zile</button>
+      </div>
     </div>
-    <div class="filter-divider"></div>
-    <div class="filter-group">
+    <div class="filter-row" data-key="pret">
       <span class="filter-label">Preț</span>
-      <button class="filter-chip" data-price="free">Gratuit</button>
-      <button class="filter-chip" data-price="paid">Plătit</button>
+      <div class="filter-chips">
+        <button class="filter-chip" data-price="free">Gratuit</button>
+        <button class="filter-chip" data-price="paid">Plătit</button>
+      </div>
     </div>
-    <div class="filter-divider"></div>
-    <div class="filter-group">
+    <div class="filter-row" data-key="vibe">
       <span class="filter-label">Vibe</span>
-      <button class="filter-chip" data-vibe="intim">Intim</button>
-      <button class="filter-chip" data-vibe="loud">Loud</button>
-      <button class="filter-chip" data-vibe="casual">Casual</button>
-      <button class="filter-chip" data-vibe="family">Family</button>
+      <div class="filter-chips">
+        <button class="filter-chip" data-vibe="intim">Intim</button>
+        <button class="filter-chip" data-vibe="loud">Loud</button>
+        <button class="filter-chip" data-vibe="casual">Casual</button>
+        <button class="filter-chip" data-vibe="family">Family</button>
+      </div>
     </div>
   </div>
 </section>
