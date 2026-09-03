@@ -29,9 +29,15 @@
           ],
           "duration": "1h 45min",
           "age": "14+",
-          "tags": ["comedie", "indoor", "cu bilete gratuite"],
+          "tags": [
+            "comedie",
+            "indoor",
+            "cu bilete gratuite"
+          ],
           "map_url": "https://maps.google.com/?q=Teatrul+Rosu+Bucuresti",
-          "organizer": "Teatrul Rosu"
+          "organizer": "Teatrul Rosu",
+          "lat": 44.4317,
+          "lon": 26.0994
         },
         {
           "id": "buc-002",
@@ -55,9 +61,15 @@
           ],
           "duration": "2h 30min",
           "age": "18+",
-          "tags": ["standup", "outdoor", "happy-hour"],
+          "tags": [
+            "standup",
+            "outdoor",
+            "happy-hour"
+          ],
           "map_url": "https://maps.google.com/?q=Comics+Club+Bucuresti",
-          "organizer": "Comics Club"
+          "organizer": "Comics Club",
+          "lat": 44.4384,
+          "lon": 26.1036
         },
         {
           "id": "buc-003",
@@ -81,9 +93,15 @@
           ],
           "duration": "5h (cu 2 pauze)",
           "age": "16+",
-          "tags": ["dramă", "indoor", "maraton"],
+          "tags": [
+            "dramă",
+            "indoor",
+            "maraton"
+          ],
           "map_url": "https://maps.google.com/?q=Teatrul+Infinit+Bucuresti",
-          "organizer": "Teatrul Infinit"
+          "organizer": "Teatrul Infinit",
+          "lat": 44.4437,
+          "lon": 26.0978
         },
         {
           "id": "buc-004",
@@ -107,9 +125,16 @@
           ],
           "duration": "1h 15min",
           "age": "All ages",
-          "tags": ["copii", "indoor", "interactive", "centru-vechi"],
+          "tags": [
+            "copii",
+            "indoor",
+            "interactive",
+            "centru-vechi"
+          ],
           "map_url": "https://maps.google.com/?q=Hanul+lui+Manuc+Bucuresti",
-          "organizer": "Teatrul pentru Copii"
+          "organizer": "Teatrul pentru Copii",
+          "lat": 44.4305,
+          "lon": 26.1025
         },
         {
           "id": "buc-005",
@@ -133,9 +158,15 @@
           ],
           "duration": "2h",
           "age": "All ages (minor însoțiți)",
-          "tags": ["rock", "tribute", "live-band"],
+          "tags": [
+            "rock",
+            "tribute",
+            "live-band"
+          ],
           "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucuresti",
-          "organizer": "Hard Rock Cafe București"
+          "organizer": "Hard Rock Cafe București",
+          "lat": 44.4361,
+          "lon": 26.0965
         },
         {
           "id": "buc-006",
@@ -159,9 +190,14 @@
           ],
           "duration": "1h 20min",
           "age": "14+",
-          "tags": ["comedie", "indoor"],
+          "tags": [
+            "comedie",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Teatrul+Rosu+Bucuresti",
-          "organizer": "Teatrul Rosu"
+          "organizer": "Teatrul Rosu",
+          "lat": 44.4317,
+          "lon": 26.0994
         },
         {
           "id": "buc-007",
@@ -185,9 +221,15 @@
           ],
           "duration": "2 zile (10:00-18:00)",
           "age": "18+",
-          "tags": ["conferință", "industrie", "networking"],
+          "tags": [
+            "conferință",
+            "industrie",
+            "networking"
+          ],
           "map_url": "https://maps.google.com/?q=Hotel+Caro+Bucuresti",
-          "organizer": "Mastering The Music Business"
+          "organizer": "Mastering The Music Business",
+          "lat": 44.4816,
+          "lon": 26.101
         },
         {
           "id": "buc-008",
@@ -211,9 +253,15 @@
           ],
           "duration": "2h 30min",
           "age": "All ages",
-          "tags": ["pop-rock", "anniversary", "large-venue"],
+          "tags": [
+            "pop-rock",
+            "anniversary",
+            "large-venue"
+          ],
           "map_url": "https://maps.google.com/?q=Sala+Palatului+Bucuresti",
-          "organizer": "Directia 5"
+          "organizer": "Directia 5",
+          "lat": 44.4401,
+          "lon": 26.0971
         },
         {
           "id": "buc-009",
@@ -237,9 +285,15 @@
           ],
           "duration": "1h 45min",
           "age": "All ages",
-          "tags": ["folk", "outdoor", "international"],
+          "tags": [
+            "folk",
+            "outdoor",
+            "international"
+          ],
           "map_url": "https://maps.google.com/?q=Arenele+Romane+Bucuresti",
-          "organizer": "Eventim"
+          "organizer": "Eventim",
+          "lat": 44.4145,
+          "lon": 26.105
         },
         {
           "id": "buc-010",
@@ -263,9 +317,15 @@
           ],
           "duration": "2h 30min",
           "age": "18+",
-          "tags": ["standup", "centru-vechi", "outdoor"],
+          "tags": [
+            "standup",
+            "centru-vechi",
+            "outdoor"
+          ],
           "map_url": "https://maps.google.com/?q=The+Fool+Terasa+Bucuresti",
-          "organizer": "The Fool"
+          "organizer": "The Fool",
+          "lat": 44.4312,
+          "lon": 26.1018
         }
       ]
     },
@@ -297,9 +357,15 @@
           ],
           "duration": "1h 45min",
           "age": "All ages",
-          "tags": ["blues", "indoor", "intimate"],
+          "tags": [
+            "blues",
+            "indoor",
+            "intimate"
+          ],
           "map_url": "https://maps.google.com/?q=Cotton+Club+Cluj+Napoca",
-          "organizer": "Cotton Club"
+          "organizer": "Cotton Club",
+          "lat": 46.7715,
+          "lon": 23.6214
         },
         {
           "id": "clj-002",
@@ -323,9 +389,16 @@
           ],
           "duration": "6h (22:00-04:00)",
           "age": "18+",
-          "tags": ["dnb", "outdoor", "party", "late-night"],
+          "tags": [
+            "dnb",
+            "outdoor",
+            "party",
+            "late-night"
+          ],
           "map_url": "https://maps.google.com/?q=Revive+Garden+Cluj+Napoca",
-          "organizer": "Quite Lucky"
+          "organizer": "Quite Lucky",
+          "lat": 46.7716,
+          "lon": 23.622
         },
         {
           "id": "clj-003",
@@ -349,9 +422,16 @@
           ],
           "duration": "2h 30min",
           "age": "18+",
-          "tags": ["culinar", "workshop", "indoor", "cu-bautura"],
+          "tags": [
+            "culinar",
+            "workshop",
+            "indoor",
+            "cu-bautura"
+          ],
           "map_url": "https://maps.google.com/?q=Pasta+Nostra+Cluj+Napoca",
-          "organizer": "Pasta Nostra"
+          "organizer": "Pasta Nostra",
+          "lat": 46.7708,
+          "lon": 23.5908
         },
         {
           "id": "clj-004",
@@ -375,9 +455,15 @@
           ],
           "duration": "1h 30min",
           "age": "3-10 ani",
-          "tags": ["copii", "indoor", "interactive"],
+          "tags": [
+            "copii",
+            "indoor",
+            "interactive"
+          ],
           "map_url": "https://maps.google.com/?q=MINA+Museum+Cluj+Napoca",
-          "organizer": "MINA Museum"
+          "organizer": "MINA Museum",
+          "lat": 46.7853,
+          "lon": 23.6234
         },
         {
           "id": "clj-005",
@@ -401,9 +487,16 @@
           ],
           "duration": "1h 20min",
           "age": "All ages",
-          "tags": ["tango", "intimate", "indoor", "classical"],
+          "tags": [
+            "tango",
+            "intimate",
+            "indoor",
+            "classical"
+          ],
           "map_url": "https://maps.google.com/?q=Doamna+T+Cluj+Napoca",
-          "organizer": "Doamna T"
+          "organizer": "Doamna T",
+          "lat": 46.7705,
+          "lon": 23.5904
         },
         {
           "id": "clj-006",
@@ -427,9 +520,16 @@
           ],
           "duration": "5h (19:00-00:00)",
           "age": "All ages",
-          "tags": ["expo", "outdoor", "late-night", "immersive"],
+          "tags": [
+            "expo",
+            "outdoor",
+            "late-night",
+            "immersive"
+          ],
           "map_url": "https://maps.google.com/?q=MINA+Museum+Cluj+Napoca",
-          "organizer": "MINA Museum"
+          "organizer": "MINA Museum",
+          "lat": 46.7853,
+          "lon": 23.6234
         },
         {
           "id": "clj-007",
@@ -453,9 +553,15 @@
           ],
           "duration": "1h 45min",
           "age": "14+",
-          "tags": ["standup", "comedie", "large-venue"],
+          "tags": [
+            "standup",
+            "comedie",
+            "large-venue"
+          ],
           "map_url": "https://maps.google.com/?q=Cinema+Teatru+Florin+Piersic+Cluj+Napoca",
-          "organizer": "Bobonete Tour"
+          "organizer": "Bobonete Tour",
+          "lat": 46.7703,
+          "lon": 23.5897
         },
         {
           "id": "clj-008",
@@ -479,9 +585,17 @@
           ],
           "duration": "3 zile (vineri-duminică)",
           "age": "All ages",
-          "tags": ["jazz", "festival", "outdoor", "free", "family-friendly"],
+          "tags": [
+            "jazz",
+            "festival",
+            "outdoor",
+            "free",
+            "family-friendly"
+          ],
           "map_url": "https://maps.google.com/?q=Parcul+Central+Cluj+Napoca",
-          "organizer": "Jazz in the Park"
+          "organizer": "Jazz in the Park",
+          "lat": 46.7688,
+          "lon": 23.5897
         },
         {
           "id": "clj-009",
@@ -505,9 +619,16 @@
           ],
           "duration": "Deschisă 28 aug – 9 sept, 11:00-19:00",
           "age": "All ages",
-          "tags": ["artă", "expo", "indoor", "free"],
+          "tags": [
+            "artă",
+            "expo",
+            "indoor",
+            "free"
+          ],
           "map_url": "https://maps.google.com/?q=Galeria+Annie+Klaus+Cluj+Napoca",
-          "organizer": "Galeria Annie Klaus"
+          "organizer": "Galeria Annie Klaus",
+          "lat": 46.7703,
+          "lon": 23.5904
         }
       ]
     },
@@ -539,9 +660,15 @@
           ],
           "duration": "1h 30min",
           "age": "All ages",
-          "tags": ["jazz", "intimate", "indoor"],
+          "tags": [
+            "jazz",
+            "intimate",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=!t+a+space+for+it+Timisoara",
-          "organizer": "!t - a space for it"
+          "organizer": "!t - a space for it",
+          "lat": 45.7537,
+          "lon": 21.2256
         },
         {
           "id": "tm-002",
@@ -565,9 +692,16 @@
           ],
           "duration": "4h (22:00-02:00)",
           "age": "21+",
-          "tags": ["party", "boat", "late-night", "dj-set"],
+          "tags": [
+            "party",
+            "boat",
+            "late-night",
+            "dj-set"
+          ],
           "map_url": "https://maps.google.com/?q=Nava+Pelican+Timisoara",
-          "organizer": "AnonimTM"
+          "organizer": "AnonimTM",
+          "lat": 45.7569,
+          "lon": 21.2222
         },
         {
           "id": "tm-003",
@@ -591,9 +725,16 @@
           ],
           "duration": "1h 30min",
           "age": "16+",
-          "tags": ["metal", "live", "indoor", "merch"],
+          "tags": [
+            "metal",
+            "live",
+            "indoor",
+            "merch"
+          ],
           "map_url": "https://maps.google.com/?q=In+Spatele+Casei+Timisoara",
-          "organizer": "În Spatele Casei"
+          "organizer": "În Spatele Casei",
+          "lat": 45.7572,
+          "lon": 21.2256
         },
         {
           "id": "tm-004",
@@ -617,9 +758,16 @@
           ],
           "duration": "5h (23:00-04:00)",
           "age": "21+",
-          "tags": ["techno", "minimal", "underground", "late-night"],
+          "tags": [
+            "techno",
+            "minimal",
+            "underground",
+            "late-night"
+          ],
           "map_url": "https://maps.google.com/?q=DArc+Timisoara",
-          "organizer": "441"
+          "organizer": "441",
+          "lat": 45.758,
+          "lon": 21.2284
         },
         {
           "id": "tm-005",
@@ -643,9 +791,15 @@
           ],
           "duration": "1h 30min",
           "age": "All ages",
-          "tags": ["pop-rock", "indoor", "happy-hour"],
+          "tags": [
+            "pop-rock",
+            "indoor",
+            "happy-hour"
+          ],
           "map_url": "https://maps.google.com/?q=In+Spatele+Casei+FITT+Timisoara",
-          "organizer": "FITT Casa Tineretului"
+          "organizer": "FITT Casa Tineretului",
+          "lat": 45.7572,
+          "lon": 21.2256
         },
         {
           "id": "tm-006",
@@ -669,9 +823,15 @@
           ],
           "duration": "1 zi (10:00-17:00)",
           "age": "18+",
-          "tags": ["conferință", "free", "networking"],
+          "tags": [
+            "conferință",
+            "free",
+            "networking"
+          ],
           "map_url": "https://maps.google.com/?q=Faber+Timisoara",
-          "organizer": "Faber + EIT Culture"
+          "organizer": "Faber + EIT Culture",
+          "lat": 45.7497,
+          "lon": 21.23
         },
         {
           "id": "tm-007",
@@ -695,9 +855,15 @@
           ],
           "duration": "1h 20min",
           "age": "14+",
-          "tags": ["teatru", "comedie", "indoor"],
+          "tags": [
+            "teatru",
+            "comedie",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Teatrul+Basca+Timisoara",
-          "organizer": "Teatrul Basca"
+          "organizer": "Teatrul Basca",
+          "lat": 45.7548,
+          "lon": 21.2257
         }
       ]
     },
@@ -729,9 +895,14 @@
           ],
           "duration": "2h",
           "age": "18+",
-          "tags": ["standup", "indoor"],
+          "tags": [
+            "standup",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=La+Baza+Iasi",
-          "organizer": "La Baza Comedy"
+          "organizer": "La Baza Comedy",
+          "lat": 47.1564,
+          "lon": 27.5874
         },
         {
           "id": "is-002",
@@ -755,9 +926,15 @@
           ],
           "duration": "1h 45min",
           "age": "All ages",
-          "tags": ["populară", "free", "family"],
+          "tags": [
+            "populară",
+            "free",
+            "family"
+          ],
           "map_url": "https://maps.google.com/?q=Casa+de+Cultura+a+Studentilor+Iasi",
-          "organizer": "CCS Iași + Ansamblul Constantin Arvinte"
+          "organizer": "CCS Iași + Ansamblul Constantin Arvinte",
+          "lat": 47.1585,
+          "lon": 27.6014
         },
         {
           "id": "is-003",
@@ -781,9 +958,15 @@
           ],
           "duration": "1h 45min + Q&A",
           "age": "All ages",
-          "tags": ["folk", "acoustic", "indoor"],
+          "tags": [
+            "folk",
+            "acoustic",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Berarium+Tankeria+Ursus+Iasi",
-          "organizer": "Berarium"
+          "organizer": "Berarium",
+          "lat": 47.1565,
+          "lon": 27.5876
         },
         {
           "id": "is-004",
@@ -807,9 +990,15 @@
           ],
           "duration": "2h 30min",
           "age": "All ages",
-          "tags": ["lăutărească", "petrecere", "indoor"],
+          "tags": [
+            "lăutărească",
+            "petrecere",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Berarium+Tankeria+Ursus+Iasi",
-          "organizer": "Berarium"
+          "organizer": "Berarium",
+          "lat": 47.1565,
+          "lon": 27.5876
         },
         {
           "id": "is-005",
@@ -833,9 +1022,16 @@
           ],
           "duration": "4h (18:00-22:00)",
           "age": "16+",
-          "tags": ["boardgames", "dnd", "social", "indoor"],
+          "tags": [
+            "boardgames",
+            "dnd",
+            "social",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Legend+Pub+Iasi",
-          "organizer": "Legend Pub"
+          "organizer": "Legend Pub",
+          "lat": 47.1568,
+          "lon": 27.5867
         },
         {
           "id": "is-006",
@@ -859,9 +1055,15 @@
           ],
           "duration": "3h (19:00-22:00)",
           "age": "18+",
-          "tags": ["boardgames", "social", "indoor"],
+          "tags": [
+            "boardgames",
+            "social",
+            "indoor"
+          ],
           "map_url": "https://maps.google.com/?q=Beer+Zone+Iasi",
-          "organizer": "Beer Zone"
+          "organizer": "Beer Zone",
+          "lat": 47.1573,
+          "lon": 27.5881
         },
         {
           "id": "is-007",
@@ -885,9 +1087,16 @@
           ],
           "duration": "5h (20:00-01:00)",
           "age": "21+",
-          "tags": ["bal", "elegant", "indoor", "cu-mâncare"],
+          "tags": [
+            "bal",
+            "elegant",
+            "indoor",
+            "cu-mâncare"
+          ],
           "map_url": "https://maps.google.com/?q=Restaurant+Trai+Iasi",
-          "organizer": "Restaurant Trai"
+          "organizer": "Restaurant Trai",
+          "lat": 47.1566,
+          "lon": 27.5878
         },
         {
           "id": "is-008",
@@ -911,9 +1120,16 @@
           ],
           "duration": "2h 30min (film + Q&A)",
           "age": "14+",
-          "tags": ["cinema", "art", "indoor", "q&a"],
+          "tags": [
+            "cinema",
+            "art",
+            "indoor",
+            "q&a"
+          ],
           "map_url": "https://maps.google.com/?q=Baia+Turceasca+Iasi",
-          "organizer": "Pelicula"
+          "organizer": "Pelicula",
+          "lat": 47.1585,
+          "lon": 27.5879
         }
       ]
     },
@@ -945,9 +1161,15 @@
           ],
           "duration": "4h (21:00-01:00)",
           "age": "21+",
-          "tags": ["party", "beach", "late-night"],
+          "tags": [
+            "party",
+            "beach",
+            "late-night"
+          ],
           "map_url": "https://maps.google.com/?q=Princess+Summer+Club+Mamaia",
-          "organizer": "Princess Summer Club"
+          "organizer": "Princess Summer Club",
+          "lat": 44.2167,
+          "lon": 28.6285
         },
         {
           "id": "ct-002",
@@ -971,9 +1193,17 @@
           ],
           "duration": "3 zile (vineri-duminică)",
           "age": "All ages",
-          "tags": ["festival", "clasic", "jazz", "outdoor", "locație-istorică"],
+          "tags": [
+            "festival",
+            "clasic",
+            "jazz",
+            "outdoor",
+            "locație-istorică"
+          ],
           "map_url": "https://maps.google.com/?q=Cazinoul+din+Constanta",
-          "organizer": "Primăria Constanța + Filarmonica"
+          "organizer": "Primăria Constanța + Filarmonica",
+          "lat": 44.1732,
+          "lon": 28.6612
         },
         {
           "id": "ct-003",
@@ -997,9 +1227,16 @@
           ],
           "duration": "4 zile (joi-duminică)",
           "age": "All ages",
-          "tags": ["sport", "outdoor", "free", "family-friendly"],
+          "tags": [
+            "sport",
+            "outdoor",
+            "free",
+            "family-friendly"
+          ],
           "map_url": "https://maps.google.com/?q=Marina+Limanu",
-          "organizer": "Federația Română de Sailing"
+          "organizer": "Federația Română de Sailing",
+          "lat": 43.8067,
+          "lon": 28.5183
         },
         {
           "id": "ct-004",
@@ -1023,9 +1260,16 @@
           ],
           "duration": "2h",
           "age": "All ages",
-          "tags": ["cinema", "outdoor", "family", "by-the-sea"],
+          "tags": [
+            "cinema",
+            "outdoor",
+            "family",
+            "by-the-sea"
+          ],
           "map_url": "https://maps.google.com/?q=Marina+Limanu",
-          "organizer": "Marina Limanu"
+          "organizer": "Marina Limanu",
+          "lat": 43.8067,
+          "lon": 28.5183
         },
         {
           "id": "ct-005",
@@ -1049,9 +1293,16 @@
           ],
           "duration": "2h 30min",
           "age": "12+",
-          "tags": ["teatru", "comedie", "indoor", "turneu"],
+          "tags": [
+            "teatru",
+            "comedie",
+            "indoor",
+            "turneu"
+          ],
           "map_url": "https://maps.google.com/?q=Teatrul+National+Constanta",
-          "organizer": "Teatrul Național Constanța"
+          "organizer": "Teatrul Național Constanța",
+          "lat": 44.1737,
+          "lon": 28.6557
         }
       ]
     }

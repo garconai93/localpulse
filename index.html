@@ -1104,6 +1104,23 @@ function catLabel(c) {
   return map[c] || c;
 }
 
+function buildMapsUrl(lat, lon, name) {
+  const ua = navigator.userAgent || '';
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes('Mac') && 'ontouchend' in document);
+  const isAndroid = /Android/i.test(ua);
+  const encoded = encodeURIComponent(name);
+  if (isIOS) {
+    // Apple Maps: deschide cu indicații (mod auto), numele locului ca pin
+    return `https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d&q=${encoded}`;
+  }
+  if (isAndroid) {
+    // Android intent: geo:lat,lon?q=lat,lon(name) - deschide Maps cu rută
+    return `geo:${lat},${lon}?q=${lat},${lon}(${encoded})`;
+  }
+  // Desktop / altele: Google Maps cu indicații (mod auto)
+  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
+}
+
 function vibeLabel(v) {
   return { intim: 'Intim', loud: 'Loud', casual: 'Casual', family: 'Family' }[v] || v;
 }
@@ -1220,9 +1237,9 @@ function render() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"></path></svg>
                 Bilete / Info
               </a>
-              <a class="event-action secondary" href="${e.map_url}" target="_blank" rel="noopener" data-action="map">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                Hartă
+              <a class="event-action secondary" href="${buildMapsUrl(e.lat, e.lon, e.venue)}" target="_blank" rel="noopener" data-action="map">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l20-9-9 20-2-9-9-2z"></path></svg>
+                Indicații
               </a>
             </div>
           </div>
