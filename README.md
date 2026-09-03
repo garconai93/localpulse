@@ -1,58 +1,54 @@
-# LocalPulse — ce se întâmplă diseară în orașul tău
+# LocalPulse
 
-Landing page pentru **LocalPulse** — aplicație care agregă evenimentele locale (concerte, expoziții, filme indie, târguri, teatru, sport) din 20+ surse într-un singur feed cronologic, cu filtre inteligente, Personal Radar și weekly digest.
+**LocalPulse** — agregator de evenimente mici din 5 orașe mari din România (București, Cluj-Napoca, Timișoara, Iași, Constanța).
 
-## Ce rezolvă
+În loc să cauți pe 12 surse (FB Events, IG, site-uri locale, Eventbrite), LocalPulse îți dă un singur feed curat, cu filtre pe dată, preț și vibe.
 
-În orașele mari, informația despre evenimentele culturale și alternative e fragmentată: Facebook Events, Instagram, Eventbrite, site-uri de cinema, panouri fizice, grupuri de Telegram. LocalPulse le pune pe toate într-un singur loc, cu focus pe „diseară" și „weekend", în 30 de secunde — nu 40 de minute de scroll.
+## Funcționalități MVP
 
-## Stack landing
+- ✅ **5 orașe** cu evenimente reale din septembrie 2026 (colectate din iabilet.ro, ticketstore.ro, clujtourism.ro, litoralpress.ro)
+- ✅ **Detectare automată a orașului** pe baza geolocației (haversine pe lat/lon)
+- ✅ **Dropdown manual** pentru schimbare oraș
+- ✅ **Filtre** — perioadă (azi / weekend / 7 zile / toate), preț (gratuit / plătit), vibe (intim / loud / casual / family)
+- ✅ **Salvare automată** a orașului ales (localStorage)
+- ✅ **Statistici live** — total, gratis, weekend, categorii
+- ✅ **Mobile-first responsive** cu dark mode premium
+- ✅ **Date reale** — 39 evenimente cu titlu, dată, oră, locație, preț, link bilete
 
-- **Single-file** `index.html` — fără build tools, fără framework
-- **Dark mode** cu accent ember/amber (warm city pulse)
-- **Mobile-first** responsive (320px → 1440px+)
-- **Semantic HTML5** + ARIA labels + skip link
-- **Vanilla CSS** cu design tokens (custom properties)
-- **Google Fonts** (Inter + Space Grotesk) — fără alte CDN-uri
-- **Zero JS deps** — doar IntersectionObserver pentru reveal-on-scroll
-- **Performance**: ~47KB total, single request, no images
+## Stack
 
-## Structură secțiuni
+- HTML/CSS/JS vanilla (zero build tools)
+- `events.json` static, încărcat via `fetch`
+- GitHub Pages hosting
 
-1. **Nav** sticky cu backdrop-blur
-2. **Hero** — titlu, lede, CTA, mockup telefon cu 4 evenimente simulate
-3. **Problem** — 3 dureri (scroll infinit, recomandări generice, grup WhatsApp haos)
-4. **Features** — 6 capabilități (feed agregat, filtre, Personal Radar, save+invite, ambasadori locali, anti-evenimente-fantomă)
-5. **How it works** — 3 pași
-6. **Sources trust strip** — 7+ surse etalate
-7. **Pricing** — 3 planuri (Free, Pro 19.99 lei/lună, Organizatori 29€/lună)
-8. **FAQ** — 6 întrebări (lansare, surse, preț, privacy, organizatori, platforme)
-9. **CTA banner** — formular de email pentru lista de așteptare
-10. **Footer** — brand, linkuri, legal
+## Demo
 
-## Cum se publică
+https://garconai93.github.io/localpulse/
 
-Deja live la:
-**https://garconai93.github.io/localpulse/**
+## Cum adaugi evenimente noi
 
-Prin GitHub Pages de pe branch `main`, root `/`.
+Editează `events.json` și adaugă obiect nou în array-ul `events` al orașului dorit:
 
-## Cum se dezvoltă ulterior
-
-```bash
-# local preview
-open index.html
-# sau:
-python3 -m http.server 8000
+```json
+{
+  "id": "buc-011",
+  "title": "Titlu eveniment",
+  "category": "concert",
+  "vibe": "loud",
+  "date": "2026-09-20",
+  "time": "21:00",
+  "venue": "Sala X",
+  "price": "paid",
+  "price_value": 100,
+  "source": "iabilet",
+  "url": "https://..."
+}
 ```
 
-Iterări viitoare:
-- Adăuga PWA manifest + service worker (offline)
-- Înlocuiește mockup-ul telefon cu screenshot-uri reale după beta
-- Adaugă testimoniale de la ambasadori locali
-- Integrează un formular de email real (ConvertKit / Buttondown / Resend)
+Categorii acceptate: `concert`, `teatru`, `standup`, `party`, `expo`, `cinema`, `festival`, `boardgames`, `workshop`, `family`, `conferinta`, `spectacol`, `sport`.
 
-## Licență
+Vibe-uri acceptate: `intim`, `loud`, `casual`, `family`.
 
-Conținut și design © 2026 LocalPulse. Toate drepturile rezervate.
-Codul este furnizat ca MVP demonstrativ.
+## License
+
+MIT

@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-09-03",
+  "cities": [
+    {
+      "slug": "bucuresti",
+      "name": "București",
+      "lat": 44.4268,
+      "lon": 26.1025,
+      "events": [
+        {"id": "buc-001", "title": "Viață conjugală (a)normală", "category": "teatru", "vibe": "intim", "date": "2026-09-03", "time": "20:00", "venue": "Teatrul Rosu", "price": "free", "price_value": 0, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-viata-conjugala-a-normala-129605/"},
+        {"id": "buc-002", "title": "Stand-up cu Cristi Popesco, Toma, Sorin Pârcălab & Ioana Luiza", "category": "standup", "vibe": "loud", "date": "2026-09-04", "time": "21:00", "venue": "Comics Club", "price": "paid", "price_value": 80, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-stand-up-cu-cristi-popesco-toma-sorin-parcalab-si-ioana-luiza-pe-terasa-comicsclub-130551/"},
+        {"id": "buc-003", "title": "Faust I & II de Johann Wolfgang von Goethe", "category": "teatru", "vibe": "intim", "date": "2026-09-05", "time": "19:30", "venue": "Teatrul Infinit", "price": "paid", "price_value": 90, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-faust-i-ii-de-johann-wolfgang-von-goethe-129573/"},
+        {"id": "buc-004", "title": "Rapunzel – teatru pentru copii", "category": "family", "vibe": "family", "date": "2026-09-05", "time": "11:00", "venue": "Hanu' lui Manuc", "price": "paid", "price_value": 35, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-rapunzel-teatru-pentru-copii-restaurant-hanu-lui-manuc-130773/"},
+        {"id": "buc-005", "title": "Tribute Queen – Freddie Mercury 80th Anniversary", "category": "concert", "vibe": "loud", "date": "2026-09-05", "time": "21:00", "venue": "Hard Rock Cafe", "price": "paid", "price_value": 120, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-tribute-queen-freddie-mercury-80th-anniversary-joseph-lee-jackson-127193/"},
+        {"id": "buc-006", "title": "Vecina de la 3", "category": "teatru", "vibe": "intim", "date": "2026-09-06", "time": "19:00", "venue": "Teatrul Rosu", "price": "paid", "price_value": 70, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-vecina-de-la-3-129602/"},
+        {"id": "buc-007", "title": "Mastering The Music Business 2026", "category": "conferinta", "vibe": "intim", "date": "2026-09-03", "time": "10:00", "venue": "Hotel Caro", "price": "paid", "price_value": 250, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-mastering-the-music-business-2026-119900/"},
+        {"id": "buc-008", "title": "Directia 5 – Dubla aniversare (35 ani)", "category": "concert", "vibe": "loud", "date": "2026-09-24", "time": "20:00", "venue": "Sala Palatului", "price": "paid", "price_value": 180, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-directia-5-dubla-aniversare-la-sala-palatului-35-de-ani-de-la-infiintare-si-35-de-ani-de-la-primul-album-127180/"},
+        {"id": "buc-009", "title": "Jack Savoretti la Arenele Romane", "category": "concert", "vibe": "casual", "date": "2026-09-29", "time": "20:00", "venue": "Arenele Romane", "price": "paid", "price_value": 220, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-jack-savoretti-la-arenele-romane-120446/"},
+        {"id": "buc-010", "title": "Stand-up cu Bordea, Bucălae, Gherghe & Teodora Nedelcu", "category": "standup", "vibe": "loud", "date": "2026-09-04", "time": "21:30", "venue": "The Fool Terasa", "price": "paid", "price_value": 100, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-the-fool-terasa-stand-up-comedy-cu-bordea-bucalae-gherghe-edi-vacariu-si-teodora-nedelcu-130733/"}
+      ]
+    },
+    {
+      "slug": "cluj-napoca",
+      "name": "Cluj-Napoca",
+      "lat": 46.7712,
+      "lon": 23.6236,
+      "events": [
+        {"id": "clj-001", "title": "Concert Green Onions Experience", "category": "concert", "vibe": "intim", "date": "2026-09-05", "time": "21:00", "venue": "Cotton Club", "price": "paid", "price_value": 70, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-cluj-napoca-concert-green-onions-experience-130362/"},
+        {"id": "clj-002", "title": "Quite Lucky 023 with Makoto @ Revive Garden", "category": "party", "vibe": "loud", "date": "2026-09-05", "time": "22:00", "venue": "Revive Garden", "price": "paid", "price_value": 90, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-quite-lucky-023-with-makoto-at-revive-garden-cluj-napoca-130118/"},
+        {"id": "clj-003", "title": "Atelier de paste – Adulți", "category": "workshop", "vibe": "family", "date": "2026-09-05", "time": "17:00", "venue": "Pasta Nostra", "price": "paid", "price_value": 120, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-cluj-napoca-atelier-de-paste-adulti-129977/"},
+        {"id": "clj-004", "title": "Bubble Show cu Stitch", "category": "family", "vibe": "family", "date": "2026-09-05", "time": "17:30", "venue": "MINA Museum", "price": "paid", "price_value": 45, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-bubble-show-cu-stitch-130474/"},
+        {"id": "clj-005", "title": "Tango Sans Lumière – Recital de pian și bandoneon", "category": "concert", "vibe": "intim", "date": "2026-09-05", "time": "20:00", "venue": "Doamna T", "price": "paid", "price_value": 80, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-cluj-napoca-tango-sans-lumiere-editia-a-iii-a-recital-de-pian-si-bandoneon-130613/"},
+        {"id": "clj-006", "title": "Noaptea albă la MINA Cluj", "category": "expo", "vibe": "casual", "date": "2026-09-05", "time": "19:00", "venue": "MINA Museum", "price": "paid", "price_value": 50, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-noaptea-alba-la-mina-cluj-130106/"},
+        {"id": "clj-007", "title": "Stand-up Mihai Bobonete – Metamorfoză (Turneu Național)", "category": "standup", "vibe": "loud", "date": "2026-09-13", "time": "20:00", "venue": "Cinema Teatru Florin Piersic", "price": "paid", "price_value": 110, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-in-cluj-napoca/"},
+        {"id": "clj-008", "title": "Jazz in the Park Competition 2026", "category": "festival", "vibe": "casual", "date": "2026-09-18", "time": "18:00", "venue": "Central Park", "price": "free", "price_value": 0, "source": "cluj4ever", "url": "https://cluj4ever.ro/"},
+        {"id": "clj-009", "title": "Expoziția \"Moartea pe piele\"", "category": "expo", "vibe": "intim", "date": "2026-09-09", "time": "11:00", "venue": "Galeria Annie Klaus", "price": "free", "price_value": 0, "source": "clujtourism", "url": "https://clujtourism.ro/evenimente-cluj/"}
+      ]
+    },
+    {
+      "slug": "timisoara",
+      "name": "Timișoara",
+      "lat": 45.7489,
+      "lon": 21.2087,
+      "events": [
+        {"id": "tm-001", "title": "Concert Răzvan Florescu Quartet", "category": "concert", "vibe": "intim", "date": "2026-09-11", "time": "20:00", "venue": "!t - a space for it", "price": "paid", "price_value": 60, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-concert-razvan-florescu-quartet-130282/"},
+        {"id": "tm-002", "title": "AnonimTM's Boat Party", "category": "party", "vibe": "loud", "date": "2026-09-12", "time": "22:00", "venue": "Nava Pelican", "price": "paid", "price_value": 80, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-anonimtm-s-boat-party-130816/"},
+        {"id": "tm-003", "title": "Concert Bucovina (Metal)", "category": "concert", "vibe": "loud", "date": "2026-09-12", "time": "21:00", "venue": "În Spatele Casei", "price": "paid", "price_value": 70, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-concert-bucovina-130103/"},
+        {"id": "tm-004", "title": "441 presents | Praslea w/ Macarie, Varga, Zaha", "category": "party", "vibe": "loud", "date": "2026-09-12", "time": "23:00", "venue": "D'Arc", "price": "paid", "price_value": 90, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-441-presents-praslea-w-macarie-varga-zaha-nistor-david-130831/"},
+        {"id": "tm-005", "title": "Alexandra Căpitănescu și Lavina (Pop Rock)", "category": "concert", "vibe": "casual", "date": "2026-09-15", "time": "21:00", "venue": "În Spatele Casei by FITT", "price": "paid", "price_value": 65, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-alexandra-capitanescu-si-lavina-128192/"},
+        {"id": "tm-006", "title": "FuN Timișoara #Vol15 (Conferință)", "category": "conferinta", "vibe": "intim", "date": "2026-09-16", "time": "10:00", "venue": "Faber Timișoara", "price": "free", "price_value": 0, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-fun-timisoara-vol15-130286/"},
+        {"id": "tm-007", "title": "UBU – 17 septembrie (Teatru)", "category": "teatru", "vibe": "intim", "date": "2026-09-17", "time": "20:00", "venue": "Teatrul Basca", "price": "paid", "price_value": 50, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-timisoara-ubu-17-septembrie-130319/"}
+      ]
+    },
+    {
+      "slug": "iasi",
+      "name": "Iași",
+      "lat": 47.1585,
+      "lon": 27.6014,
+      "events": [
+        {"id": "is-001", "title": "Stand-up cu Mădălina Mihai, Teo Ioniță și Florentin Păune", "category": "standup", "vibe": "loud", "date": "2026-09-05", "time": "21:00", "venue": "La Baza", "price": "paid", "price_value": 80, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-stand-up-comedy-cu-madalina-mihai-teo-ionita-si-florentin-paune-130296/"},
+        {"id": "is-002", "title": "Bucurie în prag de toamnă (Populară)", "category": "concert", "vibe": "family", "date": "2026-09-03", "time": "19:00", "venue": "Casa de Cultura a Studentilor", "price": "free", "price_value": 0, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-bucurie-in-prag-de-toamna-130354/"},
+        {"id": "is-003", "title": "Mircea Baniciu & Band (Folk)", "category": "concert", "vibe": "intim", "date": "2026-09-04", "time": "21:00", "venue": "Berarium Tankeria Ursus", "price": "paid", "price_value": 75, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-mircea-baniciu-band-129303/"},
+        {"id": "is-004", "title": "Concert Azur (Muzică lăutărească)", "category": "concert", "vibe": "loud", "date": "2026-09-06", "time": "20:00", "venue": "Berarium Tankeria Ursus", "price": "paid", "price_value": 60, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-concert-azur-125480/"},
+        {"id": "is-005", "title": "Dungeons & Dragons Event Haven", "category": "boardgames", "vibe": "casual", "date": "2026-09-07", "time": "18:00", "venue": "Legend Pub", "price": "paid", "price_value": 40, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-dungeons-and-dragons-event-haven-130605/"},
+        {"id": "is-006", "title": "Seara de Catan (Boardgames)", "category": "boardgames", "vibe": "casual", "date": "2026-09-09", "time": "19:00", "venue": "Beer Zone", "price": "paid", "price_value": 30, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-seara-de-catan-130599/"},
+        {"id": "is-007", "title": "Bal Mascat – La Belle Époque", "category": "spectacol", "vibe": "intim", "date": "2026-09-12", "time": "20:00", "venue": "Restaurant Trai", "price": "paid", "price_value": 150, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-bal-mascat-la-belle-epoque-130846/"},
+        {"id": "is-008", "title": "Pelicula Art Cinema – Septembrie", "category": "cinema", "vibe": "intim", "date": "2026-09-15", "time": "20:00", "venue": "Baia Turcească", "price": "paid", "price_value": 35, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-iasi-pelicula-art-cinema-septembrie-130387/"}
+      ]
+    },
+    {
+      "slug": "constanta",
+      "name": "Constanța",
+      "lat": 44.1598,
+      "lon": 28.6348,
+      "events": [
+        {"id": "ct-001", "title": "Turneu Concerte Princess Summer Club Mamaia", "category": "concert", "vibe": "loud", "date": "2026-09-05", "time": "21:00", "venue": "Princess Summer Club, Mamaia", "price": "paid", "price_value": 100, "source": "iabilet", "url": "https://m.iabilet.ro/bilete-in-constanta/"},
+        {"id": "ct-002", "title": "Cazino Music Festival – Ediția I", "category": "festival", "vibe": "casual", "date": "2026-09-12", "time": "19:00", "venue": "Cazinoul din Constanța", "price": "paid", "price_value": 130, "source": "litoralpress", "url": "https://www.litoralpress.ro/stiri/septembrie-exploziv-la-marea-neagra-vacanta-de-vara-se-prelungeste-in-extrasezon-cu-evenimente-de-exceptie/"},
+        {"id": "ct-003", "title": "Campionatul Național ORC 2026 (Sailing)", "category": "sport", "vibe": "casual", "date": "2026-09-03", "time": "10:00", "venue": "Marina Limanu", "price": "free", "price_value": 0, "source": "litoralpress", "url": "https://www.litoralpress.ro/stiri/septembrie-exploziv-la-marea-neagra-vacanta-de-vara-se-prelungeste-in-extrasezon-cu-evenimente-de-exceptie/"},
+        {"id": "ct-004", "title": "Seri de film sub stele (Marina Limanu)", "category": "cinema", "vibe": "family", "date": "2026-09-05", "time": "21:30", "venue": "Marina Limanu", "price": "paid", "price_value": 25, "source": "litoralpress", "url": "https://www.litoralpress.ro/stiri/septembrie-exploziv-la-marea-neagra-vacanta-de-vara-se-prelungeste-in-extrasezon-cu-evenimente-de-exceptie/"},
+        {"id": "ct-005", "title": "O Scrisoare Pierdută – Turneu", "category": "teatru", "vibe": "intim", "date": "2026-09-15", "time": "20:00", "venue": "Teatrul Național Constanța", "price": "paid", "price_value": 60, "source": "ticketstore", "url": "https://ticketstore.ro/ro/spectacole/114/spectacole-litoral-2026"}
+      ]
+    }
+  ]
+}
