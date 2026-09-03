@@ -326,6 +326,138 @@
           "organizer": "The Fool",
           "lat": 44.4312,
           "lon": 26.1018
+        },
+        {
+          "id": "buc-011",
+          "title": "Despărțiți din dragoste",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-04",
+          "time": "20:00",
+          "venue": "Teatrul Rosu",
+          "address": "Str. Gabroveni 14, București",
+          "price": "paid",
+          "price_value": 70,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/despartiti-din-dragoste/",
+          "lat": 44.4317,
+          "lon": 26.0994,
+          "description": "Comedie dulce-amară despre un cuplu care decide să divorțeze dar nu reușește să se despartă nici măcar de amintiri. 4 actori, 1h 30min fără pauză, sala intimă cu 80 locuri.",
+          "highlights": [
+            "comedie contemporană românească",
+            "distribuție tânără",
+            "1h 30min fără pauză",
+            "discuție cu echipa după spectacol"
+          ],
+          "duration": "1h 30min",
+          "age": "14+",
+          "tags": [
+            "teatru",
+            "comedie",
+            "indoor",
+            "românesc"
+          ],
+          "map_url": "https://maps.google.com/?q=Teatrul+Rosu+Bucuresti",
+          "organizer": "Teatrul Rosu"
+        },
+        {
+          "id": "buc-012",
+          "title": "Capra cu trei iezi",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-05",
+          "time": "11:00",
+          "venue": "Teatrul Rosu",
+          "address": "Str. Gabroveni 14, București",
+          "price": "paid",
+          "price_value": 35,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/capra-cu-trei-iezi-dbsya/",
+          "lat": 44.4317,
+          "lon": 26.0994,
+          "description": "Povestea Caprei cu trei iezi într-o montare modernă, interactivă, cu actori costumați și decor instagramabil. Pentru copii 3-10 ani și părinți care încă mai cred în magie.",
+          "highlights": [
+            "spectacol interactiv pentru copii 3-10 ani",
+            "actori costumați + decor instagramabil",
+            "1h + 15min Q&A cu personajele",
+            "loc în sală în ordinea sosirii"
+          ],
+          "duration": "1h 15min",
+          "age": "All ages",
+          "tags": [
+            "copii",
+            "indoor",
+            "interactive",
+            "weekend"
+          ],
+          "map_url": "https://maps.google.com/?q=Teatrul+Rosu+Bucuresti",
+          "organizer": "Teatrul Rosu"
+        },
+        {
+          "id": "buc-013",
+          "title": "COMA LIGHT @ Quantic",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-10",
+          "time": "21:00",
+          "venue": "Quantic",
+          "address": "Str. Mihai Eminescu 89, București",
+          "price": "paid",
+          "price_value": 85,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/coma-light-quantic/",
+          "lat": 44.4401,
+          "lon": 26.0971,
+          "description": "Coma Light — proiect electronic al unui DJ cunoscut din undergroundul european. Set live cu sunet imersiv, instalații luminoase și after-party până la 04:00.",
+          "highlights": [
+            "DJ set live electronic",
+            "after-party până la 04:00",
+            "Quantic - club iconic underground",
+            "happy hour 20-21"
+          ],
+          "duration": "5h (21:00-02:00)",
+          "age": "18+",
+          "tags": [
+            "electronic",
+            "party",
+            "late-night",
+            "club"
+          ],
+          "map_url": "https://maps.google.com/?q=Quantic+Bucuresti",
+          "organizer": "Quantic"
+        },
+        {
+          "id": "buc-014",
+          "title": "Isteria I: Day Party.Pool Party. Adults Only.",
+          "category": "party",
+          "vibe": "loud",
+          "date": "2026-09-12",
+          "time": "14:00",
+          "venue": "București (locație secretă)",
+          "address": "Locația se dezvăluie cu 24h înainte",
+          "price": "paid",
+          "price_value": 150,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/isteria-i-day-partypool-party-adults-only/",
+          "lat": 44.4268,
+          "lon": 26.1025,
+          "description": "Day party + pool party exclusivist pentru adulți. Dress code: alb. DJs locali, bar cu cocktailuri artizanale, zonă de relaxare cu hamace. Ediția I, o singură zi.",
+          "highlights": [
+            "day party 14:00-23:00",
+            "pool party adults only",
+            "dress code: alb",
+            "DJs + cocktailuri artizanale"
+          ],
+          "duration": "9h (14:00-23:00)",
+          "age": "21+",
+          "tags": [
+            "party",
+            "pool",
+            "daytime",
+            "exclusive"
+          ],
+          "map_url": "https://maps.google.com/?q=Bucuresti",
+          "organizer": "Isteria Events"
         }
       ]
     },
@@ -629,6 +761,39 @@
           "organizer": "Galeria Annie Klaus",
           "lat": 46.7703,
           "lon": 23.5904
+        },
+        {
+          "id": "clj-010",
+          "title": "Jazzapella - Concert jazz a capella",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-10-13",
+          "time": "20:00",
+          "venue": "Sala Auditorium Maximum",
+          "address": "Str. Emmanuel de Martonne 1, Cluj-Napoca",
+          "price": "paid",
+          "price_value": 80,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/jazzapella-concert-jazz-a-capella/",
+          "lat": 46.7708,
+          "lon": 23.5904,
+          "description": "Concert jazz a cappella cu Jazzapella — 8 voci care recreează aranjamente clasice și moderne fără niciun instrument. Program: Bach, Mozart reluate în stil vocal + compoziții originale.",
+          "highlights": [
+            "8 voci, zero instrumente",
+            "rearanjamente Bach & Mozart",
+            "1h 45min fără pauză",
+            "Sala Auditorium Maximum - acustică perfectă"
+          ],
+          "duration": "1h 45min",
+          "age": "All ages",
+          "tags": [
+            "jazz",
+            "a-cappella",
+            "indoor",
+            "vocal"
+          ],
+          "map_url": "https://maps.google.com/?q=Sala+Auditorium+Maximum+Cluj+Napoca",
+          "organizer": "Jazzapella"
         }
       ]
     },
@@ -1130,6 +1295,38 @@
           "organizer": "Pelicula",
           "lat": 47.1585,
           "lon": 27.5879
+        },
+        {
+          "id": "is-009",
+          "title": "Turneul Național: Clasic la puterea a treia – Violoncellissimo",
+          "category": "concert",
+          "vibe": "intim",
+          "date": "2026-09-28",
+          "time": "19:00",
+          "venue": "Ateneul National Iasi",
+          "address": "Str. Ion Creangă 14, Iași",
+          "price": "paid",
+          "price_value": 70,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/",
+          "lat": 47.1565,
+          "lon": 27.5876,
+          "description": "Turneu național cu 3 violonceliști care interpretează Bach, Vivaldi și Pärt. Programul celebrează puterea și diversitatea sunetului de violoncel în trei ipostaze diferite.",
+          "highlights": [
+            "3 violonceliști, 3 viziuni",
+            "Bach, Vivaldi, Pärt",
+            "turneu național - unică reprezentație Iași",
+            "1h 30min fără pauză"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "clasică",
+            "turneu",
+            "indoor"
+          ],
+          "map_url": "https://maps.google.com/?q=Ateneul+National+Iasi",
+          "organizer": "Violoncellissimo"
         }
       ]
     },
@@ -1540,6 +1737,39 @@
           ],
           "map_url": "https://maps.google.com/?q=Centrul+Cultural+Ion+Besoiu+Sibiu",
           "organizer": "Guitar Meeting"
+        },
+        {
+          "id": "sb-008",
+          "title": "Trei pisici mișto și un pianist",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-30",
+          "time": "18:00",
+          "venue": "Centrul Cultural Ion Besoiu",
+          "address": "Piața Mare 6, Sibiu",
+          "price": "paid",
+          "price_value": 40,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/trei-pisici-misto-si-un-pianist/",
+          "lat": 45.7894,
+          "lon": 24.1505,
+          "description": "Spectacol muzical interactiv pentru copii — 3 pisici (3 actrițe) și un pianist (live la pian) interpretează cântece pentru copii 4-10 ani. Publicul participă la găsirea pisicilor pierdute prin oraș.",
+          "highlights": [
+            "spectacol interactiv pentru copii 4-10 ani",
+            "pianist live pe scenă",
+            "1h + Q&A cu personajele",
+            "spațiu de joacă la final"
+          ],
+          "duration": "1h",
+          "age": "4-10 ani",
+          "tags": [
+            "copii",
+            "interactive",
+            "indoor",
+            "muzical"
+          ],
+          "map_url": "https://maps.google.com/?q=Centrul+Cultural+Ion+Besoiu+Sibiu",
+          "organizer": "Teatrul pentru Copii Sibiu"
         }
       ]
     },
@@ -1839,8 +2069,41 @@
           ],
           "map_url": "https://maps.google.com/?q=Enoteca+Social+Bar+Craiova",
           "organizer": "Enoteca Talks"
+        },
+        {
+          "id": "cr-010",
+          "title": "FC Voluntari - FC Argeș (SuperLiga)",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-07",
+          "time": "21:00",
+          "venue": "Sala Polivalenta",
+          "address": "Str. Bucovăț 5, Craiova",
+          "price": "paid",
+          "price_value": 30,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/",
+          "lat": 44.327,
+          "lon": 23.7926,
+          "description": "Meci de SuperLiga în deplasare — FC Voluntari vine la Craiova pentru o confruntare importantă. Atmosferă de stadion, tribune pline, food court în zona VIP.",
+          "highlights": [
+            "meci SuperLiga",
+            "atmosferă stadion plin",
+            "tribune acoperite",
+            "food & drink la fața locului"
+          ],
+          "duration": "1h 45min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "fotbal",
+            "superliga"
+          ],
+          "map_url": "https://maps.google.com/?q=Sala+Polivalenta+Craiova",
+          "organizer": "SuperLiga Romania"
         }
       ]
     }
-  ]
+  ],
+  "last_scraped": "2026-09-03"
 }

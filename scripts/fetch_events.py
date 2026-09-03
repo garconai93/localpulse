@@ -258,6 +258,165 @@ def scrape_city(city_slug, city_name, existing_ids, days=30):
     return events
 
 
+
+def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
+    """Scrape bilete.ro/calendar/ for events across all cities.
+    Bilete.ro nu filtreaza pe oras in URL, deci luam calendarul complet."""
+    url = "https://www.bilete.ro/calendar/"
+    print(f"[bilete.ro] Fetching calendar {url}...", file=sys.stderr)
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"[bilete.ro] ERROR: {e}", file=sys.stderr)
+        return []
+
+    soup = BeautifulSoup(r.text, 'lxml')
+    events = []
+    today = time.strftime("%Y-%m-%d")
+
+    # Calendar links: /calendar/septembrie-2026/05/ for each day
+    day_links = soup.find_all('a', href=re.compile(r'/calendar/[^/]+/\d+/'))
+
+    for link in day_links:
+        href = link.get('href', '')
+        date_match = re.search(r'/(\d+)/$', href)
+        if not date_match:
+            continue
+        day_num = int(date_match.group(1))
+        # Get month from surrounding context (e.g., "Septembrie 2026")
+        parent = link.parent
+        month_year_text = ''
+        for sibling in parent.find_previous_siblings():
+            if '2026' in sibling.get_text():
+                month_year_text = sibling.get_text()
+                break
+        # Simple month detection (will be improved if needed)
+        if 'Septembrie' in month_year_text or not month_year_text:
+            month_num = 9
+        elif 'Octombrie' in month_year_text:
+            month_num = 10
+        else:
+            continue  # skip non-relevant months
+
+        iso_date = f"2026-{month_num:02d}-{day_num:02d}"
+        if iso_date < today:
+            continue
+
+        # Fetch the day page for actual events
+        try:
+            day_url = urljoin('https://www.bilete.ro', href)
+            day_resp = requests.get(day_url, headers=HEADERS, timeout=20)
+            day_resp.raise_for_status()
+            day_soup = BeautifulSoup(day_resp.text, 'lxml')
+        except Exception as e:
+            continue
+
+        # Find event links on day page (they're in a list)
+        event_links = day_soup.find_all('a', href=re.compile(r'/(?!calendar|categorii|info)[a-z0-9-]+/?$'))
+
+        for ev_link in event_links:
+            try:
+                ev_href = ev_link.get('href', '')
+                if not ev_href or ev_href.startswith('#') or '/mvc/' in ev_href:
+                    continue
+
+                # Get event title
+                title_el = ev_link.find(['h3', 'h2', 'span'])
+                title = title_el.get_text(strip=True) if title_el else ev_link.get_text(strip=True).split('\n')[0]
+                if not title or len(title) < 5:
+                    continue
+
+                # Get city from text near title (usually "Bucuresti" appears after)
+                text_content = ev_link.get_text(' ', strip=True)
+                # City detection
+                detected_city = None
+                for slug, name in CITIES.items():
+                    if name in text_content or name.lower() in text_content.lower():
+                        detected_city = (slug, name)
+                        break
+                if not detected_city:
+                    continue  # skip if not in our 7 cities
+
+                # Unique ID
+                slug_part = re.sub(r'[^a-z0-9-]', '', ev_href)[:30]
+                full_id = f"{detected_city[0][:3]}-br-{slug_part}-{hash(ev_href) % 10000}"
+                if full_id in existing_ids:
+                    continue
+
+                # Time — try to extract from event page later, default 20:00
+                event_time = "20:00"
+
+                # Price — default paid 60 lei unless we find 'GRATUIT'
+                is_free = 'GRATUIT' in text_content.upper()
+
+                # Venue — usually in title's parent or surrounding
+                venue_match = re.search(r'@\s*([^,]+(?:,\s*\w+)*)', text_content)
+                venue = venue_match.group(1).strip() if venue_match else f"loc în {detected_city[1]}"
+
+                full_url = urljoin('https://www.bilete.ro', ev_href)
+
+                # Category detection from title keywords
+                title_lower = title.lower()
+                if any(k in title_lower for k in ['teatru', 'spectacol', 'comedie', 'shakespeare', 'willy']):
+                    category = 'teatru'
+                elif any(k in title_lower for k in ['concert', 'coma', 'jazz', 'rock', 'metal', 'party']):
+                    category = 'concert'
+                elif any(k in title_lower for k in ['copii', 'capra', 'ursul', 'pestelui', 'pisici']):
+                    category = 'family'
+                elif any(k in title_lower for k in ['fotbal', 'fc ', 'meci', 'liga']):
+                    category = 'sport'
+                else:
+                    category = 'concert'
+
+                vibe_map = {
+                    'concert': 'loud', 'teatru': 'intim', 'family': 'family',
+                    'sport': 'casual'
+                }
+
+                event = {
+                    "id": full_id,
+                    "title": title[:120],
+                    "category": category,
+                    "vibe": vibe_map.get(category, 'casual'),
+                    "date": iso_date,
+                    "time": event_time,
+                    "venue": venue,
+                    "address": venue,
+                    "price": "free" if is_free else "paid",
+                    "price_value": 0 if is_free else 60,
+                    "source": "bilete.ro",
+                    "url": full_url,
+                    "description": f"{title} - eveniment la {venue} din {detected_city[1]}, conform calendarului bilete.ro.",
+                    "highlights": [f"data: {iso_date}", f"loc: {venue}", f"categorie: {category}"],
+                    "duration": "1h 30min",
+                    "age": "All ages",
+                    "tags": [category, "bilete-ro"],
+                    "map_url": f"https://maps.google.com/?q={venue}".replace(' ', '+'),
+                    "organizer": "bilete.ro",
+                    "scraped_at": today,
+                }
+                events.append(event)
+                existing_ids.add(full_id)
+
+            except Exception as e:
+                continue
+
+    # Group by city
+    by_city = {}
+    for ev in events:
+        # Re-detect city from event object (we already filtered to our 7)
+        for slug, name in CITIES.items():
+            if name in ev.get('venue', '') or name in ev.get('description', ''):
+                if slug not in by_city:
+                    by_city[slug] = []
+                by_city[slug].append(ev)
+                break
+
+    print(f"[bilete.ro] Found {len(events)} new events", file=sys.stderr)
+    return by_city
+
+
 def main():
     days = 30
     if '--days' in sys.argv:
@@ -278,13 +437,24 @@ def main():
 
     print(f"Existing IDs in events.json: {len(existing_ids)}", file=sys.stderr)
 
-    # Scrape each city
+    # Scrape iabilet.ro per city
     all_new = []
     for slug, name in CITIES.items():
         new_events = scrape_city(slug, name, existing_ids, days)
         if new_events:
             all_new.append({"slug": slug, "name": name, "events": new_events})
         time.sleep(2)  # polite delay between cities
+
+    # Scrape bilete.ro (covers all cities in one go)
+    bilete_by_city = scrape_bilete_ro(None, None, existing_ids, days)
+    if bilete_by_city:
+        for slug, events in bilete_by_city.items():
+            existing_entry = next((c for c in all_new if c['slug'] == slug), None)
+            if existing_entry:
+                existing_entry['events'].extend(events)
+            else:
+                all_new.append({"slug": slug, "name": CITIES[slug], "events": events})
+        time.sleep(2)
 
     # Output: JSON to stdout (merge script reads this)
     print(json.dumps(all_new, ensure_ascii=False))
