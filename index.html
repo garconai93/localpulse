@@ -1,246 +1,765 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="ro" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#0b0d12">
+<meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
 <title>LocalPulse — ce se întâmplă în orașul tău</title>
-<meta name="description" content="Agregator de evenimente mici din 5 orașe mari din România: filme indie, târguri, expoziții, concerte, workshop-uri, board games. Feed unic, filtre inteligente, weekly digest.">
+<meta name="description" content="Agregator de evenimente mici din 5 orașe mari din România. Feed unic, filtre inteligente, design 2026.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+
 <style>
-  :root {
-    --bg: #0b0d12;
-    --bg-elev: #131722;
-    --bg-card: #1a1f2e;
-    --bg-card-hover: #232a3d;
-    --border: #2a3145;
-    --border-strong: #3a4561;
-    --text: #f4f5f7;
-    --text-dim: #9aa3b8;
-    --text-faint: #6b7488;
-    --accent: #ff5e5b;
-    --accent-glow: rgba(255, 94, 91, 0.18);
-    --accent-2: #5b8cff;
-    --success: #3ecf8e;
-    --warning: #f5b14c;
-    --shadow-soft: 0 2px 12px rgba(0,0,0,0.4);
-    --shadow-pop: 0 8px 32px rgba(0,0,0,0.6);
-    --radius: 14px;
-    --radius-sm: 8px;
-  }
-  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
-  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-  body { min-height: 100vh; padding-bottom: env(safe-area-inset-bottom); background: radial-gradient(1200px 600px at 80% -20%, rgba(255,94,91,0.08), transparent 60%), radial-gradient(800px 500px at 0% 100%, rgba(91,140,255,0.06), transparent 60%), var(--bg); }
+/* ============================================
+   THEME TOKENS
+============================================ */
+:root {
+  /* Dark (default) */
+  --bg: #0a0a0f;
+  --bg-2: #0f1018;
+  --bg-elev: rgba(20, 22, 32, 0.6);
+  --bg-card: #15171f;
+  --bg-card-hover: #1c1f2a;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+  --text: #f5f5f7;
+  --text-dim: #a8acb8;
+  --text-faint: #6b7080;
+  --accent: #ff5e5b;
+  --accent-2: #5b8cff;
+  --accent-soft: rgba(255, 94, 91, 0.12);
+  --success: #3ecf8e;
+  --warning: #f5b14c;
+  --gradient-1: radial-gradient(900px 500px at 85% -10%, rgba(255, 94, 91, 0.15), transparent 60%);
+  --gradient-2: radial-gradient(700px 400px at -5% 30%, rgba(91, 140, 255, 0.10), transparent 60%);
+  --shadow-pop: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.3);
+  --backdrop: blur(20px) saturate(180%);
+}
 
-  /* HERO */
-  .hero { padding: 56px 24px 28px; max-width: 1200px; margin: 0 auto; }
-  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
-  .brand-dot { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--accent) 0%, #ff8a5b 100%); box-shadow: 0 0 24px var(--accent-glow); display: grid; place-items: center; color: #fff; font-weight: 800; font-size: 18px; }
-  .brand-name { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
-  .brand-name span { color: var(--accent); }
+[data-theme="light"] {
+  --bg: #fafafa;
+  --bg-2: #ffffff;
+  --bg-elev: rgba(255, 255, 255, 0.7);
+  --bg-card: #ffffff;
+  --bg-card-hover: #f7f7f9;
+  --border: rgba(0, 0, 0, 0.06);
+  --border-strong: rgba(0, 0, 0, 0.12);
+  --text: #0a0a0f;
+  --text-dim: #5a5f6e;
+  --text-faint: #9aa0b0;
+  --accent: #ff3b30;
+  --accent-2: #0066ff;
+  --accent-soft: rgba(255, 59, 48, 0.08);
+  --success: #00875a;
+  --warning: #d97706;
+  --gradient-1: radial-gradient(900px 500px at 85% -10%, rgba(255, 59, 48, 0.08), transparent 60%);
+  --gradient-2: radial-gradient(700px 400px at -5% 30%, rgba(0, 102, 255, 0.06), transparent 60%);
+  --shadow-pop: 0 12px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(0, 0, 0, 0.04);
+  --shadow-soft: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --backdrop: blur(20px) saturate(180%);
+}
 
-  h1 { font-size: clamp(34px, 6vw, 56px); font-weight: 800; letter-spacing: -0.035em; line-height: 1.05; margin: 0 0 16px; }
-  h1 .accent { background: linear-gradient(135deg, var(--accent) 0%, #ff8a5b 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .lead { font-size: clamp(15px, 2.4vw, 18px); color: var(--text-dim); max-width: 620px; line-height: 1.55; margin: 0 0 32px; }
+/* ============================================
+   RESET + BASE
+============================================ */
+*, *::before, *::after { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+  background-image: var(--gradient-1), var(--gradient-2);
+  background-attachment: fixed;
+}
+button { font-family: inherit; }
+a { color: inherit; }
 
-  /* CITY PICKER */
-  .city-picker { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 32px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between; }
-  .city-label { font-size: 13px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
-  .city-select { display: flex; align-items: center; gap: 12px; }
-  select.city { appearance: none; -webkit-appearance: none; background: var(--bg-card); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 38px 12px 14px; font-size: 16px; font-weight: 600; cursor: pointer; min-width: 200px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path fill='%239aa3b8' d='M6 8L2 4h8z'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
-  select.city:hover { border-color: var(--border-strong); background-color: var(--bg-card-hover); }
-  select.city:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
-  .geo-btn { background: transparent; color: var(--accent-2); border: 1px solid var(--accent-2); border-radius: var(--radius-sm); padding: 11px 16px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; transition: all 0.15s; }
-  .geo-btn:hover { background: rgba(91,140,255,0.08); }
-  .geo-btn.detected { background: var(--success); border-color: var(--success); color: #0b0d12; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
 
-  /* STATS */
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 28px; }
-  .stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px 16px; }
-  .stat-num { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
-  .stat-num.accent { color: var(--accent); }
-  .stat-num.success { color: var(--success); }
-  .stat-label { font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px; }
+/* ============================================
+   HEADER (sticky glass)
+============================================ */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: var(--backdrop);
+  -webkit-backdrop-filter: var(--backdrop);
+  background: var(--bg-elev);
+  border-bottom: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+.header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-mark {
+  width: 32px; height: 32px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--accent), #ff8a5b);
+  display: grid; place-items: center;
+  font-weight: 800; color: #fff;
+  font-size: 16px;
+  box-shadow: 0 4px 12px var(--accent-soft);
+}
+.brand-name { font-size: 17px; font-weight: 700; letter-spacing: -0.02em; }
+.brand-name span { color: var(--accent); }
 
-  /* FILTERS */
-  .filters { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-  .filter-chip { background: var(--bg-card); color: var(--text-dim); border: 1px solid var(--border); border-radius: 999px; padding: 8px 14px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
-  .filter-chip:hover { border-color: var(--border-strong); color: var(--text); }
-  .filter-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .filter-chip.vibe-intim.active { background: var(--accent-2); border-color: var(--accent-2); }
-  .filter-chip.vibe-loud.active { background: var(--accent); border-color: var(--accent); }
-  .filter-chip.vibe-family.active { background: var(--success); border-color: var(--success); color: #0b0d12; }
-  .filter-chip.vibe-casual.active { background: var(--warning); border-color: var(--warning); color: #0b0d12; }
-  .filter-divider { width: 1px; height: 22px; background: var(--border); margin: 0 4px; }
-  .filter-label { font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; padding: 0 6px; }
+.header-actions { display: flex; align-items: center; gap: 8px; }
 
-  /* FEED */
-  .feed { max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
-  .feed-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 20px; gap: 16px; flex-wrap: wrap; }
-  .feed-title { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
-  .feed-count { color: var(--text-dim); font-size: 14px; }
+.theme-toggle {
+  width: 38px; height: 38px;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  cursor: pointer;
+  display: grid; place-items: center;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.theme-toggle:hover { background: var(--bg-card-hover); border-color: var(--border-strong); transform: scale(1.05); }
+.theme-toggle:active { transform: scale(0.95); }
+.theme-toggle svg { width: 18px; height: 18px; transition: all 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6); }
+[data-theme="dark"] .theme-toggle .sun { opacity: 0; transform: rotate(-90deg) scale(0); position: absolute; }
+[data-theme="dark"] .theme-toggle .moon { opacity: 1; transform: rotate(0) scale(1); }
+[data-theme="light"] .theme-toggle .sun { opacity: 1; transform: rotate(0) scale(1); }
+[data-theme="light"] .theme-toggle .moon { opacity: 0; transform: rotate(90deg) scale(0); position: absolute; }
 
-  .empty { background: var(--bg-card); border: 1px dashed var(--border); border-radius: var(--radius); padding: 48px 24px; text-align: center; color: var(--text-dim); }
-  .empty-icon { font-size: 36px; margin-bottom: 8px; }
+/* ============================================
+   HERO
+============================================ */
+.hero {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 24px 40px;
+}
+@media (max-width: 640px) { .hero { padding: 48px 20px 32px; } }
 
-  .events { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 6px 12px 6px 8px;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 24px;
+  border: 1px solid var(--border);
+}
+.eyebrow-dot {
+  width: 18px; height: 18px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: inline-grid; place-items: center;
+  color: #fff; font-size: 10px;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--accent-soft); }
+  50% { box-shadow: 0 0 0 6px transparent; }
+}
 
-  .event { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; transition: all 0.2s ease; display: flex; flex-direction: column; gap: 12px; position: relative; overflow: hidden; }
-  .event::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), #ff8a5b); opacity: 0; transition: opacity 0.2s; }
-  .event:hover { background: var(--bg-card-hover); border-color: var(--border-strong); transform: translateY(-2px); box-shadow: var(--shadow-pop); }
-  .event:hover::before { opacity: 1; }
+h1 {
+  font-size: clamp(40px, 7vw, 72px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.02;
+  margin: 0 0 20px;
+  max-width: 14ch;
+}
+h1 .accent {
+  background: linear-gradient(135deg, var(--accent) 0%, #ff8a5b 50%, var(--accent-2) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.lead {
+  font-size: clamp(15px, 2.2vw, 18px);
+  color: var(--text-dim);
+  max-width: 580px;
+  line-height: 1.55;
+  margin: 0 0 36px;
+}
 
-  .event-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-  .event-cat { display: inline-block; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; color: var(--accent); padding: 4px 8px; background: rgba(255,94,91,0.12); border-radius: 4px; }
-  .event-cat.cat-concert { color: var(--accent); background: rgba(255,94,91,0.12); }
-  .event-cat.cat-teatru { color: #c084fc; background: rgba(192,132,252,0.12); }
-  .event-cat.cat-standup { color: var(--warning); background: rgba(245,177,76,0.12); }
-  .event-cat.cat-party { color: #ec4899; background: rgba(236,72,153,0.12); }
-  .event-cat.cat-expo { color: var(--accent-2); background: rgba(91,140,255,0.12); }
-  .event-cat.cat-cinema { color: var(--accent-2); background: rgba(91,140,255,0.12); }
-  .event-cat.cat-festival { color: var(--success); background: rgba(62,207,142,0.12); }
-  .event-cat.cat-boardgames { color: #a78bfa; background: rgba(167,139,250,0.12); }
-  .event-cat.cat-workshop { color: var(--success); background: rgba(62,207,142,0.12); }
-  .event-cat.cat-family { color: var(--success); background: rgba(62,207,142,0.12); }
-  .event-cat.cat-conferinta { color: #94a3b8; background: rgba(148,163,184,0.12); }
-  .event-cat.cat-spectacol { color: #c084fc; background: rgba(192,132,252,0.12); }
-  .event-cat.cat-sport { color: var(--warning); background: rgba(245,177,76,0.12); }
+/* ============================================
+   CITY PICKER (glass card)
+============================================ */
+.controls {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-soft);
+}
+.city-tabs { display: flex; gap: 4px; flex-wrap: wrap; flex: 1; }
+.city-tab {
+  background: transparent;
+  border: none;
+  color: var(--text-dim);
+  padding: 10px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  position: relative;
+}
+.city-tab:hover { color: var(--text); background: var(--bg-card-hover); }
+.city-tab.active {
+  background: var(--text);
+  color: var(--bg);
+}
+[data-theme="dark"] .city-tab.active { background: #fff; color: #0a0a0f; }
+[data-theme="light"] .city-tab.active { background: #0a0a0f; color: #fff; }
 
-  .event-date { text-align: right; flex-shrink: 0; }
-  .event-date-day { font-size: 11px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.06em; }
-  .event-date-big { font-size: 20px; font-weight: 700; line-height: 1; margin-top: 2px; }
-  .event-date-time { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+.geo-btn {
+  background: var(--bg-card-hover);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex; align-items: center; gap: 6px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.geo-btn:hover { color: var(--text); border-color: var(--border-strong); }
+.geo-btn.detected { background: var(--success); color: #fff; border-color: var(--success); }
+.geo-btn svg { width: 14px; height: 14px; }
 
-  .event-title { font-size: 17px; font-weight: 700; line-height: 1.3; margin: 0; letter-spacing: -0.01em; }
-  .event-meta { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--text-dim); }
-  .event-meta-row { display: flex; align-items: center; gap: 8px; }
-  .meta-icon { width: 16px; height: 16px; flex-shrink: 0; color: var(--text-faint); }
+/* ============================================
+   STATS BENTO
+============================================ */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 28px;
+}
+@media (max-width: 640px) { .stats { grid-template-columns: repeat(2, 1fr); } }
 
-  .event-foot { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 12px; border-top: 1px solid var(--border); gap: 8px; }
-  .price-pill { font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 6px; }
-  .price-free { background: rgba(62,207,142,0.15); color: var(--success); }
-  .price-paid { background: rgba(255,94,91,0.12); color: var(--accent); }
-  .vibe-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-2); display: inline-block; }
-  .vibe-intim .vibe-dot { background: var(--accent-2); }
-  .vibe-loud .vibe-dot { background: var(--accent); }
-  .vibe-family .vibe-dot { background: var(--success); }
-  .vibe-casual .vibe-dot { background: var(--warning); }
-  .event-cta { color: var(--accent); font-weight: 700; font-size: 13px; text-decoration: none; display: flex; align-items: center; gap: 4px; }
-  .event-cta:hover { color: #ff8a5b; }
+.stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 20px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.stat::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: var(--accent);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.stat:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+.stat:hover::before { opacity: 1; }
+.stat-num {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.stat-num.accent { color: var(--accent); }
+.stat-num.success { color: var(--success); }
+.stat-num.warning { color: var(--warning); }
+.stat-num.blue { color: var(--accent-2); }
+.stat-label {
+  font-size: 12px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  margin-top: 6px;
+}
 
-  /* WEEKEND BANNER */
-  .weekend-banner { background: linear-gradient(135deg, rgba(255,94,91,0.12) 0%, rgba(91,140,255,0.12) 100%); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 22px; margin-bottom: 22px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-  .weekend-icon { font-size: 26px; }
-  .weekend-text { flex: 1; min-width: 200px; }
-  .weekend-title { font-weight: 700; font-size: 16px; }
-  .weekend-sub { color: var(--text-dim); font-size: 13px; margin-top: 2px; }
+/* ============================================
+   FILTERS
+============================================ */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 28px;
+  padding-bottom: 4px;
+}
+.filter-group { display: flex; gap: 4px; align-items: center; padding-right: 12px; }
+.filter-divider { width: 1px; height: 20px; background: var(--border); margin: 0 4px; }
+.filter-label {
+  font-size: 11px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  padding: 0 8px;
+}
+.filter-chip {
+  background: var(--bg-card);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+.filter-chip:hover { color: var(--text); border-color: var(--border-strong); }
+.filter-chip.active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
 
-  /* FOOTER */
-  footer { max-width: 1200px; margin: 0 auto; padding: 32px 24px; color: var(--text-faint); font-size: 13px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-  footer a { color: var(--text-dim); text-decoration: none; }
-  footer a:hover { color: var(--accent); }
+/* ============================================
+   FEED HEADER
+============================================ */
+.feed {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+@media (max-width: 640px) { .feed { padding: 0 20px 60px; } }
+.feed-header {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 20px;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.feed-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.feed-title .city-mark {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 10px;
+  vertical-align: middle;
+  box-shadow: 0 0 12px var(--accent);
+}
+.feed-count {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-faint);
+  font-size: 13px;
+  font-weight: 500;
+}
 
-  /* MOBILE */
-  @media (max-width: 640px) {
-    .hero { padding: 32px 18px 20px; }
-    .feed { padding: 0 18px 60px; }
-    .city-picker { padding: 14px; flex-direction: column; align-items: stretch; }
-    .city-select { flex-direction: column; align-items: stretch; }
-    .geo-btn { justify-content: center; }
-    select.city { width: 100%; }
-    .events { grid-template-columns: 1fr; }
-    .filter-chip { padding: 7px 12px; font-size: 12px; }
-    .stats { grid-template-columns: repeat(2, 1fr); }
-  }
+/* Weekend banner */
+.weekend-banner {
+  background: linear-gradient(135deg, var(--accent-soft) 0%, rgba(91, 140, 255, 0.08) 100%);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.weekend-icon {
+  width: 40px; height: 40px;
+  border-radius: 12px;
+  background: var(--accent);
+  display: grid; place-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.weekend-text { flex: 1; min-width: 200px; }
+.weekend-title { font-weight: 700; font-size: 15px; letter-spacing: -0.01em; }
+.weekend-sub { color: var(--text-dim); font-size: 13px; margin-top: 2px; }
+
+/* ============================================
+   BENTO GRID
+============================================ */
+.bento {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+.event {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  grid-column: span 4;
+  animation: fadeUp 0.5s ease backwards;
+}
+.event:nth-child(1) { animation-delay: 0.02s; }
+.event:nth-child(2) { animation-delay: 0.04s; }
+.event:nth-child(3) { animation-delay: 0.06s; }
+.event:nth-child(4) { animation-delay: 0.08s; }
+.event:nth-child(5) { animation-delay: 0.10s; }
+.event:nth-child(6) { animation-delay: 0.12s; }
+.event:nth-child(n+7) { animation-delay: 0.14s; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Featured: primele 2 evenimente, mai mari */
+.event.featured {
+  grid-column: span 6;
+  padding: 28px;
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-hover) 100%);
+}
+.event.featured .event-title { font-size: 22px; }
+
+@media (max-width: 1024px) {
+  .event { grid-column: span 6; }
+  .event.featured { grid-column: span 12; }
+}
+@media (max-width: 640px) {
+  .event, .event.featured { grid-column: span 12; padding: 18px; }
+  .event.featured { padding: 22px; }
+}
+
+.event::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, transparent 0%, var(--accent-soft) 100%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.event:hover {
+  border-color: var(--border-strong);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-pop);
+}
+.event:hover::after { opacity: 0.6; }
+
+/* Category stripe on top */
+.event-stripe {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--accent);
+  opacity: 0.8;
+}
+.event.cat-concert .event-stripe { background: linear-gradient(90deg, var(--accent), #ff8a5b); }
+.event.cat-teatru .event-stripe { background: linear-gradient(90deg, #c084fc, #a78bfa); }
+.event.cat-standup .event-stripe { background: linear-gradient(90deg, var(--warning), #fbbf24); }
+.event.cat-party .event-stripe { background: linear-gradient(90deg, #ec4899, #f472b6); }
+.event.cat-expo .event-stripe,
+.event.cat-cinema .event-stripe { background: linear-gradient(90deg, var(--accent-2), #38bdf8); }
+.event.cat-festival .event-stripe { background: linear-gradient(90deg, var(--success), #34d399); }
+.event.cat-boardgames .event-stripe { background: linear-gradient(90deg, #a78bfa, #818cf8); }
+.event.cat-workshop .event-stripe,
+.event.cat-family .event-stripe { background: linear-gradient(90deg, var(--success), #84cc16); }
+.event.cat-conferinta .event-stripe { background: linear-gradient(90deg, #94a3b8, #64748b); }
+.event.cat-spectacol .event-stripe { background: linear-gradient(90deg, #c084fc, #f472b6); }
+.event.cat-sport .event-stripe { background: linear-gradient(90deg, var(--warning), #f97316); }
+
+.event-head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 12px;
+}
+.event-cat {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.event.cat-concert .event-cat { background: rgba(255, 94, 91, 0.12); color: var(--accent); }
+.event.cat-teatru .event-cat { background: rgba(192, 132, 252, 0.12); color: #c084fc; }
+.event.cat-standup .event-cat { background: rgba(245, 177, 76, 0.12); color: var(--warning); }
+.event.cat-party .event-cat { background: rgba(236, 72, 153, 0.12); color: #ec4899; }
+.event.cat-expo .event-cat,
+.event.cat-cinema .event-cat { background: rgba(91, 140, 255, 0.12); color: var(--accent-2); }
+.event.cat-festival .event-cat { background: rgba(62, 207, 142, 0.12); color: var(--success); }
+.event.cat-boardgames .event-cat { background: rgba(167, 139, 250, 0.12); color: #a78bfa; }
+.event.cat-workshop .event-cat,
+.event.cat-family .event-cat { background: rgba(62, 207, 142, 0.12); color: var(--success); }
+.event.cat-conferinta .event-cat { background: rgba(148, 163, 184, 0.12); color: #94a3b8; }
+.event.cat-spectacol .event-cat { background: rgba(192, 132, 252, 0.12); color: #c084fc; }
+.event.cat-sport .event-cat { background: rgba(245, 177, 76, 0.12); color: var(--warning); }
+
+.event-date { text-align: right; flex-shrink: 0; line-height: 1.2; }
+.event-date-day {
+  font-size: 11px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+.event-date-big {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 2px;
+  font-variant-numeric: tabular-nums;
+}
+.event-date-time {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 4px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.event-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  letter-spacing: -0.015em;
+}
+.event.featured .event-title { font-size: 22px; line-height: 1.2; }
+
+.event-meta {
+  display: flex; flex-direction: column; gap: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+.event-meta-row { display: flex; align-items: center; gap: 8px; }
+.meta-icon { width: 14px; height: 14px; flex-shrink: 0; color: var(--text-faint); }
+
+.event-foot {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  gap: 8px;
+}
+.price-pill {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 8px;
+  letter-spacing: 0.02em;
+}
+.price-free { background: rgba(62, 207, 142, 0.12); color: var(--success); }
+.price-paid { background: var(--accent-soft); color: var(--accent); }
+
+.vibe-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+.vibe-dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent-2);
+}
+.event.vibe-intim .vibe-dot { background: var(--accent-2); }
+.event.vibe-loud .vibe-dot { background: var(--accent); }
+.event.vibe-family .vibe-dot { background: var(--success); }
+.event.vibe-casual .vibe-dot { background: var(--warning); }
+
+.event-cta {
+  color: var(--text);
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border);
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+.event-cta:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.event-cta svg { width: 12px; height: 12px; transition: transform 0.2s; }
+.event-cta:hover svg { transform: translateX(2px); }
+
+/* Empty state */
+.empty {
+  background: var(--bg-card);
+  border: 1px dashed var(--border-strong);
+  border-radius: 18px;
+  padding: 64px 24px;
+  text-align: center;
+  color: var(--text-dim);
+  grid-column: span 12;
+}
+.empty-icon {
+  font-size: 36px;
+  margin-bottom: 8px;
+  opacity: 0.6;
+}
+
+/* ============================================
+   FOOTER
+============================================ */
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  color: var(--text-faint);
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+footer a { color: var(--text-dim); text-decoration: none; transition: color 0.15s; }
+footer a:hover { color: var(--accent); }
+footer .mono { font-family: 'JetBrains Mono', monospace; }
+
+/* ============================================
+   MOBILE
+============================================ */
+@media (max-width: 640px) {
+  .header-inner { padding: 12px 18px; }
+  .brand-name { font-size: 15px; }
+  .controls { padding: 6px; border-radius: 16px; }
+  .city-tab { padding: 8px 12px; font-size: 13px; }
+  .city-tabs { width: 100%; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .city-tabs::-webkit-scrollbar { display: none; }
+  .geo-btn { margin-left: auto; }
+  .feed-title { font-size: 19px; }
+}
 </style>
 </head>
 <body>
 
-<div class="hero">
-  <div class="brand">
-    <div class="brand-dot">L</div>
-    <div class="brand-name">Local<span>Pulse</span></div>
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">L</div>
+      <div class="brand-name">Local<span>Pulse</span></div>
+    </div>
+    <div class="header-actions">
+      <button id="themeToggle" class="theme-toggle" aria-label="Comută tema day/night">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="eyebrow">
+    <span class="eyebrow-dot">●</span>
+    <span id="liveDot">Live · septembrie 2026</span>
   </div>
   <h1>Ce se întâmplă în <span class="accent">orașul tău</span> diseară sau weekendul ăsta.</h1>
   <p class="lead">Filme indie, târguri de vintage, expoziții temporare, concerte mici, workshop-uri, board games. Agregate din 15+ surse locale într-un singur feed — fără scroll 40 de minute.</p>
 
-  <div class="city-picker">
-    <div>
-      <div class="city-label">Oraș</div>
-    </div>
-    <div class="city-select">
-      <select id="citySelect" class="city" aria-label="Alege orașul">
-        <option value="bucuresti">📍 București</option>
-        <option value="cluj-napoca">📍 Cluj-Napoca</option>
-        <option value="timisoara">📍 Timișoara</option>
-        <option value="iasi">📍 Iași</option>
-        <option value="constanta">📍 Constanța</option>
-      </select>
-      <button id="geoBtn" class="geo-btn" aria-label="Detectează automat">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4M12 18v4M2 12h4M18 12h4"></path></svg>
-        <span id="geoText">Folosește locația mea</span>
-      </button>
-    </div>
+  <div class="controls">
+    <div class="city-tabs" id="cityTabs" role="tablist"></div>
+    <button id="geoBtn" class="geo-btn" aria-label="Detectează automat orașul">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v4M12 18v4M2 12h4M18 12h4"></path></svg>
+      <span id="geoText">Locația mea</span>
+    </button>
   </div>
 
   <div class="stats">
     <div class="stat"><div class="stat-num accent" id="statTotal">—</div><div class="stat-label">Evenimente</div></div>
     <div class="stat"><div class="stat-num success" id="statFree">—</div><div class="stat-label">Gratuite</div></div>
-    <div class="stat"><div class="stat-num" id="statWeekend">—</div><div class="stat-label">În weekend</div></div>
-    <div class="stat"><div class="stat-num" id="statCategories">—</div><div class="stat-label">Categorii</div></div>
+    <div class="stat"><div class="stat-num warning" id="statWeekend">—</div><div class="stat-label">În weekend</div></div>
+    <div class="stat"><div class="stat-num blue" id="statCategories">—</div><div class="stat-label">Categorii</div></div>
   </div>
 
   <div class="filters" id="filters">
-    <span class="filter-label">Când</span>
-    <button class="filter-chip active" data-period="all">Toate</button>
-    <button class="filter-chip" data-period="today">Azi</button>
-    <button class="filter-chip" data-period="weekend">Weekend</button>
-    <button class="filter-chip" data-period="next7">7 zile</button>
-
+    <div class="filter-group">
+      <span class="filter-label">Când</span>
+      <button class="filter-chip active" data-period="all">Toate</button>
+      <button class="filter-chip" data-period="today">Azi</button>
+      <button class="filter-chip" data-period="weekend">Weekend</button>
+      <button class="filter-chip" data-period="next7">7 zile</button>
+    </div>
     <div class="filter-divider"></div>
-    <span class="filter-label">Preț</span>
-    <button class="filter-chip" data-price="free">Gratis</button>
-    <button class="filter-chip" data-price="paid">Plătit</button>
-
+    <div class="filter-group">
+      <span class="filter-label">Preț</span>
+      <button class="filter-chip" data-price="free">Gratuit</button>
+      <button class="filter-chip" data-price="paid">Plătit</button>
+    </div>
     <div class="filter-divider"></div>
-    <span class="filter-label">Vibe</span>
-    <button class="filter-chip vibe-intim" data-vibe="intim">Intim</button>
-    <button class="filter-chip vibe-loud" data-vibe="loud">Loud</button>
-    <button class="filter-chip vibe-casual" data-vibe="casual">Casual</button>
-    <button class="filter-chip vibe-family" data-vibe="family">Family</button>
+    <div class="filter-group">
+      <span class="filter-label">Vibe</span>
+      <button class="filter-chip" data-vibe="intim">Intim</button>
+      <button class="filter-chip" data-vibe="loud">Loud</button>
+      <button class="filter-chip" data-vibe="casual">Casual</button>
+      <button class="filter-chip" data-vibe="family">Family</button>
+    </div>
   </div>
-</div>
+</section>
 
-<div class="feed">
+<main class="feed">
   <div class="feed-header">
-    <div class="feed-title" id="feedTitle">Toate evenimentele</div>
+    <div class="feed-title"><span class="city-mark"></span><span id="feedTitle">Toate</span></div>
     <div class="feed-count" id="feedCount">— evenimente</div>
   </div>
 
   <div id="weekendBanner" class="weekend-banner" style="display:none">
-    <div class="weekend-icon">🎉</div>
+    <div class="weekend-icon">⚡</div>
     <div class="weekend-text">
-      <div class="weekend-title" id="weekendTitle">X evenimente în weekend</div>
+      <div class="weekend-title" id="weekendTitle">— evenimente în weekend</div>
       <div class="weekend-sub">Filme indie, târguri, expoziții, board games, workshop-uri</div>
     </div>
   </div>
 
-  <div id="events" class="events"></div>
+  <div id="bento" class="bento"></div>
   <div id="empty" class="empty" style="display:none">
     <div class="empty-icon">🔍</div>
     <div>Niciun eveniment pentru filtrele astea.</div>
     <div style="margin-top:6px;font-size:13px">Încearcă alte combinații sau schimbă orașul.</div>
   </div>
-</div>
+</main>
 
 <footer>
-  <div>LocalPulse · date agregate din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, clujtourism.ro, litoralpress.ro</div>
-  <div>Demo · 5 orașe · <span id="ts"></span></div>
+  <div>LocalPulse · agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, clujtourism.ro, litoralpress.ro</div>
+  <div class="mono" id="ts">—</div>
 </footer>
 
 <script>
-/* ============================
+/* ============================================
    DATA
-============================ */
+============================================ */
 let DATA = null;
 
 async function loadData() {
@@ -249,14 +768,14 @@ async function loadData() {
     DATA = await r.json();
     init();
   } catch (e) {
-    document.getElementById('events').innerHTML =
+    document.getElementById('bento').innerHTML =
       '<div class="empty"><div class="empty-icon">⚠️</div>Nu pot încărca evenimentele. Reîncarcă pagina.</div>';
   }
 }
 
-/* ============================
+/* ============================================
    STATE
-============================ */
+============================================ */
 const state = {
   city: 'bucuresti',
   period: 'all',
@@ -264,25 +783,55 @@ const state = {
   vibe: null,
 };
 
-/* ============================
+/* ============================================
+   THEME
+============================================ */
+function initTheme() {
+  const saved = localStorage.getItem('localpulse_theme');
+  const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = saved || (sysDark ? 'dark' : 'light');
+  document.documentElement.setAttribute('data-theme', theme);
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('localpulse_theme', next);
+}
+
+/* ============================================
    INIT
-============================ */
+============================================ */
 function init() {
-  // Restore from URL hash / localStorage
+  // Render city tabs
+  const tabsEl = document.getElementById('cityTabs');
+  tabsEl.innerHTML = DATA.cities.map(c =>
+    `<button class="city-tab ${c.slug === state.city ? 'active' : ''}" data-city="${c.slug}" role="tab">${c.name}</button>`
+  ).join('');
+
+  // Restore saved city
   const saved = localStorage.getItem('localpulse_city');
   if (saved && DATA.cities.find(c => c.slug === saved)) state.city = saved;
-  document.getElementById('citySelect').value = state.city;
+  tabsEl.querySelector(`[data-city="${state.city}"]`)?.classList.add('active');
 
-  // Footer timestamp
-  document.getElementById('ts').textContent = DATA.generated_at;
-
-  // Bind events
-  document.getElementById('citySelect').addEventListener('change', e => {
-    state.city = e.target.value;
+  // Bind city tabs
+  tabsEl.addEventListener('click', e => {
+    const btn = e.target.closest('[data-city]');
+    if (!btn) return;
+    state.city = btn.dataset.city;
     localStorage.setItem('localpulse_city', state.city);
+    tabsEl.querySelectorAll('.city-tab').forEach(x => x.classList.toggle('active', x === btn));
     render();
   });
 
+  // Footer timestamp
+  document.getElementById('ts').textContent = 'updated ' + DATA.generated_at;
+
+  // Theme toggle
+  document.getElementById('themeToggle').addEventListener('click', toggleTheme);
+
+  // Filters
   document.querySelectorAll('[data-period]').forEach(b => {
     b.addEventListener('click', () => {
       state.period = b.dataset.period;
@@ -290,12 +839,10 @@ function init() {
       render();
     });
   });
-
   document.querySelectorAll('[data-price]').forEach(b => {
     b.addEventListener('click', () => {
       if (state.price === b.dataset.price) {
-        state.price = null;
-        b.classList.remove('active');
+        state.price = null; b.classList.remove('active');
       } else {
         state.price = b.dataset.price;
         document.querySelectorAll('[data-price]').forEach(x => x.classList.toggle('active', x === b));
@@ -303,12 +850,10 @@ function init() {
       render();
     });
   });
-
   document.querySelectorAll('[data-vibe]').forEach(b => {
     b.addEventListener('click', () => {
       if (state.vibe === b.dataset.vibe) {
-        state.vibe = null;
-        b.classList.remove('active');
+        state.vibe = null; b.classList.remove('active');
       } else {
         state.vibe = b.dataset.vibe;
         document.querySelectorAll('[data-vibe]').forEach(x => x.classList.toggle('active', x === b));
@@ -317,96 +862,55 @@ function init() {
     });
   });
 
+  // Geo
   document.getElementById('geoBtn').addEventListener('click', detectGeo);
 
   render();
 }
 
-/* ============================
+/* ============================================
    GEO
-============================ */
+============================================ */
 function detectGeo() {
   const btn = document.getElementById('geoBtn');
   const txt = document.getElementById('geoText');
-  if (!navigator.geolocation) {
-    txt.textContent = 'Locația nu e disponibilă';
-    return;
-  }
+  if (!navigator.geolocation) { txt.textContent = 'Indisponibil'; return; }
   txt.textContent = 'Se detectează...';
   navigator.geolocation.getCurrentPosition(
     pos => {
       const { latitude: lat, longitude: lon } = pos.coords;
-      // Find nearest city
-      let nearest = DATA.cities[0];
-      let minDist = Infinity;
+      let nearest = DATA.cities[0], minDist = Infinity;
       for (const c of DATA.cities) {
         const d = Math.hypot(c.lat - lat, c.lon - lon);
         if (d < minDist) { minDist = d; nearest = c; }
       }
       state.city = nearest.slug;
-      document.getElementById('citySelect').value = nearest.slug;
       localStorage.setItem('localpulse_city', nearest.slug);
+      document.querySelectorAll('.city-tab').forEach(x => x.classList.toggle('active', x.dataset.city === nearest.slug));
       btn.classList.add('detected');
-      txt.textContent = `✓ ${nearest.name}`;
-      setTimeout(() => {
-        btn.classList.remove('detected');
-        txt.textContent = 'Folosește locația mea';
-      }, 4000);
+      txt.textContent = '✓ ' + nearest.name;
+      setTimeout(() => { btn.classList.remove('detected'); txt.textContent = 'Locația mea'; }, 4000);
       render();
     },
     () => {
       txt.textContent = 'Permisiune refuzată';
-      setTimeout(() => { txt.textContent = 'Folosește locația mea'; }, 3000);
+      setTimeout(() => { txt.textContent = 'Locația mea'; }, 3000);
     },
     { timeout: 8000, maximumAge: 600000 }
   );
 }
 
-/* ============================
-   FILTERING + RENDER
-============================ */
-function getEvents() {
-  const city = DATA.cities.find(c => c.slug === state.city);
-  if (!city) return [];
-  let evs = city.events.slice();
-
-  // Period filter
+/* ============================================
+   HELPERS
+============================================ */
+function getWeekendDates() {
   const now = new Date();
-  const today = now.toISOString().slice(0, 10);
-  if (state.period === 'today') {
-    evs = evs.filter(e => e.date === today);
-  } else if (state.period === 'weekend') {
-    const day = now.getDay(); // 0 = Sun, 6 = Sat
-    // upcoming Sat + Sun (or this weekend if today is Sat/Sun)
-    let satStr, sunStr;
-    const ref = new Date(now);
-    if (day === 6) { // Sat
-      satStr = today;
-      const sun = new Date(ref); sun.setDate(ref.getDate() + 1);
-      sunStr = sun.toISOString().slice(0, 10);
-    } else if (day === 0) { // Sun
-      sunStr = today;
-      const sat = new Date(ref); sat.setDate(ref.getDate() - 1);
-      satStr = sat.toISOString().slice(0, 10);
-    } else {
-      const sat = new Date(ref); sat.setDate(ref.getDate() + (6 - day));
-      const sun = new Date(sat); sun.setDate(sat.getDate() + 1);
-      satStr = sat.toISOString().slice(0, 10);
-      sunStr = sun.toISOString().slice(0, 10);
-    }
-    evs = evs.filter(e => e.date === satStr || e.date === sunStr);
-  } else if (state.period === 'next7') {
-    const limit = new Date(now); limit.setDate(now.getDate() + 7);
-    const limitStr = limit.toISOString().slice(0, 10);
-    evs = evs.filter(e => e.date >= today && e.date <= limitStr);
-  }
-
-  if (state.price) evs = evs.filter(e => e.price === state.price);
-  if (state.vibe) evs = evs.filter(e => e.vibe === state.vibe);
-
-  // Sort by date ascending
-  evs.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
-  return evs;
+  const day = now.getDay();
+  let sat, sun;
+  if (day === 6) { sat = new Date(now); sun = new Date(now); sun.setDate(now.getDate() + 1); }
+  else if (day === 0) { sat = new Date(now); sat.setDate(now.getDate() - 1); sun = new Date(now); }
+  else { sat = new Date(now); sat.setDate(now.getDate() + (6 - day)); sun = new Date(sat); sun.setDate(sat.getDate() + 1); }
+  return [sat.toISOString().slice(0, 10), sun.toISOString().slice(0, 10)];
 }
 
 function fmtDate(d) {
@@ -414,6 +918,15 @@ function fmtDate(d) {
   const days = ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm'];
   const months = ['ian', 'feb', 'mar', 'apr', 'mai', 'iun', 'iul', 'aug', 'sep', 'oct', 'noi', 'dec'];
   return { dow: days[dt.getDay()], day: dt.getDate(), month: months[dt.getMonth()] };
+}
+
+function catIcon(c) {
+  const map = {
+    concert: '♪', teatru: '◐', standup: '☻', party: '◊', expo: '▣',
+    cinema: '▶', festival: '✦', boardgames: '♟', workshop: '✎',
+    family: '♢', conferinta: '◈', spectacol: '◉', sport: '◇'
+  };
+  return map[c] || '•';
 }
 
 function catLabel(c) {
@@ -427,8 +940,30 @@ function catLabel(c) {
 }
 
 function vibeLabel(v) {
-  const map = { intim: 'Intim', loud: 'Loud', casual: 'Casual', family: 'Family' };
-  return map[v] || v;
+  return { intim: 'Intim', loud: 'Loud', casual: 'Casual', family: 'Family' }[v] || v;
+}
+
+/* ============================================
+   FILTER + RENDER
+============================================ */
+function getEvents() {
+  const city = DATA.cities.find(c => c.slug === state.city);
+  if (!city) return [];
+  let evs = city.events.slice();
+  const today = new Date().toISOString().slice(0, 10);
+  if (state.period === 'today') evs = evs.filter(e => e.date === today);
+  else if (state.period === 'weekend') {
+    const [sat, sun] = getWeekendDates();
+    evs = evs.filter(e => e.date === sat || e.date === sun);
+  } else if (state.period === 'next7') {
+    const limit = new Date(); limit.setDate(limit.getDate() + 7);
+    const limitStr = limit.toISOString().slice(0, 10);
+    evs = evs.filter(e => e.date >= today && e.date <= limitStr);
+  }
+  if (state.price) evs = evs.filter(e => e.price === state.price);
+  if (state.vibe) evs = evs.filter(e => e.vibe === state.vibe);
+  evs.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  return evs;
 }
 
 function render() {
@@ -438,15 +973,9 @@ function render() {
   // Stats
   const allInCity = city.events;
   const free = allInCity.filter(e => e.price === 'free').length;
-  const day = new Date().getDay();
-  let satStr, sunStr;
-  const now = new Date();
-  if (day === 6) { satStr = now.toISOString().slice(0,10); const sun = new Date(now); sun.setDate(now.getDate()+1); sunStr = sun.toISOString().slice(0,10); }
-  else if (day === 0) { sunStr = now.toISOString().slice(0,10); const sat = new Date(now); sat.setDate(now.getDate()-1); satStr = sat.toISOString().slice(0,10); }
-  else { const sat = new Date(now); sat.setDate(now.getDate() + (6-day)); const sun = new Date(sat); sun.setDate(sat.getDate()+1); satStr = sat.toISOString().slice(0,10); sunStr = sun.toISOString().slice(0,10); }
-  const weekend = allInCity.filter(e => e.date === satStr || e.date === sunStr).length;
+  const [sat, sun] = getWeekendDates();
+  const weekend = allInCity.filter(e => e.date === sat || e.date === sun).length;
   const cats = new Set(allInCity.map(e => e.category)).size;
-
   document.getElementById('statTotal').textContent = allInCity.length;
   document.getElementById('statFree').textContent = free;
   document.getElementById('statWeekend').textContent = weekend;
@@ -462,12 +991,10 @@ function render() {
   if (state.period === 'all' && weekend > 0) {
     document.getElementById('weekendTitle').textContent = `${weekend} evenimente în weekend în ${city.name}`;
     banner.style.display = 'flex';
-  } else {
-    banner.style.display = 'none';
-  }
+  } else banner.style.display = 'none';
 
-  // Events
-  const container = document.getElementById('events');
+  // Bento grid
+  const container = document.getElementById('bento');
   const empty = document.getElementById('empty');
   if (evs.length === 0) {
     container.innerHTML = '';
@@ -475,14 +1002,16 @@ function render() {
     return;
   }
   empty.style.display = 'none';
-  container.innerHTML = evs.map(e => {
+
+  // First 2 are "featured" (larger)
+  container.innerHTML = evs.map((e, i) => {
     const d = fmtDate(e.date);
-    const priceClass = e.price === 'free' ? 'price-free' : 'price-paid';
-    const priceLabel = e.price === 'free' ? 'GRATUIT' : `${e.price_value} lei`;
+    const isFeatured = i < 2 && state.period === 'all';
     return `
-      <article class="event vibe-${e.vibe}">
+      <article class="event cat-${e.category} vibe-${e.vibe} ${isFeatured ? 'featured' : ''}">
+        <div class="event-stripe"></div>
         <div class="event-head">
-          <span class="event-cat cat-${e.category}">${catLabel(e.category)}</span>
+          <span class="event-cat">${catIcon(e.category)} ${catLabel(e.category)}</span>
           <div class="event-date">
             <div class="event-date-day">${d.dow}</div>
             <div class="event-date-big">${d.day} ${d.month}</div>
@@ -497,14 +1026,14 @@ function render() {
           </div>
           <div class="event-meta-row">
             <svg class="meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
-            <span class="vibe-dot"></span> ${vibeLabel(e.vibe)}
+            <span class="vibe-tag"><span class="vibe-dot"></span>${vibeLabel(e.vibe)}</span>
           </div>
         </div>
         <div class="event-foot">
-          <span class="price-pill ${priceClass}">${priceLabel}</span>
+          <span class="price-pill ${e.price === 'free' ? 'price-free' : 'price-paid'}">${e.price === 'free' ? 'GRATUIT' : e.price_value + ' lei'}</span>
           <a class="event-cta" href="${e.url}" target="_blank" rel="noopener">
-            Bilete / Info
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+            Bilete
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
           </a>
         </div>
       </article>
@@ -512,6 +1041,10 @@ function render() {
   }).join('');
 }
 
+/* ============================================
+   BOOT
+============================================ */
+initTheme();
 loadData();
 </script>
 </body>
