@@ -1,8 +1,8 @@
-# LocalPulse
+# LocalEvent
 
-**LocalPulse** — agregator de evenimente mici din 5 orașe mari din România (București, Cluj-Napoca, Timișoara, Iași, Constanța).
+**LocalEvent** — agregator de evenimente mici din 5 orașe mari din România (București, Cluj-Napoca, Timișoara, Iași, Constanța).
 
-În loc să cauți pe 12 surse (FB Events, IG, site-uri locale, Eventbrite), LocalPulse îți dă un singur feed curat, cu filtre pe dată, preț și vibe.
+În loc să cauți pe 12 surse (FB Events, IG, site-uri locale, Eventbrite), LocalEvent îți dă un singur feed curat, cu filtre pe dată, preț și vibe.
 
 ## Funcționalități MVP
 

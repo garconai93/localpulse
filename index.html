@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#0a0a0f" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
-<title>LocalPulse — ce se întâmplă în orașul tău</title>
+<title>LocalEvent — ce se întâmplă în orașul tău</title>
 <meta name="description" content="Agregator de evenimente mici din 5 orașe mari din România. Feed unic, filtre inteligente, design 2026.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -856,7 +856,7 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
   <div class="header-inner">
     <div class="brand">
       <div class="brand-mark">L</div>
-      <div class="brand-name">Local<span>Pulse</span></div>
+      <div class="brand-name">Local<span>Event</span></div>
     </div>
     <div class="header-actions">
       <button id="themeToggle" class="theme-toggle" aria-label="Comută tema day/night">
@@ -942,7 +942,7 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
 </main>
 
 <footer>
-  <div>LocalPulse · agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, clujtourism.ro, litoralpress.ro</div>
+  <div>LocalEvent · agregat din <a href="https://www.iabilet.ro" target="_blank" rel="noopener">iabilet.ro</a>, <a href="https://ticketstore.ro" target="_blank" rel="noopener">ticketstore.ro</a>, clujtourism.ro, litoralpress.ro</div>
   <div class="mono" id="ts">—</div>
 </footer>
 
@@ -976,8 +976,23 @@ const state = {
 /* ============================================
    THEME
 ============================================ */
+function migrateStorage() {
+  // Pentru utilizatorii care aveau LocalPulse salvat in localStorage
+  const migrations = [
+    ['localpulse_theme', 'localevent_theme'],
+    ['localpulse_city', 'localevent_city'],
+  ];
+  for (const [oldKey, newKey] of migrations) {
+    const val = localStorage.getItem(oldKey);
+    if (val !== null && localStorage.getItem(newKey) === null) {
+      localStorage.setItem(newKey, val);
+    }
+    localStorage.removeItem(oldKey);
+  }
+}
+
 function initTheme() {
-  const saved = localStorage.getItem('localpulse_theme');
+  const saved = localStorage.getItem('localevent_theme');
   const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const theme = saved || (sysDark ? 'dark' : 'light');
   document.documentElement.setAttribute('data-theme', theme);
@@ -987,7 +1002,7 @@ function toggleTheme() {
   const current = document.documentElement.getAttribute('data-theme');
   const next = current === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('localpulse_theme', next);
+  localStorage.setItem('localevent_theme', next);
 }
 
 /* ============================================
@@ -1001,7 +1016,7 @@ function init() {
   ).join('');
 
   // Restore saved city
-  const saved = localStorage.getItem('localpulse_city');
+  const saved = localStorage.getItem('localevent_city');
   if (saved && DATA.cities.find(c => c.slug === saved)) state.city = saved;
   tabsEl.querySelector(`[data-city="${state.city}"]`)?.classList.add('active');
 
@@ -1010,7 +1025,7 @@ function init() {
     const btn = e.target.closest('[data-city]');
     if (!btn) return;
     state.city = btn.dataset.city;
-    localStorage.setItem('localpulse_city', state.city);
+    localStorage.setItem('localevent_city', state.city);
     tabsEl.querySelectorAll('.city-tab').forEach(x => x.classList.toggle('active', x === btn));
     render();
   });
@@ -1075,7 +1090,7 @@ function detectGeo() {
         if (d < minDist) { minDist = d; nearest = c; }
       }
       state.city = nearest.slug;
-      localStorage.setItem('localpulse_city', nearest.slug);
+      localStorage.setItem('localevent_city', nearest.slug);
       document.querySelectorAll('.city-tab').forEach(x => x.classList.toggle('active', x.dataset.city === nearest.slug));
       btn.classList.add('detected');
       txt.textContent = '✓ ' + nearest.name;
@@ -1286,6 +1301,7 @@ function render() {
 /* ============================================
    BOOT
 ============================================ */
+migrateStorage();
 initTheme();
 loadData();
 </script>
