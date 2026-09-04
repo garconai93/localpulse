@@ -18,6 +18,11 @@ on:
         required: false
         default: '90'
         type: string
+      days_zsn:
+        description: 'Câte zile în viitor să scrape-uiesc (zilesinopti)'
+        required: false
+        default: '180'
+        type: string
 
 permissions:
   contents: write
@@ -61,6 +66,16 @@ jobs:
           echo "sds_count=$SDS_COUNT" >> $GITHUB_OUTPUT
           echo "✓ Fetched $SDS_COUNT events from stiudelasorina" >&2
 
+      - name: Fetch new events (zilesinopti)
+        id: fetch-zsn
+        run: |
+          cd scripts
+          DAYS_ZSN="${{ github.event.inputs.days_zsn || '180' }}"
+          python fetch_zilesinopti.py --days "$DAYS_ZSN" > new_events_zsn.json
+          ZSN_COUNT=$(python -c "import json; d=json.load(open('new_events_zsn.json')); print(sum(len(c['events']) for c in d))")
+          echo "zsn_count=$ZSN_COUNT" >> $GITHUB_OUTPUT
+          echo "✓ Fetched $ZSN_COUNT events from zilesinopti" >&2
+
       - name: Merge iabilet into events.json
         run: |
           cd scripts
@@ -70,6 +85,11 @@ jobs:
         run: |
           cd scripts
           python merge_events.py new_events_sds.json
+
+      - name: Merge zilesinopti into events.json
+        run: |
+          cd scripts
+          python merge_events.py new_events_zsn.json
 
       - name: Get totals
         id: totals
@@ -107,6 +127,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- iabilet events fetched: ${{ steps.fetch-iabilet.outputs.iabilet_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- stiudelasorina events fetched: ${{ steps.fetch-sds.outputs.sds_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- zilesinopti events fetched: ${{ steps.fetch-zsn.outputs.zsn_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- Total events in DB: ${{ steps.totals.outputs.total }}" >> $GITHUB_STEP_SUMMARY
           echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
