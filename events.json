@@ -9273,6 +9273,37 @@
           "lon": 26.0971
         },
         {
+          "id": "buc-directia-5-dubla-aniversare-la-3472",
+          "title": "PROMOVAT Directia 5 - Dubla aniversare la Sala Palatului - 35 de ani de la infiintare si 35 de ani de la primul album Jo",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-24",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-directia-5-dubla-aniversare-la-sala-palatului-35-de-ani-de-la-infiintare-si-35-de-ani-de-la-primul-album-127180/?ica_source=TownPagePromoted&ica_medium=mobile&ica_campaign=bucuresti&ica_term=",
+          "description": "PROMOVAT Directia 5 - Dubla aniversare la Sala Palatului - 35 de ani de la infiintare si 35 de ani de la primul album Jo, 24 sep Sala Palatului · București — eveniment la locație necunoscută din București.",
+          "highlights": [
+            "dată: 2026-09-24",
+            "ora: 20:00",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bucuresti"
+          ],
+          "map_url": "https://maps.google.com/?q=București",
+          "organizer": "iabilet.ro",
+          "scraped_at": "2026-09-04",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0356",
           "title": "Cred în unicorni",
           "category": "teatru",
@@ -10933,6 +10964,37 @@
           "organizer": "Eventim",
           "lat": 44.4145,
           "lon": 26.105
+        },
+        {
+          "id": "buc-jack-savoretti-la-arenele-roma-2029",
+          "title": "PROMOVAT Jack Savoretti la Arenele Romane Ma, 29 sep Arenele Romane · București",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-29",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-jack-savoretti-la-arenele-romane-120446/?ica_source=TownPagePromoted&ica_medium=mobile&ica_campaign=bucuresti&ica_term=",
+          "description": "PROMOVAT Jack Savoretti la Arenele Romane Ma, 29 sep Arenele Romane · București — eveniment la locație necunoscută din București.",
+          "highlights": [
+            "dată: 2026-09-29",
+            "ora: 20:00",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bucuresti"
+          ],
+          "map_url": "https://maps.google.com/?q=București",
+          "organizer": "iabilet.ro",
+          "scraped_at": "2026-09-04",
+          "lat": 44.4268,
+          "lon": 26.1025
         },
         {
           "id": "sorina-0420",
