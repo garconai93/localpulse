@@ -30,7 +30,7 @@ permissions:
 jobs:
   scrape-and-merge:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -48,6 +48,7 @@ jobs:
 
       - name: Fetch new events (iabilet)
         id: fetch-iabilet
+        continue-on-error: true
         run: |
           cd scripts
           DAYS="${{ github.event.inputs.days || '30' }}"
