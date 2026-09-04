@@ -257,7 +257,7 @@ def normalize_event(event_data, source_url, event_id_counter):
         "age": "",
         "tags": [],
         "map_url": f"https://maps.google.com/?q={venue_name.replace(' ', '+')}+{city}" if venue_name else "",
-        "organizer": venue_name,
+        "organizer": "zilesinopti.ro",
         "image": image_url,
         "lat": float(lat) if lat else 0.0,
         "lon": float(lon) if lon else 0.0,

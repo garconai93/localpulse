@@ -190,7 +190,7 @@ def normalize_event(ev, event_id_counter):
         "age": "",
         "tags": cat_slugs,
         "map_url": f"https://maps.google.com/?q={venue_name.replace(' ', '+')}+{city_name}" if venue_name else "",
-        "organizer": "StiuDeLaSorina.ro",
+        "organizer": "stiudelasorina.ro",
         "lat": float(lat) if lat else BUCHAREST_LAT,
         "lon": float(lon) if lon else BUCHAREST_LON,
     }
