@@ -34,8 +34,20 @@ def main():
             print(f"ERROR: could not parse events.json: {e}", file=sys.stderr)
             sys.exit(1)
 
-    # Read new events from stdin
-    raw = sys.stdin.read().strip()
+    # Read new events: from argv[1] (file) or stdin
+    raw = ""
+    if len(sys.argv) > 1 and sys.argv[1]:
+        # File path passed
+        input_path = Path(sys.argv[1])
+        if not input_path.exists():
+            print(f"No input file: {input_path}", file=sys.stderr)
+            new_events_data = []
+        else:
+            raw = input_path.read_text().strip()
+    else:
+        # stdin (legacy mode)
+        raw = sys.stdin.read().strip()
+
     if not raw:
         print("No new events to merge", file=sys.stderr)
         new_events_data = []
@@ -43,7 +55,7 @@ def main():
         try:
             new_events_data = json.loads(raw)
         except json.JSONDecodeError as e:
-            print(f"ERROR: could not parse stdin JSON: {e}", file=sys.stderr)
+            print(f"ERROR: could not parse input JSON: {e}", file=sys.stderr)
             sys.exit(1)
 
     # Index existing by city slug

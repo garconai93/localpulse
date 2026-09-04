@@ -9,9 +9,14 @@ on:
   workflow_dispatch:
     inputs:
       days:
-        description: 'Câte zile în viitor să scrape-uiesc'
+        description: 'Câte zile în viitor să scrape-uiesc (iabilet)'
         required: false
         default: '30'
+        type: string
+      days_sds:
+        description: 'Câte zile în viitor să scrape-uiesc (stiudelasorina)'
+        required: false
+        default: '90'
         type: string
 
 permissions:
@@ -36,20 +41,42 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml
 
-      - name: Fetch new events
-        id: fetch
+      - name: Fetch new events (iabilet)
+        id: fetch-iabilet
         run: |
           cd scripts
           DAYS="${{ github.event.inputs.days || '30' }}"
-          python fetch_events.py --days "$DAYS" > new_events.json
-          NEW_COUNT=$(python -c "import json; d=json.load(open('new_events.json')); print(sum(len(c['events']) for c in d))")
-          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
-          echo "✓ Fetched $NEW_COUNT new events" >&2
+          python fetch_events.py --days "$DAYS" > new_events_iabilet.json
+          IABILET_COUNT=$(python -c "import json; d=json.load(open('new_events_iabilet.json')); print(sum(len(c['events']) for c in d))")
+          echo "iabilet_count=$IABILET_COUNT" >> $GITHUB_OUTPUT
+          echo "✓ Fetched $IABILET_COUNT new events from iabilet" >&2
 
-      - name: Merge into events.json
+      - name: Fetch new events (stiudelasorina)
+        id: fetch-sds
         run: |
           cd scripts
-          cat new_events.json | python merge_events.py
+          DAYS_SDS="${{ github.event.inputs.days_sds || '90' }}"
+          python fetch_stiudelasorina.py --days "$DAYS_SDS" > new_events_sds.json
+          SDS_COUNT=$(python -c "import json; d=json.load(open('new_events_sds.json')); print(sum(len(c['events']) for c in d))")
+          echo "sds_count=$SDS_COUNT" >> $GITHUB_OUTPUT
+          echo "✓ Fetched $SDS_COUNT events from stiudelasorina" >&2
+
+      - name: Merge iabilet into events.json
+        run: |
+          cd scripts
+          python merge_events.py new_events_iabilet.json
+
+      - name: Merge stiudelasorina into events.json
+        run: |
+          cd scripts
+          python merge_events.py new_events_sds.json
+
+      - name: Get totals
+        id: totals
+        run: |
+          cd scripts
+          TOTAL=$(python -c "import json; d=json.load(open('../events.json')); print(sum(len(c['events']) for c in d.get('cities',[])))")
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
 
       - name: Check if events.json changed
         id: diff
@@ -69,8 +96,8 @@ jobs:
           git config user.email "garcon@garconai.dev"
           git add events.json
           TODAY=$(date -u +'%Y-%m-%d')
-          NEW_COUNT=${{ steps.fetch.outputs.new_count }}
-          git commit -m "🤖 Daily scrape: $NEW_COUNT new events added ($TODAY)"
+          TOTAL=${{ steps.totals.outputs.total }}
+          git commit -m "🤖 Daily scrape: $TOTAL total events ($TODAY)"
           git push origin main
 
       - name: Summary
@@ -78,6 +105,8 @@ jobs:
         run: |
           echo "### Daily scrape summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- New events added: ${{ steps.fetch.outputs.new_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- iabilet events fetched: ${{ steps.fetch-iabilet.outputs.iabilet_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- stiudelasorina events fetched: ${{ steps.fetch-sds.outputs.sds_count }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Total events in DB: ${{ steps.totals.outputs.total }}" >> $GITHUB_STEP_SUMMARY
           echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
