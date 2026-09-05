@@ -8,7 +8,7 @@
  * - Notify clients when update is available
  */
 
-const VERSION = '2.0.5';
+const VERSION = '2.0.7';
 const CACHE_NAME = `localevent-v${VERSION}`;
 const RUNTIME_CACHE = `localevent-runtime-v${VERSION}`;
 

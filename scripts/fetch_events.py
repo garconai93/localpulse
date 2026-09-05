@@ -128,6 +128,94 @@ def determine_vibe(category):
     return vibe_map.get(category, 'casual')
 
 
+def detect_category(text):
+    """Detectează categoria unui eveniment pe baza textului (titlu + venue).
+    Ordinea verificărilor e IMPORTANTĂ — cele mai specifice vin primele.
+    Returnează una din: 'sport', 'family', 'comedy', 'teatru', 'workshop',
+    'expo', 'concert'.
+    """
+    text = text.lower()
+
+    # 1. SPORT — cel mai specific, verifică ÎNTÂI (handbal, meci, liga, echipe, etc.)
+    sport_kw = [
+        'handbal', 'handball', 'baschet', 'basket', 'volei', 'volleyball',
+        'rugby', 'hochei', 'hockey', 'atletism', 'natație', 'natatie',
+        'gimnastica', 'gimnastică', 'box', 'lupte', 'ciclism', 'motorsport',
+        'formula 1', 'meci', 'liga', 'campionat', 'play-off', 'playoff',
+        'liga campionilor', 'champions league', 'euro league', 'euroleague',
+        'europa league', 'conference league',
+        'fc ', 'cfr', 'fcsb', 'rapid', 'steaua', 'dinamo', 'petrolul', 'astra',
+        'otelul', 'cfr cluj', 'fcsb ', 'fcsb-', 'voluntari', 'botoșani', 'botosani',
+        'fotbal', 'football', 'soccer', 'turneu sportiv',
+        'sala polivalentă', 'sala polivalenta', 'stadion', 'arena',
+        'euro 2026', 'world cup', 'cupa mondială',
+    ]
+    for kw in sport_kw:
+        if kw in text:
+            return 'sport'
+
+    # 2. FAMILY — pentru copii/baby (specific context)
+    family_kw = [
+        'pentru copii', 'copiilor', 'pentru cei mici', 'kids', 'baby',
+        'junior', 'păpuși', 'papusi', 'atelier pentru copii', 'atelier copii',
+        'gradinita', 'grădinița', 'baby friendly', 'școală', 'scoala',
+        'educational', 'educativ', 'mini club', 'mini summer',
+        'cinemax', 'back to school',
+    ]
+    for kw in family_kw:
+        if kw in text:
+            return 'family'
+
+    # 3. COMEDY / STAND-UP
+    comedy_kw = ['stand-up', 'stand up', 'standup', 'comedie', 'umor', 'umorist']
+    for kw in comedy_kw:
+        if kw in text:
+            return 'comedy'
+
+    # 4. TEATRU / SPECTACOL
+    teatru_kw = [
+        'teatru', 'spectacol', 'shakespeare', 'willy', 'piesă', 'piesa',
+        'one man show', 'shakespear', 'comedie shakespear',
+    ]
+    for kw in teatru_kw:
+        if kw in text:
+            return 'teatru'
+
+    # 5. WORKSHOP / ATELIER CREATIV
+    workshop_kw = [
+        'workshop', 'atelier creativ', 'atelier handmade', 'curs', 'training',
+        'masterclass', 'conferinta', 'conferință', 'dezbatere', 'meetup',
+    ]
+    for kw in workshop_kw:
+        if kw in text:
+            return 'workshop'
+
+    # 6. EXPO / TÂRG / GALERIE
+    expo_kw = [
+        'expozitie', 'expoziție', 'expo ', 'galerie', 'art gallery',
+        'vernisaj', 'târg', 'targ', 'bazar', 'street food',
+    ]
+    for kw in expo_kw:
+        if kw in text:
+            return 'expo'
+
+    # 7. CONCERT / MUZICĂ — verificat LA URMĂ pentru că e cel mai generic
+    concert_kw = [
+        'concert', 'jazz', 'rock', 'metal', 'party', 'festival de muzică',
+        'festival muzica', 'dj set', 'live music', 'acoustic', 'orchestra',
+        'orchestră', 'simfonic', 'cor ', 'coral', 'operă', 'opera',
+        'balet', 'recital', 'karaoke', 'the voice', 'x factor',
+        'lansare album', 'lansare carte', 'folk', 'muzică', 'muzica',
+        'cântă', 'canta',
+    ]
+    for kw in concert_kw:
+        if kw in text:
+            return 'concert'
+
+    # 8. DEFAULT: concert (cea mai comună categorie)
+    return 'concert'
+
+
 def scrape_city(city_slug, city_name, existing_ids, days=30):
     """Scrape iabilet.ro for one city, return list of new events."""
     url = f"https://m.iabilet.ro/bilete-in-{city_slug}/"
@@ -432,18 +520,10 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
 
                 full_url = urljoin('https://www.bilete.ro', ev_href)
 
-                # Category detection from title keywords
-                title_lower = title.lower()
-                if any(k in title_lower for k in ['teatru', 'spectacol', 'comedie', 'shakespeare', 'willy']):
-                    category = 'teatru'
-                elif any(k in title_lower for k in ['concert', 'coma', 'jazz', 'rock', 'metal', 'party']):
-                    category = 'concert'
-                elif any(k in title_lower for k in ['copii', 'capra', 'ursul', 'pestelui', 'pisici']):
-                    category = 'family'
-                elif any(k in title_lower for k in ['fotbal', 'fc ', 'meci', 'liga']):
-                    category = 'sport'
-                else:
-                    category = 'concert'
+                # Category detection — ordinea contează (mai specific primul!)
+                # Verificăm TITLE și VENUE pentru contexte (ex: "Handball" + "Sala Polivalentă" = sport)
+                haystack = (title + ' ' + venue).lower()
+                category = detect_category(haystack)
 
                 vibe_map = {
                     'concert': 'loud', 'teatru': 'intim', 'family': 'family',

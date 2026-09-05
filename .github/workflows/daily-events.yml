@@ -107,6 +107,15 @@ jobs:
           GEOCODED=$(python -c "import json; d=json.load(open('../events.json')); print(d.get('last_geocoded','never'))")
           echo "last_geocoded=$GEOCODED" >> $GITHUB_OUTPUT
 
+      - name: Recategorize events (fix incorrect categories)
+        id: recategorize
+        run: |
+          cd scripts
+          python recategorize_events.py
+          RECATEG=$(python -c "import json; d=json.load(open('../events.json')); print(d.get('last_recategorized','never'))")
+          echo "last_recategorized=$RECATEG" >> $GITHUB_OUTPUT
+          echo "✓ Events recategorized" >&2
+
       - name: Check if events.json changed
         id: diff
         run: |
@@ -141,5 +150,6 @@ jobs:
           echo "- zilesinopti events fetched: ${{ steps.fetch-zsn.outputs.zsn_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- Total events in DB: ${{ steps.totals.outputs.total }}" >> $GITHUB_STEP_SUMMARY
           echo "- Last geocoded: ${{ steps.geocode.outputs.last_geocoded }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Last recategorized: ${{ steps.recategorize.outputs.last_recategorized }}" >> $GITHUB_STEP_SUMMARY
           echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
