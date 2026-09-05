@@ -1558,13 +1558,14 @@ function render() {
     });
   }
 
-  // Stats — se bazează pe TOATE evenimentele din oraș (nu pe search)
-  const allInCity = city.events;
-  const free = allInCity.filter(e => e.price === 'free').length;
+  // Stats — se bazează pe evenimentele care trec filtrele de perioadă/preț/vibe
+  // (NU se aplică search-ul — stats rămân overview pe oraș)
+  let statsBase = evs;  // evs deja exclude trecutul + ora trecută, dar include toate perioadele
+  const free = statsBase.filter(e => e.price === 'free').length;
   const [sat, sun] = getWeekendDates();
-  const weekend = allInCity.filter(e => e.date === sat || e.date === sun).length;
-  const cats = new Set(allInCity.map(e => e.category)).size;
-  document.getElementById('statTotal').textContent = allInCity.length;
+  const weekend = statsBase.filter(e => e.date === sat || e.date === sun).length;
+  const cats = new Set(statsBase.map(e => e.category)).size;
+  document.getElementById('statTotal').textContent = statsBase.length;
   document.getElementById('statFree').textContent = free;
   document.getElementById('statWeekend').textContent = weekend;
   document.getElementById('statCategories').textContent = cats;
