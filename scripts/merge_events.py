@@ -8,16 +8,41 @@ Usage:
 
 Behavior:
 - Loads existing events.json
-- For each new city in input: append events that aren't already in events.json (by id)
+- For each new city in input: append events that aren't already in events.json
+- DEDUPLICARE cross-source pe (titlu_norm, dată, oră, oraș, venue_norm)
+  Dacă același eveniment vine din 2+ surse, păstrăm prima (cea mai veche)
 - For each city in events.json: mark events with date < today as past:true (don't delete, just flag)
 - Sorts events within each city by date
 - Writes back to events.json
-- Prints summary to stderr (count of new, count of past)
+- Prints summary to stderr (count of new, count of past, duplicates skipped)
 """
 import json
+import re
 import sys
+import unicodedata
 from datetime import datetime, date
 from pathlib import Path
+
+
+def normalize_text(s):
+    """Normalizează string pentru deduplicare: lowercase, fără diacritice, doar alfanumerice."""
+    s = (s or '').lower().strip()
+    s = ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+    s = re.sub(r'[^a-z0-9\s]', ' ', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+    return s
+
+
+def content_key(event):
+    """Cheie unică cross-source pentru un eveniment.
+    Două evenimente cu același (titlu, dată, oră, oraș, venue) sunt considerate același lucru,
+    chiar dacă vin din surse diferite (iabilet vs stiudelasorina vs zilesinopti)."""
+    return (
+        normalize_text(event.get('title', '')),
+        event.get('date', ''),
+        event.get('time', ''),
+        normalize_text(event.get('venue', ''))
+    )
 
 
 def main():
@@ -64,9 +89,15 @@ def main():
         c['slug']: {ev['id'] for ev in c.get('events', [])}
         for c in data.get('cities', [])
     }
+    # Content keys per oraș — pentru deduplicare cross-source
+    existing_content_keys_by_city = {
+        c['slug']: {content_key(ev) for ev in c.get('events', [])}
+        for c in data.get('cities', [])
+    }
 
     # Merge new events
     new_added = 0
+    dup_skipped = 0
     for city_data in new_events_data:
         slug = city_data['slug']
         if slug not in existing_by_city:
@@ -79,17 +110,27 @@ def main():
                 "events": []
             }
             existing_ids_by_city[slug] = set()
+            existing_content_keys_by_city[slug] = set()
 
         for ev in city_data.get('events', []):
             ev_id = ev.get('id', '')
-            if ev_id not in existing_ids_by_city[slug]:
-                # Add lat/lon from city defaults if missing
-                if 'lat' not in ev and 'lat' in existing_by_city[slug]:
-                    ev['lat'] = existing_by_city[slug]['lat']
-                    ev['lon'] = existing_by_city[slug]['lon']
-                existing_by_city[slug]['events'].append(ev)
-                existing_ids_by_city[slug].add(ev_id)
-                new_added += 1
+            # Skip dacă ID-ul e deja cunoscut (deduplicare within-source)
+            if ev_id in existing_ids_by_city[slug]:
+                dup_skipped += 1
+                continue
+            # Skip dacă content_key există deja (deduplicare cross-source)
+            ck = content_key(ev)
+            if ck in existing_content_keys_by_city[slug]:
+                dup_skipped += 1
+                continue
+            # Adaugă lat/lon din city defaults dacă lipsesc
+            if 'lat' not in ev and 'lat' in existing_by_city[slug]:
+                ev['lat'] = existing_by_city[slug]['lat']
+                ev['lon'] = existing_by_city[slug]['lon']
+            existing_by_city[slug]['events'].append(ev)
+            existing_ids_by_city[slug].add(ev_id)
+            existing_content_keys_by_city[slug].add(ck)
+            new_added += 1
 
     # Mark past events + sort within each city
     past_marked = 0
@@ -134,6 +175,8 @@ def main():
     past_events = total_events - future_events
 
     print(f"✓ Merged: {new_added} new events added", file=sys.stderr)
+    if dup_skipped:
+        print(f"⏭️  Skipped: {dup_skipped} duplicates (cross-source sau within-source)", file=sys.stderr)
     print(f"✓ Total: {total_events} events across {len(cities_list)} cities", file=sys.stderr)
     print(f"  - Future: {future_events}", file=sys.stderr)
     print(f"  - Past:   {past_events} (marked with past:true, hidden from UI)", file=sys.stderr)
