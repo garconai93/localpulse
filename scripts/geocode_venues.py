@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
 """
 LocalEvent - Venue Geocoder
-Populează lat/lon real pentru evenimente care au lat=0, lon=0 sau lipsesc.
+Populează lat/lon real pentru evenimente care au lat=0, lon=0 sau
+sunt la coordonatele hardcodate ale centrului orașului (fallback de slabă calitate).
 
 Folosește Nominatim (OpenStreetMap) — gratuit, 1 req/sec.
+CU retry pe 429 (Too Many Requests) cu exponential backoff.
 
 Usage:
-  python3 geocode_venues.py [--dry-run]
+  python3 geocode_venues.py [--dry-run] [--force]
 
 Strategy:
 - Citește events.json
-- Colectează (venue, city_name) unice care au nevoie de geocoding
+- Identifică venue-urile unice fără coordonate bune (0,0 sau la fallback hardcodat)
 - Verifică cache local (geocode_cache.json) — nu re-bate Nominatim
-- Trimite 1 request/sec la Nominatim cu query "{venue}, {city_name}, Romania"
-- Dacă Nominatim nu găsește, încearcă fără venue: doar "{city_name}, Romania" (centrul orașului)
-- Salvează rezultatele în events.json și actualizează cache-ul
+- Trimite request-uri cu retry la Nominatim (1.2s sleep + backoff pe 429)
+- Dacă Nominatim nu găsește, folosește hardcoded fallback
+- Marchează evenimentele cu `geocode_quality`: 'nominatim' | 'cache' | 'city_fallback' | 'hardcoded'
+  Astfel JS-ul poate decide dacă să folosească coordonatele sau query text.
 """
 import argparse
 import json
@@ -98,8 +101,12 @@ def save_cache(cache):
     CACHE_FILE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
 
 
-def needs_geocoding(lat, lon):
-    """Verifică dacă lat/lon sunt invalide (0,0 sau lipsă)."""
+def needs_geocoding(lat, lon, city_slug=None):
+    """Verifică dacă lat/lon sunt invalide sau sunt la fallback hardcodat.
+    Returnează True dacă:
+    - lat/lon lipsesc sau sunt 0,0
+    - lat/lon sunt exact coordonatele hardcodate ale unui oraș (fallback prost)
+    """
     if lat is None or lon is None:
         return True
     try:
@@ -109,30 +116,67 @@ def needs_geocoding(lat, lon):
         return True
     if lat_f == 0.0 and lon_f == 0.0:
         return True
+    # Verifică dacă sunt la coordonatele hardcodate ale orașului (fallback de calitate slabă)
+    if city_slug and city_slug in CITY_FALLBACK_COORDS:
+        fb_lat, fb_lon = CITY_FALLBACK_COORDS[city_slug]
+        # Match la 3 zecimale (~100m) — destul de strict pentru a nu rescrie matchuri bune
+        if abs(lat_f - fb_lat) < 0.01 and abs(lon_f - fb_lon) < 0.01:
+            return True
     return False
 
 
+def _nominatim_request(params, session, max_retries=3):
+    """Trimite request Nominatim cu retry pe 429 (Too Many Requests).
+    Respectă rate limit (max 1 req/sec) cu sleep exponential backoff."""
+    for attempt in range(max_retries):
+        time.sleep(1.2)  # Nominatim policy: max 1 req/sec
+        try:
+            r = session.get(NOMINATIM_URL, params=params, timeout=10)
+            if r.status_code == 429:
+                # Too many requests — așteaptă mai mult (exponential backoff)
+                wait = (attempt + 1) * 5  # 5s, 10s, 15s
+                print(f"  ⏳ Rate limited (429). Aștept {wait}s...", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            print(f"  ⚠️  Nominatim error: {e}", file=sys.stderr)
+            return None
+    return None
+
+
 def geocode_venue(venue, city_name, session):
-    """Trimite request Nominatim pentru un venue. Returnează (lat, lon) sau None."""
+    """Trimite request Nominatim pentru un venue. Returnează (lat, lon) sau None.
+    Încearcă mai multe variante de query pentru acoperire mai bună."""
     if not venue or not venue.strip():
         return None
 
-    # Query 1: venue + oraș + România
-    query = f"{venue}, {city_name}, Romania"
-    params = {
-        "q": query,
-        "format": "json",
-        "limit": 1,
-        "countrycodes": "ro",
-    }
-    try:
-        r = session.get(NOMINATIM_URL, params=params, timeout=10)
-        r.raise_for_status()
-        results = r.json()
+    # Curăță diacritice pentru query-uri alternative (Nominatim înțelege cu/fără)
+    import unicodedata
+    def strip_diacritics(s):
+        return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+
+    venue_clean = strip_diacritics(venue)
+    city_clean = strip_diacritics(city_name)
+
+    # Lista de query-uri de încercat (în ordinea priorității)
+    # Doar 2 variante pentru viteză — cu și fără diacritice (acoperă 99% din cazuri)
+    queries = [
+        f"{venue}, {city_name}, Romania",         # cu diacritice
+        f"{venue_clean}, {city_clean}, Romania",  # fără diacritice
+    ]
+
+    for query in queries:
+        params = {
+            "q": query,
+            "format": "json",
+            "limit": 1,
+            "countrycodes": "ro",
+        }
+        results = _nominatim_request(params, session)
         if results:
             return float(results[0]["lat"]), float(results[0]["lon"])
-    except Exception as e:
-        print(f"  ⚠️  Nominatim error: {e}", file=sys.stderr)
     return None
 
 
@@ -144,14 +188,9 @@ def geocode_city_only(city_name, session):
         "limit": 1,
         "countrycodes": "ro",
     }
-    try:
-        r = session.get(NOMINATIM_URL, params=params, timeout=10)
-        r.raise_for_status()
-        results = r.json()
-        if results:
-            return float(results[0]["lat"]), float(results[0]["lon"])
-    except Exception as e:
-        print(f"  ⚠️  Nominatim city error: {e}", file=sys.stderr)
+    results = _nominatim_request(params, session)
+    if results:
+        return float(results[0]["lat"]), float(results[0]["lon"])
     return None
 
 
@@ -176,7 +215,7 @@ def main():
         city_slug = city["slug"]
         for ev in city["events"]:
             total_events += 1
-            if needs_geocoding(ev.get("lat"), ev.get("lon")):
+            if needs_geocoding(ev.get("lat"), ev.get("lon"), city_slug):
                 total_missing += 1
                 venue = (ev.get("venue") or "").strip()
                 key = (venue, city_slug)
@@ -203,13 +242,17 @@ def main():
 
         # Verifică cache
         if cache_key in cache:
-            lat, lon = cache[cache_key]
-            source = "cache"
+            entry = cache[cache_key]
+            if len(entry) >= 3:
+                lat, lon, cached_source = entry
+            else:
+                lat, lon = entry[:2]
+                cached_source = 'cache'  # cache vechi, fără source
+            source = cached_source
         else:
             print(f"🔍 Geocoding: {venue!r} in {city_name}", file=sys.stderr)
             coords = geocode_venue(venue, city_name, session)
             api_calls += 1
-            time.sleep(1.1)  # Nominatim policy: max 1 req/sec
 
             if coords:
                 lat, lon = coords
@@ -219,7 +262,6 @@ def main():
                 print(f"  ↪️  Fallback to city center: {city_name}", file=sys.stderr)
                 coords = geocode_city_only(city_name, session)
                 api_calls += 1
-                time.sleep(1.1)
                 if coords:
                     lat, lon = coords
                     source = "city_fallback"
@@ -234,12 +276,13 @@ def main():
                         print(f"  ❌ No coords for {venue!r} in {city_name}", file=sys.stderr)
                         continue
 
-            cache[cache_key] = [lat, lon]
+            cache[cache_key] = [lat, lon, source]
 
         # Update toate evenimentele cu acest venue+city
         for ev in events_list:
             ev["lat"] = lat
             ev["lon"] = lon
+            ev["geocode_quality"] = source  # 'nominatim' | 'cache' | 'city_fallback' | 'hardcoded'
         geocoded_count += len(events_list)
 
         # Log primele câteva

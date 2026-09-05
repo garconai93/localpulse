@@ -1318,25 +1318,32 @@ function catLabel(c) {
   return map[c] || c;
 }
 
-function buildMapsUrl(lat, lon, name) {
+function buildMapsUrl(lat, lon, name, cityName, quality) {
   const ua = navigator.userAgent || '';
   const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes('Mac') && 'ontouchend' in document);
   const isAndroid = /Android/i.test(ua);
   const encoded = encodeURIComponent(name || '');
-  // Fallback: dacă nu avem coordonate valide, folosim query text (numele locului)
+  // Coords sunt DE ÎNCREDERE doar dacă au fost geocodate cu Nominatim sau vin din cache (nu fallback hardcodat)
+  // quality poate fi: 'nominatim' | 'cache' | 'city_fallback' | 'hardcoded' | undefined
+  const trustedCoords = quality === 'nominatim' || quality === 'cache';
   const hasCoords = Number.isFinite(lat) && Number.isFinite(lon) && !(lat === 0 && lon === 0);
+  const useCoords = hasCoords && trustedCoords;
+  // Query text cu numele locului + oraș (mai precis decât coords generice de oraș)
+  const searchQuery = (name && cityName) ? `${name}, ${cityName}, Romania` : (name || cityName || '');
+  const encodedQuery = encodeURIComponent(searchQuery);
+
   if (isIOS) {
-    // Apple Maps: indicații (mod auto) cu pin pe nume
-    if (hasCoords) return `https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d&q=${encoded}`;
-    return `https://maps.apple.com/?daddr=${encoded}&dirflg=d`;
+    if (useCoords) return `https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d&q=${encoded}`;
+    return `https://maps.apple.com/?q=${encodedQuery}`;
   }
   if (isAndroid) {
-    if (hasCoords) return `geo:${lat},${lon}?q=${lat},${lon}(${encoded})`;
-    return `geo:0,0?q=${encoded}`;
+    if (useCoords) return `geo:${lat},${lon}?q=${lat},${lon}(${encoded})`;
+    return `geo:0,0?q=${encodedQuery}`;
   }
   // Desktop / altele
-  if (hasCoords) return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
-  return `https://www.google.com/maps/dir/?api=1&destination=${encoded}&travelmode=driving`;
+  if (useCoords) return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
+  // Fără coords de încredere: query text — Maps va căuta exact locul
+  return `https://www.google.com/maps/search/?api=1&query=${encodedQuery}`;
 }
 
 function vibeLabel(v) {
@@ -1466,7 +1473,7 @@ function render() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M7 7h10v10"></path></svg>
                 <span data-i18n="tickets">Bilete / Info</span>
               </a>
-              <a class="event-action secondary" href="${buildMapsUrl(e.lat, e.lon, e.venue)}" target="_blank" rel="noopener" data-action="map">
+              <a class="event-action secondary" href="${buildMapsUrl(e.lat, e.lon, e.venue, city.name, e.geocode_quality)}" target="_blank" rel="noopener" data-action="map">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12l20-9-9 20-2-9-9-2z"></path></svg>
                 <span data-i18n="directions">Indicații</span>
               </a>
