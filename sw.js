@@ -8,7 +8,7 @@
  * - Notify clients when update is available
  */
 
-const VERSION = '2.1.0';
+const VERSION = '2.1.1';
 const CACHE_NAME = `localevent-v${VERSION}`;
 const RUNTIME_CACHE = `localevent-runtime-v${VERSION}`;
 
@@ -21,7 +21,8 @@ const PRECACHE_URLS = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './privacy.html',
-  './terms.html'
+  './terms.html',
+  './events-images/',
 ];
 
 self.addEventListener('install', event => {
