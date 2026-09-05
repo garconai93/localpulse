@@ -1227,16 +1227,21 @@ const state = {
 ============================================ */
 function migrateStorage() {
   // Pentru utilizatorii care aveau LocalPulse salvat in localStorage
-  const migrations = [
-    ['localpulse_theme', 'localevent_theme'],
-    ['localpulse_city', 'localevent_city'],
-  ];
-  for (const [oldKey, newKey] of migrations) {
-    const val = localStorage.getItem(oldKey);
-    if (val !== null && localStorage.getItem(newKey) === null) {
-      localStorage.setItem(newKey, val);
+  try {
+    if (!localStorage) return;  // Safari private mode / localStorage indisponibil
+    const migrations = [
+      ['localpulse_theme', 'localevent_theme'],
+      ['localpulse_city', 'localevent_city'],
+    ];
+    for (const [oldKey, newKey] of migrations) {
+      const val = localStorage.getItem(oldKey);
+      if (val !== null && localStorage.getItem(newKey) === null) {
+        localStorage.setItem(newKey, val);
+      }
+      localStorage.removeItem(oldKey);
     }
-    localStorage.removeItem(oldKey);
+  } catch (e) {
+    // localStorage blocat — nu e critic, doar skip
   }
 }
 
@@ -1518,7 +1523,25 @@ function render() {
   const evs = getEvents();
   const city = DATA.cities.find(c => c.slug === state.city);
 
-  // Stats
+  // Search filter — primul, ca să-l folosim peste tot mai jos
+  const query = (state.searchQuery || '').trim().toLowerCase();
+  let displayEvs = evs;
+  if (query) {
+    displayEvs = evs.filter(e => {
+      const haystack = [
+        e.title || '',
+        e.venue || '',
+        e.description || '',
+        e.category || '',
+        e.vibe || '',
+        city.name || '',
+        ...(e.tags || []),
+      ].join(' ').toLowerCase();
+      return haystack.includes(query);
+    });
+  }
+
+  // Stats — se bazează pe TOATE evenimentele din oraș (nu pe search)
   const allInCity = city.events;
   const free = allInCity.filter(e => e.price === 'free').length;
   const [sat, sun] = getWeekendDates();
@@ -1540,24 +1563,6 @@ function render() {
     document.getElementById('weekendTitle').textContent = t('weekend_title_count')(weekend, city.name);
     banner.style.display = 'flex';
   } else banner.style.display = 'none';
-
-  // Search filter — dacă e activ, caută în titlu, venue, descriere, categorie, oraș
-  const query = (state.searchQuery || '').trim().toLowerCase();
-  let displayEvs = evs;
-  if (query) {
-    displayEvs = evs.filter(e => {
-      const haystack = [
-        e.title || '',
-        e.venue || '',
-        e.description || '',
-        e.category || '',
-        e.vibe || '',
-        city.name || '',
-        ...(e.tags || []),
-      ].join(' ').toLowerCase();
-      return haystack.includes(query);
-    });
-  }
 
   // Search results meta (afișat deasupra cardurilor)
   const searchMeta = document.getElementById('searchMeta');
