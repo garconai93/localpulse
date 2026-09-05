@@ -312,31 +312,107 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
         except Exception as e:
             continue
 
-        # Find event links on day page (they're in a list)
-        event_links = day_soup.find_all('a', href=re.compile(r'/(?!calendar|categorii|info)[a-z0-9-]+/?$'))
+        # Group by day items (ev-list-item) — fiecare eveniment e într-un container clar
+        day_items = day_soup.find_all('div', class_=re.compile(r'ev-list-item'))
+        if not day_items:
+            day_items = day_soup.find_all('a', href=re.compile(r'/(?!calendar|categorii|info)[a-z0-9-]+/?$'))
 
-        for ev_link in event_links:
+        for ev_link in day_items:
             try:
-                ev_href = ev_link.get('href', '')
-                if not ev_href or ev_href.startswith('#') or '/mvc/' in ev_href:
-                    continue
-
-                # Get event title
-                title_el = ev_link.find(['h3', 'h2', 'span'])
-                title = title_el.get_text(strip=True) if title_el else ev_link.get_text(strip=True).split('\n')[0]
-                if not title or len(title) < 5:
-                    continue
-
-                # Get city from text near title (usually "Bucuresti" appears after)
-                text_content = ev_link.get_text(' ', strip=True)
-                # City detection
-                detected_city = None
-                for slug, name in CITIES.items():
-                    if name in text_content or name.lower() in text_content.lower():
-                        detected_city = (slug, name)
+                # Dacă day_items conține div-uri, ia link-ul evenimentului din interior
+                if ev_link.name == 'div':
+                    # Găsește link-ul evenimentului — e cel cu text='' (titlu) care nu e categorie/info/detalii/data
+                    title_anchor = None
+                    candidate_links = ev_link.find_all('a', href=True)
+                    for a in candidate_links:
+                        href = a.get('href', '')
+                        # Skip categorii, info, calendar, detalii
+                        if any(x in href for x in ['/categorii/', '/info/', '/calendar/', '/cauta', '/mvc/']):
+                            continue
+                        # Skip linkuri cu text 'Detalii', 'Bilete', date (ex: '6 sept'), etc.
+                        link_text = a.get_text(strip=True).lower()
+                        if link_text in ['detalii', 'bilete', 'contact', 'cauta']:
+                            continue
+                        if re.match(r'^\d+\s*(sept|oct|nov|dec|ian|feb|mar|apr|mai|iun|iul|aug)$', link_text):
+                            continue
+                        # Acesta e linkul evenimentului
+                        title_anchor = a
                         break
+                    if not title_anchor:
+                        continue
+                    ev_href = title_anchor.get('href', '')
+                    # Ia title-ul din textul div-ului (primul chunk semnificativ)
+                    item_text = ev_link.get_text(' | ', strip=True)
+                    # Pattern: "5 sept | sâmbătă | ora 10:00 | expirat | Capra cu trei iezi | ..."
+                    parts = [p.strip() for p in item_text.split('|') if p.strip()]
+                    # Sari peste dată, ziua, ora, status (expirat/viitor), rămâne title
+                    title = ''
+                    for p in parts:
+                        if p.lower() in ['expirat', 'detalii', 'bilete']:
+                            continue
+                        if re.match(r'^\d+ sept$', p, re.IGNORECASE):
+                            continue
+                        if p.lower().startswith('ora ') or p.lower().startswith('de la'):
+                            continue
+                        if p.lower() in ['luni', 'marți', 'miercuri', 'joi', 'vineri', 'sâmbătă', 'duminică', 'sambata', 'duminica']:
+                            continue
+                        title = p
+                        break
+                    if not title or len(title) < 5:
+                        continue
+                else:
+                    ev_href = ev_link.get('href', '')
+                    if not ev_href or ev_href.startswith('#') or '/mvc/' in ev_href:
+                        continue
+                    title_el = ev_link.find(['h3', 'h2', 'span'])
+                    title = title_el.get_text(strip=True) if title_el else ev_link.get_text(strip=True).split('\n')[0]
+                    if not title or len(title) < 5:
+                        continue
+
+                # Skip linkuri non-eveniment evidente (categorii, info)
+                if any(x in ev_href for x in ['/calendar/', '/categorii/', '/info/', '/cauta']):
+                    continue
+                last_seg = ev_href.rstrip('/').split('/')[-1]
+                if not re.match(r'^[a-z0-9-]+$', last_seg) or len(last_seg) < 5:
+                    continue
+
+                # === DETECȚIE ORAȘ ===
+                # Caută map-marker în containerul ev-list-item (sau în părintele link-ului)
+                detected_city = None
+                search_container = ev_link if ev_link.name == 'div' else ev_link.parent
+                # Caută până la 5 niveluri
+                for _ in range(5):
+                    if search_container is None:
+                        break
+                    map_icon = search_container.find('i', class_=re.compile(r'fa-map-marker|fa-map'))
+                    if map_icon:
+                        # Textul orașului e lângă iconiță — primul segment înainte de virgulă
+                        marker_text = map_icon.parent.get_text(' ', strip=True) if map_icon.parent else ''
+                        city_candidate = marker_text.split(',')[0].strip()
+                        if city_candidate:
+                            city_norm = city_candidate.lower().replace('ă','a').replace('â','a').replace('î','i').replace('ș','s').replace('ț','t')
+                            for slug, name in CITIES.items():
+                                name_norm = name.lower().replace('ă','a').replace('â','a').replace('î','i').replace('ș','s').replace('ț','t')
+                                if city_norm == name_norm or city_norm == slug.replace('-', ' '):
+                                    detected_city = (slug, name)
+                                    break
+                        if detected_city:
+                            break
+                    search_container = search_container.parent if hasattr(search_container, 'parent') and search_container.parent else None
+
+                # Fallback URL (fără fetch individual): URL conține slug oraș ca prim segment
                 if not detected_city:
-                    continue  # skip if not in our 7 cities
+                    from urllib.parse import urlparse
+                    ev_path = urlparse(urljoin('https://www.bilete.ro', ev_href)).path.strip('/')
+                    path_parts = ev_path.split('/')
+                    if len(path_parts) >= 2 and path_parts[0] in CITIES:
+                        detected_city = (path_parts[0], CITIES[path_parts[0]])
+
+                if not detected_city:
+                    continue  # nu putem detecta orașul cu încredere — sărim
+
+                # Reconstruim text_content pentru price/venue
+                text_content = ev_link.get_text(' ', strip=True) if hasattr(ev_link, 'get_text') else ''
 
                 # Unique ID
                 slug_part = re.sub(r'[^a-z0-9-]', '', ev_href)[:30]
@@ -344,14 +420,14 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
                 if full_id in existing_ids:
                     continue
 
-                # Time — try to extract from event page later, default 20:00
+                # Time — default 20:00 (ora exactă nu e pe pagina de zi)
                 event_time = "20:00"
 
                 # Price — default paid 60 lei unless we find 'GRATUIT'
                 is_free = 'GRATUIT' in text_content.upper()
 
-                # Venue — usually in title's parent or surrounding
-                venue_match = re.search(r'@\s*([^,]+(?:,\s*\w+)*)', text_content)
+                # Venue — pattern "Title @ Venue" sau fallback
+                venue_match = re.search(r'@\s*([^|]+?)(?:\s*\||$)', text_content)
                 venue = venue_match.group(1).strip() if venue_match else f"loc în {detected_city[1]}"
 
                 full_url = urljoin('https://www.bilete.ro', ev_href)
@@ -383,6 +459,8 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
                     "time": event_time,
                     "venue": venue,
                     "address": venue,
+                    "city_slug": detected_city[0],  # orașul detectat — sursă de adevăr unică
+                    "city_name": detected_city[1],
                     "price": "free" if is_free else "paid",
                     "price_value": 0 if is_free else 60,
                     "source": "bilete.ro",
@@ -402,16 +480,16 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
             except Exception as e:
                 continue
 
-    # Group by city
+    # Group by city — FOLOSIM city_slug stocat, NU re-detectăm din text
+    # (re-detectarea din venue/description poate da orașe greșite dacă
+    # description-ul conține alt nume de oraș)
     by_city = {}
     for ev in events:
-        # Re-detect city from event object (we already filtered to our 7)
-        for slug, name in CITIES.items():
-            if name in ev.get('venue', '') or name in ev.get('description', ''):
-                if slug not in by_city:
-                    by_city[slug] = []
-                by_city[slug].append(ev)
-                break
+        slug = ev.get('city_slug')
+        if slug and slug in CITIES:
+            if slug not in by_city:
+                by_city[slug] = []
+            by_city[slug].append(ev)
 
     print(f"[bilete.ro] Found {len(events)} new events", file=sys.stderr)
     return by_city
