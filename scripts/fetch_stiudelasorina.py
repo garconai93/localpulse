@@ -171,6 +171,11 @@ def normalize_event(ev, event_id_counter):
 
     # Build LocalEvent schema
     event_id_counter[0] += 1
+    # Imagine (API TEC returnează direct URL)
+    image_url = ""
+    img_obj = ev.get("image") or {}
+    if isinstance(img_obj, dict):
+        image_url = img_obj.get("url", "") or ""
     return {
         "id": f"sorina-{event_id_counter[0]:04d}",
         "title": title,
@@ -189,6 +194,7 @@ def normalize_event(ev, event_id_counter):
         "duration": "",
         "age": "",
         "tags": cat_slugs,
+        "image": image_url,
         "map_url": f"https://maps.google.com/?q={venue_name.replace(' ', '+')}+{city_name}" if venue_name else "",
         "organizer": "stiudelasorina.ro",
         "lat": float(lat) if lat else BUCHAREST_LAT,

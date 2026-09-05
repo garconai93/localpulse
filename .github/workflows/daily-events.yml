@@ -116,6 +116,15 @@ jobs:
           echo "last_recategorized=$RECATEG" >> $GITHUB_OUTPUT
           echo "✓ Events recategorized" >&2
 
+      - name: Fetch event images (og:image, JSON-LD)
+        id: images
+        continue-on-error: true
+        run: |
+          cd scripts
+          python fetch_event_images.py
+          IMGSYNC=$(python -c "import json; d=json.load(open('../events.json')); print(d.get('last_images_sync','never'))")
+          echo "last_images_sync=$IMGSYNC" >> $GITHUB_OUTPUT
+
       - name: Check if events.json changed
         id: diff
         run: |
@@ -133,6 +142,8 @@ jobs:
           git config user.name "Garcon Bot"
           git config user.email "garcon@garconai.dev"
           git add events.json
+          # Adaugă imagini noi din events-images/ (dacă există)
+          git add events-images/ 2>/dev/null || true
           # geocode_cache.json e opțional (poate fi regenerat din script)
           git add geocode_cache.json 2>/dev/null || true
           TODAY=$(date -u +'%Y-%m-%d')
@@ -151,5 +162,6 @@ jobs:
           echo "- Total events in DB: ${{ steps.totals.outputs.total }}" >> $GITHUB_STEP_SUMMARY
           echo "- Last geocoded: ${{ steps.geocode.outputs.last_geocoded }}" >> $GITHUB_STEP_SUMMARY
           echo "- Last recategorized: ${{ steps.recategorize.outputs.last_recategorized }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Last images sync: ${{ steps.images.outputs.last_images_sync }}" >> $GITHUB_STEP_SUMMARY
           echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY

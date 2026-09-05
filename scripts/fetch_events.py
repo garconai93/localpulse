@@ -397,6 +397,7 @@ def scrape_city(city_slug, city_name, existing_ids, days=30):
                 "price_value": 0 if is_free else 60,
                 "source": "iabilet",
                 "url": full_url,
+                "image": "",  # populat de fetch_event_images.py
                 "description": f"{title} — eveniment la {venue or 'locație necunoscută'} din {city_name}.",
                 "highlights": [f"dată: {iso_date}", f"ora: {event_time}", f"categorie: {category}"],
                 "duration": "1h 30min",
@@ -616,6 +617,7 @@ def scrape_bilete_ro(city_slug, city_name, existing_ids, days=30):
                     "price_value": 0 if is_free else 60,
                     "source": "bilete.ro",
                     "url": full_url,
+                    "image": "",  # populat de fetch_event_images.py
                     "description": f"{title} - eveniment la {venue} din {detected_city[1]}, conform calendarului bilete.ro.",
                     "highlights": [f"data: {iso_date}", f"loc: {venue}", f"categorie: {category}"],
                     "duration": "1h 30min",
