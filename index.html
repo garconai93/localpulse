@@ -1322,17 +1322,21 @@ function buildMapsUrl(lat, lon, name) {
   const ua = navigator.userAgent || '';
   const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes('Mac') && 'ontouchend' in document);
   const isAndroid = /Android/i.test(ua);
-  const encoded = encodeURIComponent(name);
+  const encoded = encodeURIComponent(name || '');
+  // Fallback: dacă nu avem coordonate valide, folosim query text (numele locului)
+  const hasCoords = Number.isFinite(lat) && Number.isFinite(lon) && !(lat === 0 && lon === 0);
   if (isIOS) {
-    // Apple Maps: deschide cu indicații (mod auto), numele locului ca pin
-    return `https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d&q=${encoded}`;
+    // Apple Maps: indicații (mod auto) cu pin pe nume
+    if (hasCoords) return `https://maps.apple.com/?daddr=${lat},${lon}&dirflg=d&q=${encoded}`;
+    return `https://maps.apple.com/?daddr=${encoded}&dirflg=d`;
   }
   if (isAndroid) {
-    // Android intent: geo:lat,lon?q=lat,lon(name) - deschide Maps cu rută
-    return `geo:${lat},${lon}?q=${lat},${lon}(${encoded})`;
+    if (hasCoords) return `geo:${lat},${lon}?q=${lat},${lon}(${encoded})`;
+    return `geo:0,0?q=${encoded}`;
   }
-  // Desktop / altele: Google Maps cu indicații (mod auto)
-  return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
+  // Desktop / altele
+  if (hasCoords) return `https://www.google.com/maps/dir/?api=1&destination=${lat},${lon}&travelmode=driving`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${encoded}&travelmode=driving`;
 }
 
 function vibeLabel(v) {
