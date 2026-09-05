@@ -99,6 +99,14 @@ jobs:
           TOTAL=$(python -c "import json; d=json.load(open('../events.json')); print(sum(len(c['events']) for c in d.get('cities',[])))")
           echo "total=$TOTAL" >> $GITHUB_OUTPUT
 
+      - name: Geocode venues (Nominatim)
+        id: geocode
+        run: |
+          cd scripts
+          python geocode_venues.py
+          GEOCODED=$(python -c "import json; d=json.load(open('../events.json')); print(d.get('last_geocoded','never'))")
+          echo "last_geocoded=$GEOCODED" >> $GITHUB_OUTPUT
+
       - name: Check if events.json changed
         id: diff
         run: |
@@ -115,7 +123,7 @@ jobs:
         run: |
           git config user.name "Garcon Bot"
           git config user.email "garcon@garconai.dev"
-          git add events.json
+          git add events.json geocode_cache.json
           TODAY=$(date -u +'%Y-%m-%d')
           TOTAL=${{ steps.totals.outputs.total }}
           git commit -m "🤖 Daily scrape: $TOTAL total events ($TODAY)"
@@ -130,5 +138,6 @@ jobs:
           echo "- stiudelasorina events fetched: ${{ steps.fetch-sds.outputs.sds_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- zilesinopti events fetched: ${{ steps.fetch-zsn.outputs.zsn_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- Total events in DB: ${{ steps.totals.outputs.total }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Last geocoded: ${{ steps.geocode.outputs.last_geocoded }}" >> $GITHUB_STEP_SUMMARY
           echo "- Events.json changed: ${{ steps.diff.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
           echo "- Run date: $(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
