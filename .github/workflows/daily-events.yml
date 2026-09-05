@@ -123,7 +123,9 @@ jobs:
         run: |
           git config user.name "Garcon Bot"
           git config user.email "garcon@garconai.dev"
-          git add events.json geocode_cache.json
+          git add events.json
+          # geocode_cache.json e opțional (poate fi regenerat din script)
+          git add geocode_cache.json 2>/dev/null || true
           TODAY=$(date -u +'%Y-%m-%d')
           TOTAL=${{ steps.totals.outputs.total }}
           git commit -m "🤖 Daily scrape: $TOTAL total events ($TODAY)"
