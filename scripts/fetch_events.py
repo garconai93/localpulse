@@ -132,7 +132,7 @@ def detect_category(text):
     """Detectează categoria unui eveniment pe baza textului (titlu + venue).
     Ordinea verificărilor e IMPORTANTĂ — cele mai specifice vin primele.
     Returnează una din: 'sport', 'family', 'comedy', 'teatru', 'workshop',
-    'expo', 'concert'.
+    'expo', 'concert', 'cinema'.
     """
     text = text.lower()
 
@@ -154,7 +154,40 @@ def detect_category(text):
         if kw in text:
             return 'sport'
 
-    # 2. FAMILY — pentru copii/baby (specific context)
+    # 2. CINEMA — verifică ÎNAINTE de teatru (filmele au „2D"/„3D"/„IMAX"/ODYSSEY etc.)
+    # DAR nu reclasifica dacă titlul conține indicatori muzicali clari (concert simfonic, operă etc.)
+    music_override = [
+        'concert simfonic', 'concert simfonic', 'simfonic', 'concert de cameră',
+        'concert cameră', 'concert cameral', 'orchestra', 'orchestră',
+        'cor ', 'coral', 'operă', 'opera', 'balet', 'recital', 'filarmonica',
+        'filarmonic', 'lansare album', 'lansare carte', 'festival de muzică',
+        'festival muzica',
+    ]
+    has_music_override = any(kw in text for kw in music_override)
+    if not has_music_override:
+        cinema_kw = [
+            ' 2d', ' 3d', ' imax', ' 4dx', 'documentar', 'scurtmetraj',
+            'cinematograf', 'cinematografic',
+            'avampremiera', 'avanpremiera',
+        ]
+        for kw in cinema_kw:
+            if kw in text:
+                return 'cinema'
+        # Autori/regizori cunoscuți de film
+        cinema_authors = ['coppola', 'spielberg', 'tarantino', 'scorsese', 'kubrick', 'hitchcock']
+        for kw in cinema_authors:
+            if kw in text:
+                return 'cinema'
+        # Titluri specifice de filme cunoscute
+        film_titles = [
+            'odyssey', 'odiseea', 'odissea', 'cars 2d', 'cars 3d',
+            'the odyssey',
+        ]
+        for ft in film_titles:
+            if ft in text:
+                return 'cinema'
+
+    # 3. FAMILY — pentru copii/baby (specific context)
     family_kw = [
         'pentru copii', 'copiilor', 'pentru cei mici', 'kids', 'baby',
         'junior', 'păpuși', 'papusi', 'atelier pentru copii', 'atelier copii',
@@ -166,22 +199,46 @@ def detect_category(text):
         if kw in text:
             return 'family'
 
-    # 3. COMEDY / STAND-UP
+    # 4. COMEDY / STAND-UP
     comedy_kw = ['stand-up', 'stand up', 'standup', 'comedie', 'umor', 'umorist']
     for kw in comedy_kw:
         if kw in text:
             return 'comedy'
 
-    # 4. TEATRU / SPECTACOL
-    teatru_kw = [
-        'teatru', 'spectacol', 'shakespeare', 'willy', 'piesă', 'piesa',
-        'one man show', 'shakespear', 'comedie shakespear',
+    # 5. TEATRU / SPECTACOL — autori și titluri de piese cunoscute
+    theatre_authors = [
+        'ionesco', 'shakespeare', 'checkov', 'cehov', 'molière', 'moliere',
+        'caragiale', 'caragiale', 'kafka', 'beckett', 'pinter', 'ibsen',
+        'strindberg', 'gogol', 'ostrovski', 'tartuffe', 'hamlet', 'macbeth',
+        'othello', 'caligula', 'faust',
     ]
-    for kw in teatru_kw:
+    for kw in theatre_authors:
         if kw in text:
             return 'teatru'
 
-    # 5. WORKSHOP / ATELIER CREATIV
+    theatre_kw = [
+        'teatru', 'spectacol', 'shakespeare', 'willy', 'piesă', 'piesa',
+        'one man show', 'shakespear', 'comedie shakespear',
+        'spectatorul', 'condamnat la moarte', 'lectia', 'lecția',
+        'tartuffe', 'tartüff',
+    ]
+    for kw in theatre_kw:
+        if kw in text:
+            return 'teatru'
+
+    # Whitelist de piese de teatru cunoscute (titluri care nu au keyword evident)
+    theatre_titles = [
+        'am comis-o', 'am comis o', 'conu leonida',
+        'o noapte furtunoasă', 'o scrisoare pierdută',
+        'inspectorul', 'inspectorul general',
+        'tantalul familiei', 'oaspetele strain',
+        'electronica', 'vrajitoarele din eastwick',
+    ]
+    for t in theatre_titles:
+        if t in text:
+            return 'teatru'
+
+    # 6. WORKSHOP / ATELIER CREATIV
     workshop_kw = [
         'workshop', 'atelier creativ', 'atelier handmade', 'curs', 'training',
         'masterclass', 'conferinta', 'conferință', 'dezbatere', 'meetup',
@@ -190,7 +247,7 @@ def detect_category(text):
         if kw in text:
             return 'workshop'
 
-    # 6. EXPO / TÂRG / GALERIE
+    # 7. EXPO / TÂRG / GALERIE
     expo_kw = [
         'expozitie', 'expoziție', 'expo ', 'galerie', 'art gallery',
         'vernisaj', 'târg', 'targ', 'bazar', 'street food',
@@ -199,7 +256,7 @@ def detect_category(text):
         if kw in text:
             return 'expo'
 
-    # 7. CONCERT / MUZICĂ — verificat LA URMĂ pentru că e cel mai generic
+    # 8. CONCERT / MUZICĂ — verificat LA URMĂ pentru că e cel mai generic
     concert_kw = [
         'concert', 'jazz', 'rock', 'metal', 'party', 'festival de muzică',
         'festival muzica', 'dj set', 'live music', 'acoustic', 'orchestra',
@@ -212,7 +269,7 @@ def detect_category(text):
         if kw in text:
             return 'concert'
 
-    # 8. DEFAULT: concert (cea mai comună categorie)
+    # 9. DEFAULT: concert (cea mai comună categorie)
     return 'concert'
 
 

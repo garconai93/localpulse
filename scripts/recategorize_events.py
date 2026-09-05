@@ -38,6 +38,7 @@ def main():
         'comedy': 'loud',
         'workshop': 'casual',
         'expo': 'intim',
+        'cinema': 'intim',
     }
 
     # Mapare: categorie veche → categorie nouă standard
@@ -49,9 +50,9 @@ def main():
         'expozitie': 'expo',
         'standup': 'comedy',
         'conferinta': 'workshop',
-        'film': 'family',           # film la cinema pt copii
+        'film': 'cinema',           # film vechi = cinema
+        'cinema': 'cinema',
         'festival': 'concert',
-        'cinema': 'family',
         'party': 'concert',
         'boardgames': 'family',
         'targ': 'expo',
@@ -60,8 +61,8 @@ def main():
     # După normalizarea alias-urilor, reclasifică DOAR dacă detect_category
     # dă ceva cu prioritate mai mare decât categoria normalizată.
     priority = {
-        'sport': 100, 'family': 80, 'comedy': 60, 'teatru': 50,
-        'workshop': 40, 'expo': 30, 'concert': 10,
+        'sport': 100, 'cinema': 90, 'family': 80, 'comedy': 60,
+        'teatru': 50, 'workshop': 40, 'expo': 30, 'concert': 10,
         'atelier': 20,  # e neutru — nu e concert dar nici specific
         'outdoor': 20,  # similar
     }
