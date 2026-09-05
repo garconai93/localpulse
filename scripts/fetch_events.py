@@ -186,6 +186,13 @@ def detect_category(text):
         film_titles = [
             'odyssey', 'odiseea', 'odissea', 'cars 2d', 'cars 3d',
             'the odyssey',
+            'paw patrol', 'patrula cățelușilor', 'patrula catelusilor',
+            'michael',  # film biografic Michael Jackson (2025)
+            'oppenheimer', 'dune', 'avatar', 'wicked', 'joker',
+            'barbie', 'wonka', 'the batman', 'black widow',
+            'inside out', 'toy story', 'frozen', 'moana',
+            'lion king', 'frozen 2', 'encanto', 'coco',
+            'avengers', 'spider-man', 'spiderman',
         ]
         for ft in film_titles:
             if ft in text:
@@ -237,6 +244,9 @@ def detect_category(text):
         'inspectorul', 'inspectorul general',
         'tantalul familiei', 'oaspetele strain',
         'electronica', 'vrajitoarele din eastwick',
+        'cine are nevoie de iubire', 'cine mai are nevoie de iubire',
+        'cine se teme de virginia woolf',
+        'scurt circuit', 'take ike ana',
     ]
     for t in theatre_titles:
         if t in text:
