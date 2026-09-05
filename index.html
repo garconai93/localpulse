@@ -217,6 +217,68 @@ a { color: inherit; }
   0%, 100% { box-shadow: 0 0 0 0 var(--accent-soft); }
   50% { box-shadow: 0 0 0 6px transparent; }
 }
+.hero-top {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.hero-top .eyebrow { margin-bottom: 0; }
+.search-btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px 6px 12px;
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.search-btn:hover { color: var(--accent); border-color: var(--accent); }
+.search-btn svg { width: 14px; height: 14px; }
+.search-bar {
+  display: none;
+  margin: 16px 0 8px;
+  position: relative;
+}
+.search-bar.open { display: block; }
+.search-bar input {
+  width: 100%;
+  padding: 14px 44px 14px 16px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  border-radius: 14px;
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-bar input:focus { border-color: var(--accent); }
+.search-bar input::placeholder { color: var(--text-muted); }
+.search-bar .clear-btn {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  background: var(--border); border: none; color: var(--text-muted);
+  width: 24px; height: 24px; border-radius: 50%;
+  display: none; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 14px; line-height: 1;
+}
+.search-bar.has-value .clear-btn { display: inline-flex; }
+.search-bar .clear-btn:hover { background: var(--accent); color: #fff; }
+.search-results-meta {
+  margin: 8px 0 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.search-results-meta strong { color: var(--text); font-weight: 600; }
+.search-empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.search-empty strong { color: var(--text); display: block; margin-bottom: 4px; font-size: 16px; }
 
 h1 {
   font-size: clamp(40px, 7vw, 72px);
@@ -1003,9 +1065,19 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
 </header>
 
 <section class="hero">
-  <div class="eyebrow">
-    <span class="eyebrow-dot">●</span>
-    <span id="liveDot" data-i18n="hero_eyebrow">Live · septembrie 2026</span>
+  <div class="hero-top">
+    <div class="eyebrow">
+      <span class="eyebrow-dot">●</span>
+      <span id="liveDot" data-i18n="hero_eyebrow">Live · septembrie 2026</span>
+    </div>
+    <button id="searchToggle" class="search-btn" aria-label="Caută evenimente">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <span data-i18n="search_btn">Caută eveniment</span>
+    </button>
+  </div>
+  <div id="searchBar" class="search-bar">
+    <input id="searchInput" type="search" placeholder="Ex: concert, Teatrul Național, copii..." autocomplete="off" data-i18n-ph="search_placeholder" />
+    <button id="searchClear" class="clear-btn" aria-label="Șterge căutarea">✕</button>
   </div>
   <h1 data-i18n="hero_title">Descoperă ce se întâmplă în <span class="accent">orașul tău</span></h1>
   <p class="lead" data-i18n="hero_lead">Concerte, festivaluri, spectacole, târguri și evenimente pentru toate gusturile — toate într-un singur loc.</p>
@@ -1068,6 +1140,7 @@ footer .mono { font-family: 'JetBrains Mono', monospace; }
     </div>
   </div>
 
+  <div id="searchMeta" class="search-results-meta" style="display:none"></div>
   <div id="bento" class="bento"></div>
   <div id="empty" class="empty" style="display:none">
     <div class="empty-icon">🔍</div>
@@ -1145,6 +1218,8 @@ const state = {
   period: 'all',
   price: null,
   vibe: null,
+  searchQuery: '',
+  searchOpen: false,
 };
 
 /* ============================================
@@ -1244,6 +1319,48 @@ function init() {
   // Geo
   document.getElementById('geoBtn').addEventListener('click', detectGeo);
 
+  // Search
+  const searchToggle = document.getElementById('searchToggle');
+  const searchBar = document.getElementById('searchBar');
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+  searchToggle.addEventListener('click', () => {
+    state.searchOpen = !state.searchOpen;
+    if (state.searchOpen) {
+      searchBar.classList.add('open');
+      setTimeout(() => searchInput.focus(), 100);
+    } else {
+      searchBar.classList.remove('open');
+      searchInput.value = '';
+      state.searchQuery = '';
+      searchBar.classList.remove('has-value');
+      render();
+    }
+  });
+  searchClear.addEventListener('click', () => {
+    searchInput.value = '';
+    state.searchQuery = '';
+    searchBar.classList.remove('has-value');
+    render();
+    searchInput.focus();
+  });
+  searchInput.addEventListener('input', () => {
+    state.searchQuery = searchInput.value;
+    if (searchInput.value) searchBar.classList.add('has-value');
+    else searchBar.classList.remove('has-value');
+    render();
+  });
+  // ESC închide search
+  searchInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      searchInput.value = '';
+      state.searchQuery = '';
+      state.searchOpen = false;
+      searchBar.classList.remove('open', 'has-value');
+      render();
+    }
+  });
+
   render();
 }
 
@@ -1297,6 +1414,10 @@ function fmtDate(d) {
   const days = ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm'];
   const months = ['ian', 'feb', 'mar', 'apr', 'mai', 'iun', 'iul', 'aug', 'sep', 'oct', 'noi', 'dec'];
   return { dow: days[dt.getDay()], day: dt.getDate(), month: months[dt.getMonth()] };
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
 function catIcon(c) {
@@ -1411,7 +1532,7 @@ function render() {
   // Feed title
   const periodLabel = { all: 'Toate', today: 'Azi', weekend: 'Weekend', next7: '7 zile' }[state.period];
   document.getElementById('feedTitle').textContent = `${city.name} · ${periodLabel}`;
-  document.getElementById('feedCount').textContent = `${evs.length} ${evs.length === 1 ? 'eveniment' : 'evenimente'}`;
+  document.getElementById('feedCount').textContent = `${displayEvs.length} ${displayEvs.length === 1 ? 'eveniment' : 'evenimente'}`;
 
   // Weekend banner
   const banner = document.getElementById('weekendBanner');
@@ -1420,18 +1541,53 @@ function render() {
     banner.style.display = 'flex';
   } else banner.style.display = 'none';
 
+  // Search filter — dacă e activ, caută în titlu, venue, descriere, categorie, oraș
+  const query = (state.searchQuery || '').trim().toLowerCase();
+  let displayEvs = evs;
+  if (query) {
+    displayEvs = evs.filter(e => {
+      const haystack = [
+        e.title || '',
+        e.venue || '',
+        e.description || '',
+        e.category || '',
+        e.vibe || '',
+        city.name || '',
+        ...(e.tags || []),
+      ].join(' ').toLowerCase();
+      return haystack.includes(query);
+    });
+  }
+
+  // Search results meta (afișat deasupra cardurilor)
+  const searchMeta = document.getElementById('searchMeta');
+  if (searchMeta) {
+    if (query) {
+      searchMeta.style.display = 'block';
+      searchMeta.innerHTML = `${t('search_results_for')} <strong>"${escapeHtml(query)}"</strong> — <strong>${displayEvs.length}</strong> ${displayEvs.length === 1 ? 'eveniment' : 'evenimente'}`;
+    } else {
+      searchMeta.style.display = 'none';
+    }
+  }
+
   // Bento grid
   const container = document.getElementById('bento');
   const empty = document.getElementById('empty');
-  if (evs.length === 0) {
+  if (displayEvs.length === 0) {
     container.innerHTML = '';
+    if (query) {
+      // Search-specific empty state
+      empty.innerHTML = `<div class="search-empty"><strong>${t('search_no_results_title')}</strong>${t('search_no_results_hint')}</div>`;
+    } else {
+      empty.innerHTML = `<strong>${t('no_events')}</strong><div style="margin-top:6px;font-size:13px">${t('no_events_sub')}</div>`;
+    }
     empty.style.display = 'block';
     return;
   }
   empty.style.display = 'none';
 
   // First 2 are "featured" (larger)
-  container.innerHTML = evs.map((e, i) => {
+  container.innerHTML = displayEvs.map((e, i) => {
     const d = fmtDate(e.date);
     const isFeatured = i < 2 && state.period === 'all';
     const tags = (e.tags || []).map(t => `<span class="event-tag">#${t}</span>`).join('');
@@ -1526,12 +1682,17 @@ function render() {
 ============================================ */
 const I18N = {
   ro: {
-    hero_eyebrow: 'Live · septembrie 2026',
+    hero_eyebrow: 'Live · azi',  // suprascris de JS cu data exactă
     hero_title_html: 'Descoperă ce se întâmplă în <span class="accent">orașul tău</span>',
     hero_lead: 'Concerte, festivaluri, spectacole, târguri și evenimente pentru toate gusturile — toate într-un singur loc.',
     geo_text: 'Locația mea',
     stat_total: 'Evenimente',
     stat_free: 'Gratuite',
+    search_btn: 'Caută eveniment',
+    search_placeholder: 'Ex: concert, Teatrul Național, copii...',
+    search_results_for: 'Rezultate pentru',
+    search_no_results_title: 'Niciun eveniment găsit',
+    search_no_results_hint: 'Încearcă alți termeni sau schimbă perioada.',
     stat_weekend: 'În weekend',
     stat_categories: 'Categorii',
     filter_when: 'Când',
@@ -1562,7 +1723,7 @@ const I18N = {
     loading_error: 'Nu pot încărca evenimentele. Reîncarcă pagina.',
   },
   en: {
-    hero_eyebrow: 'Live · September 2026',
+    hero_eyebrow: 'Live · today',  // overridden by JS with exact date
     hero_title_html: 'Discover what\'s happening in <span class="accent">your city</span>',
     hero_lead: 'Concerts, festivals, shows, fairs and events for all tastes — all in one place.',
     geo_text: 'My location',
@@ -1596,6 +1757,11 @@ const I18N = {
     no_events: 'No events match these filters.',
     no_events_sub: 'Try different combinations or switch cities.',
     loading_error: 'Couldn\'t load events. Refresh the page.',
+    search_btn: 'Search events',
+    search_placeholder: 'Ex: concert, National Theatre, kids...',
+    search_results_for: 'Results for',
+    search_no_results_title: 'No events found',
+    search_no_results_hint: 'Try different keywords or change the period.',
   }
 };
 
@@ -1605,8 +1771,30 @@ function t(key) { return I18N[state_i18n.lang][key] || key; }
 
 function applyI18n() {
   document.documentElement.setAttribute('lang', state_i18n.lang);
+  // Set live date in eyebrow (Live · DD Month YYYY)
+  const lang = state_i18n.lang;
+  const today = new Date();
+  const months = {
+    ro: ['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'],
+    en: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+  };
+  const monthsShort = {
+    ro: ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec'],
+    en: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+  };
+  const dows = {
+    ro: ['duminică','luni','marți','miercuri','joi','vineri','sâmbătă'],
+    en: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+  };
+  const monthName = months[lang][today.getMonth()];
+  const day = today.getDate();
+  const year = today.getFullYear();
+  const dow = dows[lang][today.getDay()];
+  const dateStr = lang === 'ro'
+    ? `Live · ${day} ${monthName} ${year}`
+    : `Live · ${monthName} ${day}, ${year}`;
+  document.querySelector('[data-i18n="hero_eyebrow"]').textContent = dateStr;
   // Static text
-  document.querySelector('[data-i18n="hero_eyebrow"]').textContent = t('hero_eyebrow');
   document.querySelector('[data-i18n="hero_title"]').innerHTML = t('hero_title_html');
   document.querySelector('[data-i18n="hero_lead"]').textContent = t('hero_lead');
   document.querySelector('[data-i18n="geo_text"]').textContent = t('geo_text');
@@ -1630,6 +1818,8 @@ function applyI18n() {
   document.querySelector('[data-i18n="weekend_sub"]').textContent = t('weekend_sub');
   document.querySelector('[data-i18n="no_events"]').textContent = t('no_events');
   document.querySelector('[data-i18n="no_events_sub"]').textContent = t('no_events_sub');
+  document.querySelector('[data-i18n="search_btn"]').textContent = t('search_btn');
+  document.querySelector('[data-i18n-ph="search_placeholder"]').placeholder = t('search_placeholder');
   // Update lang toggle visual
   const langBtn = document.getElementById('langToggle');
   if (langBtn) {
