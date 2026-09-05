@@ -166,9 +166,13 @@ def detect_category(text):
     has_music_override = any(kw in text for kw in music_override)
     if not has_music_override:
         cinema_kw = [
-            ' 2d', ' 3d', ' imax', ' 4dx', 'documentar', 'scurtmetraj',
+            ' 2d', ' 3d', ' imax', ' 4dx',
+            'documentar', 'scurtmetraj',
             'cinematograf', 'cinematografic',
+            'cinema', 'cinemateca',
+            'film', 'filme', 'filmează', 'filmului', 'filmul',
             'avampremiera', 'avanpremiera',
+            'maraton de film', 'maraton film', 'noaptea filmului',
         ]
         for kw in cinema_kw:
             if kw in text:

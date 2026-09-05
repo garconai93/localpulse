@@ -84,20 +84,29 @@ def main():
 
             old_p = priority.get(old_cat_norm, 0)
             new_p = priority.get(new_cat, 0)
-            # Reclasifică DOAR dacă:
-            # - noua categorie e diferită de cea normalizată
-            # - noua categorie are prioritate strict mai mare
-            if new_cat != old_cat_norm and new_p > old_p:
-                key = (old_cat, new_cat)
-                by_change[key] = by_change.get(key, 0) + 1
-                if len(samples) < 100:
-                    samples.append({
-                        'title': title[:80],
-                        'city': city['slug'],
-                        'old': old_cat,
-                        'new': new_cat,
-                    })
-                e['category'] = new_cat
+            # Reclasifică dacă:
+            # - categoria veche e un alias care se normalizează la altceva (ex: 'film' → 'cinema')
+            # - SAU noua categorie detectată e diferită ȘI are prioritate mai mare
+            aliased = (old_cat != old_cat_norm)
+            if aliased or (new_cat != old_cat_norm and new_p > old_p):
+                # Dacă e doar alias, folosim categoria normalizată ca nouă
+                actual_new = new_cat if not aliased else old_cat_norm
+                if actual_new != old_cat:
+                    key = (old_cat, actual_new)
+                    by_change[key] = by_change.get(key, 0) + 1
+                    if len(samples) < 100:
+                        samples.append({
+                            'title': title[:80],
+                            'city': city['slug'],
+                            'old': old_cat,
+                            'new': actual_new,
+                        })
+                    e['category'] = actual_new
+                    # Update vibe
+                    new_vibe = vibe_map.get(actual_new, 'casual')
+                    if e.get('vibe') != new_vibe:
+                        e['vibe'] = new_vibe
+                    changes += 1
                 # Update vibe dacă se schimbă categoria
                 new_vibe = vibe_map.get(new_cat, 'casual')
                 if e.get('vibe') != new_vibe:
