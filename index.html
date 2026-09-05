@@ -1363,9 +1363,21 @@ function getEvents() {
   const city = DATA.cities.find(c => c.slug === state.city);
   if (!city) return [];
   let evs = city.events.slice();
-  const today = new Date().toISOString().slice(0, 10);
-  // Hide past events (auto-marked by merge_events.py) unless user explicitly filters to past
-  evs = evs.filter(e => !e.past);
+  const now = new Date();
+  const today = now.toISOString().slice(0, 10);
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+  // Ascunde evenimentele trecute (data trecută SAU ora trecută pentru azi)
+  evs = evs.filter(e => {
+    if (e.past) return false;  // marcat de merge_events.py
+    if (e.date < today) return false;  // dată în trecut
+    if (e.date === today) {
+      // verifică ora
+      const t = (e.time || '00:00').split(':');
+      const evMin = parseInt(t[0] || 0) * 60 + parseInt(t[1] || 0);
+      if (evMin < nowMin) return false;  // ora a trecut azi
+    }
+    return true;
+  });
   if (state.period === 'today') evs = evs.filter(e => e.date === today);
   else if (state.period === 'weekend') {
     const [sat, sun] = getWeekendDates();

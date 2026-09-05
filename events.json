@@ -1445,7 +1445,8 @@
           "map_url": "https://maps.google.com/?q=Wonderversity+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0024",
@@ -1475,7 +1476,8 @@
           "map_url": "https://maps.google.com/?q=A+Frame+by+Ținutul+Mărului+Dâmbovița",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0025",
@@ -1500,7 +1502,8 @@
           "map_url": "https://maps.google.com/?q=Cuib+de+joacă+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0026",
@@ -1526,7 +1529,8 @@
           "map_url": "https://maps.google.com/?q=Destiny+Park+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0027",
@@ -1551,7 +1555,8 @@
           "map_url": "https://maps.google.com/?q=Casa+Experimentelor+–+Romanian+Science+Center+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0028",
@@ -1577,7 +1582,8 @@
           "map_url": "https://maps.google.com/?q=Calea+Victoriei+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4488379,
-          "lon": 26.0887614
+          "lon": 26.0887614,
+          "past": true
         },
         {
           "id": "sorina-0029",
@@ -1602,7 +1608,8 @@
           "map_url": "https://maps.google.com/?q=Art+Safari+Kinder+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0030",
@@ -1628,7 +1635,8 @@
           "map_url": "https://maps.google.com/?q=Muzeul+Copiilor+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0031",
@@ -1654,7 +1662,8 @@
           "map_url": "https://maps.google.com/?q=Muzeul+Copiilor+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0032",
@@ -1680,7 +1689,8 @@
           "map_url": "https://maps.google.com/?q=Muzeul+Copiilor+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0033",
@@ -1707,7 +1717,8 @@
           "map_url": "https://maps.google.com/?q=Grădina+Montessori+Land+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0035",
@@ -1734,7 +1745,8 @@
           "map_url": "https://maps.google.com/?q=Ferma+Pedagogică+Săbăreni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0036",
@@ -1759,7 +1771,8 @@
           "map_url": "https://maps.google.com/?q=Parcul+I.O.R.+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0037",
@@ -1786,7 +1799,8 @@
           "map_url": "https://maps.google.com/?q=Parcul+Florilor+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.443525,
-          "lon": 26.1690453
+          "lon": 26.1690453,
+          "past": true
         },
         {
           "id": "sorina-0038",
@@ -1811,7 +1825,8 @@
           "map_url": "https://maps.google.com/?q=Wonderversity+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0039",
@@ -1838,7 +1853,8 @@
           "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
-          "lon": 26.0577274
+          "lon": 26.0577274,
+          "past": true
         },
         {
           "id": "sorina-0040",
@@ -1867,7 +1883,8 @@
           "map_url": "https://maps.google.com/?q=Parcul+I.O.R.+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0041",
@@ -1894,7 +1911,8 @@
           "map_url": "https://maps.google.com/?q=Școala+Centrală+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.443714,
-          "lon": 26.105408
+          "lon": 26.105408,
+          "past": true
         },
         {
           "id": "sorina-0042",
@@ -1919,7 +1937,8 @@
           "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
-          "lon": 26.0577274
+          "lon": 26.0577274,
+          "past": true
         },
         {
           "id": "sorina-0043",
@@ -1944,7 +1963,8 @@
           "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
-          "lon": 26.0577274
+          "lon": 26.0577274,
+          "past": true
         },
         {
           "id": "sorina-0044",
@@ -1969,7 +1989,8 @@
           "map_url": "https://maps.google.com/?q=Piața+Obor+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4490364,
-          "lon": 26.1242775
+          "lon": 26.1242775,
+          "past": true
         },
         {
           "id": "sorina-0045",
@@ -1996,7 +2017,8 @@
           "map_url": "https://maps.google.com/?q=Strada+Copilului+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4647599,
-          "lon": 26.061214
+          "lon": 26.061214,
+          "past": true
         },
         {
           "id": "sorina-0046",
@@ -2023,7 +2045,8 @@
           "map_url": "https://maps.google.com/?q=ParkLake+Mall+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4206655,
-          "lon": 26.149631
+          "lon": 26.149631,
+          "past": true
         },
         {
           "id": "sorina-0047",
@@ -2048,7 +2071,8 @@
           "map_url": "https://maps.google.com/?q=Teatrul+Amzei+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
-          "lon": 26.0930387
+          "lon": 26.0930387,
+          "past": true
         },
         {
           "id": "sorina-0048",
@@ -2073,7 +2097,8 @@
           "map_url": "https://maps.google.com/?q=Muzeul+Național+de+Istorie+Naturală+„Grigore+Antipa”+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4530836,
-          "lon": 26.0845751
+          "lon": 26.0845751,
+          "past": true
         },
         {
           "id": "sorina-0049",
@@ -2098,7 +2123,8 @@
           "map_url": "https://maps.google.com/?q=Ludoteca+FamilyHub+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0050",
@@ -2123,7 +2149,8 @@
           "map_url": "https://maps.google.com/?q=Curioși+de+profesie+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0051",
@@ -2148,7 +2175,8 @@
           "map_url": "https://maps.google.com/?q=Little+Owl+–+Nature+Kindergarten+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0053",
@@ -2173,7 +2201,8 @@
           "map_url": "https://maps.google.com/?q=Cabinet+Individual+de+Psihologie+Irina+Cosma+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0054",
@@ -2198,7 +2227,8 @@
           "map_url": "https://maps.google.com/?q=Hotel+Caro+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4750024,
-          "lon": 26.1094912
+          "lon": 26.1094912,
+          "past": true
         },
         {
           "id": "sorina-0055",
@@ -2223,7 +2253,8 @@
           "map_url": "https://maps.google.com/?q=Cărturești+Verona+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4429293,
-          "lon": 26.0994774
+          "lon": 26.0994774,
+          "past": true
         },
         {
           "id": "sorina-0056",
@@ -2248,7 +2279,8 @@
           "map_url": "https://maps.google.com/?q=Velocita+America+House+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0057",
@@ -2274,7 +2306,8 @@
           "map_url": "https://maps.google.com/?q=Fundația+Calea+Victoriei+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.439771,
-          "lon": 26.0973129
+          "lon": 26.0973129,
+          "past": true
         },
         {
           "id": "buc-004",
@@ -2307,7 +2340,8 @@
           "map_url": "https://maps.google.com/?q=Hanul+lui+Manuc+Bucuresti",
           "organizer": "iabilet.ro",
           "lat": 44.4297201,
-          "lon": 26.102347
+          "lon": 26.102347,
+          "past": true
         },
         {
           "id": "sorina-0058",
@@ -2332,7 +2366,8 @@
           "map_url": "https://maps.google.com/?q=Supernova+Lujerului+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4329043,
-          "lon": 26.0369242
+          "lon": 26.0369242,
+          "past": true
         },
         {
           "id": "sorina-0059",
@@ -2357,7 +2392,8 @@
           "map_url": "https://maps.google.com/?q=Teatrul+Țăndărică+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
-          "lon": 26.1010628
+          "lon": 26.1010628,
+          "past": true
         },
         {
           "id": "sorina-0060",
@@ -2382,7 +2418,8 @@
           "map_url": "https://maps.google.com/?q=Cloud98+Coffee+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0061",
@@ -2407,7 +2444,8 @@
           "map_url": "https://maps.google.com/?q=Restaurant+LA+MAMA+Clubul+Țăranului+Român+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0062",
@@ -2432,7 +2470,8 @@
           "map_url": "https://maps.google.com/?q=Curioși+de+profesie+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0063",
@@ -2459,7 +2498,8 @@
           "map_url": "https://maps.google.com/?q=BRAVO+edutainment+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0064",
@@ -2485,7 +2525,8 @@
           "map_url": "https://maps.google.com/?q=Parcul+Carol+I+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4193763,
-          "lon": 26.09495
+          "lon": 26.09495,
+          "past": true
         },
         {
           "id": "sorina-0065",
@@ -2512,7 +2553,8 @@
           "map_url": "https://maps.google.com/?q=Fabrica+de+jucării+din+lemn+Lemniko+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0066",
@@ -2538,7 +2580,8 @@
           "map_url": "https://maps.google.com/?q=Piața+Constituției+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4272779,
-          "lon": 26.0917417
+          "lon": 26.0917417,
+          "past": true
         },
         {
           "id": "sorina-0068",
@@ -2564,7 +2607,8 @@
           "map_url": "https://maps.google.com/?q=Parcul+Circului+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4571372,
-          "lon": 26.1105611
+          "lon": 26.1105611,
+          "past": true
         },
         {
           "id": "sorina-0069",
@@ -2589,7 +2633,8 @@
           "map_url": "https://maps.google.com/?q=MAFS+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0070",
@@ -2614,7 +2659,8 @@
           "map_url": "https://maps.google.com/?q=Wonderversity+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0071",
@@ -2639,7 +2685,8 @@
           "map_url": "https://maps.google.com/?q=Teatrul+Amzei+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
-          "lon": 26.0930387
+          "lon": 26.0930387,
+          "past": true
         },
         {
           "id": "sorina-0072",
@@ -2664,7 +2711,8 @@
           "map_url": "https://maps.google.com/?q=MARe/Muzeul+de+Artă+Recentă+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0073",
@@ -2689,7 +2737,8 @@
           "map_url": "https://maps.google.com/?q=București+Mall+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4202621,
-          "lon": 26.1266878
+          "lon": 26.1266878,
+          "past": true
         },
         {
           "id": "sorina-0074",
@@ -2714,7 +2763,8 @@
           "map_url": "https://maps.google.com/?q=Veranda+Mall+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4518315,
-          "lon": 26.1309407
+          "lon": 26.1309407,
+          "past": true
         },
         {
           "id": "sorina-0075",
@@ -2739,7 +2789,8 @@
           "map_url": "https://maps.google.com/?q=Sweet+Adventure+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0076",
@@ -2764,7 +2815,8 @@
           "map_url": "https://maps.google.com/?q=Wonderversity+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0077",
@@ -2789,7 +2841,8 @@
           "map_url": "https://maps.google.com/?q=MARe/Muzeul+de+Artă+Recentă+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "sorina-0078",
@@ -18956,7 +19009,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         }
       ]
     },
@@ -23072,7 +23126,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0094",

@@ -133,7 +133,11 @@ def main():
             new_added += 1
 
     # Mark past events + sort within each city
+    # Un eveniment e 'past' dacă:
+    # - data e în trecut, SAU
+    # - data e azi DAR ora a trecut deja
     past_marked = 0
+    now = datetime.now()
     cities_list = []
     for slug, city in existing_by_city.items():
         for ev in city.get('events', []):
@@ -143,6 +147,16 @@ def main():
             except ValueError:
                 continue
             is_past = ev_date < today
+            # Dacă e azi, verific și ora
+            if not is_past and ev_date == today:
+                time_str = ev.get('time', '00:00')
+                try:
+                    hh, mm = time_str.split(':')[:2]
+                    ev_dt = now.replace(hour=int(hh), minute=int(mm), second=0, microsecond=0)
+                    if ev_dt < now:
+                        is_past = True
+                except (ValueError, AttributeError):
+                    pass
             if is_past and not ev.get('past'):
                 ev['past'] = True
                 past_marked += 1
