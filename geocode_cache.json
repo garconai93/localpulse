@@ -630,5 +630,25 @@
   "loc în Timișoara::timisoara": [
     45.7538355,
     21.2257474
+  ],
+  "Hard Rock Cafe Pentru copii Teatru pentru copii Bucuresti, Hard Rock Cafe Detalii::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Sala Patria &#8211; BRASOV::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Opera Națională Română din Timișoara::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Sala Capitol &#8211; Timisoara::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
