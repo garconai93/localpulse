@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06",
-  "last_scraped": "2026-09-06",
+  "generated_at": "2026-09-07",
+  "last_scraped": "2026-09-07",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -4638,7 +4638,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.3994826,
           "lon": 26.0440015,
-          "image": "events-images/sorina-0108.jpg"
+          "image": "events-images/sorina-0108.jpg",
+          "past": true
         },
         {
           "id": "sorina-0109",
@@ -4665,7 +4666,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0109.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0110",
@@ -4692,7 +4694,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0110.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0111",
@@ -4718,7 +4721,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "image": "events-images/sorina-0111.jpg"
+          "image": "events-images/sorina-0111.jpg",
+          "past": true
         },
         {
           "id": "sorina-0112",
@@ -4745,7 +4749,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0112.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0113",
@@ -4773,7 +4778,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0113.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0114",
@@ -4800,7 +4806,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0114.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0115",
@@ -4826,7 +4833,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4178796,
           "lon": 26.0729883,
-          "image": "events-images/sorina-0115.jpg"
+          "image": "events-images/sorina-0115.jpg",
+          "past": true
         },
         {
           "id": "sorina-0116",
@@ -4853,7 +4861,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4272779,
           "lon": 26.0917417,
-          "image": "events-images/sorina-0116.jpg"
+          "image": "events-images/sorina-0116.jpg",
+          "past": true
         },
         {
           "id": "sorina-0117",
@@ -4879,7 +4888,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0117.jpg"
+          "image": "events-images/sorina-0117.jpg",
+          "past": true
         },
         {
           "id": "sorina-0118",
@@ -4905,7 +4915,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
           "lon": 26.0930387,
-          "image": "events-images/sorina-0118.webp"
+          "image": "events-images/sorina-0118.webp",
+          "past": true
         },
         {
           "id": "sorina-0119",
@@ -4932,7 +4943,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0119.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0120",
@@ -4959,7 +4971,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0120.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0121",
@@ -4986,7 +4999,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0121.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0122",
@@ -5012,7 +5026,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4754296,
           "lon": 26.0762453,
-          "image": "events-images/sorina-0122.webp"
+          "image": "events-images/sorina-0122.webp",
+          "past": true
         },
         {
           "id": "sorina-0123",
@@ -5039,7 +5054,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0123.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0124",
@@ -5066,7 +5082,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0124.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0125",
@@ -5093,7 +5110,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0125.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0126",
@@ -5119,7 +5137,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4202621,
           "lon": 26.1266878,
-          "image": "events-images/sorina-0126.jpg"
+          "image": "events-images/sorina-0126.jpg",
+          "past": true
         },
         {
           "id": "sorina-0127",
@@ -5145,7 +5164,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4518315,
           "lon": 26.1309407,
-          "image": "events-images/sorina-0127.jpg"
+          "image": "events-images/sorina-0127.jpg",
+          "past": true
         },
         {
           "id": "sorina-0128",
@@ -5172,7 +5192,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0128.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0129",
@@ -5199,7 +5220,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0129.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0130",
@@ -5225,7 +5247,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0130.jpg"
+          "image": "events-images/sorina-0130.jpg",
+          "past": true
         },
         {
           "id": "sorina-0131",
@@ -5252,7 +5275,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0131.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0132",
@@ -5280,7 +5304,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4488379,
           "lon": 26.0887614,
-          "image": "events-images/sorina-0132.jpg"
+          "image": "events-images/sorina-0132.jpg",
+          "past": true
         },
         {
           "id": "buc-006",
@@ -5312,7 +5337,8 @@
           "organizer": "iabilet.ro",
           "lat": 44.4268,
           "lon": 26.1025,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-taraf-de-caliu-live-nights-in--0006",
@@ -5336,7 +5362,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-taraf-de-caliu-live-nights-in--0006.jpg",
           "lat": 44.470487,
-          "lon": 26.085938
+          "lon": 26.085938,
+          "past": true
         },
         {
           "id": "zsn-when-violin-meets-guitar-metav-0055",
@@ -5360,7 +5387,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-when-violin-meets-guitar-metav-0055.jpg",
           "lat": 45.113348,
-          "lon": 24.363251
+          "lon": 24.363251,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-extraordinar--0046",
@@ -5384,7 +5412,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-extraordinar--0046.jpg",
           "lat": 44.942163,
-          "lon": 26.021886
+          "lon": 26.021886,
+          "past": true
         },
         {
           "id": "buc-br-hansel-si-gretel-compania-la-m-4501",
@@ -5419,7 +5448,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-hansel-si-gretel-compania-la-m-4501.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-acs-fc-bacau-vs-csc-dumbravita-3147",
@@ -5454,7 +5484,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-acs-fc-bacau-vs-csc-dumbravita-3147.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-copiii-au-idei-trasnite-9360",
@@ -5489,7 +5520,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-copiii-au-idei-trasnite-9360.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-aventurile-lui-pinocchio-hard--3039",
@@ -5524,7 +5556,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-aventurile-lui-pinocchio-hard--3039.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-handbook-for-superheroes-8521",
@@ -5559,7 +5592,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-handbook-for-superheroes-8521.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-vecina-de-la-3-7185",
@@ -5594,7 +5628,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-vecina-de-la-3-7185.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-10-milioane-si-o-cutie-de-cafe-3497",
@@ -5629,7 +5664,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-10-milioane-si-o-cutie-de-cafe-3497.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-fericirea-in-5-pasi-comedie-an-9464",
@@ -5664,7 +5700,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-fericirea-in-5-pasi-comedie-an-9464.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-cars-2d-3898",
@@ -5699,7 +5736,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-aventurile-lui-pinocchio-hard--165",
@@ -5734,7 +5772,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-paw-patrol-the-dino-movie-8179",
@@ -5769,7 +5808,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-the-odyssey-8197",
@@ -5804,7 +5844,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-1-plus-1-3-2127",
@@ -5839,7 +5880,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-ctrl-live-king-automatic-fr-co-0146",
@@ -5864,7 +5906,8 @@
           "image": "events-images/zsn-ctrl-live-king-automatic-fr-co-0146.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0133",
@@ -5891,7 +5934,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0133.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0134",
@@ -5918,7 +5962,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0134.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0135",
@@ -5946,7 +5991,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0135.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0136",
@@ -5974,7 +6020,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0136.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0137",
@@ -6002,7 +6049,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0137.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0138",
@@ -7940,6 +7988,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-ehf-champions-league-handbal-b-5490",
+          "title": "CS Dinamo - Montpellier Handball",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-10",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ehf-champions-league-handbal-bilete-meciuri-europene/",
+          "image": "events-images/buc-br-ehf-champions-league-handbal-b-5490.jpg",
+          "description": "CS Dinamo - Montpellier Handball - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-10",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-retro-evening-alexandra-cr-esc-0174",
           "title": "Retro Evening // Alexandra Crăescu & Americas // Pe terasă @ Berăria H",
           "category": "concert",
@@ -8444,6 +8527,41 @@
           "map_url": "https://maps.google.com/?q=loc+în+București",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-06",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-farul-constanta-uta-arad-7495",
+          "title": "Superliga - Etapa 9 - Farul Constanta vs UTA Arad",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-11",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/farul-constanta-uta-arad/",
+          "image": "events-images/buc-br-farul-constanta-uta-arad-7495.jpg",
+          "description": "Superliga - Etapa 9 - Farul Constanta vs UTA Arad - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-11",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -10992,6 +11110,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-monday-after-8-live-show-the-p-0016",
+          "title": "Monday after 8 – live show @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-14",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/monday-after-8-live-show/",
+          "description": "Pregătește-te să fii cucerit de vocile lor extraordinare și de energia captivantă a trupei After 8! Și acesta este doar începutul! În fiecare luni, invitați mari vor urca pe scenă alături de After 8, oferindu-ți seri de neuitat în inima muzicii live. Monday after 8 - live show @ The Pub - Universității",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-monday-after-8-live-show-the-p-0016.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0282",
           "title": "Atelierele Bubu: Muzică bilingv engleză (Bubu visează)",
           "category": "family",
@@ -11658,6 +11801,66 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-un-gigolo-de-2-lei-5385.jpg",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-fericirea-in-5-pasi-comedie-an-1422",
+          "title": "Fericirea in 5 pasi. Comedie antimotivationala",
+          "category": "comedy",
+          "vibe": "casual",
+          "date": "2026-09-17",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/fericirea-in-5-pasi-comedie-antimotivationala/",
+          "image": "events-images/buc-br-fericirea-in-5-pasi-comedie-an-1422.jpg",
+          "description": "Fericirea in 5 pasi. Comedie antimotivationala - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-17",
+            "loc: loc în București",
+            "categorie: comedy"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "comedy",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-islaz-rock-balcanic-cu-cobz-th-0017",
+          "title": "Islaz – Rock balcanic cu cobză @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-17",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/islaz-rock-balcanic-cu-cobza/",
+          "description": "Ritmuri, povești, energie și câteva cântece pe care s-ar putea să le recunoașteți. Sau poate nu. Noi suntem ISLAZ și ne place să vedem ce se întâmplă când cobza intră într-o trupă de rock și Balcanii își fac loc printre chitare, bass și tobe.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-islaz-rock-balcanic-cu-cobz-th-0017.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -13309,6 +13512,146 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-ema-si-eric-invata-bunele-mani-4883",
+          "title": "Ema si Eric invata bunele maniere",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ema-si-eric-invata-bunele-maniere/",
+          "image": "events-images/buc-br-ema-si-eric-invata-bunele-mani-4883.jpg",
+          "description": "Ema si Eric invata bunele maniere - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-19",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-mieunand-in-paris-3177",
+          "title": "Mieunand in Paris",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/mieunand-in-paris/",
+          "image": "events-images/buc-br-mieunand-in-paris-3177.jpg",
+          "description": "Mieunand in Paris - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-19",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-10-milioane-si-o-cutie-de-cafe-5194",
+          "title": "10 milioane si o cutie de cafea",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/10-milioane-si-o-cutie-de-cafea/",
+          "image": "events-images/buc-br-10-milioane-si-o-cutie-de-cafe-5194.jpg",
+          "description": "10 milioane si o cutie de cafea - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-19",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-the-odyssey-9231",
+          "title": "The Odyssey",
+          "category": "cinema",
+          "vibe": "casual",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/the-odyssey/",
+          "image": "events-images/buc-br-the-odyssey-9231.jpg",
+          "description": "The Odyssey - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-19",
+            "loc: loc în București",
+            "categorie: cinema"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "cinema",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-sear-de-folk-cu-mircea-vintil--0180",
           "title": "Seară de Folk cu Mircea Vintilă #PeTerasă @ Berăria H",
           "category": "concert",
@@ -14179,6 +14522,76 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-hansel-si-gretel-compania-la-m-2462",
+          "title": "Hansel si Gretel - Compania la Mustata",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-20",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/hansel-si-gretel-compania-la-mustata/",
+          "image": "events-images/buc-br-hansel-si-gretel-compania-la-m-2462.jpg",
+          "description": "Hansel si Gretel - Compania la Mustata - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-20",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-copiii-au-idei-trasnite-7713",
+          "title": "Copiii au idei trasnite",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-20",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/copiii-au-idei-trasnite/",
+          "image": "events-images/buc-br-copiii-au-idei-trasnite-7713.jpg",
+          "description": "Copiii au idei trasnite - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-20",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0346",
           "title": "Atelierele Bubu: Teatru (Bubu visează)",
           "category": "family",
@@ -14343,6 +14756,31 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0350.png",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-celebrating-miles-davis-centen-0018",
+          "title": "Celebrating Miles Davis Centenary @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-22",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/celebrating-miles-davis-centenary/",
+          "description": "Concertul este un omagiu adus uneia dintre cele mai influente figuri din istoria muzicii universale, Antonio Miles Davis – omul care a redefinit jazz-ul modern, de la Cool Jazz la Hard Bop și Fusion. Celebrating Miles Davis Centenary @ The Pub - Universității",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-celebrating-miles-davis-centen-0018.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -14821,6 +15259,31 @@
           "lat": 44.455062,
           "lon": 26.0577274,
           "image": "events-images/sorina-0358.jpg"
+        },
+        {
+          "id": "zsn-manifest-editorial-oclu-0022",
+          "title": "Manifest Editorial @ Oclu",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-25",
+          "time": "17:00",
+          "venue": "București",
+          "address": "București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/manifest-editorial-oclu/",
+          "description": "Manifest Editorial | Fashion, artă și nightlife, într-un eveniment la Oclu",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-manifest-editorial-oclu-0022.webp",
+          "lat": 44.4356445,
+          "lon": 26.1009263,
+          "geocode_quality": "nominatim"
         },
         {
           "id": "sorina-0359",
@@ -15986,6 +16449,76 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-micul-print-cafeneaua-amicii-p-2162",
+          "title": "Micul Print @ Cafeneaua Amicii - Popesti Leordeni",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "Cafeneaua Amicii - Popesti Leordeni Pentru copii Teatru pentru copii Popesti-Leordeni, Cafeneaua Amicii Bilete de la 35,00 RON",
+          "address": "Cafeneaua Amicii - Popesti Leordeni Pentru copii Teatru pentru copii Popesti-Leordeni, Cafeneaua Amicii Bilete de la 35,00 RON",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/micul-print-cafeneaua-amicii-popesti-leordeni/",
+          "image": "events-images/buc-br-micul-print-cafeneaua-amicii-p-2162.jpg",
+          "description": "Micul Print @ Cafeneaua Amicii - Popesti Leordeni - eveniment la Cafeneaua Amicii - Popesti Leordeni Pentru copii Teatru pentru copii Popesti-Leordeni, Cafeneaua Amicii Bilete de la 35,00 RON din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: Cafeneaua Amicii - Popesti Leordeni Pentru copii Teatru pentru copii Popesti-Leordeni, Cafeneaua Amicii Bilete de la 35,00 RON",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Cafeneaua+Amicii+-+Popesti+Leordeni+Pentru+copii+Teatru+pentru+copii+Popesti-Leordeni,+Cafeneaua+Amicii+Bilete+de+la+35,00+RON",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-festivalul-copiilor-2654",
+          "title": "Festivalul Copiilor",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/festivalul-copiilor/",
+          "image": "events-images/buc-br-festivalul-copiilor-2654.jpg",
+          "description": "Festivalul Copiilor - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: loc în București",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-mamaia-concert-emeric-imre-0125",
           "title": "Mamaia: Concert Emeric Imre",
           "category": "concert",
@@ -17079,6 +17612,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-emeric-ienei-mostenirea-unei-l-9319",
+          "title": "Emeric Ienei Mostenirea Unei Legende - ANULAT",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/emeric-ienei-mostenirea-unei-legende/",
+          "image": "events-images/buc-br-emeric-ienei-mostenirea-unei-l-9319.jpg",
+          "description": "Emeric Ienei Mostenirea Unei Legende - ANULAT - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-07",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0415",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -17418,6 +17986,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-jack-of-all-trades-the-pub-uni-0015",
+          "title": "Jack of all Trades @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-30",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/jack-of-all-trades-the-pub-universitatii-2/",
+          "description": "Jack of All Trades este o trupă din România care îmbină energia rock-ului alternativ cu influențe moderne, construind un sound versatil exact cum sugerează și numele.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-jack-of-all-trades-the-pub-uni-0015.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-huszka-jen-m-ria-f-hadnagy-a-k-0159",
           "title": "Huszka Jenő: Mária főhadnagy | A Kolozsvári Magyar Opera Miniévada Csíkszeredában",
           "category": "concert",
@@ -17468,6 +18061,30 @@
           "lon": 26.0977002,
           "image": "events-images/sorina-0420.webp",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-carla-s-dreams-hard-rock-cafe-0013",
+          "title": "Carla's Dreams @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-01",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/carlas-dreams-hard-rock-cafe-4/",
+          "description": "Vă invităm la Hard Rock Cafe, joi, 1 octombrie, la un concert cu Carla's Dreams!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-carla-s-dreams-hard-rock-cafe-0013.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0421",
@@ -17545,6 +18162,31 @@
           "lon": 26.035009
         },
         {
+          "id": "zsn-ctrl18-live-liars-usa-au-lucy--0020",
+          "title": "ctrl18 LIVE: Liars [USA/AU], Lucy Kruger & The Lost Boys [DE/SA] @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/liars-lucy-kruger-the-lost-boys/",
+          "description": "Alongside Liú Mottes, Jean-Louise Parker, Gidon Carmel and Andreas Bonkowski, Kruger makes what the band calls “art-pop tender-noise.” Her voice can sit close to a whisper, then turn guttural, while the arrangements can begin in near silence and arrive at full force.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ctrl18-live-liars-usa-au-lucy--0020.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-nuante-lansare-de-album-bacau--0111",
           "title": "Nuante • Lansare de album • Bacau • Beraria Valhalla • 2 octombrie",
           "category": "concert",
@@ -17567,6 +18209,30 @@
           "image": "events-images/zsn-nuante-lansare-de-album-bacau--0111.jpg",
           "lat": 46.563748,
           "lon": 26.913259
+        },
+        {
+          "id": "zsn-mihail-hard-rock-cafe-0012",
+          "title": "Mihail @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-02",
+          "time": "21:30",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/mihail-hard-rock-cafe-3/",
+          "description": "Vă invităm la Hard Rock Cafe, vineri, 2 octombrie, începând cu ora 21:30, la un concert cu Mihail!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-mihail-hard-rock-cafe-0012.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0422",
@@ -17960,6 +18626,31 @@
           "lon": 26.304465
         },
         {
+          "id": "zsn-ctrl18-live-opus-kink-uk-contr-0021",
+          "title": "ctrl18 LIVE: Opus Kink [UK] @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "21:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/ctrl18-live-opus-kink-uk-control-club/",
+          "description": "Formed in Brighton in 2017, the six-piece has developed a sound that resists a neat definition: jazz- and country-laced punk, carried by a formidable horn section and Angus Rogers’ ragged, sardonic delivery. ctrl18 LIVE: Opus Kink [UK] @ Control Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ctrl18-live-opus-kink-uk-contr-0021.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0434",
           "title": "Hansel și Gretel – by Qfeel",
           "category": "teatru",
@@ -18222,6 +18913,30 @@
           "lon": 26.0467929
         },
         {
+          "id": "zsn-cobzarul-bogdan-simion-hard-ro-0004",
+          "title": "Cobzarul Bogdan Simion @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cobzarul-bogdan-simion-hard-rock-cafe-4/",
+          "description": "Te invităm la Hard Rock Cafe, duminică, 4 octombrie, începând cu ora 21:00, la un concert cu Cobzarul Bogdan Simion!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cobzarul-bogdan-simion-hard-ro-0004.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "sorina-0442",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -18299,6 +19014,30 @@
           "lon": 26.102684,
           "image": "events-images/sorina-0444.jpg",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-groove-garden-by-sorin-zlat-fe-0003",
+          "title": "Groove Garden by Sorin Zlat feat. Robert Patai | Invitată: Irina Sârbu @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-06",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/groove-garden-by-sorin-zlat-2/",
+          "description": "Repertoriul formației include piese reorchestrate din creația unor artiști precum Gregory Porter, Earth, Wind & Fire, Stevie Wonder și Lalah Hathaway, dar și compoziții proprii. Groove Garden by Sorin Zlat feat. Robert Patai | Invitată: Irina Sârbu @ Hard Rock Cafe",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-groove-garden-by-sorin-zlat-fe-0003.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0445",
@@ -18401,6 +19140,30 @@
           "lat": 44.4355973,
           "lon": 26.0969873,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-the-motans-hard-rock-cafe-0002",
+          "title": "The Motans @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-08",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-motans-hard-rock-cafe-4/",
+          "description": "Debutând în 2016 cu single-ul “Tu”, The Motans a devenit rapid o apariție sinceră în peisajul muzical. Combinând influențe alternative cu o sensibilitate pop, single-urile precum \"Înainte să ne fi născut\", \"Versus\", \"August\" au ocupat primul loc în clasamentele radio și digitale, în timp ce lansările artistului au depășit 700 de milioane de stream-uri pe toate platformele.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-motans-hard-rock-cafe-0002.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "zsn-schi-e-ale-formei-orchestra-si-0146",
@@ -18871,6 +19634,30 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-proconsul-hard-rock-cafe-0001",
+          "title": "Proconsul @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-11",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/proconsul-hard-rock-cafe/",
+          "description": "Vă invităm la Hard Rock Cafe, duminică, 11 octombrie, începând cu ora 21:00, la un concert cu Proconsul!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-proconsul-hard-rock-cafe-0001.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "sorina-0458",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -18998,6 +19785,55 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "zsn-amprenta-concert-electric-the--0019",
+          "title": "Amprenta – concert electric @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-14",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/amprenta-concert-electric/",
+          "description": "“Amprenta”- un nou proiect original pe scena hard rock-ului, format din muzicieni cu experiență solidă în repere importante ale scenei românești și internaționale...Practic, este un supergrup cu o identitate clară, cu un sound excelent și o direcție artistică fermă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-amprenta-concert-electric-the--0019.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-vama-hard-rock-cafe-0014",
+          "title": "Vama @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-14",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/vama-hard-rock-cafe-3/",
+          "description": "Vă invităm la Hard Rock Cafe, miercuri, 14 octombrie, ora 21:00, la un concert cu Vama!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-vama-hard-rock-cafe-0014.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "zsn-c-t-lin-stepa-iv-fix-the-pub-u-0094",
           "title": "Cătălin Stepa IV FIX @ The Pub – Universității",
           "category": "concert",
@@ -19021,6 +19857,54 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-cargo-hard-rock-cafe-0009",
+          "title": "Cargo @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-15",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cargo-hard-rock-cafe-4/",
+          "description": "Vă invităm la Hard Rock Cafe, joi, 15 octombrie, ora 21:00, la un concert extraordinar cu Cargo!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cargo-hard-rock-cafe-0009.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
+          "id": "zsn-alina-eremia-hard-rock-cafe-0011",
+          "title": "Alina Eremia @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-16",
+          "time": "21:30",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/alina-eremia-hard-rock-cafe-4/",
+          "description": "Vă invităm la Hard Rock Cafe, vineri, 16 octombrie, începând cu ora 21:30, la un concert extraordinar cu Alina Eremia!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-alina-eremia-hard-rock-cafe-0011.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0460",
@@ -19311,6 +20195,30 @@
           "lon": 24.36413
         },
         {
+          "id": "zsn-mihai-m-rgineanu-hard-rock-caf-0010",
+          "title": "Mihai Mărgineanu @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-18",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/mihai-margineanu-hard-rock-cafe-10/",
+          "description": "Vă invităm la Hard Rock Cafe, duminică, 18 octombrie, începând cu ora 21:00, la un concert cu Mihai Margineanu!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-mihai-m-rgineanu-hard-rock-caf-0010.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "sorina-0469",
           "title": "Atelierele Bubu: Teatru (Bubu și anotimpurile)",
           "category": "family",
@@ -19413,6 +20321,54 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-timpuri-noi-hard-rock-cafe-0008",
+          "title": "Timpuri Noi @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-21",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/timpuri-noi-hard-rock-cafe-2/",
+          "description": "Vă invităm la Hard Rock Cafe, miercuri, 21 octombrie, începând cu ora 21:00, la un concert extraordinar cu Timpuri Noi.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-timpuri-noi-hard-rock-cafe-0008.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
+          "id": "zsn-irina-rimes-hard-rock-cafe-0006",
+          "title": "Irina Rimes @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-22",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/irina-rimes-hard-rock-cafe-3/",
+          "description": "Vă invităm la Hard Rock Cafe, joi, 22 octombrie, ora 21:00, la un concert cu Irina Rimes!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-irina-rimes-hard-rock-cafe-0006.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "zsn-golan-v-album-release-control--0003",
           "title": "Golan • V Album Release @ Control Club",
           "category": "concert",
@@ -19460,6 +20416,30 @@
           "image": "events-images/zsn-the-urs-teatrul-de-vara-radu-b-0074.png",
           "lat": 46.564021,
           "lon": 26.83882
+        },
+        {
+          "id": "zsn-3-sud-est-hard-rock-cafe-0007",
+          "title": "3 Sud Est @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-23",
+          "time": "21:30",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/3-sud-est-hard-rock-cafe-3/",
+          "description": "Vă invităm la Hard Rock Cafe, vineri, 23 octombrie, începând cu ora 21:30, la un concert extraordinar cu 3 Sud Est!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-3-sud-est-hard-rock-cafe-0007.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0471",
@@ -19594,6 +20574,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-the-underground-youth-control--0023",
+          "title": "The Underground Youth @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "20:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-underground-youth-control-club/",
+          "description": "Led by Craig Dyer, the band has spent over 15 years building a devoted international following with their distinctive blend of melancholic post-punk, cinematic psychedelia and dark, atmospheric songwriting, backed by relentless touring across Europe, Asia and North America. The Underground Youth @ Control Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-underground-youth-control--0023.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0475",
           "title": "Ursul păcălit de vulpe – by Qfeel",
           "category": "teatru",
@@ -19646,6 +20651,30 @@
           "lon": 26.1023412,
           "image": "events-images/sorina-0476.jpg",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-holy-molly-hard-rock-cafe-0005",
+          "title": "Holy Molly @ Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-25",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/holy-molly-hard-rock-cafe-2/",
+          "description": "Vă invităm la Hard Rock Cafe, duminică, 25 octombrie, ora 21:00, la un concert cu Holy Molly!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-holy-molly-hard-rock-cafe-0005.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "sorina-0477",
@@ -22258,7 +23287,8 @@
             "wine"
           ],
           "map_url": "https://maps.google.com/?q=Enoteca+Social+Bar+Craiova",
-          "organizer": "iabilet.ro"
+          "organizer": "iabilet.ro",
+          "past": true
         },
         {
           "id": "zsn-glances-of-colombia-lucas-cont-0043",
@@ -22920,7 +23950,8 @@
           "map_url": "https://maps.google.com/?q=Berarium+Tankeria+Ursus+Iasi",
           "organizer": "iabilet.ro",
           "lat": 47.1565,
-          "lon": 27.5876
+          "lon": 27.5876,
+          "past": true
         },
         {
           "id": "is-005",
@@ -23523,7 +24554,8 @@
             "orchestră"
           ],
           "map_url": "https://maps.google.com/?q=Sala+Transilvania+Sibiu",
-          "organizer": "iabilet.ro"
+          "organizer": "iabilet.ro",
+          "past": true
         },
         {
           "id": "sb-006",
@@ -24767,7 +25799,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-06",
-  "last_recategorized": "2026-09-06",
-  "last_images_sync": "2026-09-06"
+  "last_geocoded": "2026-09-07",
+  "last_recategorized": "2026-09-07",
+  "last_images_sync": "2026-09-07"
 }

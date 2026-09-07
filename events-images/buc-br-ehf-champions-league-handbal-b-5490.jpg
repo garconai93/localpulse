@@ -1,0 +1,1740 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+	<title>Bilete.ro – Cumpără Bilete Online la Concerte, Teatru, Festivaluri, Sport &amp; Evenimente din Rom&#226;nia</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="referrer" content="origin">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="title" content="Bilete.ro – Cumpără Bilete Online la Concerte, Teatru, Festivaluri, Sport &amp; Evenimente din Rom&#226;nia | Bilete.ro">
+
+	<meta name="description" content="Cumpără bilete online la cele mai importante evenimente din Rom&#226;nia: concerte, teatru, festivaluri, sport și show-uri live. Plată sigură, bilete garantate, acces rapid. Vezi ce evenimente sunt azi și rezervă-ți locul pe Bilete.ro!">
+	<meta name="keywords" content="bilete online romania,cumpara bilete online,bilete concerte romania,bilete teatru romania,bilete festivaluri romania,bilete evenimente live,bilete sport romania,bilete show live,bilete muzica live,bilete evenimente azi,bilete evenimente weekend,platforma bilete online,rezervari bilete sigure">
+	<meta property="og:url" content="https://www.bilete.ro" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Bilete.ro" />
+	<meta property="og:description" content="Bilete la cele mai noi concerte, meciuri sau piese de teatru." />
+	<meta property="og:image" content="https://www.bilete.ro/images/piletilevi/biletero_logo_green.png" />
+	
+	<script type="application/ld+json">
+		{"@context":"http://schema.org","@type":"WebSite","name":"Bilete.ro","url":"https://www.bilete.ro","description":"Bilete la cele mai noi concerte, meciuri sau piese de teatru.","potentialAction":{"@type":"SearchAction","target":"https://www.bilete.ro/cauta/?q={q}","query-input":"required name=q"}}
+	</script>
+	<script type="application/ld+json">
+		{"@context":"http://schema.org","@type":"Organization","name":"Bilete.ro","url":"https://www.bilete.ro","logo":"https://www.bilete.ro/images/piletilevi/biletero_logo_green.png","address":"Str. Ion Neculce nr. 14, Bucuresti, Sector 1, Cod Postal 011255","contactPoint":[{"@type":"ContactPoint","email":"office@bilete.ro","contactType":"customer service"}],"sameAs":["https://www.facebook.com/bilete.ro/","https://twitter.com/BileteRo","https://plus.google.com/u/0/115858290378870524797","https://www.youtube.com/channel/UCk0XE9GGNle4OlEFlEWequw","https://ro.pinterest.com/biletero/","https://instagram.com/bilete.ro/","http://www.scoop.it/u/bilete-ro","http://www.stumbleupon.com/stumbler/biletero","https://www.tumblr.com/blog/biletero","http://www.slideshare.net/BileteRo"]}
+	</script>
+	<meta property="fb:app_id" content="2141417946111261" />
+	<meta property="og:site_name" content="Bilete.ro" />
+	<meta name="facebook-domain-verification" content="daef7v6zfyw0urufbowgph7zyqe1we" />
+
+
+	<meta name="theme-color" content="#49ccd3" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//static.bilete.ro/images/favicon_new/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="//static.bilete.ro/images/favicon_new/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="//static.bilete.ro/images/favicon_new/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="//static.bilete.ro/images/favicon_new/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="//static.bilete.ro/images/favicon_new/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="//static.bilete.ro/images/favicon_new/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="Bilete la teatru, concerte, meciuri, evenimente pentru copii" />
+	<meta name="msapplication-TileColor" content="#49ccd3" />
+	<meta name="msapplication-TileImage" content="//static.bilete.ro/images/favicon_new/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="//static.bilete.ro/images/favicon_new/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="//static.bilete.ro/images/favicon_new/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="//static.bilete.ro/images/favicon_new/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="//static.bilete.ro/images/favicon_new/mstile-310x310.png" />
+
+	<!--start-marker:styles-->
+	<link href="/cssbundles/lib?v=pEPeLP4K5i81tomVFLpxIM55vkXYQwDv6Gp3tzQD0Ls1" rel="stylesheet"/>
+
+	
+	<link rel="stylesheet" href="//static.bilete.ro/unitegallery/css/unite-gallery.1.7.28.min.css" />
+
+	<link href="/cssbundles/app?v=_ekFm6v3Cx4agnZZHfcX2USdvW8gdKgryUzjLg8yhyo1" rel="stylesheet"/>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+	<!--end-marker:styles-->
+
+	<meta name="google-site-verification" content="V_vvzU111pO3s9nzvKE7wY7rlexwOCNdHeBtSB35vvw" /> 	<meta name="msvalidate.01" content="2D707A0769DE691C6B666C8E41C4761A" /> 
+	<style>
+		.grecaptcha-badge {
+			display: none !important;
+		}
+	</style>
+
+	<!--[if lt IE 9]>
+	<script src="//static.bilete.ro/html5shiv-3.7.2.min.js"></script>
+	<script src="//static.bilete.ro/respond-1.4.2.min.js"></script>
+	<script src="//static.bilete.ro/jquery/jquery-1.12.4.min.js"></script>
+	<script src="//static.bilete.ro/jquery/jquery-migrate-1.2.1.min.js"></script>
+	<![endif]-->
+	<!--[if !(lt IE 9)]> -->
+	<script src="//static.bilete.ro/jquery/jquery-2.2.3.min.js"></script>
+	<script src="//static.bilete.ro/jquery/jquery-migrate-1.4.1.min.js"></script>
+	<!-- <![endif]-->
+
+	<!-- headScripts -->
+	
+	<!-- /headScripts -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		/*
+		ga('create', 'UA-2510520-1', 'auto');
+		*/
+
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T998TVZ');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4S4NMDJBD"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-Q4S4NMDJBD');
+	</script>
+
+	<!-- Google Tag Manager The Mission -->
+	
+	<!-- End Google Tag Manager -->
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window,document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '2141417946111261');
+	fbq('trackSingle', '2141417946111261', 'PageView');
+	</script>
+	<!-- End Facebook Pixel Code -->
+	
+	<!-- OneSignal -->
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+	<script>
+		var OneSignal = window.OneSignal || [];
+		var initConfig = {
+			appId: "a7f81c82-7939-4f33-b900-f593ef8a809c",
+			notifyButton: {
+				enable: true
+			},
+		};
+		OneSignal.push(function () {
+			OneSignal.init(initConfig);
+		});
+	</script>
+	<!-- /OneSignal -->
+
+
+</head>
+<body class="body-isHomepage ">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T998TVZ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<!-- Google Tag Manager (noscript) The Mission -->
+	
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<!-- Facebook Pixel Code -->
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=2141417946111261&ev=PageView&noscript=1" />
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	
+	<!--
+	<div id="consent-banner"></div> <div id="teconsent"> <script type="text/javascript" async="async" src="https://consent.trustarc.com/v2/notice/zoflnb"></script> </div>
+	-->
+	
+
+	
+
+	<!--nav start-->
+	<nav id="mainnav" class="navbar navbar-inverse ">
+		<div class="extra-navbar">
+			<div class="container">
+				<ul class="list-inline list-unstyled pull-right">
+					<li class="">
+
+<form action="/" class="form-horizontal" enctype="multipart/form-data" method="post">	<input type="hidden" name="ReturnUrl" value="/" />
+		<button class="btn btn-link active" type="submit" name="NewLanguageCode" value="ro">RO</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="en">EN</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="hu">HU</button>
+<input name='ufprt' type='hidden' value='403575E40863DF8A51721F8130FD00739787911C08C46E37F79D36AFBA418BCBC4F3185BE5F280ED673021447A7894163FED1A3A6DF3CAADE3EC540EE3EC4525CBE4EA07A37739C3A9563DE2E58D9B7C20032E50288A3132007D5C691BAF0DD56C6AE706DEBBCBF5375A364E83ED9D836479182A2B2302A5B92AC530DAE2D639DC7CB46D19F094F5FD48E5D5587A0666' /></form></li>
+					<li class="visible-xs-inline"><a href="/info/despre-noi/contact/"><i class="fa fa-info-circle"></i> contact</a></li>
+					<li class="hidden-xs"><a href="/info/"><i class="fa fa-info-circle"></i> info</a></li>
+					
+				</ul>
+				<ul class="list-inline list-unstyled">
+					<li class="hidden-xs"><a target="_blank" href="https://instagram.com/bilete.ro/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li class="hidden-xs"><a target="_blank" href="https://www.facebook.com/bilete.ro/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li class="hidden-xs"><a href="mailto:office@bilete.ro" title=""><i class="fa fa-envelope" aria-hidden="true"></i> office@bilete.ro</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<!--start-marker:main-navbar-->
+		
+<div class="main-navbar navbar-bg-v2">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_menu">
+				<i class="fa fa-bars"></i>
+			</button>
+			<button type="button" class="navbar-toggle collapsed hidden-homepage" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_search" onclick="setTimeout(function () { $('#navbar_search:visible .searchbox').focus(); }, 300);">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-parent="#mainnav" data-target="#navbar_cart">
+				<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+			</button>
+			
+		<a class="navbar-brand" href="/">
+			<img src="//www.bilete.ro/images/piletilevi/biletero_logo_white_optimized.png" alt="Bilete.ro" class="img-site-logo small-logo visible-xs-inline" />
+			<img src="//www.bilete.ro/images/piletilevi/biletero_logo_white_optimized.png" alt="Bilete.ro" class="img-site-logo small-logo hidden-xs" />
+			
+		</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_menu">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="hidden-xs hidden-homepage">
+					<a href="/cauta/"><i class="fa fa-search"></i></a>
+				</li>
+				<li class="navbar-activeable-id-1078 visible-xs-block"><a href="/">Prima pagina</a></li>
+				<li class="navbar-activeable-id-1142 visible-xs-block">
+					<a href="/categorii/teatru/" title="Teatru"><span class="underline-on-hover">Teatru</span></a>
+				</li>
+				<li class="navbar-activeable-id-1144 visible-xs-block">
+					<a href="/categorii/concerte/" title="Concerte si festivaluri"><span class="underline-on-hover">Concerte si festivaluri</span></a>
+				</li>
+				<li class="navbar-activeable-id-1143 visible-xs-block">
+					<a href="/categorii/sport/" title="Sport"><span class="underline-on-hover">Sport</span></a>
+				</li>
+				<li class="navbar-activeable-id-1145 visible-xs-block">
+					<a href="/categorii/pentru-copii/" title="Pentru copii"><span class="underline-on-hover">Pentru copii</span></a>
+				</li>
+				<li class="navbar-activeable-id-6422 visible-xs-block">
+					<a href="/categorii/cultura/" title="Cultura"><span class="underline-on-hover">Cultura</span></a>
+				</li>
+				<li class="navbar-activeable-id-1146 visible-xs-block">
+					<a href="/categorii/diverse/" title="Diverse"><span class="underline-on-hover">Diverse</span></a>
+				</li>
+								<li class="navbar-activeable-id-6729 visible-xs-block">
+					<a href="/calendar/" title="Calendarul evenimentelor"><i class="fa fa-calendar"></i> Calendarul evenimentelor</a>
+				</li>
+				<li class="navbar-activeable-id-6443 visible-xs-block">
+					<a href="/info/" title="Informatii utile"><i class="fa fa-info-circle"></i> Informatii utile</a>
+				</li>
+				<li class="navbar-activeable-id-6444 visible-xs-block">
+					<a href="/info/despre-noi/contact/" title="Contact"> Contact</a>
+				</li>
+				<li class="hidden-xs">
+					<a href="/mvc/checkout/index" title="Nr bilete rezervate de tine"><span class="session-order-summary-container"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ...</span></a>
+				</li>
+			</ul>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_cart">
+			<div class="visible-xs-block">
+				<form class="navbar-form navbar-form-no-border" method="get" action="/cauta/" role="search">
+					<a href="/mvc/checkout/index" title="Nr bilete rezervate de tine" class="session-order-summary-container btn btn-buy btn-checkout btn-block"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ...</a>
+				</form>
+			</div>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar_search">
+			<div class="visible-xs-block">
+				<form class="navbar-form navbar-form-no-border navbar-search-form" method="get" action="/cauta/" role="search">
+					<div class="form-group form-group-lg" style="position:relative;">
+						<label class="control-label sr-only">Cauta evenimente, locatii, artisti</label>
+						<input type="search" name="q" class="form-control searchbox" autocomplete="off" placeholder="Cauta evenimente, locatii, artisti" />
+						<button type="submit" class="btn btn-link btn-searchbox btn-lg" style="position:absolute;top:1px;right:1px;">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="opened-navbar visible-homepage-block">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 col-xs-12" style="margin-left:auto;margin-right:auto;float:none;">
+
+					<div class="clearfix hidden-xs">
+						<ul class="nav nav-justified nav-categories">
+							<li>
+								<a href="/categorii/teatru/" title="Teatru"><span class="underline-on-hover">Teatru</span></a>
+							</li>
+							<li>
+								<a href="/categorii/concerte/" title="Concerte si festivaluri"><span class="underline-on-hover">Concerte si festivaluri</span></a>
+							</li>
+							<li>
+								<a href="/categorii/sport/" title="Sport"><span class="underline-on-hover">Sport</span></a>
+							</li>
+							<li>
+								<a href="/categorii/pentru-copii/" title="Pentru copii"><span class="underline-on-hover">Pentru copii</span></a>
+							</li>
+							<li>
+								<a href="/categorii/cultura/" title="Cultura"><span class="underline-on-hover">Cultura</span></a>
+							</li>
+							<li>
+								<a href="/categorii/diverse/" title="Diverse"><span class="underline-on-hover">Diverse</span></a>
+							</li>
+						</ul>
+					</div>
+
+					<form class="navbar-search-form" method="get" action="/cauta/">
+						<div class="form-group form-group-lg margin-0" style="position:relative;">
+							<label class="control-label sr-only">Cauta evenimente, locatii, artisti</label>
+							<input type="search" name="q" class="form-control searchbox searchbox-with-autocomplete" autocomplete="off" placeholder="Cauta evenimente, locatii, artisti" />
+							<button type="submit" class="btn btn-link btn-searchbox btn-lg" style="position:absolute;top:1px;right:1px;">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+							<div class="search-autoresults">
+								<div class="panel text-left shadow-depth-2">
+									
+									<div class="results-group">
+										
+										<div class="results-list results-list-spectacol list-group">
+											<a href="#" class="list-group-item ev-link" style="font-size:1.2em;">{Name}</a>
+										</div>
+									</div>
+									<div class="panel-body results-group">
+										
+										<ul class="results-list results-list-location list-unstyled margin-0-vertical">
+											<li class=""><a href="#" class=""><i class="fa fa-map-marker" aria-hidden="true" style="font-size:1em;"></i> {Name}</a></li>
+										</ul>
+									</div>
+									<div class="panel-body results-group">
+										
+										<ul class="results-list results-list-other list-unstyled margin-0-vertical">
+											<li class=""><em>{Type}:</em> <a href="#" class="">{Name}</a></li>
+										</ul>
+									</div>
+									<div class="panel-body more-results text-center">
+										<button type="submit" class="btn btn-primary">vezi toate rezultatele</button>
+									</div>
+								</div>
+							</div>
+							<div>
+								<ul class="nav nav-pills">
+									<li>
+										<a href="/calendar/" title="Calendarul evenimentelor"><i class="fa fa-calendar"></i> <span class="underline-on-hover">Calendarul evenimentelor</span></a>
+									</li>
+									<li>
+										<a href="https://organizatori.bilete.ro/"><i class="fa fa-ticket"></i> <span class="underline-on-hover">Organizatori</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--07.09.2026 14:27:49-->
+		<!--end-marker:main-navbar-->
+	</nav>
+	<!--nav end-->
+
+	<main>
+		
+
+
+
+
+<section class="container" style="padding-bottom:0;">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			
+		</div>
+	</div>
+</section>
+
+<section class="home-carousel margin-0-top" style="">
+	<div class="container-fluid">
+		<div class="row" style="margin:0">
+			<div id="tilesGallery" style="display:none;">
+				
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS90cmFmZmljLXN0cmluZ3Mv" class="track-advert-click" data-eventLabel="HomepageMozaic - Traffic Strings">
+		<img alt="Traffic Strings" src="https://static.bilete.ro/images/posters/ev50413/bilete-traffic-strings-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50413/bilete-traffic-strings-poster-300x.jpg"
+				data-description="Traffic Strings"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9rYXJwYXRpYS1ob3JzZS1zaG93Lw==" class="track-advert-click" data-eventLabel="HomepageMozaic - Karpatia Horse Show">
+		<img alt="Karpatia Horse Show" src="https://static.bilete.ro/images/posters/ev50708/bilete-karpatia-horse-show-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50708/bilete-karpatia-horse-show-poster-300x.jpg"
+				data-description="Karpatia Horse Show"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9laGYtY2hhbXBpb25zLWxlYWd1ZS1oYW5kYmFsLWJpbGV0ZS1tZWNpdXJpLWV1cm9wZW5lLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - EHF Champions League Handbal - Bilete meciuri europene">
+		<img alt="EHF Champions League Handbal - Bilete meciuri europene" src="https://static.bilete.ro/images/posters/ev50876/bilete-machineseeker-ehf-champions-league-handbal-bilete-meciuri-europene-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50876/bilete-machineseeker-ehf-champions-league-handbal-bilete-meciuri-europene-poster-300x.jpg"
+				data-description="EHF Champions League Handbal - Bilete meciuri europene"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9hYm9uYW1lbnRlLWNzLWRpbmFtby1idWN1cmVzdGktdm9sZWktbWFzY3VsaW4v" class="track-advert-click" data-eventLabel="HomepageMozaic - Abonamente CS Dinamo București – Volei masculin">
+		<img alt="Abonamente CS Dinamo București – Volei masculin" src="https://static.bilete.ro/images/posters/ev50977/bilete-abonamente-cs-dinamo-bucuresti-volei-masculin-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50977/bilete-abonamente-cs-dinamo-bucuresti-volei-masculin-poster-300x.jpg"
+				data-description="Abonamente CS Dinamo București – Volei masculin"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9mYy12b2x1bnRhcmktZmMtYXJnZXMv" class="track-advert-click" data-eventLabel="HomepageMozaic - FC Voluntari - FC Arges">
+		<img alt="FC Voluntari - FC Arges" src="https://static.bilete.ro/images/posters/ev50744/bilete-fc-voluntari-fc-arges-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50744/bilete-fc-voluntari-fc-arges-poster-300x.jpg"
+				data-description="FC Voluntari - FC Arges"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9mYy11bml2ZXJzaXRhdGVhLWNsdWotb3RlbHVsLWdhbGF0aS8=" class="track-advert-click" data-eventLabel="HomepageMozaic - FC Universitatea Cluj - Otelul Galati">
+		<img alt="FC Universitatea Cluj - Otelul Galati" src="https://static.bilete.ro/images/posters/ev50674/bilete-fc-universitatea-cluj-otelul-galati-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50674/bilete-fc-universitatea-cluj-otelul-galati-poster-300x.jpg"
+				data-description="FC Universitatea Cluj - Otelul Galati"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9pbnRhbG5pcmlsZS12b3JiaXRvcmluY2lpLWN1LWNhdGFsaW4tc3RyaWJsZWEtc2ktcmFkdS1wYXJhc2NoaXZlc2N1Lw==" class="track-advert-click" data-eventLabel="HomepageMozaic - &#206;nt&#226;lnirile Vorbitorincii cu Cătălin Striblea și Radu Paraschivescu">
+		<img alt="&#206;nt&#226;lnirile Vorbitorincii cu Cătălin Striblea și Radu Paraschivescu" src="https://static.bilete.ro/images/posters/ev50916/bilete-intalnirile-vorbitorincii-cu-catalin-striblea-si-radu-paraschivescu-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50916/bilete-intalnirile-vorbitorincii-cu-catalin-striblea-si-radu-paraschivescu-poster-300x.jpg"
+				data-description="&#206;nt&#226;lnirile Vorbitorincii cu Cătălin Striblea și Radu Paraschivescu"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS92aWVuYS14LWdlcnNod2luLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - Viena X Gershwin">
+		<img alt="Viena X Gershwin" src="https://static.bilete.ro/images/posters/ev50909/bilete-viena-x-gershwin-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50909/bilete-viena-x-gershwin-poster-300x.jpg"
+				data-description="Viena X Gershwin"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9mZXN0aXZhbHVsLWNvcGlpbG9yLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - Festivalul Copiilor">
+		<img alt="Festivalul Copiilor" src="https://static.bilete.ro/images/posters/ev50801/bilete-festivalul-copiilor-poster-2-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50801/bilete-festivalul-copiilor-poster-2-300x.jpg"
+				data-description="Festivalul Copiilor"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9mYW50YWN0aWMtYW50cmVub3J1bC1sZWdlbmRlbG9yLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - FANTACTIC : ANTRENORUL LEGENDELOR">
+		<img alt="FANTACTIC : ANTRENORUL LEGENDELOR" src="https://static.bilete.ro/images/posters/ev50826/bilete-fantactic-antrenorul-legendelor-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50826/bilete-fantactic-antrenorul-legendelor-poster-300x.jpg"
+				data-description="FANTACTIC : ANTRENORUL LEGENDELOR"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9lbWVyaWMtaWVuZWktbW9zdGVuaXJlYS11bmVpLWxlZ2VuZGUv" class="track-advert-click" data-eventLabel="HomepageMozaic - Emeric Ienei: Mostenirea Unei Legende">
+		<img alt="Emeric Ienei: Mostenirea Unei Legende" src="https://static.bilete.ro/images/posters/ev50802/bilete-emeric-ienei-mostenirea-unei-legende-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50802/bilete-emeric-ienei-mostenirea-unei-legende-poster-300x.jpg"
+				data-description="Emeric Ienei: Mostenirea Unei Legende"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9zaW5nLWZsb3lkLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - Sing Floyd">
+		<img alt="Sing Floyd" src="https://static.bilete.ro/images/posters/ev50882/bilete-sing-floyd-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50882/bilete-sing-floyd-poster-300x.jpg"
+				data-description="Sing Floyd"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9tb3gv" class="track-advert-click" data-eventLabel="HomepageMozaic - MOX">
+		<img alt="MOX" src="https://static.bilete.ro/images/posters/ev50637/bilete-mox-poster-1-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50637/bilete-mox-poster-1-300x.jpg"
+				data-description="MOX"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS90aGUtdWx0aW1hdGUtYWJiYS10cmlidXRlLw==" class="track-advert-click" data-eventLabel="HomepageMozaic - The Ultimate ABBA Tribute">
+		<img alt="The Ultimate ABBA Tribute" src="https://static.bilete.ro/images/posters/ev50096/bilete-the-ultimate-abba-tribute-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50096/bilete-the-ultimate-abba-tribute-poster-300x.jpg"
+				data-description="The Ultimate ABBA Tribute"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9pc3RlcmlhLWktZGF5LXBhcnR5cG9vbC1wYXJ0eS1hZHVsdHMtb25seS8=" class="track-advert-click" data-eventLabel="HomepageMozaic - Isteria I: Day Party.Pool Party. Adults Only.">
+		<img alt="Isteria I: Day Party.Pool Party. Adults Only." src="https://static.bilete.ro/images/posters/ev50865/bilete-isteria-i-day-party-pool-party-adults-only--poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50865/bilete-isteria-i-day-party-pool-party-adults-only--poster-300x.jpg"
+				data-description="Isteria I: Day Party.Pool Party. Adults Only."
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9pc3RlcmlhLWlpLWRheS1wYXJ0eXBvb2wtcGFydHktZ2VuLXotb25seS8=" class="track-advert-click" data-eventLabel="HomepageMozaic - Isteria II: Day Party.Pool Party. Gen Z Only.">
+		<img alt="Isteria II: Day Party.Pool Party. Gen Z Only." src="https://static.bilete.ro/images/posters/ev50866/bilete-isteria-ii-day-party-pool-party-gen-z-only--poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50866/bilete-isteria-ii-day-party-pool-party-gen-z-only--poster-300x.jpg"
+				data-description="Isteria II: Day Party.Pool Party. Gen Z Only."
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9mZXN0b2JhbC8=" class="track-advert-click" data-eventLabel="HomepageMozaic - FESTOBAL">
+		<img alt="FESTOBAL" src="https://static.bilete.ro/images/posters/ev50682/bilete-festobal-poster-3-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev50682/bilete-festobal-poster-3-300x.jpg"
+				data-description="FESTOBAL"
+				style="display:none" />
+	</a>
+	<a href="https://bilete.ro/track.asp?id=cz1Ib21lcGFnZU1vemFpY3x1PS9kZXN0aW55LXBhcmsv" class="track-advert-click" data-eventLabel="HomepageMozaic - Destiny Park">
+		<img alt="Destiny Park" src="https://static.bilete.ro/images/posters/ev47149/bilete-destiny-park-poster-300x.jpg"
+				data-image="https://static.bilete.ro/images/posters/ev47149/bilete-destiny-park-poster-300x.jpg"
+				data-description="Destiny Park"
+				style="display:none" />
+	</a>
+		
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+	<section class="" style="padding-top:5%;padding-bottom:6%;background-color:#37C1E7;background-image:url('https://www.bilete.ro/media/44432/bgpromovatebilete_tiny.png');background-position:bottom;background-repeat:repeat-x;">
+		<div class="container">
+			<h2 class="text-center" style="color: white">
+				#MomentsThatMatter
+			</h2>
+			<div class="row">
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="/categorii/concerte/festivaluri/" class="btn btn-default btn-block" style="text-transform:none;" title="Festivaluri de muzica">Festivaluri de muzica</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="/categorii/sport/" class="btn btn-default btn-block" style="text-transform:none;" title="Sport">Sport</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="/categorii/sport/fotbal/" class="btn btn-default btn-block" style="text-transform:none;" title="Fotbal">Fotbal</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="/categorii/sport/cs-dinamo/" class="btn btn-default btn-block" style="text-transform:none;" title="CS Dinamo">CS Dinamo</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="https://operacomica.bilete.ro" class="btn btn-default btn-block" style="text-transform:none;" title="Opera Comica pentru Copii">Opera Comica pentru Copii</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<div class="margin-1">
+							<a href="/categorii/teatru/teatrul-rosu/" class="btn btn-default btn-block" style="text-transform:none;" title="Stagiune Teatrul Rosu">Stagiune Teatrul Rosu</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--07.09.2026 14:38:53-->
+
+	<section style="margin:0 auto; padding:0">
+		<div class="container">
+			
+		
+		
+
+
+		</div>
+	</section>
+
+
+	<section class="container">
+		<h2>
+			<a class="h2 fade-in-hover btn-block" href="/categorii/teatru/">Teatru<i class="fa fa-long-arrow-right fade icon-right text-lighter"></i></a>
+		</h2>
+		
+
+
+<div class="ev-grid make-same-height-group">
+	<div class="row row-even-spacing ev-grid-cells">
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/din-oala-babei-nebune/" title="Din oala babei nebune">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 08.09.2026 20:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50869/bilete-din-oala-babei-nebune-poster-1-300x.jpg" alt="Din oala babei nebune" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Din oala babei nebune</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>8 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/perfect-necasatoriti/" title="Perfect Necăsătoriți">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 09.09.2026 20:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50679/bilete-perfect-necasatoriti-poster-1-300x.jpg" alt="Perfect Necăsătoriți" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Perfect Necăsătoriți</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>9 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/divort-in-ziua-nuntii/" title="Divort in ziua nuntii">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 10.09.2026 19:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50651/bilete-divort-in-ziua-nuntii-poster-300x.jpg" alt="Divort in ziua nuntii" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Divort in ziua nuntii</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>10 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/frumosul-si-bestiile/" title="Frumosul și Bestiile">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 10.09.2026 20:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50760/bilete-frumosul-si-bestiile-poster-300x.jpg" alt="Frumosul și Bestiile" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Frumosul și Bestiile</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>10 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/trolling-shekespeare/" title="Trolling Shekespeare">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 10.09.2026 20:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50783/bilete-trolling-shekespeare-poster-1-300x.jpg" alt="Trolling Shekespeare" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Trolling Shekespeare</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>10 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/cine-mai-are-nevoie-de-iubire/" title="Cine mai are nevoie de iubire?">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 11.09.2026 19:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50609/bilete-cine-mai-are-nevoie-de-iubire--poster-1-300x.jpg" alt="Cine mai are nevoie de iubire?" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Cine mai are nevoie de iubire?</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>11 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/cerere-in-casatorie-compania-la-mustata/" title="Cerere in casatorie - Compania La Mustata">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 11.09.2026 20:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50784/bilete-cerere-in-casatorie-compania-la-mustata-poster-300x.jpg" alt="Cerere in casatorie - Compania La Mustata" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Cerere in casatorie - Compania La Mustata</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>11 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/terapie-in-trei/" title="Terapie in trei">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 16:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50768/bilete-terapie-in-trei-poster-300x.jpg" alt="Terapie in trei" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Terapie in trei</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>12 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/iliada-de-homer-destin-si-libertate/" title="ILIADA DE HOMER - Destin şi libertate">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 19:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50701/bilete-iliada-de-homer-destin-si-libertate-poster-1-300x.jpg" alt="ILIADA DE HOMER - Destin şi libertate" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">ILIADA DE HOMER - Destin şi libertate</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>12 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/la-ginecolog/" title="La ginecolog">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 19:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50619/bilete-la-ginecolog-poster-1-300x.jpg" alt="La ginecolog" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">La ginecolog</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>12 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/odiseea-de-homer/" title="Odiseea de Homer">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 20:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50702/bilete-odiseea-de-homer-poster-300x.jpg" alt="Odiseea de Homer" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Odiseea de Homer</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>12 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/promit-sa-ma-joc/" title="Promit să mă joc!">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 13.09.2026 11:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50786/bilete-promit-sa-ma-joc--poster-300x.jpg" alt="Promit să mă joc!" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Promit să mă joc!</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>13 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+	</div>
+</div>
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="/categorii/teatru/" class="btn btn-primary btn-category btn-lg btn-see-all" title="Teatru">vezi toate din Teatru <i class="icon-right fa fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+	</section>
+<!--07.09.2026 14:40:53-->
+	<section class="container">
+		<h2>
+			<a class="h2 fade-in-hover btn-block" href="/categorii/concerte/">Concerte si festivaluri<i class="fa fa-long-arrow-right fade icon-right text-lighter"></i></a>
+		</h2>
+		
+
+
+<div class="ev-grid make-same-height-group">
+	<div class="row row-even-spacing ev-grid-cells">
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/abonamente-filarmonica-ramnicu-valcea/" title="Abonamente Filarmonica Ramnicu Valcea">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 01.09.2026 00:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50910/bilete-abonamente-filarmonica-ramnicu-valcea-poster-300x.jpg" alt="Abonamente Filarmonica Ramnicu Valcea" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Abonamente Filarmonica Ramnicu Valcea</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Ramnicu Valcea
+										</div>
+									<div class="ev-thumb-date">
+perioada 1 sept - 30 iun 2027									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/coma-light-quantic/" title="COMA LIGHT @ Quantic">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 10.09.2026 19:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50728/bilete-coma-light-quantic-poster-300x.jpg" alt="COMA LIGHT @ Quantic" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">COMA LIGHT @ Quantic</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>10 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/festobal/" title="FESTOBAL">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 11.09.2026 17:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50682/bilete-festobal-poster-3-300x.jpg" alt="FESTOBAL" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">FESTOBAL</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<span>11 septembrie</span>
+											<span class="label label-dead">ANULAT</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/isteria-i-day-partypool-party-adults-only/" title="Isteria I: Day Party.Pool Party. Adults Only.">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 10:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50865/bilete-isteria-i-day-party-pool-party-adults-only--poster-300x.jpg" alt="Isteria I: Day Party.Pool Party. Adults Only." class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Isteria I: Day Party.Pool Party. Adults Only.</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+perioada 12 sept - 13 sept									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/masters-of-classic/" title="MASTERS OF CLASSIC">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 20:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50762/bilete-masters-of-classic-poster-300x.jpg" alt="MASTERS OF CLASSIC" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">MASTERS OF CLASSIC</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+perioada 12 sept - 13 sept									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/isteria-ii-day-partypool-party-gen-z-only/" title="Isteria II: Day Party.Pool Party. Gen Z Only.">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 19.09.2026 10:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50866/bilete-isteria-ii-day-party-pool-party-gen-z-only--poster-300x.jpg" alt="Isteria II: Day Party.Pool Party. Gen Z Only." class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Isteria II: Day Party.Pool Party. Gen Z Only.</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+perioada 19 sept - 20 sept									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/romanian-dance-revolution-celebrating-the-popcorn-era/" title="Romanian Dance Revolution: Celebrating the Popcorn Era">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 26.09.2026 00:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50729/bilete-romanian-dance-revolution-celebrating-the-popcorn-era-poster-300x.jpg" alt="Romanian Dance Revolution: Celebrating the Popcorn Era" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Romanian Dance Revolution: Celebrating the Popcorn Era</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>26 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/blackbriar-a-thousand-little-deaths-tour/" title="Blackbriar - A Thousand Little Deaths Tour">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 27.09.2026 20:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50730/bilete-blackbriar-a-thousand-little-deaths-tour-poster-300x.jpg" alt="Blackbriar - A Thousand Little Deaths Tour" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Blackbriar - A Thousand Little Deaths Tour</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>27 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/i-tesori-del-barocco-italiano-ansamblul-abaris/" title="I TESORI DEL BAROCCO ITALIANO - Ansamblul ABARIS">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 30.09.2026 19:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50985/bilete-i-tesori-del-barocco-italiano-ansamblul-abaris-poster-300x.jpg" alt="I TESORI DEL BAROCCO ITALIANO - Ansamblul ABARIS" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">I TESORI DEL BAROCCO ITALIANO - Ansamblul ABARIS</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>30 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/draga-mea-barbara-ansamblul-ineffabilis/" title="Draga mea, Barbara - Ansamblul Ineffabilis">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 01.10.2026 19:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50987/bilete-draga-mea-barbara-ansamblul-ineffabilis-poster-300x.jpg" alt="Draga mea, Barbara - Ansamblul Ineffabilis" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Draga mea, Barbara - Ansamblul Ineffabilis</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>1 octombrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/leco-delle-voci-pure-ansamblul-ineffabilis/" title="L&#39;eco Delle Voci Pure - Ansamblul Ineffabilis">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 03.10.2026 18:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50986/bilete-l-eco-delle-voci-pure-ansamblul-ineffabilis-poster-300x.jpg" alt="L&#39;eco Delle Voci Pure - Ansamblul Ineffabilis" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">L&#39;eco Delle Voci Pure - Ansamblul Ineffabilis</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>3 octombrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/jazzapella-concert-jazz-a-capella/" title="Jazzapella - Concert jazz a capella">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 13.10.2026 19:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50203/bilete-jazzapella-concert-jazz-a-capella-poster-300x.jpg" alt="Jazzapella - Concert jazz a capella" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Jazzapella - Concert jazz a capella</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>13 octombrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+	</div>
+</div>
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="/categorii/concerte/" class="btn btn-primary btn-category btn-lg btn-see-all" title="Concerte si festivaluri">vezi toate din Concerte si festivaluri <i class="icon-right fa fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+	</section>
+<!--07.09.2026 14:40:53-->
+	<section class="container">
+		<h2>
+			<a class="h2 fade-in-hover btn-block" href="/categorii/pentru-copii/">Pentru copii<i class="fa fa-long-arrow-right fade icon-right text-lighter"></i></a>
+		</h2>
+		
+
+
+<div class="ev-grid make-same-height-group">
+	<div class="row row-even-spacing ev-grid-cells">
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/destiny-gift-pass/" title="Destiny Gift Pass">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 01.01.2026 00:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev39884/bilete-destiny-gift-pass-poster-300x.jpg" alt="Destiny Gift Pass" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Destiny Gift Pass</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+perioada 1 ian - 31 dec									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/destiny-park/" title="Destiny Park">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 01.01.2026 00:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev47149/bilete-destiny-park-poster-300x.jpg" alt="Destiny Park" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Destiny Park</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+perioada 1 ian - 31 dec									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/rapunzel-restaurant-amicii-popesti-leordeni/" title="Rapunzel @ Restaurant Amicii – Popesti Leordeni">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 12.09.2026 10:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50627/bilete-rapunzel-terasa-florilor-poster-300x.jpg" alt="Rapunzel @ Restaurant Amicii – Popesti Leordeni" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Rapunzel @ Restaurant Amicii – Popesti Leordeni</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Popesti-Leordeni
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>12 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/frumoasa-adormita-merlin/" title="Frumoasa adormita">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 13.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50886/bilete-frumoasa-adormita-merlin-poster-300x.jpg" alt="Frumoasa adormita" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Frumoasa adormita</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Timisoara
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>13 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/povestea-celor-trei-purcelusi-clubul-taranului-la-mama/" title="Povestea celor trei purceluși @ Clubul Țăranului - La Mama">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 19.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50042/bilete-povestea-celor-trei-purcelusi-clubul-taranului-la-mama-poster-300x.jpg" alt="Povestea celor trei purceluși @ Clubul Țăranului - La Mama" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Povestea celor trei purceluși @ Clubul Țăranului - La Mama</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>19 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/ema-si-eric-invata-bunele-maniere/" title="Ema si Eric invata bunele maniere">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 19.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev51051/bilete-ema-si-eric-invata-bunele-maniere-poster-2-300x.jpg" alt="Ema si Eric invata bunele maniere" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Ema si Eric invata bunele maniere</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>19 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/capra-cu-trei-iezi-merlin/" title="Capra cu trei iezi - Merlin">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 20.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50887/bilete-capra-cu-trei-iezi-merlin-poster-1-300x.jpg" alt="Capra cu trei iezi - Merlin" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Capra cu trei iezi - Merlin</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Timisoara
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>20 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/ispravile-motanului-incaltat-muse-country-club-mogosoaia/" title="Isprăvile Motanului &#206;ncălțat @ Muse Country Club Mogoșoaia">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 20.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev49589/bilete-ispravile-motanului-incaltat-muse-country-club-mogosoaia-poster-300x.jpg" alt="Isprăvile Motanului &#206;ncălțat @ Muse Country Club Mogoșoaia" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="font-size:0.8em;">Isprăvile Motanului &#206;ncălțat @ Muse Country Club Mogoșoaia</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Mogosoaia
+										</div>
+									<div class="ev-thumb-date">
+											<span class="text-danger">REPROGRAMAT pe 20 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/prostia-omeneasca/" title="Prostia Omeneasca">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 20.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50847/bilete-prostia-omeneasca-poster-1-300x.jpg" alt="Prostia Omeneasca" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Prostia Omeneasca</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>20 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/rapunzel-hanu-lui-manuc/" title="Rapunzel @ Hanu’ lui Manuc">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 20.09.2026 11:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50984/bilete-rapunzel-hanu-lui-manuc-poster-300x.jpg" alt="Rapunzel @ Hanu’ lui Manuc" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Rapunzel @ Hanu’ lui Manuc</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>20 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/copiii-au-idei-trasnite/" title="Copiii au idei trăsnite">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 20.09.2026 11:30:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50815/bilete-copiii-au-idei-trasnite-poster-300x.jpg" alt="Copiii au idei trăsnite" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Copiii au idei trăsnite</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Bucuresti
+										</div>
+									<div class="ev-thumb-date">
+											<!-- test -->
+											<span>20 septembrie</span>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-6 col-even-spacing  hidden-xs hidden-sm hidden-md hidden-lg visible-xl ev-grid-cell">
+					<div class="panel thumbnail panel-hover-highlight" style="padding:0;">
+						<a class="ev-link" href="/karpatia-horse-show/" title="Karpatia Horse Show">
+							<div style="height:150px;overflow:hidden;" class="">
+<!-- 25.09.2026 00:00:00 -->
+								<img src="https://static.bilete.ro/images/posters/ev50708/bilete-karpatia-horse-show-poster-300x.jpg" alt="Karpatia Horse Show" class="img-responsive" />
+							</div>
+							<div class="make-same-height">
+								<div class="caption position-relative">
+									<h5 class="ev-thumb-title" style="font-weight:normal;">
+										<span style="">Karpatia Horse Show</span>
+									</h5>
+										<div class="ev-thumb-city">
+											<i class="icon-left fa fa-map-marker"></i> Floresti, Prahova
+										</div>
+									<div class="ev-thumb-date">
+perioada 25 sept - 27 sept									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+
+	</div>
+</div>
+
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<a href="/categorii/pentru-copii/" class="btn btn-primary btn-category btn-lg btn-see-all" title="Pentru copii">vezi toate din Pentru copii <i class="icon-right fa fa-long-arrow-right"></i></a>
+			</div>
+		</div>
+	</section>
+<!--07.09.2026 14:40:53-->
+	<section class="scrollme" style="overflow:hidden;perspective: 500px;transform-style: preserve-3d;">
+		<div class="container animateme" style="padding: 3% 0.5em;transform-origin: center bottom;background: #982651;color: #fff;"
+			 data-when="enter"
+			 data-from="0.5"
+			 data-to="0"
+			 data-rotatex="90">
+
+			<div class="row">
+				<div class="col-sm-6 text-center">
+					<div class="h2 text-inverse">Newsletter @ Bilete.ro</div>
+					<p class="h6 text-inverse">Oferte exclusive si o editie saptamanala cu cele mai noi evenimente.</p>
+				</div>
+				<div class="col-sm-4">
+					
+<form action="/" class="form-horizontal email-subscription-form nws-form" enctype="multipart/form-data" method="post"><input data-val="true" data-val-number="The field RefererNodeId must be a number." id="RefererNodeId" name="RefererNodeId" type="hidden" value="1078" /><input data-val="true" data-val-maxlength="RefererUrl invalid" data-val-maxlength-max="1000" id="RefererUrl" name="RefererUrl" type="hidden" value="https://www.bilete.ro/" />	<input type="hidden" name="Topics[0]" value="topic_weekly_newsletter" />
+	<input type="hidden" name="RecaptchaAction" value="disabled" />
+	<input type="hidden" name="RecaptchaToken" value="disabled" />
+	<fieldset class="">
+
+		<div class="form-group form-group-lg">
+			<label class="control-label col-sm-12 text-left">Email</label>
+			<div class="col-sm-12">
+				<input class="form-control nws-email" data-val="true" data-val-maxlength="Email invalid" data-val-maxlength-max="100" data-val-regex="Email invalid" data-val-regex-pattern="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" data-val-required="The Email field is required." id="Email" name="Email" placeholder="adresa de email" type="email" value="" />
+			</div>
+		</div>
+
+		<div class="form-group form-group-sm form-group-optional-fields" style="display:none;">
+			<label class="control-label col-sm-12 col-xs-12 text-left">Optional</label>
+			<div class="col-sm-6 col-xs-6">
+				<input class="form-control" data-val="true" data-val-maxlength="Prenume invalid" data-val-maxlength-max="100" id="FirstName" name="FirstName" placeholder="prenume" type="text" value="" />
+			</div>
+			<div class="col-sm-6 col-xs-6">
+				<input class="form-control" data-val="true" data-val-maxlength="Nume invalid" data-val-maxlength-max="100" id="LastName" name="LastName" placeholder="nume" type="text" value="" />
+			</div>
+		</div>
+
+		<button id="btnPostSubscription" type="submit" class="btn btn-primary">Ok</button>
+
+	</fieldset>
+	<div class="alert alert-confirmation hide">
+		
+		<p><i class="fa fa-check icon-left"></i><span>Esti la un pas de abonare! Click pe link-ul primit pe email pentru a confirma.</span></p>
+		<p class="text-smaller">Te poti dezabona la fiecare editie noua daca te razgandesti.</p>
+	</div>
+<input name='ufprt' type='hidden' value='97F24C8BDD6AECD59C85B77A60B8012532A02874894074478CB69A111D02B07DD9A3EF6AE5D34877F0FFD2DC29DE6D1F0B866D76EF6CEB272A6570E3FFF3430E68B2116EA9C47E2B6FE7FD50682C60C3E91BC1BCAD0B677539FF46D79DEFDF7C27D07669349751331EDB77243E209C62C57B2DB71CE4911227EDBB61B3980A35B705A8CF27B460011C4379D30A2D55036A6746F30F5A4BCA1F53BB12237D155D3439F826C918AEC2AD0FA5533444E80B' /></form>
+
+<script>
+
+	(function () {
+
+		$(function () {
+			initNwsForm();
+			setTimeout(setSubmitHandler, 2000); // delayed because we need to wait for jquery validation to load.
+		});
+
+		function initNwsForm() {
+			$('.nws-email').focus(function () {
+				$(this).closest('form').find('.form-group-optional-fields').slideDown();
+			})
+			//.blur(function () {
+			//	if (this.value == '') {
+			//		$(this).closest('form').find('.form-group-optional-fields').slideUp();
+			//	}
+			//});
+		}
+
+		function showConfirmation(form, subscriptionResult) {
+			$(form).find('fieldset').hide();
+			$(form).find('.alert-confirmation').removeClass('hide').show();
+			if (subscriptionResult) {
+				
+			}
+		}
+
+		function setSubmitHandler() {
+			$('.email-subscription-form').data("validator").settings.submitHandler = function (form) {
+				$(form).ajaxSubmit({
+					success: function (result) {
+						result = result || {
+							IsSuccessful: false,
+							EmailLowered: '',
+							EmailGuid: '',
+							ValidationMessage: null
+						};
+						if (result.IsSuccessful) {
+							showConfirmation(form, result);
+						} else {
+							showConfirmation(form);
+						}
+					}
+				});
+			};
+		}
+
+	})();
+
+</script>
+				</div>
+			</div>
+
+		</div>
+	</section>	
+
+
+
+
+	</main>
+
+	<section></section>
+
+	<!--start-marker:bottom-section-->
+	<a id="bottom"></a>
+<section class="bottom-section" role="navigation">
+	<div class="container">
+		<div class="row visible-xs-block">
+			<div class="col-xs-12 text-center">
+					<ul class="list-inline list-unstyled">
+        
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-fb-hover" target="_blank" href="https://www.facebook.com/bilete.ro/"><i class="fa fa-facebook"></i></a></li>
+        	<li class="padding-0"><a class="btn-lg-round bg-dark bg-gr-hover" target="_blank" href="https://instagram.com/bilete.ro/"><i class="fa fa-instagram"></i></a></li>
+
+	</ul>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-3 col-md-3 col-sm-6 col-xs-8 pull-right">
+					<h4 class="bottom-title">Ajutor</h4>
+	<ul class="nav nav-stacked nav-pills">
+		<li><a href="/info/ajutor/cum-comand/"><i class="icon-left text-larger fa fa-question-circle-o"></i>Cum comand bilete?</a></li>
+		<li><a href="/info/ajutor/plata/"><i class="icon-left text-larger fa fa-credit-card"></i>Plata online sau cash</a></li>
+		<li><a href="/info/ajutor/ebilet-printat-acasa/"><i class="icon-left text-larger fa fa-print"></i>eBilet printat acasa</a></li>
+		<li><a href="/info/ajutor/livrare/"><i class="icon-left text-larger fa fa-envelope-o"></i>Livrare prin curier</a></li>
+		<li><a href="/info/ajutor/returnare/"><i class="icon-left text-larger fa fa-undo"></i>Returnare bilete</a></li>
+		<li><a href="/info/ajutor/duplicare-bilete/"><i class="icon-left text-larger fa fa-files-o"></i>Duplicare bilete</a></li>
+	</ul>
+ 
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-4">
+					<h4 class="bottom-title">Evenimente</h4>
+	<ul class="list-unstyled">
+		<li><a href="/categorii/teatru/" title="Teatru">Teatru</a></li>
+		<li><a href="/categorii/concerte/" title="Concerte si festivaluri">Concerte si festivaluri</a></li>
+		<li><a href="/categorii/sport/" title="Sport">Sport</a></li>
+		<li><a href="/categorii/pentru-copii/" title="Pentru copii">Pentru copii</a></li>
+		<li><a href="/categorii/cultura/" title="Cultura">Cultura</a></li>
+		<li><a href="/categorii/diverse/" title="Diverse">Diverse</a></li>
+	</ul>
+ 
+				<ul class="list-unstyled">
+					<li><a href="/calendar/"><i class="fa fa-calendar"></i> <span class="hidden-xs">Calendarul evenimentelor</span><span class="visible-xs-inline">Calendar</span></a></li>
+				</ul>
+				<div class="hidden-xs" style="padding-bottom:10px;">
+						<ul class="list-inline list-unstyled">
+        
+		<li class="padding-0"><a class="btn-lg-round bg-dark bg-fb-hover" target="_blank" href="https://www.facebook.com/bilete.ro/"><i class="fa fa-facebook"></i></a></li>
+        	<li class="padding-0"><a class="btn-lg-round bg-dark bg-gr-hover" target="_blank" href="https://instagram.com/bilete.ro/"><i class="fa fa-instagram"></i></a></li>
+
+	</ul>
+
+				</div>
+			</div>
+			<div class="col-xl-offset-1 col-lg-offset-1 col-md-5 col-sm-6 col-xs-12">
+					<h4 class="bottom-title">Despre noi</h4>
+	<ul class="list-unstyled">
+		<li><a href="/info/despre-noi/contact/"><i class="fa fa-angle-right"></i> Contact</a></li>
+		<li><a href="/info/despre-noi/termeni-si-conditii/"><i class="fa fa-angle-right"></i> Termeni si conditii</a></li>
+		<li><a href="/info/despre-noi/cookies/"><i class="fa fa-angle-right"></i> Despre Cookies</a></li>
+		<li><a href="/info/despre-noi/compania/"><i class="fa fa-angle-right"></i> Compania</a></li>
+		<li><a href="/info/despre-noi/privacy-policy/"><i class="fa fa-angle-right"></i> Politica de confidentialitate</a></li>
+				<li><a href="https://organizatori.bilete.ro/"><i class="fa fa-angle-right"></i> Organizatori</a></li>
+			</ul>
+ 
+				 
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+	<!--end-marker:bottom-section-->
+
+	<footer class="footer-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-md-3 col-sm-6 col-xs-12 text-xs-center pull-right">
+					<div class="margin-1">
+						
+
+<form action="/" class="form-horizontal" enctype="multipart/form-data" method="post">	<input type="hidden" name="ReturnUrl" value="/" />
+		<button class="btn btn-link active" type="submit" name="NewLanguageCode" value="ro">RO</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="en">EN</button>
+		<button class="btn btn-link " type="submit" name="NewLanguageCode" value="hu">HU</button>
+<input name='ufprt' type='hidden' value='7E7E99607FF184CF1AC23DFCD58B4208D2B4948F8DE805DB91CA885317A590E4CD73610BEC9325C588CADC14FC09D1B5311F4B07319D8146C3C8D6E273E3F3CEA25299A04B9ADCC0A8416E113A2570B220386B3BF622ABC76ED3B0FA7CE49D4EFF2BBA9329594473864D8C7879F745A7409955989E379FFB96AC577351C918CC3BAFD19CD276E79499F5C2417EAF5271' /></form>
+					</div>
+				</div>
+				<div class="col-xl-9 col-md-9 col-sm-6 col-xs-12 text-xs-center">
+					<!--start-marker:footer-legal-->
+					<div>
+						<span>&copy; 2006 - 2026</span> <a href="/">Bilete.ro</a>
+					</div>
+					<ul class="list-inline list-unstyled">
+						<li><a rel="nofollow" target="_blank" href="http://www.anpc.gov.ro/" title="Autoritatea Nationala pentru Protectia Consumatorilor">A.N.P.C.</a></li>
+						<li><a rel="nofollow" target="_blank" href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage" title="Online Dispute Resolution">O.D.R.</a></li>
+						
+					</ul>
+					<!--end-marker:footer-legal-->
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+
+	<script src="/scriptbundles/jqueryplugins?v=Bh_5bLOaMMITfpkRfdJDPguW1XGoPq3gqtilu5Vxsc01"></script>
+
+	<script src="/scriptbundles/jqueryval?v=8ISxVrccVnJ4VgYn8nx0XGvP4OOz9ntyhbhwsef1rI41"></script>
+
+	<!--start-marker:app-scripts-->
+	<script src="/scriptbundles/MasterBileteRo?v=JvLSbhdd6SwXlvVuX1YSGblucS71vOp7exMHQpIjPkQ1"></script>
+
+	<!--end-marker:app-scripts-->
+	<script>
+		initMasterBileteRo(jQuery, window, {
+			urlSearchController: '/umbraco/api/searchapi/PostQueryAutocomplete/',
+			urlTicketingAppRoot: '/ticketing/',
+			urlBileteshopAppRoot: '/mvc/',
+			hideOrderSummary: 'False' == 'True',
+			affKeyword: '',
+			navbarActiveContentId: 1078
+		});
+	</script>
+
+	
+		<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c5d3f50f-2608-4075-9dcc-20eb99b4866f" data-blockingmode="auto" type="text/javascript"></script>
+
+	
+
+	
+	<script src="//static.bilete.ro/unitegallery/js/unitegallery.1.7.28.min.js"></script>
+
+	<script src="//static.bilete.ro/scrollme-master/jquery.scrollme.min.js"></script>
+	<script src="/scriptbundles/HomeBileteRo?v=iGtN_Dr6aDEoWuHExc4Z6M9hS-1-wO8yc-2UO1Lw-wA1"></script>
+
+	<script>
+		initHomeBileteRo(jQuery, window, {
+			ip: '13.71.231.42'
+		});		
+	</script>
+
+
+		<script>ga('send', 'pageview');</script>
+
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/ro_RO/sdk.js#xfbml=1&version=v2.7&appId=2141417946111261";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- Google Code for Remarketing Tag -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var google_conversion_id = 950956716;
+			var google_custom_params = window.google_tag_params;
+			var google_remarketing_only = true;
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<div style="display:inline;">
+				<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/950956716/?guid=ON&amp;script=0" />
+			</div>
+		</noscript>
+
+	<!-- 1 ms-->
+</body>
+</html>

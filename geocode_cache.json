@@ -650,5 +650,15 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "București::bucuresti": [
+    44.4356445,
+    26.1009263,
+    "nominatim"
+  ],
+  "Cafeneaua Amicii - Popesti Leordeni Pentru copii Teatru pentru copii Popesti-Leordeni, Cafeneaua Amicii Bilete de la 35,00 RON::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
