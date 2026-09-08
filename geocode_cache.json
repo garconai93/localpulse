@@ -660,5 +660,50 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama  (Intrarea Monetariei nr. 3, Sector 1) Bilete de la 35,00 RON::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Zengő Tér::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Grădina Brukenhalle::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Bilete de la 35,00 RON::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Fiord Club RockStillery::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Teatrul Mihai Eminescu Botoșani::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Buzău::bucuresti": [
+    44.3975555,
+    26.0569543,
+    "nominatim"
+  ],
+  "Machines Venue::cluj-napoca": [
+    46.769379,
+    23.5899542,
+    "city_fallback"
+  ],
+  "loc în Constanța::constanta": [
+    44.1767161,
+    28.6507598,
+    "city_fallback"
   ]
 }
