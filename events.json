@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-08",
-  "last_scraped": "2026-09-08",
+  "generated_at": "2026-09-09",
+  "last_scraped": "2026-09-09",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -6687,7 +6687,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0150.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0151",
@@ -6715,7 +6716,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0151.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0152",
@@ -6742,7 +6744,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0152.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0153",
@@ -6769,7 +6772,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0153.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0154",
@@ -6796,7 +6800,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0154.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0155",
@@ -6823,7 +6828,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0155.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0156",
@@ -6850,7 +6856,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0156.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0157",
@@ -6877,7 +6884,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0157.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0158",
@@ -6904,7 +6912,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0158.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0159",
@@ -6931,7 +6940,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0159.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-bluescore-quantic-0145",
@@ -6955,7 +6965,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bluescore-quantic-0145.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-pink-plague-denmark-katharein--0078",
@@ -6980,7 +6991,8 @@
           "image": "events-images/zsn-pink-plague-denmark-katharein--0078.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-din-oala-babei-nebune-3195",
@@ -7015,7 +7027,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-din-oala-babei-nebune-3195.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-acoustic-garden-cu-mihai-meiro-0089",
@@ -7039,7 +7052,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-acoustic-garden-cu-mihai-meiro-0089.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0160",
@@ -7066,7 +7080,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0160.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0161",
@@ -7093,7 +7108,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0161.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0162",
@@ -7121,7 +7137,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0162.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0163",
@@ -7148,7 +7165,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0163.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0164",
@@ -7176,7 +7194,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0164.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0165",
@@ -7204,7 +7223,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0165.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0166",
@@ -7232,7 +7252,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0166.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0167",
@@ -7259,7 +7280,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0167.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0168",
@@ -7286,7 +7308,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0168.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0169",
@@ -7312,7 +7335,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0169.jpg"
+          "image": "events-images/sorina-0169.jpg",
+          "past": true
         },
         {
           "id": "sorina-0170",
@@ -7942,6 +7966,33 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0192.jpg",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0034",
+          "title": "Atelierul Gratuit de DIY – Orar colorat",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-09-10",
+          "time": "17:00",
+          "venue": "Ludoteca FamilyHub",
+          "address": "Strada Ion Nistor 2, București 030167, București",
+          "price": "free",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelierul-gratuit-de-diy/",
+          "description": "Club Do It Yourself Gratuit – Orar colorat 4-12 ani Joi, 10 septembrie 17:00 Înscriere prin mesaj la 0755 655 566 Important: Locurile sunt limitate, rezervarea este necesară. Detalii și înscriere prin telefon la 0755 655 566. Vă așteptăm cu drag! P.S.: Dacă nu reușiți să ajungeți la ateliere, vă așteptăm să testați gratuit jucăriile Ludotecii",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/01/799171558_2138069150443372_6360738011288423300_n.jpeg",
+          "map_url": "https://maps.google.com/?q=Ludoteca+FamilyHub+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -8923,6 +8974,76 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-cs-dinamo-bucuresti-csa-steaua-557",
+          "title": "Liga Zimbrilor - Etapa 2 - CS Dinamo Bucurеsti - CSA Steaua Bucurеsti",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-11",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cs-dinamo-bucuresti-csa-steaua-bucuresti/",
+          "image": "events-images/buc-br-cs-dinamo-bucuresti-csa-steaua-557.jpg",
+          "description": "Liga Zimbrilor - Etapa 2 - CS Dinamo Bucurеsti - CSA Steaua Bucurеsti - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-11",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-fk-csikszereda-dinamo-4949",
+          "title": "Superliga - Etapa 9 - FK Csikszеreda - Dinamo Bucuresti",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-11",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/fk-csikszereda-dinamo/",
+          "image": "events-images/buc-br-fk-csikszereda-dinamo-4949.jpg",
+          "description": "Superliga - Etapa 9 - FK Csikszеreda - Dinamo Bucuresti - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-11",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-ollie-the-magnifics-live-peter-0087",
           "title": "Ollie & The Magnifics live #PeTerasă @ Berăria H",
           "category": "concert",
@@ -9389,6 +9510,33 @@
           "image": "events-images/sorina-0219.jpg"
         },
         {
+          "id": "sorina-0067",
+          "title": "Atinge, Apasă, Rotește și Descoperă Casa Experimentelor",
+          "category": "expo",
+          "vibe": "loud",
+          "date": "2026-09-12",
+          "time": "10:00",
+          "venue": "Casa Experimentelor – Romanian Science Center",
+          "address": "Calea Vitan 242, București 031301, București",
+          "price": "paid",
+          "price_value": 36,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atinge-apasa-roteste-si-descopera-casa-experimentelor/",
+          "description": "Casa Experimentelor este primul centru ştiinţific non-profit din România în care copiii sunt stârniți să descopere știința. Printre cei care ne trec pragul îi vom avea și pe viitorii Marie Curie sau Henri Coandă! În Casa Experimentelor veți găsi o grupare de exponate ştiinţifice instalate permanent, realizate în scopul de a învăţa despre ştiinţă în timp ce vizitatorii se „joacă” cu ele. Este de fapt un centru ştiinţific cu un concept inovativ de învăţare despre ştiinţă într-un mod informal. C...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "expozitie"
+          ],
+          "image": "events-images/sorina-0067.jpg",
+          "map_url": "https://maps.google.com/?q=Casa+Experimentelor+–+Romanian+Science+Center+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0220",
           "title": "Viața în buzunarul mamei – Cangurul",
           "category": "atelier",
@@ -9573,6 +9721,33 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0226.jpg",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0094",
+          "title": "Șezătoarea muzicală cu Claudia",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-09-12",
+          "time": "10:30",
+          "venue": "Ludoteca FamilyHub",
+          "address": "Strada Ion Nistor 2, București 030167, București",
+          "price": "paid",
+          "price_value": 100,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/sezatoarea-muzicala-cu-claudia-3/",
+          "description": "50% reducere dacă spui #StiuDeLasorina Sezatoare Muzicala cu Claudia 6 luni – 3 ani Sâmbătă, 12 septembrie 10:30 Cost: 100 lei/familie Înscriere prin mesaj la 0749 079 427 Important: Locurile sunt limitate, rezervarea este necesară. Detalii și înscriere prin telefon la 0755 655 566. Vă așteptăm cu drag! P.S.: Dacă nu reușiți să ajungeți la ateliere, vă așteptăm să testați gratuit jucăriile Ludotecii",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/03/622310826_1505866244877653_3449804760109553443_n-3.jpg",
+          "map_url": "https://maps.google.com/?q=Ludoteca+FamilyHub+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -10198,6 +10373,76 @@
           "map_url": "https://maps.google.com/?q=Clubul+Taranului+-+La+Mama+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Clubul+Taranului+-+La+Mama++(Intrarea+Monetariei+nr.+3,+Sector+1)+Bilete+de+la+35,00+RON",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-08",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-cs-dinamo-bucuresti-concordia--6335",
+          "title": "Liga 2 - Etapa 7 - CS Dinamo – Concordia Chiajna",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cs-dinamo-bucuresti-concordia-chiajna/",
+          "image": "events-images/buc-br-cs-dinamo-bucuresti-concordia--6335.jpg",
+          "description": "Liga 2 - Etapa 7 - CS Dinamo – Concordia Chiajna - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-micul-print-hanu-lui-manuc-7693",
+          "title": "Micul Print @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 21 nov",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 21 nov",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/micul-print-hanu-lui-manuc/",
+          "image": "events-images/buc-br-micul-print-hanu-lui-manuc-7693.jpg",
+          "description": "Micul Print @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 21 nov din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 21 nov",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON+alte+zile:+21+nov",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
@@ -11360,6 +11605,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-ariciul-si-testoasa-uriasa-han-536",
+          "title": "Ariciul si testoasa uriasa @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-13",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ariciul-si-testoasa-uriasa-hanu-lui-manuc/",
+          "image": "events-images/buc-br-ariciul-si-testoasa-uriasa-han-536.jpg",
+          "description": "Ariciul si testoasa uriasa @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-13",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-mariana-risipitu-taraf-pe-tera-0176",
           "title": "Mariana Risipitu & Taraf // Pe Terasă @ Berăria H",
           "category": "concert",
@@ -12323,6 +12603,41 @@
           "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-islaz-rock-balcanic-cu-cobz-th-0017.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-din-oala-babei-nebune-6698",
+          "title": "Din oala babei nebune",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-17",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/din-oala-babei-nebune/",
+          "image": "events-images/buc-br-din-oala-babei-nebune-6698.jpg",
+          "description": "Din oala babei nebune - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-17",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -14163,6 +14478,41 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-ursul-pacalit-de-vulpe-hanu-lu-2935",
+          "title": "Ursul pacalit de vulpe @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-19",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 3 oct",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 3 oct",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ursul-pacalit-de-vulpe-hanu-lui-manuc/",
+          "image": "events-images/buc-br-ursul-pacalit-de-vulpe-hanu-lu-2935.jpg",
+          "description": "Ursul pacalit de vulpe @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 3 oct din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-19",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 3 oct",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON+alte+zile:+3+oct",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "zsn-sear-de-folk-cu-mircea-vintil--0180",
@@ -16098,6 +16448,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-trolling-shekespeare-3836",
+          "title": "Trolling Shekespeare",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-25",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/trolling-shekespeare/",
+          "image": "events-images/buc-br-trolling-shekespeare-3836.jpg",
+          "description": "Trolling Shekespeare - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-25",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0363",
           "title": "Expediția Micilor Exploratori",
           "category": "atelier",
@@ -17183,6 +17568,41 @@
           "map_url": "https://maps.google.com/?q=Clubul+Taranului+-+La+Mama+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Clubul+Taranului+-+La+Mama+Bilete+de+la+35,00+RON",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-08",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-povestea-scufitei-rosii-hanu-l-9759",
+          "title": "Povestea Scufitei Rosii @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/povestea-scufitei-rosii-hanu-lui-manuc/",
+          "image": "events-images/buc-br-povestea-scufitei-rosii-hanu-l-9759.jpg",
+          "description": "Povestea Scufitei Rosii @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
@@ -18364,6 +18784,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-povestea-celor-trei-purcelusi--8274",
+          "title": "Povestea celor trei purcelusi @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 11 oct",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 11 oct",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/povestea-celor-trei-purcelusi-hanu-lui-manuc/",
+          "image": "events-images/buc-br-povestea-celor-trei-purcelusi--8274.jpg",
+          "description": "Povestea celor trei purcelusi @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 11 oct din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 11 oct",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON+alte+zile:+11+oct",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-09",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "sorina-0415",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -18802,6 +19257,30 @@
           "image": "events-images/zsn-concert-simfonic-1-octombrie-2-0061.jpg",
           "lat": 44.938248,
           "lon": 26.022599
+        },
+        {
+          "id": "zsn-concert-vocal-simfonic-cu-mart-0014",
+          "title": "Concert vocal-simfonic cu Martha Argerich @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-01",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-vocal-simfonic-argerich/",
+          "description": "Program: George Enescu Poemul simfonic Isis & Serghei Prokofiev Concertul nr. 3, în do major, pentru pian şi orchestră, op. 26 & Piotr Ilici Ceaikovski Suita Lacul Lebedelor (aranj. Mikhail Pletnev). Concert vocal-simfonic cu Martha Argerich @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-vocal-simfonic-cu-mart-0014.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "zsn-carla-s-dreams-hard-rock-cafe-0013",
@@ -19319,6 +19798,30 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-recital-cameral-cu-drago-andre-0008",
+          "title": "Recital cameral cu Dragoș Andrei Cantea @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/recital-cameral-dragos-andrei-cantea/",
+          "description": "Program: Vasile Jianu Divertisment rustic & Ludwig van Beethoven Trio \"Gassenhauer\" pentru clarinet, fagot și pian, op. 11 & Francis Poulenc Sextet pentru cvintet de suflători și pian, FP100. Recital cameral cu Dragoș Andrei Cantea @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-recital-cameral-cu-drago-andre-0008.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "zsn-robin-and-the-backstabbers-0196",
           "title": "Robin and The Backstabbers",
           "category": "teatru",
@@ -19777,6 +20280,30 @@
           "image": "events-images/sorina-0442.jpg"
         },
         {
+          "id": "zsn-turneul-na-ional-classic-jazz--0009",
+          "title": "Turneul Naţional Classic. Jazz. Voyage @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-05",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/turneul-national-classic-jazz-voyage/",
+          "description": "Program: Johann Sebastian Bach Preludiul nr. 1 în do major / Jule Styne Just In Time (aranjament mash-up Leonard Bernstein / adaptare pentru pian Paul Staicu) & BIX Beiderbecke In A Mist (aranjament original din 1925). Turneul Naţional Classic. Jazz. Voyage @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-turneul-na-ional-classic-jazz--0009.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "sorina-0443",
           "title": "Atelierele Bubu: Muzică (Bubu simfonie în farfurie)",
           "category": "family",
@@ -19929,6 +20456,30 @@
           "lon": 26.0977002,
           "image": "events-images/sorina-0446.webp",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-concert-simfonic-cu-rapha-lle--0011",
+          "title": "Concert simfonic cu Raphaëlle Moreau și Edgar Moreau @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-08",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-simfonic-raphaelle-moreau/",
+          "description": "Program: Anatol Vieru Concertul pentru violoncel şi orchestră & Johannes Brahms Concertul în la minor pentru vioară, violoncel şi orchestră, op. 102 & Felix Mendelssohn Simfonia nr. 3, în la minor, op. 56, Scoţiana. Concert simfonic cu Raphaëlle Moreau și Edgar Moreau @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-simfonic-cu-rapha-lle--0011.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "zsn-cristina-radu-ensemble-bossa-n-0198",
@@ -20264,6 +20815,30 @@
           "lon": 24.48746
         },
         {
+          "id": "zsn-bach-2-0-ateneul-rom-n-0012",
+          "title": "Bach 2.0 @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-10",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/bach-2-0-ateneul-roman/",
+          "description": "Program: Johann Sebastian Bach - Concertul pentru două clavecine și orchestră de coarde BWV 1060 & Sinfonia II pentru clavecin și orchestră de coarde din Cantata BWV 35. Bach 2.0 @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-bach-2-0-ateneul-rom-n-0012.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "zsn-ctrl-live-holy-fuck-ca-control-0002",
           "title": "ctrl LIVE: Holy Fuck [CA] @ Control Club",
           "category": "concert",
@@ -20367,6 +20942,30 @@
           "lon": 26.102684,
           "image": "events-images/sorina-0455.jpg",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-turneul-na-ional-orgile-rom-ni-0010",
+          "title": "Turneul Naţional Orgile României – VIII @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-11",
+          "time": "11:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/turneul-national-orgile-romaniei-viii/",
+          "description": "Program: Scott Joplin The Entertainer & André Stamm Bach on the Orient Express & Lefébure-Wély Sortie en mi bémol majeur & Charles-Marie Widor Scherzo din Simfonia nr. 4 în fa minor, op. 13 nr. 4. Turneul Naţional Orgile României - VIII @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-turneul-na-ional-orgile-rom-ni-0010.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "sorina-0456",
@@ -20597,6 +21196,30 @@
           "image": "events-images/sorina-0459.jpg"
         },
         {
+          "id": "zsn-stagiunea-de-mar-i-seara-cu-da-0013",
+          "title": "Stagiunea de marți seara cu Darius Moț @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-13",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/stagiunea-de-marti-seara-mot/",
+          "description": "Program: Ludwig van Beethoven Sonata nr. 3, în do major, op. 2, nr. 3 & Frédéric Chopin, Scherzo nr. 3, în do diez minor, op. 39, nr. 3 & Serghei Rahmaninov Variațiuni pe o temă de Corelli, op. 42.  Stagiunea de marți seara cu Darius Moț @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-stagiunea-de-mar-i-seara-cu-da-0013.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "zsn-norman-beaker-the-pub-universi-0092",
           "title": "Norman Beaker @ The Pub – Universității",
           "category": "concert",
@@ -20742,6 +21365,30 @@
           "image": "events-images/zsn-vama-hard-rock-cafe-0014.jpg",
           "lat": 44.444723,
           "lon": 26.08565
+        },
+        {
+          "id": "zsn-concert-simfonic-cu-jan-bartos-0007",
+          "title": "Concert simfonic cu Jan Bartos @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-15",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-simfonic-cu-jan-bartos/",
+          "description": "Program: Piotr Ilici Ceaikovski Uvertura-fantezie Romeo şi Julieta & Serghei Prokofiev Concertul nr. 1, în re bemol major, pentru pian şi orchestră, op. 10. Concert simfonic cu Jan Bartos @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-simfonic-cu-jan-bartos-0007.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "zsn-c-t-lin-stepa-iv-fix-the-pub-u-0094",
@@ -20946,6 +21593,30 @@
           "lon": 26.1023412,
           "image": "events-images/sorina-0463.jpg",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-clasic-e-fantastic-lec-ia-de-j-0004",
+          "title": "Clasic e fantastic. Lecția de jazz @ Ateneul Român",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-17",
+          "time": "11:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/clasic-e-fantastic-lectia-de-jazz-3/",
+          "description": "Irina Sârbu Band: Irina Sârbu - voce & Puiu Pascu - pian & Ciprian Parghel - contrabas & Tudor Parghel - tobe | Invitați: Alex Man - chitară & Mihai Dănuț - chitară. Clasic e fantastic. Lecția de jazz @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-clasic-e-fantastic-lec-ia-de-j-0004.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "sorina-0464",
@@ -21253,6 +21924,54 @@
           "lon": 24.499076
         },
         {
+          "id": "zsn-stagiunea-de-mar-i-seara-cu-co-0006",
+          "title": "Stagiunea de marți seara cu Cornelius Zirbo și Teodora Chircă @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-20",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/stagiunea-de-marti-seara-zirbo/",
+          "description": "Program: Claude Debussy Syrinx pentru flaut solo (aranj. pentru violoncel) & ⁠Nadia Boulanger Trei piese pentru violoncel și pian & César Franck Sonata în la major pentru violoncel și pian. Stagiunea de marți seara cu Cornelius Zirbo și Teodora Chircă @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-stagiunea-de-mar-i-seara-cu-co-0006.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
+          "id": "zsn-concert-simfonic-aniversar-ate-0005",
+          "title": "Concert simfonic aniversar @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-21",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-simfonic-aniversar/",
+          "description": "Program: Johannes Brahms Concertul în re major pentru vioară şi orchestră, op. 77 & Johannes Brahms Concertul în la minor pentru vioară, violoncel şi orchestră, op. 102. Concert simfonic aniversar @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-simfonic-aniversar-ate-0005.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "zsn-concert-pentru-vocea-mea-chita-0093",
           "title": "Concert pentru Vocea Mea, Chitara Ta și Pianul Lui @ The Pub – Universității",
           "category": "concert",
@@ -21325,6 +22044,30 @@
           "image": "events-images/zsn-timpuri-noi-hard-rock-cafe-0008.jpg",
           "lat": 44.444723,
           "lon": 26.08565
+        },
+        {
+          "id": "zsn-concert-vocal-simfonic-cu-juli-0003",
+          "title": "Concert vocal-simfonic cu Julia Hagen @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-22",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-vocal-simfonic-julia-hagen/",
+          "description": "Program: Johannes Brahms Cântecul Destinului, op. 54 & Benjamin Britten Simfonia pentru violoncel şi orchestră, op. 68 & Richard Strauss Poemul simfonic Aşa grăit-a Zarathustra, op. 30. Concert vocal-simfonic cu Julia Hagen @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-vocal-simfonic-cu-juli-0003.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "zsn-irina-rimes-hard-rock-cafe-0006",
@@ -21531,6 +22274,30 @@
           "image": "events-images/sorina-0474.jpg"
         },
         {
+          "id": "zsn-muzica-pe-n-elesul-tuturor-ogr-0001",
+          "title": "Muzica pe înțelesul tuturor | Ograda muzicală @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "11:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/muzica-pe-intelesul-tuturor-ograda/",
+          "description": "Program: Serghei Prokofiev Petrică și lupul & Camille Saint-Saëns Carnavalul animalelor.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-muzica-pe-n-elesul-tuturor-ogr-0001.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
+        },
+        {
           "id": "zsn-new-disorder-alternative-metal-0195",
           "title": "NEW DISORDER (alternative metal – Italy)",
           "category": "concert",
@@ -21734,6 +22501,30 @@
           "image": "events-images/zsn-roata-vietii-irina-loghin-i-ma-0052.jpg",
           "lat": 45.450706,
           "lon": 28.054352
+        },
+        {
+          "id": "zsn-turneul-na-ional-z-mbetul-muzi-0002",
+          "title": "Turneul Naţional Zâmbetul muzicii – III @ Ateneul Român",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-26",
+          "time": "19:00",
+          "venue": "Ateneul Român",
+          "address": "Strada Benjamin Franklin Nr. 1-3, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/turneul-national-zambetul-muzicii-iii/",
+          "description": "Program: Giulio Caccini Amarilli, mia bella & Reynaldo Hahn À Chloris & Reynaldo Hahn Quand je fus pris au Pavillon & Tiberiu Brediceanu Vai, bădiță, dragi ne-avem & Tiberiu Brediceanu Doina Stăncuței. Turneul Naţional Zâmbetul muzicii - III @ Ateneul Român",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ateneul+Român+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-turneul-na-ional-z-mbetul-muzi-0002.webp",
+          "lat": 44.441199,
+          "lon": 26.097882
         },
         {
           "id": "zsn-concert-extraordinar-cu-tenoru-0075",
@@ -22708,6 +23499,87 @@
           "lon": 26.1025,
           "past": true,
           "image": "events-images/sorina-0052.jpg"
+        },
+        {
+          "id": "sorina-0039",
+          "title": "Curs de engleză pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-10",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 250,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-engleza-pentru-copii/",
+          "description": "Cursurile de engleză continuă la Fairy Forest! Gândiți-vă cât de frumos ar fi să vă surprindă copilul comandând singur o înghețată sau spunând câteva propoziții în engleză în următoarea vacanță în Grecia! Noi avem soluția pentru ca acest lucru să devină posibil! La Fairy Forest, cei mici învață engleza prin joacă, fișe de lucru și activități interactive, într-o atmosferă relaxată și distractivă. Iar Nico, „profa” noastră de engleză, este tare îndrăgită de copii și reușește să transforme fieca...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/752267964_122128293465220868_1074262132843999965_n-1.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0097",
+          "title": "Curs de engleză pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "10:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 250,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-engleza-pentru-copii-3/",
+          "description": "Cursurile de engleză continuă la Fairy Forest! Gândiți-vă cât de frumos ar fi să vă surprindă copilul comandând singur o înghețată sau spunând câteva propoziții în engleză în următoarea vacanță în Grecia! Noi avem soluția pentru ca acest lucru să devină posibil! La Fairy Forest, cei mici învață engleza prin joacă, fișe de lucru și activități interactive, într-o atmosferă relaxată și distractivă. Iar Nico, „profa” noastră de engleză, este tare îndrăgită de copii și reușește să transforme fieca...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/752267964_122128293465220868_1074262132843999965_n-1.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0195",
+          "title": "Curs de engleză pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-15",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 250,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-engleza-pentru-copii-2/",
+          "description": "Cursurile de engleză continuă la Fairy Forest! Gândiți-vă cât de frumos ar fi să vă surprindă copilul comandând singur o înghețată sau spunând câteva propoziții în engleză în următoarea vacanță în Grecia! Noi avem soluția pentru ca acest lucru să devină posibil! La Fairy Forest, cei mici învață engleza prin joacă, fișe de lucru și activități interactive, într-o atmosferă relaxată și distractivă. Iar Nico, „profa” noastră de engleză, este tare îndrăgită de copii și reușește să transforme fieca...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/752267964_122128293465220868_1074262132843999965_n-1.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     },
@@ -22966,7 +23838,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-rumjacks-la-flying-circus-0079.jpg",
           "lat": 46.770868,
-          "lon": 23.592976
+          "lon": 23.592976,
+          "past": true
         },
         {
           "id": "clj-009",
@@ -24260,7 +25133,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-o-sear-un-pian-o-emo-ie-enescu-0157.jpg",
           "lat": 44.173333,
-          "lon": 28.638333
+          "lon": 28.638333,
+          "past": true
         },
         {
           "id": "ct-002",
@@ -24618,7 +25492,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-glances-of-colombia-lucas-cont-0043.jpg",
           "lat": 44.314533,
-          "lon": 23.799033
+          "lon": 23.799033,
+          "past": true
         },
         {
           "id": "zsn-black-widow-live-b-erlin-0041",
@@ -25458,6 +26333,58 @@
           "lon": 26.1025,
           "past": true,
           "image": "events-images/sorina-0022.jpg"
+        },
+        {
+          "id": "sorina-0016",
+          "title": "Miercuri la Yardinia",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-09-09",
+          "time": "17:00",
+          "venue": "Yardinia",
+          "address": "Strada Școlii, Odăile 075100, Otopeni",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/ziua-comunitatii-yard-sale/",
+          "description": "Miercuri la Yardinia – parte din comunitate Se spune că ai nevoie de un sat ca să crești un copil. În trecut, satul era locul unde copiii învățau de la toți: de la vecini, de la meșteri, de la bunici, de la oameni diferiți fiecare cu ceva special. Era un spațiu viu, în care creșterea nu era responsabilitatea unei singure familii, ci a întregii comunități. Astăzi, satul nostru s-a transformat și pentru cei care locuiesc în oraș se numește comunitate. Un spațiu sigur, în care oamenii se întâlne...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/740437907_1541473667704889_8595016447594352278_n.jpeg",
+          "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0061",
+          "title": "Film în aer liber: Peter Rabbit",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-09-11",
+          "time": "20:00",
+          "venue": "Yardinia",
+          "address": "Strada Școlii, Odăile 075100, Otopeni",
+          "price": "free",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/film-in-aer-liber-hoppers/",
+          "description": "PROGRAMUL SAPTAMANII LA YARDINIA MIERCURI | 17:00–21:00 Yardinia Denim Cycle De la haina veche, la arta in comunitate Dam startul, impreuna cu Ink & Needle, primului nostru „Denim Drop Zone” – un punct de colectare unde poti aduce articolele din denim pe care nu le mai porti: blugi, geci, fuste, rochii sau alte piese uitate in sifonier. Hainele trebuie sa fie curate si igienizate, dar nu conteaza daca sunt uzate, patate sau rupte. Le vom transforma si le vom da o noua viata! In plus, vino sa ...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "film"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/799934836_1053689384094190_5308947521720646320_n.jpeg",
+          "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     },
@@ -25944,7 +26871,8 @@
             "enescu"
           ],
           "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu",
-          "organizer": "iabilet.ro"
+          "organizer": "iabilet.ro",
+          "past": true
         },
         {
           "id": "zsn-muzic-n-catedrala-luteran-bise-0189",
@@ -26200,7 +27128,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sarc-fago-br-occultor-ro-wr-th-0112.jpg",
           "lat": 45.757235,
-          "lon": 21.2332078
+          "lon": 21.2332078,
+          "past": true
         },
         {
           "id": "zsn-pink-plague-denmark-headspawn--0170",
@@ -27208,6 +28137,33 @@
           "past": true
         },
         {
+          "id": "sorina-0004",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-09",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-8/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025,
+          "past": true
+        },
+        {
           "id": "sorina-0172",
           "title": "Joacă liberă",
           "category": "family",
@@ -27258,11 +28214,115 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0179.jpg"
+        },
+        {
+          "id": "sorina-0027",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-10",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-24/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0049",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-11",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0072",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-11/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0137",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-13",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-14/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     }
   ],
-  "last_geocoded": "2026-09-08",
-  "last_recategorized": "2026-09-08",
-  "last_images_sync": "2026-09-08"
+  "last_geocoded": "2026-09-09",
+  "last_recategorized": "2026-09-09",
+  "last_images_sync": "2026-09-09"
 }
