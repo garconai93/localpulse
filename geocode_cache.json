@@ -725,5 +725,45 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "AFI Cotroceni::bucuresti": [
+    44.4303333,
+    26.0522045,
+    "nominatim"
+  ],
+  "Târgu Jiu::bucuresti": [
+    44.3986886,
+    26.0522018,
+    "nominatim"
+  ],
+  "Romexpo::bucuresti": [
+    44.4774401,
+    26.0657972,
+    "nominatim"
+  ],
+  "Sala Gloria::bucuresti": [
+    44.4286032,
+    26.1536935,
+    "nominatim"
+  ],
+  "Sala Palatului::bucuresti": [
+    44.4391317,
+    26.0951166,
+    "nominatim"
+  ],
+  "Cinema Independența Târgoviște::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Art Rock Cafe::suceava": [
+    47.6393876,
+    26.2424061,
+    "nominatim"
+  ],
+  "Teatrul Jean Bart Tulcea::tulcea": [
+    45.1767051,
+    28.8012118,
+    "nominatim"
   ]
 }
