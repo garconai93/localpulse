@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11",
-  "last_scraped": "2026-09-11",
+  "generated_at": "2026-09-12",
+  "last_scraped": "2026-09-12",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -63,7 +63,8 @@
           "image": "events-images/zsn-bucovina-i-vicii-live-terasa-f-0208.jpg",
           "lat": 46.1866,
           "lon": 21.3123,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-gala-de-oper-open-air-s-mb-t-1-0205",
@@ -8708,7 +8709,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0198.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0199",
@@ -8734,7 +8736,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4284823,
           "lon": 26.035172,
-          "image": "events-images/sorina-0199.jpg"
+          "image": "events-images/sorina-0199.jpg",
+          "past": true
         },
         {
           "id": "sorina-0200",
@@ -8763,7 +8766,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0200.jpg"
+          "image": "events-images/sorina-0200.jpg",
+          "past": true
         },
         {
           "id": "sorina-0201",
@@ -8789,7 +8793,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0201.jpg"
+          "image": "events-images/sorina-0201.jpg",
+          "past": true
         },
         {
           "id": "sorina-0017",
@@ -8816,7 +8821,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0202",
@@ -8842,7 +8848,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0202.jpg"
+          "image": "events-images/sorina-0202.jpg",
+          "past": true
         },
         {
           "id": "sorina-0203",
@@ -8868,7 +8875,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4518315,
           "lon": 26.1309407,
-          "image": "events-images/sorina-0203.jpg"
+          "image": "events-images/sorina-0203.jpg",
+          "past": true
         },
         {
           "id": "sorina-0204",
@@ -8896,7 +8904,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4701434,
           "lon": 26.108052,
-          "image": "events-images/sorina-0204.jpg"
+          "image": "events-images/sorina-0204.jpg",
+          "past": true
         },
         {
           "id": "zsn-concert-estival-extraordinar-r-0082",
@@ -8920,7 +8929,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-estival-extraordinar-r-0082.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-sigur-c-da-the-pub-universit-i-0099",
@@ -8945,7 +8955,8 @@
           "image": "events-images/zsn-sigur-c-da-the-pub-universit-i-0099.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-festobal-5587",
@@ -8980,7 +8991,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-festobal-5587.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-tavanul-de-sticla-5062",
@@ -9015,7 +9027,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-tavanul-de-sticla-5062.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-cerere-in-casatorie-compania-l-1409",
@@ -9050,7 +9063,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-cerere-in-casatorie-compania-l-1409.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-cine-mai-are-nevoie-de-iubire-7071",
@@ -9085,7 +9099,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-farul-constanta-uta-arad-7495",
@@ -9120,7 +9135,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-cs-dinamo-bucuresti-csa-steaua-557",
@@ -9155,7 +9171,8 @@
           "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-fk-csikszereda-dinamo-4949",
@@ -9190,7 +9207,8 @@
           "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-fk-csikszereda-dinamo-6689",
@@ -9225,7 +9243,8 @@
           "scraped_at": "2026-09-11",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-ollie-the-magnifics-live-peter-0087",
@@ -9249,7 +9268,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ollie-the-magnifics-live-peter-0087.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-nikolaos-papadopoulos-ansamblu-0175",
@@ -9273,7 +9293,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nikolaos-papadopoulos-ansamblu-0175.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0205",
@@ -9305,7 +9326,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0205.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0206",
@@ -9332,7 +9354,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.5252007,
           "lon": 26.0922825,
-          "image": "events-images/sorina-0206.jpg"
+          "image": "events-images/sorina-0206.jpg",
+          "past": true
         },
         {
           "id": "sorina-0207",
@@ -9360,7 +9383,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0207.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0208",
@@ -9386,7 +9410,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4715807,
           "lon": 26.0779139,
-          "image": "events-images/sorina-0208.jpg"
+          "image": "events-images/sorina-0208.jpg",
+          "past": true
         },
         {
           "id": "sorina-0209",
@@ -9413,7 +9438,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0209.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0210",
@@ -9443,7 +9469,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0210.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0211",
@@ -9471,7 +9498,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0211.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0212",
@@ -9497,7 +9525,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4246042,
           "lon": 26.0460539,
-          "image": "events-images/sorina-0212.jpg"
+          "image": "events-images/sorina-0212.jpg",
+          "past": true
         },
         {
           "id": "sorina-0213",
@@ -9525,7 +9554,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4701434,
           "lon": 26.108052,
-          "image": "events-images/sorina-0213.jpg"
+          "image": "events-images/sorina-0213.jpg",
+          "past": true
         },
         {
           "id": "sorina-0214",
@@ -9554,7 +9584,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0214.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0215",
@@ -9580,7 +9611,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0215.jpg"
+          "image": "events-images/sorina-0215.jpg",
+          "past": true
         },
         {
           "id": "sorina-0216",
@@ -9606,7 +9638,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0216.jpg"
+          "image": "events-images/sorina-0216.jpg",
+          "past": true
         },
         {
           "id": "sorina-0217",
@@ -9635,7 +9668,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0217.jpg"
+          "image": "events-images/sorina-0217.jpg",
+          "past": true
         },
         {
           "id": "sorina-0218",
@@ -9663,7 +9697,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0218.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0219",
@@ -9691,7 +9726,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.5252007,
           "lon": 26.0922825,
-          "image": "events-images/sorina-0219.jpg"
+          "image": "events-images/sorina-0219.jpg",
+          "past": true
         },
         {
           "id": "sorina-0067",
@@ -9718,7 +9754,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0052",
@@ -9745,7 +9782,36 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4303333,
           "lon": 26.0522045,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
+        },
+        {
+          "id": "sorina-0022",
+          "title": "Atelier de creație",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-09-12",
+          "time": "10:00",
+          "venue": "Piața Obor",
+          "address": "Strada Ziduri Moși 4, 021204 București, București",
+          "price": "paid",
+          "price_value": 80,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-de-creatie/",
+          "description": "Ce se întâmplă când nu le cerem copiilor să deseneze ceva anume? Weekendul acesta pornim de la Jean Dubuffet și de la felul în care privea desenul: fără reguli despre ce este „frumos”, fără să controlezi totul de la început. Ne jucăm cu instinctul, accidentul și liniile care se transformă în altceva. La Atelierul Dubuffet avem trei puncte de plecare: 01 — Linia care curge Pornim de la un punct și lăsăm linia să creeze spații, forme și personaje. 02 — Portret prin răzuire Descoperim treptat un...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/Screenshot-2026-09-09-051647.png",
+          "map_url": "https://maps.google.com/?q=Piața+Obor+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4490364,
+          "lon": 26.1242775,
+          "past": true,
+          "geocode_quality": "cache"
         },
         {
           "id": "sorina-0220",
@@ -9771,7 +9837,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4530836,
           "lon": 26.0845751,
-          "image": "events-images/sorina-0220.jpg"
+          "image": "events-images/sorina-0220.jpg",
+          "past": true
         },
         {
           "id": "sorina-0221",
@@ -10724,6 +10791,356 @@
           "map_url": "https://maps.google.com/?q=loc+în+București",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-11",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-rapunzel-restaurant-amicii-pop-3525",
+          "title": "Rapunzel @ Restaurant Amicii – Popesti Leordeni",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "Restaurant Amicii – Popesti Leordeni Pentru copii Caravana cu Spectacole Popesti-Leordeni, Restaurant Amicii Detalii",
+          "address": "Restaurant Amicii – Popesti Leordeni Pentru copii Caravana cu Spectacole Popesti-Leordeni, Restaurant Amicii Detalii",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/rapunzel-restaurant-amicii-popesti-leordeni/",
+          "image": "events-images/buc-br-rapunzel-restaurant-amicii-pop-3525.jpg",
+          "description": "Rapunzel @ Restaurant Amicii – Popesti Leordeni - eveniment la Restaurant Amicii – Popesti Leordeni Pentru copii Caravana cu Spectacole Popesti-Leordeni, Restaurant Amicii Detalii din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: Restaurant Amicii – Popesti Leordeni Pentru copii Caravana cu Spectacole Popesti-Leordeni, Restaurant Amicii Detalii",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Restaurant+Amicii+–+Popesti+Leordeni+Pentru+copii+Caravana+cu+Spectacole+Popesti-Leordeni,+Restaurant+Amicii+Detalii",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-cars-2d-7528",
+          "title": "Cars 2D",
+          "category": "cinema",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cars-2d/",
+          "image": "events-images/buc-br-cars-2d-7528.jpg",
+          "description": "Cars 2D - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: cinema"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "cinema",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-cetatea-1932-suceava-vs-scm-ra-3925",
+          "title": "Liga 2 - Etapa 7 - Cetatea 1932 Suceavа vs SCM Ramnicu Valcea",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cetatea-1932-suceava-vs-scm-ramnicu-valcea/",
+          "image": "events-images/buc-br-cetatea-1932-suceava-vs-scm-ra-3925.jpg",
+          "description": "Liga 2 - Etapa 7 - Cetatea 1932 Suceavа vs SCM Ramnicu Valcea - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-degetica-clubul-taranului-la-m-3856",
+          "title": "Degetica @ Clubul Taranului - La Mama",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama  (Intrarea Monetariei nr. 3, Sector 1) Detalii",
+          "address": "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama  (Intrarea Monetariei nr. 3, Sector 1) Detalii",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/degetica-clubul-taranului-la-mama/",
+          "image": "events-images/buc-br-degetica-clubul-taranului-la-m-3856.jpg",
+          "description": "Degetica @ Clubul Taranului - La Mama - eveniment la Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama  (Intrarea Monetariei nr. 3, Sector 1) Detalii din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama  (Intrarea Monetariei nr. 3, Sector 1) Detalii",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Clubul+Taranului+-+La+Mama+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Clubul+Taranului+-+La+Mama++(Intrarea+Monetariei+nr.+3,+Sector+1)+Detalii",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-micul-print-hanu-lui-manuc-3731",
+          "title": "Micul Print @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 21 nov",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 21 nov",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/micul-print-hanu-lui-manuc/",
+          "image": "events-images/buc-br-micul-print-hanu-lui-manuc-3731.jpg",
+          "description": "Micul Print @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 21 nov din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 21 nov",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Detalii+alte+zile:+21+nov",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-fc-bihor-oradea-steaua-bucures-3405",
+          "title": "Liga 2 - Etapa 7 - FC Bihor Oradeа vs CSA Steaua",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/fc-bihor-oradea-steaua-bucuresti/",
+          "image": "events-images/buc-br-fc-bihor-oradea-steaua-bucures-3405.jpg",
+          "description": "Liga 2 - Etapa 7 - FC Bihor Oradeа vs CSA Steaua - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-paw-patrol-the-dino-movie-3901",
+          "title": "PAW Patrol The Dino Movie",
+          "category": "cinema",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/paw-patrol-the-dino-movie/",
+          "image": "events-images/buc-br-paw-patrol-the-dino-movie-3901.jpg",
+          "description": "PAW Patrol The Dino Movie - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: cinema"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "cinema",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-michael-6625",
+          "title": "Michael",
+          "category": "cinema",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/michael/",
+          "image": "events-images/buc-br-michael-6625.jpg",
+          "description": "Michael - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: cinema"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "cinema",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-the-odyssey-2351",
+          "title": "The Odyssey",
+          "category": "cinema",
+          "vibe": "casual",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/the-odyssey/",
+          "image": "events-images/buc-br-the-odyssey-2351.jpg",
+          "description": "The Odyssey - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: cinema"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "cinema",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-operettvarazs-a-magyar-operett-7662",
+          "title": "Operettvarázs – A magyar operett gyöngyszemeiből",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-12",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/operettvarazs-a-magyar-operett-gyongyszemeibol/",
+          "image": "events-images/buc-br-operettvarazs-a-magyar-operett-7662.jpg",
+          "description": "Operettvarázs – A magyar operett gyöngyszemeiből - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-12",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -12728,6 +13145,33 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "sorina-0172",
+          "title": "Șah & Dezvoltare Personală",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-09-16",
+          "time": "17:00",
+          "venue": "MAFS",
+          "address": "Strada Primaverii 15A, Ostratu 077066, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/sah-dezvoltare-personala/",
+          "description": "Ne revedem la sesiunile de șah dedicate copiilor care să învețe, să evolueze și să își pună mintea la lucru într-un mod distractiv. Fiecare partidă de șah aduce concentrare, strategie și mai multă încredere!📅 În fiecare miercuri ⏰ Începători | Avansați | Evaluări copii noi ♟ Șah & Dezvoltare Personală la MAFS – în fiecare miercuri! Program săptămânal: • Începători: 17:00 – 18:00 • Avansați: 18:00 – 19:00 • Evaluări copii noi: 19:00 – 20:00 Sub îndrumarea antrenorilor Andrei Murariu (Mare Maes...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/01/615366343_858671330326698_365974708979036370_n.jpg",
+          "map_url": "https://maps.google.com/?q=MAFS+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0289",
           "title": "Atelier de creație pentru adolescenți – Structuri expresive",
           "category": "atelier",
@@ -12980,6 +13424,33 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0290.jpg",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0179",
+          "title": "Atinge, Apasă, Rotește și Descoperă Casa Experimentelor",
+          "category": "expo",
+          "vibe": "loud",
+          "date": "2026-09-17",
+          "time": "10:00",
+          "venue": "Casa Experimentelor – Romanian Science Center",
+          "address": "Calea Vitan 242, București 031301, București",
+          "price": "paid",
+          "price_value": 36,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atinge-apasa-roteste-si-descopera-casa-experimentelor-6/",
+          "description": "Casa Experimentelor este primul centru ştiinţific non-profit din România în care copiii sunt stârniți să descopere știința. Printre cei care ne trec pragul îi vom avea și pe viitorii Marie Curie sau Henri Coandă! În Casa Experimentelor veți găsi o grupare de exponate ştiinţifice instalate permanent, realizate în scopul de a învăţa despre ştiinţă în timp ce vizitatorii se „joacă” cu ele. Este de fapt un centru ştiinţific cu un concept inovativ de învăţare despre ştiinţă într-un mod informal. C...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "expozitie"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/02/587276758_18380551855195565_2124785477708656011_n.jpeg",
+          "map_url": "https://maps.google.com/?q=Casa+Experimentelor+–+Romanian+Science+Center+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025,
           "geocode_quality": "cache"
         },
         {
@@ -19663,6 +20134,41 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "buc-br-cine-mai-are-nevoie-de-iubire-8182",
+          "title": "Cine mai are nevoie de iubire?",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cine-mai-are-nevoie-de-iubire/",
+          "image": "events-images/buc-br-cine-mai-are-nevoie-de-iubire-8182.jpg",
+          "description": "Cine mai are nevoie de iubire? - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în București",
+            "categorie: teatru"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "teatru",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-12",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0415",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -24319,7 +24825,7 @@
         {
           "id": "sorina-0520",
           "title": "Magic Fairytale – spectacol de magie pentru copii",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-25",
           "time": "11:00",
@@ -25024,7 +25530,7 @@
         {
           "id": "sorina-0531",
           "title": "Halloween Magic Kids Show – Spectacol de magie",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "11:00",
@@ -28989,7 +29495,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         }
       ]
     },
@@ -29502,7 +30009,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-muzic-n-catedrala-luteran-bise-0189.jpg",
           "lat": 45.787441,
-          "lon": 24.143259
+          "lon": 24.143259,
+          "past": true
         },
         {
           "id": "zsn-luna-amar-ceva-de-mp-r-it-oldi-0055",
@@ -29841,7 +30349,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-next-generation-tineri-arti-ti-0040.png",
           "lat": 45.7473293,
-          "lon": 21.231261
+          "lon": 21.231261,
+          "past": true
         },
         {
           "id": "tm-001",
@@ -29873,7 +30382,8 @@
           "map_url": "https://maps.google.com/?q=!t+a+space+for+it+Timisoara",
           "organizer": "iabilet.ro",
           "lat": 45.7537,
-          "lon": 21.2256
+          "lon": 21.2256,
+          "past": true
         },
         {
           "id": "zsn-phonic-riot-hamei-timi-oara-11-0039",
@@ -29897,7 +30407,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-phonic-riot-hamei-timi-oara-11-0039.jpg",
           "lat": 45.753697,
-          "lon": 21.247461
+          "lon": 21.247461,
+          "past": true
         },
         {
           "id": "zsn-441-presents-pr-slea-w-macarie-0038",
@@ -31124,7 +31635,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0092",
@@ -31233,7 +31745,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-11",
-  "last_recategorized": "2026-09-11",
-  "last_images_sync": "2026-09-11"
+  "last_geocoded": "2026-09-12",
+  "last_recategorized": "2026-09-12",
+  "last_images_sync": "2026-09-12"
 }
