@@ -795,5 +795,45 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Tâmplărie::brasov": [
+    45.6408673,
+    25.5908384,
+    "nominatim"
+  ],
+  "Clubul Țăranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Detalii::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 3 oct::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Focșani::bucuresti": [
+    44.4101175,
+    26.0665816,
+    "nominatim"
+  ],
+  "Teatrul Actorilor::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Muzeul Național al Hărților și Cărții Vechi::bucuresti": [
+    44.4569656,
+    26.092772,
+    "nominatim"
+  ],
+  "Mood Factory::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Harlequin Mamaia::constanta": [
+    44.2280666,
+    28.6258334,
+    "nominatim"
   ]
 }
