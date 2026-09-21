@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20",
-  "last_scraped": "2026-09-20",
+  "generated_at": "2026-09-21",
+  "last_scraped": "2026-09-21",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -184,6 +184,30 @@
           "map_url": "https://maps.google.com/?q=Club+Flex+Arad",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nightlosers-la-terasa-flex-ter-0022.jpg",
+          "lat": 46.171704,
+          "lon": 21.317502
+        },
+        {
+          "id": "zsn-concert-nightlosers-0007",
+          "title": "Concert Nightlosers",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-25",
+          "time": "20:00",
+          "venue": "Club Flex",
+          "address": "Str. Unirii 5, Arad, Arad",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-nightlosers-2/",
+          "description": "NIGHTLOSERS este o trupă înfiinţată în Cluj-Napoca în 1994, care cântă blues ardelenesc, un fel de etno-blues postmodern, în care acordurile serioase ale blues-ului american sunt presărate cu intervenţii etno ale minorităților conlocuitoare.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Club+Flex+Arad",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-nightlosers-0007.jpg",
           "lat": 46.171704,
           "lon": 21.317502
         },
@@ -558,6 +582,31 @@
           "image": "events-images/zsn-notte-italiana-giorgio-ciabatt-0018.jpg",
           "lat": 47.6565584,
           "lon": 23.5719843
+        },
+        {
+          "id": "zsn-concert-the-r-o-c-k-ac-dc-trib-0002",
+          "title": "Concert The R.O.C.K. – AC/DC Tribute Band",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "21:00",
+          "venue": "Log Out",
+          "address": "Str. Vasile Lucaciu nr. 1, Baia Mare, Baia Mare",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-the-rock-acdc-tribute-band/",
+          "description": "Vă așteptăm dotați cu cea mai comodă încălțaminte și chef de dans, pentru ca la concertele The R.O.C.K. e imposibil să stai pe scaun!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Log+Out+Baia Mare",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-the-r-o-c-k-ac-dc-trib-0002.png",
+          "lat": 47.6567,
+          "lon": 23.585,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-omul-cu-sobolani-lansare-de-al-0151",
@@ -1050,6 +1099,32 @@
           "map_url": "https://maps.google.com/?q=Waldkafe+Braşov",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-o-nt-lnire-acustic-franco-vene-0081.jpg",
+          "lat": 45.6427,
+          "lon": 25.5887,
+          "geocode_quality": "cache",
+          "past": true
+        },
+        {
+          "id": "zsn-stefan-banica-povestea-mea-0011",
+          "title": "Stefan Banica – Povestea mea",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-21",
+          "time": "19:30",
+          "venue": "Teatrul Sică Alexandrescu",
+          "address": "Teatrul Sică Alexandrescu , Piaţa Teatrului Nr. 1, Brașov, România, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/stefan-banica-povestea-mea/",
+          "description": "STEFAN BANICA isi spune POVESTEA intr-un TURNEU NATIONAL „POVESTEA MEA\". Fiecare artist are o poveste. Însă puțini au scris istorie așa cum a făcut Ștefan Bănică.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Sică+Alexandrescu+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-stefan-banica-povestea-mea-0011.webp",
           "lat": 45.6427,
           "lon": 25.5887,
           "geocode_quality": "cache"
@@ -16950,7 +17025,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0333.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0334",
@@ -16978,7 +17054,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0334.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0335",
@@ -17004,7 +17081,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "image": "events-images/sorina-0335.jpg"
+          "image": "events-images/sorina-0335.jpg",
+          "past": true
         },
         {
           "id": "sorina-0336",
@@ -17031,7 +17109,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0336.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0337",
@@ -17057,7 +17136,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0337.png"
+          "image": "events-images/sorina-0337.png",
+          "past": true
         },
         {
           "id": "sorina-0338",
@@ -17083,7 +17163,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0338.jpg"
+          "image": "events-images/sorina-0338.jpg",
+          "past": true
         },
         {
           "id": "sorina-0339",
@@ -17109,7 +17190,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
           "lon": 26.0930387,
-          "image": "events-images/sorina-0339.webp"
+          "image": "events-images/sorina-0339.webp",
+          "past": true
         },
         {
           "id": "sorina-0340",
@@ -17136,7 +17218,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0340.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0341",
@@ -17163,7 +17246,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0341.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0342",
@@ -17190,7 +17274,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0342.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0343",
@@ -17217,7 +17302,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0343.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0344",
@@ -17243,7 +17329,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0344.jpg"
+          "image": "events-images/sorina-0344.jpg",
+          "past": true
         },
         {
           "id": "zsn-brukenhalle-year-one-0064",
@@ -17268,7 +17355,8 @@
           "image": "events-images/zsn-brukenhalle-year-one-0064.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "sorina-0345",
@@ -17294,7 +17382,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0345.png"
+          "image": "events-images/sorina-0345.png",
+          "past": true
         },
         {
           "id": "zsn-concert-vocal-simfonic-0021",
@@ -17318,7 +17407,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-vocal-simfonic-0021.jpg",
           "lat": 45.517934,
-          "lon": 28.045734
+          "lon": 28.045734,
+          "past": true
         },
         {
           "id": "zsn-iarba-fiarelor-lansare-single--0148",
@@ -17343,7 +17433,8 @@
           "image": "events-images/zsn-iarba-fiarelor-lansare-single--0148.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-ispravile-motanului-incaltat-m-6307",
@@ -17378,7 +17469,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-ispravile-motanului-incaltat-m-6307.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-prostia-omeneasca-828",
@@ -17413,7 +17505,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-prostia-omeneasca-828.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-rapunzel-hanu-lui-manuc-9445",
@@ -17448,7 +17541,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-rapunzel-hanu-lui-manuc-9445.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-din-gafa-in-gafa-7794",
@@ -17483,7 +17577,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-din-gafa-in-gafa-7794.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-inima-de-caine-1296",
@@ -17518,7 +17613,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-inima-de-caine-1296.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-spectatorul-condamnat-la-moart-9955",
@@ -17553,7 +17649,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-hansel-si-gretel-compania-la-m-2462",
@@ -17588,7 +17685,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-copiii-au-idei-trasnite-7713",
@@ -17623,7 +17721,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-dinamo-bucuresti-farul-constan-972",
@@ -17658,7 +17757,8 @@
           "scraped_at": "2026-09-14",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-dumbo-cel-istet-clubul-taranul-149",
@@ -17693,7 +17793,8 @@
           "scraped_at": "2026-09-15",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-fc-voluntari-universitatea-clu-8229",
@@ -17728,7 +17829,8 @@
           "scraped_at": "2026-09-15",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-fc-voluntari-universitatea-clu-7018",
@@ -17763,7 +17865,8 @@
           "scraped_at": "2026-09-19",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-dinamo-bucuresti-farul-constan-2522",
@@ -17798,7 +17901,8 @@
           "scraped_at": "2026-09-19",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-ispravile-motanului-incaltat-m-7280",
@@ -17833,7 +17937,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-cats-in-the-museum-treasures-o-6296",
@@ -17868,7 +17973,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-rapunzel-hanu-lui-manuc-6417",
@@ -17903,7 +18009,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-minions-monsters-9140",
@@ -17938,7 +18045,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-michael-7979",
@@ -17973,7 +18081,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-the-odyssey-8011",
@@ -18008,7 +18117,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-confesiuni-1271",
@@ -18043,7 +18153,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-spectatorul-condamnat-la-moart-4409",
@@ -18078,7 +18189,8 @@
           "scraped_at": "2026-09-20",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-taraful-lui-floric-ber-ria-h-0097",
@@ -18102,7 +18214,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-taraful-lui-floric-ber-ria-h-0097.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0346",
@@ -18128,7 +18241,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0346.jpg"
+          "image": "events-images/sorina-0346.jpg",
+          "past": true
         },
         {
           "id": "sorina-0347",
@@ -18294,6 +18408,30 @@
           "lon": 26.102684,
           "image": "events-images/sorina-0350.png",
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-drag-de-bistri-a-drag-de-rom-n-0010",
+          "title": "Drag de Bistrița, drag de România noastră! – Paul Surugiu – FUEGO alături de Ansamblul Folcloric Național „Transilvania\"",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-22",
+          "time": "19:00",
+          "venue": "Bistrița",
+          "address": "Bistrița, România, Bistriţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/drag-de-bistrita-drag-de-romania-noastra-paul-surugiu-fuego-alaturi-de-ansamblul-folcloric-national-transilvania/",
+          "description": "Muzica face parte din natura umană și trebuie împărtășită cu cât mai mulți oameni. Ansamblul Folcloric Național „Transilvania\" aduce în fața publicului din Bistrița un proiect de o profundă sensibilitate și sărbătoare: concertul aniversar de folclor autentic „Drag de Bistrița, drag de România noastră!\", susținut de îndrăgitul artist Paul Surugiu - FUEGO, cu prilejul împlinirii a 50 de ani de viață.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Bistrița+Bistriţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-drag-de-bistri-a-drag-de-rom-n-0010.jpg",
+          "lat": 47.139262,
+          "lon": 24.489098
         },
         {
           "id": "zsn-celebrating-miles-davis-centen-0018",
@@ -20493,6 +20631,41 @@
           "lon": 24.36413
         },
         {
+          "id": "buc-br-festivalul-copiilor-3444",
+          "title": "Festivalul Copiilor - ANULAT",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/festivalul-copiilor/",
+          "image": "events-images/buc-br-festivalul-copiilor-3444.jpg",
+          "description": "Festivalul Copiilor - ANULAT - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: loc în București",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-21",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-remember-ioan-gyuri-pascu-10-a-0094",
           "title": "Remember Ioan Gyuri Pascu – 10 ani | Concert Tribute #PeTerasă @ Berăria H",
           "category": "concert",
@@ -21774,6 +21947,76 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-povestea-celor-trei-purcelusi--7692",
+          "title": "Povestea celor trei purcelusi @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 14 nov",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 14 nov",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/povestea-celor-trei-purcelusi-hanu-lui-manuc/",
+          "image": "events-images/buc-br-povestea-celor-trei-purcelusi--7692.jpg",
+          "description": "Povestea celor trei purcelusi @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 14 nov din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Bilete de la 35,00 RON alte zile: 14 nov",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Bilete+de+la+35,00+RON+alte+zile:+14+nov",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-21",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-copiii-au-idei-trasnite-6183",
+          "title": "Copiii au idei trasnite",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/copiii-au-idei-trasnite/",
+          "image": "events-images/buc-br-copiii-au-idei-trasnite-6183.jpg",
+          "description": "Copiii au idei trasnite - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-21",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0415",
           "title": "Atelierele Bubu: Teatru (Bubu simfonie în farfurie)",
           "category": "family",
@@ -21798,6 +22041,31 @@
           "lat": 44.455062,
           "lon": 26.0577274,
           "image": "events-images/sorina-0415.jpg"
+        },
+        {
+          "id": "zsn-alt-jazz-yoni-mayraz-trio-cont-0014",
+          "title": "[ALT JAZZ] Yoni Mayraz Trio @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-28",
+          "time": "19:30",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/yoni-mayraz-trio-control-club/",
+          "description": "On the album, you will discover compositions and grooves that weave together elements of 90s hip-hop, Middle Eastern textures, and electronic soundscapes, while echoing the sound of the great 70s jazz-funk trios. [ALT JAZZ] Yoni Mayraz Trio @ Control Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-alt-jazz-yoni-mayraz-trio-cont-0014.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-monday-after-8-funk-groove-the-0028",
@@ -22244,6 +22512,30 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-mihail-concert-acoustic-0003",
+          "title": "MIHAIL – Concert Acoustic",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-01",
+          "time": "00:00",
+          "venue": "Teatrul Nației",
+          "address": "Bulevardul Bucureşti, nr. 28, Ploiești, Ploieşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/mihail-concert-acoustic/",
+          "description": "",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Nației+Ploieşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-mihail-concert-acoustic-0003.jpg",
+          "lat": 44.913418,
+          "lon": 26.035009
         },
         {
           "id": "zsn-huszka-jen-m-ria-f-hadnagy-a-k-0159",
@@ -23632,6 +23924,31 @@
           "image": "events-images/zsn-slatina-concert-3-sud-est-amin-0066.png",
           "lat": 44.3845101,
           "lon": 26.0467929
+        },
+        {
+          "id": "zsn-ctrl-live-uie-paparude-kung-fu-0013",
+          "title": "ctrl live: Șuie Paparude – “Kung Fugi” Single & Video Release @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "20:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/suie-paparude-control-club-2/",
+          "description": "One of the most influential names in Romanian electronic music, the band will bring both the new release and the tracks you already know and love.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ctrl-live-uie-paparude-kung-fu-0013.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-cobzarul-bogdan-simion-hard-ro-0004",
@@ -30297,6 +30614,60 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
+        },
+        {
+          "id": "sorina-0080",
+          "title": "Curs de engleză pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-24",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 250,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-engleza-pentru-copii/",
+          "description": "Cursurile de engleză continuă la Fairy Forest! Gândiți-vă cât de frumos ar fi să vă surprindă copilul comandând singur o înghețată sau spunând câteva propoziții în engleză în următoarea vacanță în Grecia! Noi avem soluția pentru ca acest lucru să devină posibil! La Fairy Forest, cei mici învață engleza prin joacă, fișe de lucru și activități interactive, într-o atmosferă relaxată și distractivă. Iar Nico, „profa” noastră de engleză, este tare îndrăgită de copii și reușește să transforme fieca...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/752267964_122128293465220868_1074262132843999965_n-1.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0138",
+          "title": "Curs de engleză pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "10:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 250,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-engleza-pentru-copii-3/",
+          "description": "Cursurile de engleză continuă la Fairy Forest! Gândiți-vă cât de frumos ar fi să vă surprindă copilul comandând singur o înghețată sau spunând câteva propoziții în engleză în următoarea vacanță în Grecia! Noi avem soluția pentru ca acest lucru să devină posibil! La Fairy Forest, cei mici învață engleza prin joacă, fișe de lucru și activități interactive, într-o atmosferă relaxată și distractivă. Iar Nico, „profa” noastră de engleză, este tare îndrăgită de copii și reușește să transforme fieca...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/08/752267964_122128293465220868_1074262132843999965_n-1.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     },
@@ -31316,7 +31687,8 @@
           "scraped_at": "2026-09-05",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "image": "events-images/clu-br-the-primitals-2808.jpg"
+          "image": "events-images/clu-br-the-primitals-2808.jpg",
+          "past": true
         },
         {
           "id": "zsn-oddland-mother-of-millions-rin-0078",
@@ -31472,6 +31844,30 @@
           "image": "events-images/zsn-paul-traeumer-de-quidbop-vekt-0019.jpg",
           "lat": 46.76969,
           "lon": 23.587723
+        },
+        {
+          "id": "zsn-6-vie-i-6-destine-zerkovitz-b--0006",
+          "title": "6 vieți, 6 destine – Zerkovitz Béla creator de hituri",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "18:00",
+          "venue": "Opera Maghiară de Stat Cluj",
+          "address": "Strada Emil Isac nr. 26-28, Cluj-Napoca, Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/6-vieti-6-destine-zerkovitz-bela-creator-de-hituri/",
+          "description": "Ideea centrală a seriei este ca spectacolele să nu fie prezentate doar ca seri dedicate câte unui compozitor, ci ca o călătorie culturală coerentă, de-a lungul căreia publicul va putea descoperi, pe parcursul unui an, viețile și creațiile unor personalități marcante ale teatrului muzical maghiar.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Opera+Maghiară+de+Stat+Cluj+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-6-vie-i-6-destine-zerkovitz-b--0006.jpg",
+          "lat": 46.770897,
+          "lon": 23.584861
         },
         {
           "id": "zsn-bella-ciao-olasz-est-mah-andre-0059",
@@ -33246,6 +33642,30 @@
           "lat": 44.924928,
           "lon": 25.998131,
           "past": true
+        },
+        {
+          "id": "zsn-goran-bregovi-live-at-oradea-a-0012",
+          "title": "Goran Bregović live at Oradea Arena",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "Oradea Arena",
+          "address": "Strada Traian Blajovici, Nr. 24, Oradea, România 410209, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/goran-bregovic-live-at-oradea-arena/",
+          "description": "September 26, 2026\r\nGoran Bregović live at Oradea Arena.\r\nUnderwave brings one of the most iconic names in Balkan music to Oradea for a full-scale live show.\r\nKnown for blending traditional Balkan sounds with modern orchestration, Bregović’s performances are powerful, energetic, and unmistakably unique. From internationally acclaimed film scores to legendary live concerts, this is an artist whose music crosses borders and generations.\r\nFollowing major events featuring artists like Nikos Vertis, Underwave continues to raise the bar with a production designed for a large arena experience.\r\n📍 ...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Oradea+Arena+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-goran-bregovi-live-at-oradea-a-0012.jpg",
+          "lat": 44.924928,
+          "lon": 25.998131
         }
       ]
     },
@@ -33998,6 +34418,31 @@
       "lat": 0.0,
       "lon": 0.0,
       "events": [
+        {
+          "id": "zsn-nuante-lansare-de-album-0001",
+          "title": "Nuante • Lansare de album",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "21:00",
+          "venue": "Art Rock Cafe",
+          "address": "Strada Scurtă, Suceava 720237, Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/nuante-lansare-de-album-2/",
+          "description": "După 3 single-uri lansate, care au fost prezentate deja publicului în cadrul turneelor pe care trupa le-a avut prin țară, piteștenii de la Nuanțe lansează albumul cu numărul patru, intitulat \"Peren\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-nuante-lansare-de-album-0001.webp",
+          "lat": 47.6393876,
+          "lon": 26.2424061,
+          "geocode_quality": "nominatim"
+        },
         {
           "id": "zsn-concert-alex-tef-nescu-ia-i-o--0029",
           "title": "Concert Alex Ștefănescu – „Ia-ți o viață!\"",
@@ -35261,7 +35706,8 @@
           "scraped_at": "2026-09-05",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "image": "events-images/tim-br-capra-cu-trei-iezi-merlin-3042.jpg"
+          "image": "events-images/tim-br-capra-cu-trei-iezi-merlin-3042.jpg",
+          "past": true
         },
         {
           "id": "zsn-collapse-tour-hakairi-neon-pro-0203",
@@ -35286,6 +35732,30 @@
           "image": "events-images/zsn-collapse-tour-hakairi-neon-pro-0203.jpg",
           "lat": 45.757235,
           "lon": 21.2332078
+        },
+        {
+          "id": "zsn-brass-academy-musical-kaleidos-0005",
+          "title": "Brass Academy | MUSICAL KALEIDOSCOPE",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-25",
+          "time": "19:00",
+          "venue": "Filarmonica Banatul Timișoara",
+          "address": "Bulevardul Constantin Diaconovici Loga nr. 2, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/brass-academy-musical-kaleidoscope/",
+          "description": "Ionuț Podgoreanu (dirijor și solist), alături de soliștii Andrei Kavalinski (trompetă), Andrei Candrianu (trompetă) și Gerard Costes (trombon), împreună cu Ansamblul de instrumente de alamă și cel de percuție ale Filarmonicii Banatul propun un concert care aduce împreună repertoriul baroc, muzica vieneză, jazzul și sonoritățile inconfundabile ale tangoului.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+Banatul+Timișoara+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-brass-academy-musical-kaleidos-0005.png",
+          "lat": 45.750936,
+          "lon": 21.226226
         },
         {
           "id": "zsn-methadone-skies-x-annapurna-li-0201",
@@ -35370,6 +35840,76 @@
           "image": "events-images/tim-br-noua-poveste-a-scufitei-rosii-8410.jpg"
         },
         {
+          "id": "tim-br-emeric-ienei-mostenirea-unei-l-8475",
+          "title": "Emeric Ienei Mostenirea Unei Legende - ANULAT",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în Timișoara",
+          "address": "loc în Timișoara",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/emeric-ienei-mostenirea-unei-legende/",
+          "image": "events-images/tim-br-emeric-ienei-mostenirea-unei-l-8475.jpg",
+          "description": "Emeric Ienei Mostenirea Unei Legende - ANULAT - eveniment la loc în Timișoara din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în Timișoara",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-21",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "tim-br-tartuffe-teatrul-tineretului-p-8983",
+          "title": "TARTUFFE -PREMIERĂ",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în Timișoara",
+          "address": "loc în Timișoara",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/tartuffe-teatrul-tineretului-piatra-neamt/",
+          "image": "events-images/tim-br-tartuffe-teatrul-tineretului-p-8983.jpg",
+          "description": "TARTUFFE -PREMIERĂ - eveniment la loc în Timișoara din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în Timișoara",
+            "categorie: teatru"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "teatru",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-21",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-carmina-burana-concert-vocal-s-0200",
           "title": "CARMINA BURANA | Concert vocal-simfonic extraordinar – Deschiderea Stagiunii 2026/27 | Orchestra și Corul Filarmonicii Banatul | Dirijor: RADU POPA | Soliști: LARISA ȘTEFAN – soprană, VALER SABADUS – tenor, JUNGRAE NOAH KIM – bariton",
           "category": "concert",
@@ -35440,6 +35980,30 @@
           "image": "events-images/zsn-otello-de-giuseppe-verdi-0003.jpg",
           "lat": 45.756034,
           "lon": 21.225779
+        },
+        {
+          "id": "zsn-turneu-aniversar-25-de-ani-de--0004",
+          "title": "Turneu Aniversar – 25 de ani de Amadeus",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "19:00",
+          "venue": "Filarmonica Banatul Timișoara",
+          "address": "Bulevardul Constantin Diaconovici Loga nr. 2, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/turneu-aniversar-25-de-ani-de-amadeus/",
+          "description": "25 de ani de Amadeus: „The Journey\" – turneul aniversar! Un spectacol despre muzică, prietenie și \"drum împreună\".",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+Banatul+Timișoara+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-turneu-aniversar-25-de-ani-de--0004.jpg",
+          "lat": 45.750936,
+          "lon": 21.226226
         },
         {
           "id": "tim-timisoara-turneu-aniversar-25--8765",
@@ -35684,6 +36248,31 @@
       "lon": 0.0,
       "events": [
         {
+          "id": "zsn-ansamblul-pl-ie-ii-zinaida-bol-0009",
+          "title": "Ansamblul Plăieșii & Zinaida Bolboceanu",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-23",
+          "time": "19:00",
+          "venue": "Casa de Cultură a Sindicatelor Tulcea",
+          "address": "Str. Isaccei, Tulcea, Tulcea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/ansamblul-plaiesii-zinaida-bolboceanu/",
+          "description": "Turneul Ansamblului etnofolcloric Plăieșii - „Tot cu dragostea și dorul\" - continuă! În luna septembrie, Ansamblul etnofolcloric Plăieșii și Zinaida Bolboceanu vor ajunge la Tulcea și Vaslui cu spectacolul turneului „Tot cu dragostea și dorul\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Tulcea+Tulcea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ansamblul-pl-ie-ii-zinaida-bol-0009.png",
+          "lat": 45.1798999,
+          "lon": 28.7959346,
+          "geocode_quality": "nominatim"
+        },
+        {
           "id": "zsn-concert-direc-ia-5-100-directi-0022",
           "title": "Concert Direcția 5 – \"100% Directia 5\"",
           "category": "teatru",
@@ -35706,6 +36295,39 @@
           "image": "events-images/zsn-concert-direc-ia-5-100-directi-0022.jpg",
           "lat": 45.1767051,
           "lon": 28.8012118,
+          "geocode_quality": "nominatim"
+        }
+      ]
+    },
+    {
+      "slug": "vaslui",
+      "name": "Vaslui",
+      "lat": 0.0,
+      "lon": 0.0,
+      "events": [
+        {
+          "id": "zsn-ansamblul-pl-ie-ii-zinaida-bol-0008",
+          "title": "Ansamblul Plăieșii & Zinaida Bolboceanu",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-24",
+          "time": "19:00",
+          "venue": "Casa de Cultură a Sindicatelor Vaslui",
+          "address": "Str. Ștefan cel Mare nr. 153, Vaslui, Vaslui",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/ansamblul-plaiesii-zinaida-bolboceanu-2/",
+          "description": "Turneul Ansamblului etnofolcloric Plăieșii - „Tot cu dragostea și dorul\" - continuă! În luna septembrie, Ansamblul etnofolcloric Plăieșii și Zinaida Bolboceanu vor ajunge la Tulcea și Vaslui cu spectacolul turneului „Tot cu dragostea și dorul\", o călătorie muzicală care aduce pe scenă emoția, tradiția și bucuria regăsirii prin cântec.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Vaslui+Vaslui",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ansamblul-pl-ie-ii-zinaida-bol-0008.png",
+          "lat": 46.2279827,
+          "lon": 27.668588,
           "geocode_quality": "nominatim"
         }
       ]
@@ -36178,7 +36800,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-20",
-  "last_recategorized": "2026-09-20",
-  "last_images_sync": "2026-09-20"
+  "last_geocoded": "2026-09-21",
+  "last_recategorized": "2026-09-21",
+  "last_images_sync": "2026-09-21"
 }
