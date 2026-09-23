@@ -860,5 +860,70 @@
     46.2279827,
     27.668588,
     "nominatim"
+  ],
+  "La Bottega Beer&#038;Grill::arad": [
+    46.1753793,
+    21.3196342,
+    "city_fallback"
+  ],
+  "Atrium Mall::arad": [
+    46.190749,
+    21.3207014,
+    "nominatim"
+  ],
+  "Călărași::bucuresti": [
+    44.431548,
+    26.1311094,
+    "nominatim"
+  ],
+  "La Felinare Buzău::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Târgoviște::bucuresti": [
+    44.514487,
+    26.0165573,
+    "nominatim"
+  ],
+  "Cuibul de Ateliere::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Sala Mare a Consiliului Județean Buzău::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Machines::cluj-napoca": [
+    46.769379,
+    23.5899542,
+    "city_fallback"
+  ],
+  "Cinema Dacia::cluj-napoca": [
+    46.7543919,
+    23.5567555,
+    "nominatim"
+  ],
+  "Rock Halle::constanta": [
+    44.2031585,
+    28.6206011,
+    "nominatim"
+  ],
+  "Casa Municipală de Cultură Nicolae Rotaru::slobozia": [
+    44.5635999,
+    27.3618477,
+    "city_fallback"
+  ],
+  "Nemesis Art Club::timisoara": [
+    45.757235,
+    21.2332078,
+    "nominatim"
+  ],
+  "Vaslui::vaslui": [
+    46.639394,
+    27.7309515,
+    "nominatim"
   ]
 }
