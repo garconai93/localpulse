@@ -925,5 +925,10 @@
     46.639394,
     27.7309515,
     "nominatim"
+  ],
+  "Casa de Cultura a Sindicatelor &#8211; Constanta::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23",
-  "last_scraped": "2026-09-23",
+  "generated_at": "2026-09-24",
+  "last_scraped": "2026-09-24",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -19021,7 +19021,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0352.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-stray-lights-showcase-methadon-0089",
@@ -19046,7 +19047,8 @@
           "image": "events-images/zsn-stray-lights-showcase-methadon-0089.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-4elements-0025",
@@ -19070,7 +19072,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-4elements-0025.jpg",
           "lat": 47.130318,
-          "lon": 24.499076
+          "lon": 24.499076,
+          "past": true
         },
         {
           "id": "zsn-c-l-ra-i-o-sear-de-neuitat-ghe-0069",
@@ -19095,7 +19098,8 @@
           "image": "events-images/zsn-c-l-ra-i-o-sear-de-neuitat-ghe-0069.jpg",
           "lat": 44.431548,
           "lon": 26.1311094,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "buc-br-frumosul-si-bestiile-1831",
@@ -19130,7 +19134,8 @@
           "scraped_at": "2026-09-11",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-din-oala-babei-nebune-3811",
@@ -19165,7 +19170,8 @@
           "scraped_at": "2026-09-19",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-drago-moldovan-live-acustic-be-0095",
@@ -19189,7 +19195,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-drago-moldovan-live-acustic-be-0095.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-abba-the-ultimate-tribute-show-0173",
@@ -19213,7 +19220,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-abba-the-ultimate-tribute-show-0173.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0353",
@@ -19240,7 +19248,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0353.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0354",
@@ -19266,7 +19275,32 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0354.png"
+          "image": "events-images/sorina-0354.png",
+          "past": true
+        },
+        {
+          "id": "zsn-spectacolul-de-folclor-tradi-i-0004",
+          "title": "Spectacolul de folclor \"Tradiții Muntenești\", coordonator Valentin Grigorescu",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-09-24",
+          "time": "17:00",
+          "venue": "Pitești",
+          "address": "Pitești, Piteşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/spectacolul-de-folclor-traditii-muntenesti-coordonator-valentin-grigorescu/",
+          "description": "Spectacolul de folclor \"Tradiții Muntenești\", coordonat de prof. de canto popular Valentin Grigorescu, în cadrul Festivalului \"Toamna Piteșteană\", eveniment care se va desfășura joi, 24 septembrie, de la ora 17.00, în Piața Vasile Milea.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Pitești+Piteşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-spectacolul-de-folclor-tradi-i-0004.jpg",
+          "lat": 44.862414,
+          "lon": 24.863889
         },
         {
           "id": "sorina-0355",
@@ -19369,6 +19403,31 @@
           "lat": 44.4295593,
           "lon": 26.1086107,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0003",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Constanta",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-24",
+          "time": "19:00",
+          "venue": "Casa de Cultura a Sindicatelor &#8211; Constanta",
+          "address": "Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-constanta/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultura+a+Sindicatelor+&#8211;+Constanta+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0003.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "zsn-armonii-de-toamn-teddy-tudoroi-0141",
@@ -20540,6 +20599,31 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0384.jpg",
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0001",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Braila",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-26",
+          "time": "16:00",
+          "venue": "Casa Tineretului din Brăila",
+          "address": "Calea Călărașilor 52, Brăila 810210, Brăila",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-braila/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+Tineretului+din+Brăila+Brăila",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0001.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -23097,6 +23181,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "buc-br-i-tesori-del-barocco-italiano--880",
+          "title": "Zilele Muzicii Vechi",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-30",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/i-tesori-del-barocco-italiano-ansamblul-abaris/",
+          "image": "events-images/buc-br-i-tesori-del-barocco-italiano--880.jpg",
+          "description": "Zilele Muzicii Vechi - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-30",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-24",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-mihail-concert-acoustic-0003",
           "title": "MIHAIL – Concert Acoustic",
           "category": "teatru",
@@ -24097,6 +24216,31 @@
           "image": "events-images/zsn-dark-fusion-virtual-dominion-v-0008.jpg",
           "lat": 44.443932,
           "lon": 25.971693
+        },
+        {
+          "id": "zsn-l-veing-room-15-garota-de-ipan-0007",
+          "title": "L!VEing Room #15: Garota de Ipanema – Bossa Nova Moods @ The L!VEing Room",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "19:00",
+          "venue": "București",
+          "address": "București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/garota-de-ipanema-bossa-nova-moods/",
+          "description": "Există cântece care nu aparțin unui loc sau unei epoci, ci unei stări. Garota de Ipanema este una dintre ele. Nu e doar o melodie, ci o lume întreagă: lumină, mers lent, dor, eleganță fără efort.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-l-veing-room-15-garota-de-ipan-0007.webp",
+          "lat": 44.4356445,
+          "lon": 26.1009263,
+          "geocode_quality": "nominatim"
         },
         {
           "id": "zsn-robin-and-the-backstabbers-0196",
@@ -25243,6 +25387,31 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-l-veing-room-16-rares-totu-pla-0006",
+          "title": "L!VEing Room #16: Rares Totu plays Hendrix @ The L!VEing Room",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-09",
+          "time": "19:30",
+          "venue": "București",
+          "address": "București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/rares-totu-plays-hendrix-the-lveing-room/",
+          "description": "Rămâne o chitară, un amplificator și câteva secunde de liniște înainte ca primul acord să umple camera. Jimi Hendrix nu a schimbat doar felul în care se cântă la chitară. A schimbat felul în care o chitară poate să vorbească. L!VEing Room #16: Rares Totu plays Hendrix @ The L!VEing Room",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-l-veing-room-16-rares-totu-pla-0006.webp",
+          "lat": 44.4356445,
+          "lon": 26.1009263,
+          "geocode_quality": "nominatim"
         },
         {
           "id": "zsn-andrei-b-nu-sala-palatului-0070",
@@ -30402,6 +30571,31 @@
           "lon": 24.863889
         },
         {
+          "id": "zsn-l-veing-room-17-rares-totu-pla-0005",
+          "title": "L!VEing Room #17: Rares Totu plays Santana @ The L!VEing Room",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "venue": "București",
+          "address": "București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/rares-totu-plays-santana-the-lveing-room/",
+          "description": "O seară în care rock-ul întâlnește ritmurile latino, iar chitara devine vocea unei muzici imposibil de confundat. De la Black Magic Woman și Oye Como Va la Europa, Samba Pa Ti și Smooth, RaresTotu aduce pe scenă sunetul inconfundabil al lui Santana — melodic, pasional și profund.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-l-veing-room-17-rares-totu-pla-0005.webp",
+          "lat": 44.4356445,
+          "lon": 26.1009263,
+          "geocode_quality": "nominatim"
+        },
+        {
           "id": "zsn-night-dreamer-wayne-shorter-s--0036",
           "title": "\"Night Dreamer\" – Wayne Shorter's Music @ JazzBook",
           "category": "concert",
@@ -30860,6 +31054,31 @@
           "image": "events-images/zsn-anthony-gomes-romania-tour-202-0054.jpg",
           "lat": 45.115365,
           "lon": 24.36413
+        },
+        {
+          "id": "zsn-cold-in-berlin-at-club-piano-t-0002",
+          "title": "Cold in Berlin at Club Piano, Targu Jiu",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-10-31",
+          "time": "21:00",
+          "venue": "Club Piano",
+          "address": "Strada Siretului Nr.3, Târgu Jiu, Târgu Jiu",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cold-in-berlin-at-club-piano-targu-jiu/",
+          "description": "Cult UK band COLD IN BERLIN play Romania for the very first time!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Club+Piano+Târgu Jiu",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cold-in-berlin-at-club-piano-t-0002.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "sorina-0533",
@@ -34634,7 +34853,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0068.jpg",
           "lat": 44.18072,
-          "lon": 28.634682
+          "lon": 28.634682,
+          "past": true
         },
         {
           "id": "con-constanta-arie-si-ecou-concert-5639",
@@ -34668,6 +34888,30 @@
           "lat": 44.1767161,
           "lon": 28.6507598,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-cavalleria-rusticana-i-paia-e-0076",
+          "title": "Cavalleria rusticana și Paiațe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-25",
+          "time": "09:45",
+          "venue": "Casa de Cultură a Sindicatelor Constanţa",
+          "address": "Bd. Alexandru Lăpușneanu nr, 1, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cavalleria-rusticana-si-paiate/",
+          "description": "CAVALLERIA RUSTICANA si PAIATE 18 Octombrie 2026, ora 18:30 Casa de Cultura a Sindicatelor Constanta - Sala mare Teatrul Național de Operă și Balet „Oleg Danovski\" Constanța prezintă „Cavalleria rusticana\" și „Paiațe\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Constanţa+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0076.jpg",
+          "lat": 44.18072,
+          "lon": 28.634682
         },
         {
           "id": "zsn-emeric-imre-o-sear-de-folk-har-0220",
@@ -36156,7 +36400,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0086",
@@ -36320,7 +36565,8 @@
           "image": "events-images/zsn-karaoke-pe-teras-cu-and-ru-urb-0065.jpg",
           "lat": 44.8596172,
           "lon": 24.8680968,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         }
       ]
     },
@@ -36933,7 +37179,8 @@
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-19",
           "lat": 45.7876,
-          "lon": 24.1435
+          "lon": 24.1435,
+          "past": true
         },
         {
           "id": "sib-br-inter-sibiu-vs-sepsi-osk-ii-9116",
@@ -36967,7 +37214,8 @@
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-23",
           "lat": 45.7876,
-          "lon": 24.1435
+          "lon": 24.1435,
+          "past": true
         }
       ]
     },
@@ -39283,7 +39531,8 @@
           "image": "events-images/zsn-ansamblul-pl-ie-ii-zinaida-bol-0009.png",
           "lat": 45.1798999,
           "lon": 28.7959346,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-concert-direc-ia-5-100-directi-0022",
@@ -39863,6 +40112,33 @@
           "past": true
         },
         {
+          "id": "sorina-0008",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-24",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-24/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2025/08/480075619_516373098140545_8369214928946008_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025,
+          "past": true
+        },
+        {
           "id": "sorina-0061",
           "title": "Joacă liberă",
           "category": "family",
@@ -39943,7 +40219,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-23",
-  "last_recategorized": "2026-09-23",
-  "last_images_sync": "2026-09-23"
+  "last_geocoded": "2026-09-24",
+  "last_recategorized": "2026-09-24",
+  "last_images_sync": "2026-09-24"
 }
