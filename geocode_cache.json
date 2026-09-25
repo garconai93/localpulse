@@ -930,5 +930,20 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Antigalerie Cactus::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Centrul Multifuncțional Educativ pentru Tineret &#8220;Jean Constantin&#8221;::constanta": [
+    44.1767161,
+    28.6507598,
+    "city_fallback"
+  ],
+  "Palo Santo Shop Bar &#038; Coffee Hub::suceava": [
+    47.5326535,
+    25.8345939,
+    "city_fallback"
   ]
 }
