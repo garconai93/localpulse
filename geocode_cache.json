@@ -945,5 +945,30 @@
     47.5326535,
     25.8345939,
     "city_fallback"
+  ],
+  "Zalău::bucuresti": [
+    44.4764584,
+    26.1569707,
+    "nominatim"
+  ],
+  "Teatrul Municipal Focșani::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Centrul Cultural Drăgan Muntean Deva::deva": [
+    45.8817402,
+    22.9008611,
+    "city_fallback"
+  ],
+  "Suceava::suceava": [
+    47.647001,
+    26.2522599,
+    "nominatim"
+  ],
+  "Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Bilete de la 45,00 RON::timisoara": [
+    45.7538355,
+    21.2257474,
+    "city_fallback"
   ]
 }

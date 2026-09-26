@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25",
-  "last_scraped": "2026-09-25",
+  "generated_at": "2026-09-26",
+  "last_scraped": "2026-09-26",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -30,7 +30,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cin-cu-muzic-live-andreea-laze-0041.jpg",
           "lat": 56.490671,
-          "lon": -4.202646
+          "lon": -4.202646,
+          "past": true
         },
         {
           "id": "zsn-nostalgic-popcorn-concert-dony-0042",
@@ -283,7 +284,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nightlosers-la-terasa-flex-ter-0022.jpg",
           "lat": 46.171704,
-          "lon": 21.317502
+          "lon": 21.317502,
+          "past": true
         },
         {
           "id": "zsn-concert-nightlosers-0007",
@@ -307,7 +309,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-nightlosers-0007.jpg",
           "lat": 46.171704,
-          "lon": 21.317502
+          "lon": 21.317502,
+          "past": true
         },
         {
           "id": "zsn-alexandra-imi-live-pemal-0047",
@@ -828,6 +831,30 @@
           "lat": 47.6567,
           "lon": 23.585,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0023",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Baia Mare",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "19:30",
+          "venue": "ATP Tech Center",
+          "address": "Bd. București, nr. 67, Baia Mare, Baia Mare",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-baia-mare/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=ATP+Tech+Center+Baia Mare",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0023.webp",
+          "lat": 47.643518,
+          "lon": 23.527365
         },
         {
           "id": "zsn-vlad-corb-baia-mare-rockwave-t-0025",
@@ -1451,6 +1478,30 @@
           "lon": 25.60426
         },
         {
+          "id": "zsn-asincron-turneu-2026-adonia-k-0031",
+          "title": "Asincron – turneu 2026 | Adonia K",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "venue": "Ora0",
+          "address": "Str. De Mijloc nr.133,  Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/asincron-turneu-2026-adonia-k/",
+          "description": "ASINCRON ajunge din nou la Ora0, în penultimul concert din turneul lor de anul acesta, cu ADONIA în deschidere.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ora0+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-asincron-turneu-2026-adonia-k-0031.jpg",
+          "lat": 45.660381,
+          "lon": 25.582291
+        },
+        {
           "id": "zsn-organ-nights-nicoleta-paraschi-0057",
           "title": "Organ Nights – Nicoleta Paraschivescu la Biserica Neagră",
           "category": "concert",
@@ -1500,6 +1551,30 @@
           "lon": 25.607652
         },
         {
+          "id": "zsn-concert-simfonic-cu-stasie-gon-0024",
+          "title": "Concert simfonic cu Stasie Gonikberg, Asi Matathias și orchestra Filarmonicii Brașov",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "18:00",
+          "venue": "Filarmonica Braşov",
+          "address": "Str. 15 Noiembrie, nr. 50A, Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-simfonic-cu-stasie-gonikberg-asi-matathias-si-orchestra-filarmonicii-brasov/",
+          "description": "Duminică, 04.10.2026 Sala Mare - ora 18:00 Concert Simfonic Dirijoare: Stasie Gonikberg Solist: Asi Matathias – vioară",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+Braşov+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-simfonic-cu-stasie-gon-0024.jpg",
+          "lat": 45.647543,
+          "lon": 25.60426
+        },
+        {
           "id": "zsn-murder-education-it-emerald-ro-0020",
           "title": "MURDER EDUCATION(IT)+EMERALD(RO)",
           "category": "concert",
@@ -1523,6 +1598,54 @@
           "lat": 45.6408673,
           "lon": 25.5908384,
           "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-gerald-karni-andrey-gugnin-i-o-0020",
+          "title": "Gerald Karni, Andrey Gugnin și orchestra Filarmonicii Brașov în concert simfonic",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-08",
+          "time": "19:00",
+          "venue": "Filarmonica Braşov",
+          "address": "Str. 15 Noiembrie, nr. 50A, Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/gerald-karni-andrey-gugnin-si-orchestra-filarmonicii-brasov-in-concert-simfonic/",
+          "description": "Joi, 08.10.2026 Sala Mare - ora 19:00 Concert Simfonic Dirijor: Gerald Karni Solist : Andrey Gugnin – pian",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+Braşov+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-gerald-karni-andrey-gugnin-i-o-0020.jpg",
+          "lat": 45.647543,
+          "lon": 25.60426
+        },
+        {
+          "id": "zsn-jazz-in-the-basement-petru-c-l-0019",
+          "title": "JAZZ in the BASEMENT – PETRU CĂLINESCU QUARTET",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-09",
+          "time": "19:00",
+          "venue": "Ora0",
+          "address": "Str. De Mijloc nr.133,  Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/jazz-in-the-basement-petru-calinescu-quartet/",
+          "description": "PETRU CĂLINESCU QUARTET Jazz, swing și farmec interbelic, cu un twist contemporan. Un nou proiect live născut la Brașov, în care patru muzicieni se întâlnesc pentru o seară cu vibe de club de jazz, reinterpretări vintage și energie live autentică.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Ora0+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-jazz-in-the-basement-petru-c-l-0019.jpg",
+          "lat": 45.660381,
+          "lon": 25.582291
         },
         {
           "id": "zsn-robin-and-the-backstabbers-0019",
@@ -19709,7 +19832,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0358.jpg"
+          "image": "events-images/sorina-0358.jpg",
+          "past": true
         },
         {
           "id": "zsn-manifest-editorial-oclu-0022",
@@ -19734,7 +19858,8 @@
           "image": "events-images/zsn-manifest-editorial-oclu-0022.webp",
           "lat": 44.4356445,
           "lon": 26.1009263,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "sorina-0359",
@@ -19760,7 +19885,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "image": "events-images/sorina-0359.webp"
+          "image": "events-images/sorina-0359.webp",
+          "past": true
         },
         {
           "id": "sorina-0360",
@@ -19786,7 +19912,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0360.jpg"
+          "image": "events-images/sorina-0360.jpg",
+          "past": true
         },
         {
           "id": "sorina-0361",
@@ -19812,7 +19939,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0361.jpg"
+          "image": "events-images/sorina-0361.jpg",
+          "past": true
         },
         {
           "id": "sorina-0362",
@@ -19839,7 +19967,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0362.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-a-timeless-evening-0023",
@@ -19863,7 +19992,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-a-timeless-evening-0023.jpg",
           "lat": 46.534777,
-          "lon": 24.555777
+          "lon": 24.555777,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-filarmonica-d-0108",
@@ -19887,7 +20017,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-filarmonica-d-0108.jpg",
           "lat": 46.543277,
-          "lon": 24.558218
+          "lon": 24.558218,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0008",
@@ -19911,7 +20042,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-0008.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-rock-in-bistritz-3-deschidere--0102",
@@ -19935,7 +20067,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-rock-in-bistritz-3-deschidere--0102.jpg",
           "lat": 47.13609,
-          "lon": 24.48746
+          "lon": 24.48746,
+          "past": true
         },
         {
           "id": "zsn-aura-ova-the-pub-universit-ii-0091",
@@ -19960,7 +20093,8 @@
           "image": "events-images/zsn-aura-ova-the-pub-universit-ii-0091.png",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-trolling-shekespeare-3836",
@@ -19995,7 +20129,8 @@
           "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-scandal-wet-pocket-0006",
@@ -20019,7 +20154,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-scandal-wet-pocket-0006.jpg",
           "lat": 44.935958,
-          "lon": 26.026175
+          "lon": 26.026175,
+          "past": true
         },
         {
           "id": "sorina-0363",
@@ -20048,7 +20184,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0363.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0364",
@@ -20077,7 +20214,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0364.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0365",
@@ -20106,7 +20244,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0365.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0366",
@@ -20134,7 +20273,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4380747,
           "lon": 26.1034491,
-          "image": "events-images/sorina-0366.jpg"
+          "image": "events-images/sorina-0366.jpg",
+          "past": true
         },
         {
           "id": "sorina-0367",
@@ -20160,7 +20300,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0367.jpg"
+          "image": "events-images/sorina-0367.jpg",
+          "past": true
         },
         {
           "id": "sorina-0368",
@@ -20189,7 +20330,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0368.jpg"
+          "image": "events-images/sorina-0368.jpg",
+          "past": true
         },
         {
           "id": "sorina-0369",
@@ -20216,7 +20358,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0369.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0370",
@@ -20242,7 +20385,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4530836,
           "lon": 26.0845751,
-          "image": "events-images/sorina-0370.jpg"
+          "image": "events-images/sorina-0370.jpg",
+          "past": true
         },
         {
           "id": "sorina-0371",
@@ -20269,7 +20413,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0371.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0372",
@@ -20295,7 +20440,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.481954,
           "lon": 26.0839978,
-          "image": "events-images/sorina-0372.jpg"
+          "image": "events-images/sorina-0372.jpg",
+          "past": true
         },
         {
           "id": "sorina-0373",
@@ -20321,7 +20467,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4382729,
           "lon": 26.1016269,
-          "image": "events-images/sorina-0373.jpg"
+          "image": "events-images/sorina-0373.jpg",
+          "past": true
         },
         {
           "id": "sorina-0374",
@@ -20348,7 +20495,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0374.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0375",
@@ -20375,7 +20523,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0375.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0376",
@@ -21348,6 +21497,111 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-aventurile-lui-pinocchio-clubu-4174",
+          "title": "Aventurile lui Pinocchio @ Clubul Taranului - La Mama",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Detalii",
+          "address": "Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Detalii",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/aventurile-lui-pinocchio-clubul-taranului-la-mama/",
+          "image": "events-images/buc-br-aventurile-lui-pinocchio-clubu-4174.jpg",
+          "description": "Aventurile lui Pinocchio @ Clubul Taranului - La Mama - eveniment la Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Detalii din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: Clubul Taranului - La Mama Pentru copii Teatru pentru copii Bucuresti, Clubul Taranului - La Mama Detalii",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Clubul+Taranului+-+La+Mama+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Clubul+Taranului+-+La+Mama+Detalii",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-povestea-scufitei-rosii-hanu-l-8609",
+          "title": "Povestea Scufitei Rosii @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/povestea-scufitei-rosii-hanu-lui-manuc/",
+          "image": "events-images/buc-br-povestea-scufitei-rosii-hanu-l-8609.jpg",
+          "description": "Povestea Scufitei Rosii @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Detalii",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-autopsia-unor-intamplari-nevin-7410",
+          "title": "Autopsia unor intamplari nevinovate - ANULAT",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-26",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/autopsia-unor-intamplari-nevinovate/",
+          "image": "events-images/buc-br-autopsia-unor-intamplari-nevin-7410.jpg",
+          "description": "Autopsia unor intamplari nevinovate - ANULAT - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-26",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-remember-ioan-gyuri-pascu-10-a-0094",
@@ -22961,6 +23215,31 @@
           "image": "events-images/sorina-0417.jpg"
         },
         {
+          "id": "zsn-concert-caritabil-zal-u-semnal-0037",
+          "title": "Concert Caritabil Zalău: Semnal M, Radu Pietreanu, Emeric Imre Trio @ Curtea Colegiului Național Silvania",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-29",
+          "time": "18:00",
+          "venue": "Zalău",
+          "address": "Zalău",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-caritabil-zalau-semnal-m-radu-pietreanu-emeric-imre-trio/",
+          "description": "Muzica susține viitorul! Marți, 29 septembrie, ne întâlnim în curtea Colegiului Național Silvania pentru o seară în care muzica aduce comunitatea împreună pentru un scop important: susținerea echipei de robotică CNapSys.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Zalău+Zalău",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-caritabil-zal-u-semnal-0037.jpg",
+          "lat": 44.4764584,
+          "lon": 26.1569707,
+          "geocode_quality": "nominatim"
+        },
+        {
           "id": "sorina-0418",
           "title": "Curs Public Speaking – Gabriela Valentir",
           "category": "workshop",
@@ -23037,6 +23316,31 @@
           "image": "events-images/zsn-recital-de-org-la-patru-m-ini--0104.jpg",
           "lat": 46.543277,
           "lon": 24.558218
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0036",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Botosani",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-29",
+          "time": "19:00",
+          "venue": "Casa de Cultură a Sindicatelor Botoșani",
+          "address": "Str. Marchian nr. 5, Botoșani, Botoșani",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-botosani/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Botoșani+Botoșani",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0036.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "buc-009",
@@ -23176,6 +23480,30 @@
           "lon": 26.9235
         },
         {
+          "id": "zsn-echoes-sinestezii-urbane-proie-0035",
+          "title": "ECHOES/ Sinestezii urbane – proiect invitat: Concert MILORD",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-09-30",
+          "time": "19:00",
+          "venue": "Palatul Culturii Târgu Mureș",
+          "address": "Piața. Victoriei nr. 1, Târgu Mureș, Târgu Mureş",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/echoes-sinestezii-urbane-proiect-invitat-concert-milord/",
+          "description": "Spectacolul MILORD aduce în Sala Mare a Palatului Culturii o formulă deosebită: voce, pian și cvartet de coarde. Ana Maria Galea cântă, Mariano Castro semnează aranjamentele și partea de pian, iar cvartetul târgumureșean Flow.Strings completează sunetul.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Palatul+Culturii+Târgu+Mureș+Târgu Mureş",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-echoes-sinestezii-urbane-proie-0035.jpg",
+          "lat": 46.543383,
+          "lon": 24.557949
+        },
+        {
           "id": "buc-br-trei-pisici-misto-si-un-pianis-206",
           "title": "Trei pisici mișto și un piаnist - show de comedie și improvizație",
           "category": "comedy",
@@ -23301,6 +23629,41 @@
           "map_url": "https://maps.google.com/?q=loc+în+București",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-24",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-cs-dinamo-bucuresti-kb-peja-fi-7362",
+          "title": "CS Dinamo – KB Peja",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-09-30",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/cs-dinamo-bucuresti-kb-peja-fiba-europe-cup/",
+          "image": "events-images/buc-br-cs-dinamo-bucuresti-kb-peja-fi-7362.jpg",
+          "description": "CS Dinamo – KB Peja - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-30",
+            "loc: loc în București",
+            "categorie: sport"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "sport",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -24284,6 +24647,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-cactus-x-ada-milea-0029",
+          "title": "CACTUS X ADA MILEA",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-10-03",
+          "time": "18:00",
+          "venue": "Antigalerie Cactus",
+          "address": "str. Aurel Filimon, nr. 14, Tărgu-Mureș, Târgu Mureş",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cactus-x-ada-milea/",
+          "description": "Antigalerie.Cactus are bucuria de a găzdui un concert special Ada Milea Cu umorul său inconfundabil, inteligența ludică și chitara mereu prezentă, Ada reușește de fiecare dată să creeze o atmosferă intimă, autentică și profund emoționantă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Antigalerie+Cactus+Târgu Mureş",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cactus-x-ada-milea-0029.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-recital-cameral-cu-drago-andre-0008",
           "title": "Recital cameral cu Dragoș Andrei Cantea @ Ateneul Român",
           "category": "concert",
@@ -24502,6 +24890,31 @@
           "image": "events-images/zsn-pacha-man-live-soho-music-hall-0101.jpg",
           "lat": 47.13609,
           "lon": 24.48746
+        },
+        {
+          "id": "zsn-concert-ada-milea-show-ora-21--0026",
+          "title": "Concert Ada Milea show ora 21 @Tg Mures",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-10-03",
+          "time": "21:00",
+          "venue": "Antigalerie Cactus",
+          "address": "str. Aurel Filimon, nr. 14, Tărgu-Mureș, Târgu Mureş",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-ada-milea-show-ora-21-at-tg-mures/",
+          "description": "Ada Milea, cunoscută pentru stilul său original, care îmbină muzica, teatrul, poezia și umorul, ajunge la Tg. Mures pentru a susține un recital la Antigalerie Cactus din localitate.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Antigalerie+Cactus+Târgu Mureş",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-ada-milea-show-ora-21--0026.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "zsn-jazzy-jo-14th-lane-0030",
@@ -25698,6 +26111,30 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "zsn-hara-25-de-ani-the-shamrock-pu-0022",
+          "title": "HARA – 25 de ani @The Shamrock Pub",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-09",
+          "time": "21:00",
+          "venue": "The ShamRock Pub",
+          "address": "Winmarkt- Omnia, Etaj 4 100009 Ploiești, Ploieşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/hara-25-de-ani-at-the-shamrock-pub/",
+          "description": "HARA – 25 DE ANI: 25 de ani de muzică, hituri și sute de concerte. O aniversare care se sărbătorește LIVE!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+ShamRock+Pub+Ploieşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-hara-25-de-ani-the-shamrock-pu-0022.webp",
+          "lat": 44.935958,
+          "lon": 26.026175
+        },
+        {
           "id": "zsn-marius-mihalache-i-taraf-de-ca-0029",
           "title": "Marius Mihalache și Taraf de Caliu @ 14th Lane",
           "category": "concert",
@@ -26281,6 +26718,30 @@
           "image": "events-images/zsn-a-a-e-inima-f-cut-0059.jpg",
           "lat": 44.890506,
           "lon": 24.87642
+        },
+        {
+          "id": "zsn-the-coffee-shop-music-magda-pu-0041",
+          "title": "The Coffee Shop Music | Magda Puskas & Rareș Suciu @ The Coffee Shop Constituției",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-11",
+          "time": "16:00",
+          "venue": "The Coffee Shop Constituției",
+          "address": "Bulevardul Unirii nr. 5, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-coffee-shop-music-magda-puskas-rares-suciu-the-coffee-shop-constitutiei/",
+          "description": "O amprentă vocală unică a cântecului românesc, încă de la Festivalul „Baladele Dunării”, câstigat în 1981 și apoi pe scena Cenaclului „Flacăra” și a Cenaclului „Totuși Iubirea”, conduse de Adrian Păunescu, Magda Puskas a marcat muzica folk printr-o energie pozitivă și o emoție plină de tandrețe, cu un mesaj profund al poeziei limbii române. The Coffee Shop Music | Magda Puskas & Rareș Suciu @ The Coffee Shop Constituției",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Coffee+Shop+Constituției+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-coffee-shop-music-magda-pu-0041.jpg",
+          "lat": 44.677023,
+          "lon": 25.774439
         },
         {
           "id": "sorina-0457",
@@ -27556,6 +28017,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-concert-alex-tef-nescu-ia-i-o--0016",
+          "title": "Concert Alex Ștefănescu – „Ia-ți o viață!\"",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-10-17",
+          "time": "20:00",
+          "venue": "Antigalerie Cactus",
+          "address": "str. Aurel Filimon, nr. 14, Tărgu-Mureș, Târgu Mureş",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-alex-stefanescu-ia-ti-o-viata-3/",
+          "description": "„Ia-ți o viață!\" este o comedie muzicală existențială semnată de Alex Ștefănescu: un one-man show muzical, pe voce și chitară acustică, despre traseul unui om, de la naștere până la moarte, construit din piese originale, umor inteligent, storytelling și o relație directă cu publicul.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Antigalerie+Cactus+Târgu Mureş",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-alex-tef-nescu-ia-i-o--0016.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-robin-and-the-backstabbers-bis-0116",
           "title": "Robin and The Backstabbers • Bistrița • Soho Music Hall • 17 octombrie",
           "category": "concert",
@@ -28131,6 +28617,30 @@
           "lat": 44.4490364,
           "lon": 26.1242775,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-the-coffee-shop-music-walter-g-0038",
+          "title": "The Coffee Shop Music | Walter Ghicolescu @ The Coffee Shop Constituției",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-18",
+          "time": "16:00",
+          "venue": "The Coffee Shop Constituției",
+          "address": "Bulevardul Unirii nr. 5, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/walter-ghicolescu-the-coffee-shop-constitutiei-3/",
+          "description": "Un artist suav, plin de emoție și energie, , un regal de muzică folk cu cele mai frumoase și cele mai noi compoziții despre iubire și prietenie! The Coffee Shop Music | Walter Ghicolescu @ The Coffee Shop Constituției",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Coffee+Shop+Constituției+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-coffee-shop-music-walter-g-0038.jpg",
+          "lat": 44.677023,
+          "lon": 25.774439
         },
         {
           "id": "sorina-0468",
@@ -28775,6 +29285,30 @@
           "image": "events-images/zsn-concert-vocal-simfonic-cu-juli-0003.webp",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "zsn-the-coffee-shop-music-tefan-or-0045",
+          "title": "The Coffee Shop Music | Ștefan Orfescu @ The Coffee Shop Constituției",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-22",
+          "time": "19:00",
+          "venue": "The Coffee Shop Constituției",
+          "address": "Bulevardul Unirii nr. 5, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-coffee-shop-music-stefan-orfescu/",
+          "description": "Activează atât ca instrumentist, cât şi vocal la „Avenue”, trupa cu care a cântat și în deschidere la Scorpions şi Paul Gilbert (Mr. Big). Informații și Rezervări la numărul de telefon: 0722 886 007. The Coffee Shop Music | Ștefan Orfescu @ The Coffee Shop Constituției",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Coffee+Shop+Constituției+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-coffee-shop-music-tefan-or-0045.jpg",
+          "lat": 44.677023,
+          "lon": 25.774439
         },
         {
           "id": "zsn-villagers-of-ioannina-city-qua-0045",
@@ -29767,6 +30301,30 @@
           "lon": 26.07492
         },
         {
+          "id": "zsn-bere-gratis-live-club-hush-pit-0014",
+          "title": "Bere Gratis Live // Club Hush Pitesti",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "22:00",
+          "venue": "Club Hush",
+          "address": "Strada Panselelor 2, Pitești, Piteşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/bere-gratis-live-club-hush-pitesti/",
+          "description": "PITEȘTI, PREGĂTEȘTE-ȚI VOCEA. Pe 24 octombrie, cânți fiecare refren împreună cu una dintre cele mai iubite trupe din România: BERE GRATIS — LIVE LA HUSH",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Club+Hush+Piteşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-bere-gratis-live-club-hush-pit-0014.jpg",
+          "lat": 44.857257,
+          "lon": 24.870106
+        },
+        {
           "id": "zsn-genius-is-back-ber-ria-h-0012",
           "title": "Genius is back @ Berăria H",
           "category": "concert",
@@ -30059,6 +30617,30 @@
           "lat": 44.4452933,
           "lon": 26.1010628,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-the-coffee-shop-music-cristi-c-0042",
+          "title": "The Coffee Shop Music – Cristi Corcioveanu  @ The Coffee Shop Constituției",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-25",
+          "time": "16:00",
+          "venue": "The Coffee Shop Constituției",
+          "address": "Bulevardul Unirii nr. 5, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-coffee-shop-music-cristi-corcioveanu-the-coffee-shop-constitutiei/",
+          "description": "Vino la The Coffee Shop Constituției să descoperi și să împărtășești muzica folk de ieri și de azi alături de Cristi Corcioveanu 25 octombrie 2026, ora 16:00.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Coffee+Shop+Constituției+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-coffee-shop-music-cristi-c-0042.jpg",
+          "lat": 44.677023,
+          "lon": 25.774439
         },
         {
           "id": "zsn-rageher-quantic-0047",
@@ -30775,6 +31357,30 @@
           "lon": 26.097882
         },
         {
+          "id": "zsn-the-coffee-shop-music-adrian-b-0043",
+          "title": "The Coffee Shop Music | Adrian Bezna @ The Coffee Shop Constituției",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "venue": "The Coffee Shop Constituției",
+          "address": "Bulevardul Unirii nr. 5, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-coffee-shop-music-adrian-bezna-the-coffee-shop-constitutiei/",
+          "description": "O întâlnire specială cu poezia cântată a unuia dintre cei mai autentici autori de muzică folk contemporană. Un manifest viu, cu un mesaj profund despre dragoste și prietenie, cu un timbru și o rostire inconfundabile. The Coffee Shop Music | Adrian Bezna @ The Coffee Shop Constituției",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Coffee+Shop+Constituției+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-coffee-shop-music-adrian-b-0043.jpg",
+          "lat": 44.677023,
+          "lon": 25.774439
+        },
+        {
           "id": "zsn-direc-ia-5-hard-rock-cafe-0101",
           "title": "Direcția 5 @ Hard Rock Cafe",
           "category": "concert",
@@ -31046,6 +31652,33 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0498",
+          "title": "Primii doi ani",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-10-31",
+          "time": "10:00",
+          "venue": "ARCUB",
+          "address": "Strada Lipscani 84 – 90, București 030037, București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/primii-doi-ani/",
+          "description": "Primii doi ani din viața unui copil vin cu bucurie, dar și cu foarte multe întrebări și frici. Ce este normal la un nou-născut? Când trebuie să ne îngrijorăm? Cum îl îngrijim zi de zi? Cum gestionăm trezirile de noapte? Ce putem face atunci când suntem epuizați și simțim că nu mai facem față? Pe 𝟯𝟭 𝙤𝙘𝙩𝙤𝙢𝙗𝙧𝙞𝙚, la ARCUB București, @Totul Despre Mame îi aduce împreună pe specialiștii care pot răspunde acestor întrebări cu informații validate științific și soluții practice, ușor de aplicat în via...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "pentru-parinti"
+          ],
+          "image": "events-images/sorina-0498.webp",
+          "map_url": "https://maps.google.com/?q=ARCUB+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4380747,
+          "lon": 26.1034491,
           "geocode_quality": "cache"
         },
         {
@@ -31384,6 +32017,31 @@
           "lat": 44.4356445,
           "lon": 26.1009263,
           "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-concert-katharein-ro-live-n-cl-0004",
+          "title": "CONCERT KATHAREIN (RO) live în Club Piano",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-31",
+          "time": "20:30",
+          "venue": "Club Piano",
+          "address": "Strada Siretului Nr.3, Târgu Jiu, Târgu Jiu",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-katharein-ro-live-in-club-piano/",
+          "description": "Pregătește-te pentru o noapte de heavy metal, hard rock și energie live la Club Piano! De Halloween, KATHAREIN ajunge la Târgu Jiu cu un show construit pe riff-uri puternice, chitări agresive, refrene memorabile și influențe de thrash, punk și NWOBHM.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Club+Piano+Târgu Jiu",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-katharein-ro-live-n-cl-0004.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-anthony-gomes-romania-tour-202-0054",
@@ -32678,6 +33336,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-regal-vienez-concert-extraordi-0010",
+          "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | FOCSANI",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-12-22",
+          "time": "20:00",
+          "venue": "Teatrul Municipal Focșani",
+          "address": "Focșani",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/regal-vienez-concert-extraordinar-de-craciun-focsani-2/",
+          "description": "SPECTACOL EXTRAORDINAR DE CRĂCIUN – 200 DE ANI DE LA NAȘTEREA LUI JOHANN STRAUSS. Participă: Orchestra di Teatro d'Opera Italiana, Orchestra Operei Vox, Corul Operei Vox, Ansamblul de Balet al Operei Vox.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Municipal+Focșani+Focșani",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-regal-vienez-concert-extraordi-0010.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-regal-vienez-concert-extraordi-0137",
           "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | RAMNICU VALCEA",
           "category": "concert",
@@ -32749,6 +33432,30 @@
           "image": "events-images/zsn-concert-direc-ia-5-100-directi-0045.png",
           "lat": 46.543383,
           "lon": 24.557949
+        },
+        {
+          "id": "zsn-horia-brenciu-hb-orchestra-de--0002",
+          "title": "Horia Brenciu & HB Orchestra – \"De Martisor&#8230; fac ce-mi spune inima\"",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2027-03-01",
+          "time": "19:00",
+          "venue": "Teatrul de Vară Bacău",
+          "address": "Str. Vasile Alecsandri 39Bis, Bacău, Bacău",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/horia-brenciu-hb-orchestra-de-martisor-fac-ce-mi-spune-inima/",
+          "description": "Bacau, pe 1 martie 2027, pregateste-te pentru o experienta absolut memorabila!!! HORIA BRENCIU - \"De Martisor... fac ce-mi spune inima\", un concert special, la Teatrul de Vara Bacau",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+de+Vară+Bacău+Bacău",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-horia-brenciu-hb-orchestra-de--0002.jpg",
+          "lat": 46.56139,
+          "lon": 26.906543
         }
       ]
     },
@@ -33034,7 +33741,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0244",
@@ -34185,7 +34893,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-extraordinar-de-deschi-0067.jpg",
           "lat": 46.777248,
-          "lon": 23.59989
+          "lon": 23.59989,
+          "past": true
         },
         {
           "id": "zsn-oddland-mother-of-millions-rin-0078",
@@ -34209,7 +34918,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-oddland-mother-of-millions-rin-0078.webp",
           "lat": 46.769379,
-          "lon": 23.5899542
+          "lon": 23.5899542,
+          "past": true
         },
         {
           "id": "clu-br-untitled-no-7-4101",
@@ -34244,7 +34954,8 @@
           "scraped_at": "2026-09-19",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-paul-traeumer-de-quidbop-vekt-0023",
@@ -34463,6 +35174,41 @@
           "lon": 23.584861
         },
         {
+          "id": "clu-br-untitled-no-7-6491",
+          "title": "Untitled No. 7 - Premiera",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în Cluj-Napoca",
+          "address": "loc în Cluj-Napoca",
+          "city_slug": "cluj-napoca",
+          "city_name": "Cluj-Napoca",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/untitled-no-7/",
+          "image": "events-images/clu-br-untitled-no-7-6491.jpg",
+          "description": "Untitled No. 7 - Premiera - eveniment la loc în Cluj-Napoca din Cluj-Napoca, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în Cluj-Napoca",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Cluj-Napoca",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 46.769379,
+          "lon": 23.5899542,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-bella-ciao-olasz-est-mah-andre-0059",
           "title": "Bella Ciao – olasz est // Mahó Andrea & Kovács Gábor @ Kolozsvári Magyar Opera",
           "category": "concert",
@@ -34582,6 +35328,30 @@
           "image": "events-images/zsn-resurface-tour-breathelast-gri-0017.jpg",
           "lat": 46.769379,
           "lon": 23.5899542
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0032",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-10-02",
+          "time": "19:00",
+          "venue": "Cinema Teatru Florin Piersic",
+          "address": "Piaţa Mihai Viteazu nr. 11,  Cluj-Napoca, Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-cluj/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Cinema+Teatru+Florin+Piersic+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0032.webp",
+          "lat": 46.774714,
+          "lon": 23.590197
         },
         {
           "id": "zsn-premier-romeo-i-julieta-charle-0165",
@@ -34968,6 +35738,30 @@
           "image": "events-images/zsn-orkid-lansare-ep-mult-mai-bun--0008.jpg",
           "lat": 46.769379,
           "lon": 23.5899542
+        },
+        {
+          "id": "zsn-carla-s-dreams-simfonic-sala-p-0009",
+          "title": "Carla's Dreams SIMFONIC @ Sala Polivalentă",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-11-20",
+          "time": "00:00",
+          "venue": "BTarena",
+          "address": "Aleea Stadionului nr. 4, Cluj-Napoca, Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/carlas-dreams-simfonic-la-btarena-cluj-napoca/",
+          "description": "Pe 20 noiembrie, Carla's Dreams urcă pe scena BTarena din Cluj-Napoca, alături de o orchestră simfonică de excepție. Piesele care au marcat generații întregi vor fi rescrise complet, reinterpretate împreună cu orchestra, într-o formă pe care nu ai mai auzit-o niciodată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=BTarena+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-carla-s-dreams-simfonic-sala-p-0009.jpg",
+          "lat": 46.767207,
+          "lon": 23.570286
         },
         {
           "id": "zsn-carla-s-dreams-simfonic-0084",
@@ -35454,6 +36248,30 @@
           "geocode_quality": "nominatim"
         },
         {
+          "id": "zsn-cavalleria-rusticana-i-paia-e-0128",
+          "title": "Cavalleria rusticana și Paiațe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "09:45",
+          "venue": "Casa de Cultură a Sindicatelor Constanţa",
+          "address": "Bd. Alexandru Lăpușneanu nr, 1, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cavalleria-rusticana-si-paiate/",
+          "description": "CAVALLERIA RUSTICANA si PAIATE 18 Octombrie 2026, ora 18:30 Casa de Cultura a Sindicatelor Constanta - Sala mare Teatrul Național de Operă și Balet „Oleg Danovski\" Constanța prezintă „Cavalleria rusticana\" și „Paiațe\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Constanţa+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0128.jpg",
+          "lat": 44.18072,
+          "lon": 28.634682
+        },
+        {
           "id": "zsn-violoncellissimo-teatrul-na-io-0049",
           "title": "VIOLONCELLISSIMO – Teatrul Național de Operă și Balet „Oleg Danovski\" Constanta @ Colegiul Național de Arte Regina Maria",
           "category": "teatru",
@@ -35550,6 +36368,54 @@
           "lon": 28.638333
         },
         {
+          "id": "zsn-emo-reunion-fallen-leaves-tour-0018",
+          "title": "Emo Reunion – Fallen Leaves Tour @ Phoenix",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-10",
+          "time": "21:00",
+          "venue": "Club Phoenix",
+          "address": "Strada Cpt. Dobrilă Eugeniu nr. 1, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/emo-reunion-fallen-leaves-tour-at-phoenix/",
+          "description": "Fenomenul Emo Reunion vine pentru prima dată în Constanța, pe 10 octombrie, în Club Phoenix. Dăm startul toamnei cu energie, vibe bun și un mix exploziv de emo, pop-punk, metal și alternative.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Club+Phoenix+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-emo-reunion-fallen-leaves-tour-0018.jpg",
+          "lat": 44.211743,
+          "lon": 28.62419
+        },
+        {
+          "id": "zsn-cargo-14-ani-music-for-autism-0017",
+          "title": "CARGO/ 14 ani Music for Autism",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-16",
+          "time": "20:30",
+          "venue": "Doors Club",
+          "address": "Str. Traian nr. 68A, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cargo-14-ani-music-for-autism/",
+          "description": "Constanța, 2026 – Trupa CARGO invită fanii și iubitorii muzicii rock la concertul aniversar dedicat celor 14 ani de Music for Autism, o campanie care, de-a lungul anilor, a transformat energia muzicii în proiecte concrete pentru copiii cu dizabilități din Constanța.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Doors+Club+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cargo-14-ani-music-for-autism-0017.jpg",
+          "lat": 44.174519,
+          "lon": 28.645236
+        },
+        {
           "id": "zsn-collapse-tour-hakairi-neon-pro-0118",
           "title": "Collapse Tour: Hakairi, Neon Prophecies, Hatespeech și Engineer of Death în club Phoenix",
           "category": "concert",
@@ -35572,6 +36438,30 @@
           "image": "events-images/zsn-collapse-tour-hakairi-neon-pro-0118.jpg",
           "lat": 44.211743,
           "lon": 28.62419
+        },
+        {
+          "id": "zsn-ada-milea-14-ani-music-for-aut-0013",
+          "title": "Ada Milea / 14 ani Music for Autism",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-25",
+          "time": "19:00",
+          "venue": "Doors Club",
+          "address": "Str. Traian nr. 68A, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/ada-milea-14-ani-music-for-autism/",
+          "description": "Iubitorii muzicii folk, dar și toți cei care iubesc muzica autentică, umorul și poveștile spuse altfel, sunt așteptați la Club Doors Constanța, unde Ada Milea va transforma întâlnirea cu publicul într-un spectacol aparte.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Doors+Club+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ada-milea-14-ani-music-for-aut-0013.jpg",
+          "lat": 44.174519,
+          "lon": 28.645236
         },
         {
           "id": "zsn-tefan-b-nic-centrul-multifunc--0003",
@@ -35597,6 +36487,30 @@
           "lat": 44.1767161,
           "lon": 28.6507598,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-lupii-lui-calancea-14-ani-musi-0008",
+          "title": "Lupii lui Calancea / 14 ani Music for Autism",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-29",
+          "time": "20:00",
+          "venue": "Doors Club",
+          "address": "Str. Traian nr. 68A, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/lupii-lui-calancea-14-ani-music-for-autism/",
+          "description": "De la origini la prezent, de la doină la horă, de la plâns la râs – o adevărată explozie de emoții se întâlnește cu o cauză care ne unește: Music for Autism.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Doors+Club+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-lupii-lui-calancea-14-ani-musi-0008.jpg",
+          "lat": 44.174519,
+          "lon": 28.645236
         },
         {
           "id": "zsn-the-zoo-scorpions-tribute-at-r-0119",
@@ -35646,6 +36560,30 @@
           "lat": 44.2031585,
           "lon": 28.6206011,
           "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-3-sud-est-doors-0006",
+          "title": "3 Sud Est @doors",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-14",
+          "time": "19:30",
+          "venue": "Doors Club",
+          "address": "Str. Traian nr. 68A, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/3-sud-est-at-doors/",
+          "description": "Sâmbătă-14 noiembrie,3 SUD EST live pe scena Doors Acces-19:30 | Concert-20:00",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Doors+Club+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-3-sud-est-doors-0006.jpg",
+          "lat": 44.174519,
+          "lon": 28.645236
         },
         {
           "id": "zsn-fittonia-constanta-phoenix-clu-0038",
@@ -36034,7 +36972,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-gala-dinu-lipatti-2026-craiova-0070.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-rava-craiova-0018",
@@ -36148,6 +37087,30 @@
           ],
           "map_url": "https://maps.google.com/?q=Enoteca+Social+Bar+Craiova",
           "organizer": "iabilet.ro"
+        },
+        {
+          "id": "zsn-concert-bucovina-0028",
+          "title": "Concert Bucovina",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-10-03",
+          "time": "19:00",
+          "venue": "Cinema Patria Craiova",
+          "address": "Str. Al. I. Cuza 19, Craiova",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-bucovina/",
+          "description": "Acum 20 de ani formația românească Bucovina a lansat albumul de debut \"Ceasul aducerii-aminte\". Sâmbătă, 3 octombrie, la Cinema Patria din Craiova sărbătorim 20 de ani de la acest moment istoric pentru metalul românesc.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Cinema+Patria+Craiova+Craiova",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-bucovina-0028.png",
+          "lat": 44.32476,
+          "lon": 23.813471
         }
       ]
     },
@@ -36157,6 +37120,31 @@
       "lat": 0.0,
       "lon": 0.0,
       "events": [
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0033",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-01",
+          "time": "19:00",
+          "venue": "Centrul Cultural Drăgan Muntean Deva",
+          "address": "Piața Victoriei nr. 7, Deva, Deva",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Centrul+Cultural+Drăgan+Muntean+Deva+Deva",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0033.webp",
+          "lat": 45.8817402,
+          "lon": 22.9008611,
+          "geocode_quality": "city_fallback"
+        },
         {
           "id": "zsn-nidal-lansare-de-album-ngeri-0029",
           "title": "Nidal • Lansare de album: \"Îngeri\"",
@@ -36343,7 +37331,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-chris-rand-the-heavy-echo-jazz-0043.jpg",
           "lat": 45.42572,
-          "lon": 28.031044
+          "lon": 28.031044,
+          "past": true
         },
         {
           "id": "zsn-concert-trooper-uzina-0048",
@@ -36967,7 +37956,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0114",
@@ -36994,7 +37984,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0258",
@@ -37246,6 +38237,31 @@
           "image": "events-images/zsn-concert-pentru-familii-lacul-l-0036.jpg",
           "lat": 47.80167,
           "lon": 22.857593
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0025",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Satu Mare",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "16:00",
+          "venue": "Casa de Cultură a Sindicatelor Satu Mare",
+          "address": "Bd. Transilvania nr. 3, Satu Mare, Satu Mare",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-satu-mare/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Satu+Mare+Satu Mare",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0025.webp",
+          "lat": 47.7889756,
+          "lon": 22.8717002,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-carmen-eterna-satu-mare-0161",
@@ -37850,6 +38866,56 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0034",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu @ Hotel Mandachi Suceava",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-30",
+          "time": "19:00",
+          "venue": "Suceava",
+          "address": "Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-suceava/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Suceava+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0034.webp",
+          "lat": 47.647001,
+          "lon": 26.2522599,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-gili-barbu-concert-folk-rock-0027",
+          "title": "Gili Barbu – Concert Folk-Rock",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-03",
+          "time": "19:00",
+          "venue": "Palo Santo Shop Bar &#038; Coffee Hub",
+          "address": "Strada Bistriței 8, Suceava 720274, Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/gili-barbu-concert-folk-rock/",
+          "description": "Sâmbătă, 3 octombrie 2026, deschidem porțile pentru concert la ora 19:00 la Palo Santo Shop, Bar & Coffee Hub, încălzim atmosfera cu un pahar bun și muzică în difuzoare, iar de la ora 20:00 începe concertul, ca să avem timp să ne strângem toți și să ne așezăm la povești.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Palo+Santo+Shop+Bar+&#038;+Coffee+Hub+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-gili-barbu-concert-folk-rock-0027.jpg",
+          "lat": 47.5326535,
+          "lon": 25.8345939,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-nuante-lansare-de-album-0001",
           "title": "Nuante • Lansare de album",
           "category": "concert",
@@ -37895,6 +38961,81 @@
           "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-alex-tef-nescu-ia-i-o--0029.webp",
+          "lat": 47.6393876,
+          "lon": 26.2424061,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-timpuri-noi-hituri-la-suceava-0015",
+          "title": "Timpuri Noi-Hituri la Suceava",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-17",
+          "time": "21:00",
+          "venue": "Art Rock Cafe",
+          "address": "Strada Scurtă, Suceava 720237, Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/timpuri-noi-hituri-la-suceava/",
+          "description": "Salutare!! V-am rămas datori cu un concert! Așa ca ,Timpuri Noi revine la Suceava cu un concert maraton de peste două ore, concert în care veți putea asculta piese celebre compuse de inegalabilul Dan Iliescu de-a lungul istoriei de peste 40 de ani ai trupei.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-timpuri-noi-hituri-la-suceava-0015.jpg",
+          "lat": 47.6393876,
+          "lon": 26.2424061,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-classic-unlimited-2026-la-sire-0012",
+          "title": "Classic Unlimited 2026 la Siret @ Biserica Romano-Catolică",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "19:00",
+          "venue": "Suceava",
+          "address": "Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/classic-unlimited-2026-la-siret/",
+          "description": "Pentru al zecelea an consecutiv, ducem pianul clasic și nelimitat cu noi într-o nouă călătorie, din care te invităm să faci parte.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Suceava+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-classic-unlimited-2026-la-sire-0012.jpg",
+          "lat": 47.647001,
+          "lon": 26.2522599,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-kempes-cargo-set-suceava-0011",
+          "title": "KEMPES – Cargo set – Suceava",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "20:00",
+          "venue": "Art Rock Cafe",
+          "address": "Strada Scurtă, Suceava 720237, Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/kempes-cargo-set-suceava/",
+          "description": "Rezervări la: 0330402200 ( după ce cumpărați bilet )",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-kempes-cargo-set-suceava-0011.jpg",
           "lat": 47.6393876,
           "lon": 26.2424061,
           "geocode_quality": "nominatim"
@@ -39212,7 +40353,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-lansare-album-noi-suntem-al-ii-0064.jpg",
           "lat": 45.758392,
-          "lon": 21.229014
+          "lon": 21.229014,
+          "past": true
         },
         {
           "id": "zsn-brass-academy-musical-kaleidos-0005",
@@ -39236,7 +40378,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-brass-academy-musical-kaleidos-0005.png",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "zsn-methadone-skies-x-annapurna-li-0201",
@@ -39440,6 +40583,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "tim-br-ursul-pacalit-de-vulpe-teatru--3761",
+          "title": "Ursul pacalit de vulpe – teatru pentru copii @ Trattoria Paradis",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Bilete de la 45,00 RON",
+          "address": "Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Bilete de la 45,00 RON",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ursul-pacalit-de-vulpe-teatru-pentru-copii-trattoria-paradis/",
+          "image": "events-images/tim-br-ursul-pacalit-de-vulpe-teatru--3761.jpg",
+          "description": "Ursul pacalit de vulpe – teatru pentru copii @ Trattoria Paradis - eveniment la Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Bilete de la 45,00 RON din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Bilete de la 45,00 RON",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Trattoria+Paradis+Pentru+copii+Teatru+pentru+copii+Corbeanca,+Trattoria+Paradis+Bilete+de+la+45,00+RON",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "tim-br-festivalul-international-de-an-5243",
           "title": "PRINȚUL ROȘCAT SAU BĂIATUL FĂRĂ NUME",
           "category": "concert",
@@ -39545,6 +40723,41 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "tim-br-norig-balkan-trio-3151",
+          "title": "Norig Balkan Trio",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-28",
+          "time": "20:00",
+          "venue": "loc în Timișoara",
+          "address": "loc în Timișoara",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/norig-balkan-trio/",
+          "image": "events-images/tim-br-norig-balkan-trio-3151.jpg",
+          "description": "Norig Balkan Trio - eveniment la loc în Timișoara din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-28",
+            "loc: loc în Timișoara",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-26",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-getchoo-orange-peel-her-live-n-0108",
           "title": "Getchoo | orange peel her live @ Nemesis Art Club",
           "category": "concert",
@@ -39616,6 +40829,30 @@
           "image": "events-images/zsn-carmina-burana-deschiderea-sta-0105.jpg",
           "lat": 45.750936,
           "lon": 21.226226
+        },
+        {
+          "id": "zsn-concert-pragu-de-sus-0030",
+          "title": "Concert Pragu' de Sus",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-02",
+          "time": "20:00",
+          "venue": "Porto Arte",
+          "address": "Splaiul Nicolae Titulescu, Pod Maria, lângă Catedrala Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-pragu-de-sus/",
+          "description": "Cu bonton, ultimul concert Pragu pe terasa, din acest sezon Ne pregatim de o seara en fanfare in indragitul loc de la malul apei.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Porto+Arte+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-pragu-de-sus-0030.jpg",
+          "lat": 45.75058,
+          "lon": 21.219278
         },
         {
           "id": "zsn-freenetik-party-x-nomad-audio--0104",
@@ -39745,6 +40982,30 @@
           "lat": 45.7538355,
           "lon": 21.2257474,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-o-seara-de-neuitat-catalin-cri-0021",
+          "title": "O seara de neuitat – Catalin Crisan si Gheorghe Gheorghiu – Timisoara",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-07",
+          "time": "19:00",
+          "venue": "Casa Tineretului (FITT)",
+          "address": "Strada Arieș, nr. 19, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/o-seara-de-neuitat-catalin-crisan-si-gheorghe-gheorghiu-timisoara/",
+          "description": "Cei mai îndrăgiți interpreți ai muzicii romantice românești, Cătălin Crișan și Gheorghe Gheorghiu își reunesc melodiile emblematice într-un turneu unic, dedicat tuturor celor care iubesc, indiferent de vârstă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+Tineretului+(FITT)+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0021.webp",
+          "lat": 45.759722,
+          "lon": 21.23
         },
         {
           "id": "zsn-nidal-lansare-de-album-ngeri-t-0021",
@@ -39972,6 +41233,30 @@
           "lon": 21.218892
         },
         {
+          "id": "zsn-sub-control-presents-tessa-uk-0007",
+          "title": "Sub:Control presents : Tessa(UK)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-21",
+          "time": "23:00",
+          "venue": "Escape Underground Hub",
+          "address": "Strada Gheorghe Lazar nr. 26, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/subcontrol-presents-tessauk/",
+          "description": "Raised in Essex/London, UK and resident of Buenos Aires from 2013-2025, Tessa makes her unique mark on the dancefloor with rhythmic variations full of bass and heavy percussion, a result of her cultural mix and diverse influences from her different contexts",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Escape+Underground+Hub+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-sub-control-presents-tessa-uk-0007.jpg",
+          "lat": 45.759906,
+          "lon": 21.218892
+        },
+        {
           "id": "zsn-orkid-lansare-ep-mult-mai-bun--0027",
           "title": "Orkid (lansare EP – Mult Mai Bun) @FITT, Timișoara",
           "category": "concert",
@@ -40066,6 +41351,30 @@
           "image": "events-images/zsn-fuego-glas-de-colinda-timisoar-0080.jpg",
           "lat": 45.756034,
           "lon": 21.225779
+        },
+        {
+          "id": "zsn-e-an-na-timi-oara-f-r-hotare-1-0003",
+          "title": "E-an-na • Timișoara • Fără Hotare • 11.12.2026",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-11",
+          "time": "19:00",
+          "venue": "Casa Tineretului (FITT)",
+          "address": "Strada Arieș, nr. 19, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/e-an-na-timisoara-fara-hotare-11122026/",
+          "description": "E-an-na a cucerit scena metalului românesc, devenind rapid una dintre cele mai iubite trupe tinere. După doar doi ani de la debut, au reușit să reprezinte cu succes România la Wacken Metal Battle în 2017, ocupând locul 2.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+Tineretului+(FITT)+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-e-an-na-timi-oara-f-r-hotare-1-0003.jpg",
+          "lat": 45.759722,
+          "lon": 21.23
         },
         {
           "id": "zsn-regal-vienez-concert-extraordi-0024",
@@ -40207,6 +41516,56 @@
           "image": "events-images/zsn-raluca-radu-alai-la-vaslui-o-s-0039.png",
           "lat": 46.639394,
           "lon": 27.7309515,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-sub-fereastr-la-om-bun-suzana--0005",
+          "title": "Sub fereastră la om bun – Suzana și Daciana Vlad @ Centrul Cultural Multifunctional “Dimitrie Cantemir”",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-07",
+          "time": "19:00",
+          "venue": "Vaslui",
+          "address": "Vaslui",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/sub-fereastra-la-om-bun-at-suzana-si-daciana-vlad/",
+          "description": "După întâlnirea de anul trecut, Suzana și Daciana Vlad pornesc din nou la drum cu „Sub fereastră la om bun\", într-un turneu care va ajunge în mai multe orașe din țară.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Vaslui+Vaslui",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-sub-fereastr-la-om-bun-suzana--0005.jpg",
+          "lat": 46.639394,
+          "lon": 27.7309515,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-trei-voci-o-poveste-vaslui-0001",
+          "title": "Trei voci, o poveste! – Vaslui",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2027-03-09",
+          "time": "19:00",
+          "venue": "Casa de Cultură a Sindicatelor Vaslui",
+          "address": "Str. Ștefan cel Mare nr. 153, Vaslui, Vaslui",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/trei-voci-o-poveste-vaslui/",
+          "description": "Primăvara aduce pe aceeași scenă trei artiști îndrăgiți ai muzicii românești: Mirabela Dauer, Gabriel Dorobanțu și Mioara Velicu.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Vaslui+Vaslui",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-trei-voci-o-poveste-vaslui-0001.webp",
+          "lat": 46.2279827,
+          "lon": 27.668588,
           "geocode_quality": "nominatim"
         }
       ]
@@ -40781,7 +42140,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0170",
@@ -40838,7 +42198,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-25",
-  "last_recategorized": "2026-09-25",
-  "last_images_sync": "2026-09-25"
+  "last_geocoded": "2026-09-26",
+  "last_recategorized": "2026-09-26",
+  "last_images_sync": "2026-09-26"
 }
