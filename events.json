@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26",
-  "last_scraped": "2026-09-26",
+  "generated_at": "2026-09-27",
+  "last_scraped": "2026-09-27",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -335,7 +335,8 @@
           "image": "events-images/zsn-alexandra-imi-live-pemal-0047.jpg",
           "lat": 46.1753793,
           "lon": 21.3196342,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-giuseppe-verdi-la-traviata-joi-0136",
@@ -1426,7 +1427,8 @@
           "image": "events-images/zsn-c-ntece-de-dor-i-de-dragoste-a-0107.jpg",
           "lat": 45.6427,
           "lon": 25.5887,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-soul-songs-zeyla-tomly-0109",
@@ -20550,7 +20552,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0376.jpg"
+          "image": "events-images/sorina-0376.jpg",
+          "past": true
         },
         {
           "id": "sorina-0377",
@@ -20576,7 +20579,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "image": "events-images/sorina-0377.jpg"
+          "image": "events-images/sorina-0377.jpg",
+          "past": true
         },
         {
           "id": "sorina-0378",
@@ -20602,7 +20606,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0378.jpg"
+          "image": "events-images/sorina-0378.jpg",
+          "past": true
         },
         {
           "id": "sorina-0379",
@@ -20629,7 +20634,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0379.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0380",
@@ -20656,7 +20662,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0380.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0381",
@@ -20683,7 +20690,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0381.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0382",
@@ -20710,7 +20718,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0382.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0383",
@@ -20737,7 +20746,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4382729,
           "lon": 26.1016269,
-          "image": "events-images/sorina-0383.png"
+          "image": "events-images/sorina-0383.png",
+          "past": true
         },
         {
           "id": "sorina-0384",
@@ -20764,7 +20774,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0384.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0001",
@@ -20789,7 +20800,8 @@
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0001.webp",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0385",
@@ -20815,7 +20827,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0385.jpg"
+          "image": "events-images/sorina-0385.jpg",
+          "past": true
         },
         {
           "id": "sorina-0386",
@@ -20842,7 +20855,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0386.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0387",
@@ -20868,7 +20882,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0387.png"
+          "image": "events-images/sorina-0387.png",
+          "past": true
         },
         {
           "id": "zsn-concert-de-jazz-extraordinar-d-0020",
@@ -20892,7 +20907,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-de-jazz-extraordinar-d-0020.jpg",
           "lat": 44.938248,
-          "lon": 26.022599
+          "lon": 26.022599,
+          "past": true
         },
         {
           "id": "zsn-umbra-teatrul-natiei-0005",
@@ -20916,7 +20932,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-umbra-teatrul-natiei-0005.png",
           "lat": 44.913418,
-          "lon": 26.035009
+          "lon": 26.035009,
+          "past": true
         },
         {
           "id": "sorina-0388",
@@ -20943,7 +20960,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.3790241,
           "lon": 26.1329132,
-          "image": "events-images/sorina-0388.jpg"
+          "image": "events-images/sorina-0388.jpg",
+          "past": true
         },
         {
           "id": "zsn-oddland-mother-of-millions-rin-0067",
@@ -20967,7 +20985,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-oddland-mother-of-millions-rin-0067.webp",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-gianluca-d-allesio-the-pub-uni-0102",
@@ -20992,7 +21011,8 @@
           "image": "events-images/zsn-gianluca-d-allesio-the-pub-uni-0102.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-romanian-dance-revolution-cele-454",
@@ -21027,7 +21047,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-romanian-dance-revolution-cele-454.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-impaiati-va-iubitii-6848",
@@ -21062,7 +21083,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-impaiati-va-iubitii-6848.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-tartuffe-teatrul-tineretului-p-4817",
@@ -21097,7 +21119,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-tartuffe-teatrul-tineretului-p-4817.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-barbati-care-salveaza-femei-8473",
@@ -21132,7 +21155,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-barbati-care-salveaza-femei-8473.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-autopsia-unor-intamplari-nevin-1744",
@@ -21167,7 +21191,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-autopsia-unor-intamplari-nevin-1744.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-faust-de-johann-wolfgang-von-g-3533",
@@ -21202,7 +21227,8 @@
           "scraped_at": "2026-09-06",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-micul-print-cafeneaua-amicii-p-2162",
@@ -21237,7 +21263,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-festivalul-copiilor-2654",
@@ -21272,7 +21299,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-aventurile-lui-pinocchio-clubu-2388",
@@ -21307,7 +21335,8 @@
           "scraped_at": "2026-09-08",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-povestea-scufitei-rosii-hanu-l-9759",
@@ -21342,7 +21371,8 @@
           "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-divort-in-ziua-nuntii-3520",
@@ -21377,7 +21407,8 @@
           "scraped_at": "2026-09-11",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-alex-tef-nescu-ia-i-o--0031",
@@ -21401,7 +21432,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-alex-tef-nescu-ia-i-o--0031.png",
           "lat": 45.115365,
-          "lon": 24.36413
+          "lon": 24.36413,
+          "past": true
         },
         {
           "id": "buc-br-festivalul-copiilor-3444",
@@ -21436,7 +21468,8 @@
           "scraped_at": "2026-09-21",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-finala-ligii-de-rugby-kaufland-1587",
@@ -21471,7 +21504,8 @@
           "scraped_at": "2026-09-23",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0017",
@@ -21496,7 +21530,8 @@
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0017.webp",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-aventurile-lui-pinocchio-clubu-4174",
@@ -21531,7 +21566,8 @@
           "scraped_at": "2026-09-26",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-povestea-scufitei-rosii-hanu-l-8609",
@@ -21566,7 +21602,8 @@
           "scraped_at": "2026-09-26",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-autopsia-unor-intamplari-nevin-7410",
@@ -21601,7 +21638,8 @@
           "scraped_at": "2026-09-26",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-remember-ioan-gyuri-pascu-10-a-0094",
@@ -21625,7 +21663,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-remember-ioan-gyuri-pascu-10-a-0094.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-mamaia-concert-emeric-imre-0125",
@@ -21650,7 +21689,8 @@
           "image": "events-images/zsn-mamaia-concert-emeric-imre-0125.png",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-robbie-west-band-hard-rock-caf-0182",
@@ -21674,7 +21714,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-robbie-west-band-hard-rock-caf-0182.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-dan-ciotoi-generic-ber-ria-h-0096",
@@ -21698,7 +21739,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-dan-ciotoi-generic-ber-ria-h-0096.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0389",
@@ -21725,7 +21767,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0389.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0390",
@@ -21751,7 +21794,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
           "lon": 26.0930387,
-          "image": "events-images/sorina-0390.webp"
+          "image": "events-images/sorina-0390.webp",
+          "past": true
         },
         {
           "id": "sorina-0391",
@@ -21780,7 +21824,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0391.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0392",
@@ -21808,7 +21853,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4380747,
           "lon": 26.1034491,
-          "image": "events-images/sorina-0392.jpg"
+          "image": "events-images/sorina-0392.jpg",
+          "past": true
         },
         {
           "id": "sorina-0393",
@@ -21834,7 +21880,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0393.jpg"
+          "image": "events-images/sorina-0393.jpg",
+          "past": true
         },
         {
           "id": "sorina-0394",
@@ -21863,7 +21910,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0394.jpg"
+          "image": "events-images/sorina-0394.jpg",
+          "past": true
         },
         {
           "id": "sorina-0395",
@@ -21890,7 +21938,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0395.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0396",
@@ -21917,7 +21966,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0396.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0397",
@@ -21944,7 +21994,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0397.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0398",
@@ -21970,7 +22021,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0398.jpg"
+          "image": "events-images/sorina-0398.jpg",
+          "past": true
         },
         {
           "id": "sorina-0399",
@@ -21998,7 +22050,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0399.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0400",
@@ -22025,7 +22078,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0400.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0401",
@@ -22053,7 +22107,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0401.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0402",
@@ -22079,7 +22134,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "image": "events-images/sorina-0402.webp"
+          "image": "events-images/sorina-0402.webp",
+          "past": true
         },
         {
           "id": "sorina-0403",
@@ -22105,7 +22161,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0403.png"
+          "image": "events-images/sorina-0403.png",
+          "past": true
         },
         {
           "id": "sorina-0404",
@@ -22132,7 +22189,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0404.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0405",
@@ -22159,7 +22217,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
           "lon": 26.0930387,
-          "image": "events-images/sorina-0405.jpg"
+          "image": "events-images/sorina-0405.jpg",
+          "past": true
         },
         {
           "id": "sorina-0406",
@@ -23023,6 +23082,76 @@
           "map_url": "https://maps.google.com/?q=loc+în+București",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-21",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "buc-br-povestea-celor-trei-purcelusi--983",
+          "title": "Povestea celor trei purcelusi @ Hanu’ lui Manuc",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 14 nov",
+          "address": "Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 14 nov",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/povestea-celor-trei-purcelusi-hanu-lui-manuc/",
+          "image": "events-images/buc-br-povestea-celor-trei-purcelusi--983.jpg",
+          "description": "Povestea celor trei purcelusi @ Hanu’ lui Manuc - eveniment la Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 14 nov din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: Hanu’ lui Manuc Pentru copii Teatru pentru copii Bucuresti, Hanu' lui Manuc Detalii alte zile: 14 nov",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Hanu’+lui+Manuc+Pentru+copii+Teatru+pentru+copii+Bucuresti,+Hanu'+lui+Manuc+Detalii+alte+zile:+14+nov",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-27",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "buc-br-copiii-au-idei-trasnite-2748",
+          "title": "Copiii au idei trasnite - ANULAT",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "loc în București",
+          "address": "loc în București",
+          "city_slug": "bucuresti",
+          "city_name": "București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/copiii-au-idei-trasnite/",
+          "image": "events-images/buc-br-copiii-au-idei-trasnite-2748.jpg",
+          "description": "Copiii au idei trasnite - ANULAT - eveniment la loc în București din București, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: loc în București",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+București",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-27",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -34979,7 +35108,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-paul-traeumer-de-quidbop-vekt-0023.jpg",
           "lat": 46.76969,
-          "lon": 23.587723
+          "lon": 23.587723,
+          "past": true
         },
         {
           "id": "zsn-nabucco-0123",
@@ -35003,7 +35133,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nabucco-0123.jpg",
           "lat": 46.7726144,
-          "lon": 23.5841432
+          "lon": 23.5841432,
+          "past": true
         },
         {
           "id": "zsn-giuseppe-verdi-nabucco-0126",
@@ -35027,7 +35158,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-giuseppe-verdi-nabucco-0126.webp",
           "lat": 46.7726144,
-          "lon": 23.5841432
+          "lon": 23.5841432,
+          "past": true
         },
         {
           "id": "zsn-nabucco-0060",
@@ -35051,7 +35183,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nabucco-0060.jpg",
           "lat": 46.770897,
-          "lon": 23.584861
+          "lon": 23.584861,
+          "past": true
         },
         {
           "id": "zsn-giuseppe-verdi-nabucco-0061",
@@ -35075,7 +35208,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-giuseppe-verdi-nabucco-0061.webp",
           "lat": 46.770897,
-          "lon": 23.584861
+          "lon": 23.584861,
+          "past": true
         },
         {
           "id": "zsn-collapse-tour-hakairi-neon-pro-0114",
@@ -35099,7 +35233,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-collapse-tour-hakairi-neon-pro-0114.jpg",
           "lat": 46.769379,
-          "lon": 23.5899542
+          "lon": 23.5899542,
+          "past": true
         },
         {
           "id": "zsn-paul-traeumer-de-quidbop-vekt-0019",
@@ -35123,7 +35258,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-paul-traeumer-de-quidbop-vekt-0019.jpg",
           "lat": 46.76969,
-          "lon": 23.587723
+          "lon": 23.587723,
+          "past": true
         },
         {
           "id": "zsn-6-vie-i-6-destine-zerkovitz-b--0006",
@@ -36220,7 +36356,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-emeric-imre-o-sear-de-folk-har-0220.jpg",
           "lat": 44.173333,
-          "lon": 28.638333
+          "lon": 28.638333,
+          "past": true
         },
         {
           "id": "zsn-mamaia-concert-emeric-imre-0002",
@@ -36245,7 +36382,8 @@
           "image": "events-images/zsn-mamaia-concert-emeric-imre-0002.png",
           "lat": 44.2280666,
           "lon": 28.6258334,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-cavalleria-rusticana-i-paia-e-0128",
@@ -36269,7 +36407,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0128.jpg",
           "lat": 44.18072,
-          "lon": 28.634682
+          "lon": 28.634682,
+          "past": true
         },
         {
           "id": "zsn-violoncellissimo-teatrul-na-io-0049",
@@ -36318,6 +36457,30 @@
           "image": "events-images/zsn-violoncelissimo-0187.jpg",
           "lat": 44.181752,
           "lon": 28.650691
+        },
+        {
+          "id": "zsn-cavalleria-rusticana-i-paia-e-0118",
+          "title": "Cavalleria rusticana și Paiațe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-28",
+          "time": "09:45",
+          "venue": "Casa de Cultură a Sindicatelor Constanţa",
+          "address": "Bd. Alexandru Lăpușneanu nr, 1, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cavalleria-rusticana-si-paiate/",
+          "description": "CAVALLERIA RUSTICANA si PAIATE 18 Octombrie 2026, ora 18:30 Casa de Cultura a Sindicatelor Constanta - Sala mare Teatrul Național de Operă și Balet „Oleg Danovski\" Constanța prezintă „Cavalleria rusticana\" și „Paiațe\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Constanţa+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0118.jpg",
+          "lat": 44.18072,
+          "lon": 28.634682
         },
         {
           "id": "zsn-pescuitorii-de-perle-0197",
@@ -36997,7 +37160,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-rava-craiova-0018.png",
           "lat": 44.403204,
-          "lon": 23.805526
+          "lon": 23.805526,
+          "past": true
         },
         {
           "id": "zsn-fado-jam-0044",
@@ -37021,7 +37185,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-fado-jam-0044.jpg",
           "lat": 44.395355,
-          "lon": 23.809896
+          "lon": 23.809896,
+          "past": true
         },
         {
           "id": "cr-008",
@@ -37111,6 +37276,30 @@
           "image": "events-images/zsn-concert-bucovina-0028.png",
           "lat": 44.32476,
           "lon": 23.813471
+        },
+        {
+          "id": "zsn-fado-jam-0102",
+          "title": "Fado Jam",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-04",
+          "time": "04:00",
+          "venue": "Fado Pub",
+          "address": "Str. Traian Demetrescu nr. 8, Craiova, Craiova",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/fado-jam/",
+          "description": "OPEN CALL pentru artiștii din Craiova. Ne-am propus să aducem scena locală mai aproape. În fiecare sâmbătă, la Fado, pregătim scena pentru voi - fie că ai deja un proiect sau doar cauți oameni cu care să cânți.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Fado+Pub+Craiova",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-fado-jam-0102.jpg",
+          "lat": 44.395355,
+          "lon": 23.809896
         }
       ]
     },
@@ -37759,7 +37948,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-goran-bregovi-live-at-oradea-a-0012.jpg",
           "lat": 44.924928,
-          "lon": 25.998131
+          "lon": 25.998131,
+          "past": true
         }
       ]
     },
@@ -38838,7 +39028,8 @@
           "image": "events-images/zsn-eufobia-serpent-stream-live-at-0066.jpg",
           "lat": 47.6393876,
           "lon": 26.2424061,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-juke-joint-seria-1-ep-1-0019",
@@ -38863,7 +39054,8 @@
           "image": "events-images/zsn-juke-joint-seria-1-ep-1-0019.jpg",
           "lat": 47.5326535,
           "lon": 25.8345939,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0034",
@@ -40403,7 +40595,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-methadone-skies-x-annapurna-li-0201.jpg",
           "lat": 45.757235,
-          "lon": 21.2332078
+          "lon": 21.2332078,
+          "past": true
         },
         {
           "id": "zsn-bass-request-all-tm-crew-hamei-0016",
@@ -40427,7 +40620,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bass-request-all-tm-crew-hamei-0016.jpg",
           "lat": 45.753697,
-          "lon": 21.247461
+          "lon": 21.247461,
+          "past": true
         },
         {
           "id": "zsn-serat-la-oper-pagini-celebre-0050",
@@ -40613,6 +40807,41 @@
           "map_url": "https://maps.google.com/?q=Trattoria+Paradis+Pentru+copii+Teatru+pentru+copii+Corbeanca,+Trattoria+Paradis+Bilete+de+la+45,00+RON",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-26",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "tim-br-ursul-pacalit-de-vulpe-teatru--6174",
+          "title": "Ursul pacalit de vulpe – teatru pentru copii @ Trattoria Paradis",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-09-27",
+          "time": "20:00",
+          "venue": "Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Detalii",
+          "address": "Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Detalii",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/ursul-pacalit-de-vulpe-teatru-pentru-copii-trattoria-paradis/",
+          "image": "events-images/tim-br-ursul-pacalit-de-vulpe-teatru--6174.jpg",
+          "description": "Ursul pacalit de vulpe – teatru pentru copii @ Trattoria Paradis - eveniment la Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Detalii din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-27",
+            "loc: Trattoria Paradis Pentru copii Teatru pentru copii Corbeanca, Trattoria Paradis Detalii",
+            "categorie: family"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "family",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=Trattoria+Paradis+Pentru+copii+Teatru+pentru+copii+Corbeanca,+Trattoria+Paradis+Detalii",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-27",
           "lat": 45.7538355,
           "lon": 21.2257474,
           "geocode_quality": "city_fallback"
@@ -42167,7 +42396,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0355",
@@ -42198,7 +42428,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-26",
-  "last_recategorized": "2026-09-26",
-  "last_images_sync": "2026-09-26"
+  "last_geocoded": "2026-09-27",
+  "last_recategorized": "2026-09-27",
+  "last_images_sync": "2026-09-27"
 }
