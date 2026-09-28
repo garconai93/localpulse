@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27",
-  "last_scraped": "2026-09-27",
+  "generated_at": "2026-09-28",
+  "last_scraped": "2026-09-28",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -806,7 +806,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-notte-italiana-giorgio-ciabatt-0018.jpg",
           "lat": 47.6565584,
-          "lon": 23.5719843
+          "lon": 23.5719843,
+          "past": true
         },
         {
           "id": "zsn-concert-the-r-o-c-k-ac-dc-trib-0002",
@@ -22245,7 +22246,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0406.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0407",
@@ -22272,7 +22274,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0407.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0408",
@@ -22299,7 +22302,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0408.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0409",
@@ -22326,7 +22330,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0409.png",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0410",
@@ -22353,7 +22358,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4382729,
           "lon": 26.1016269,
-          "image": "events-images/sorina-0410.png"
+          "image": "events-images/sorina-0410.png",
+          "past": true
         },
         {
           "id": "sorina-0411",
@@ -22380,7 +22386,8 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "image": "events-images/sorina-0411.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0412",
@@ -22407,7 +22414,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0412.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0013",
@@ -22431,7 +22439,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0013.png",
           "lat": 46.931046,
-          "lon": 26.371836
+          "lon": 26.371836,
+          "past": true
         },
         {
           "id": "sorina-0413",
@@ -22457,7 +22466,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0413.jpg"
+          "image": "events-images/sorina-0413.jpg",
+          "past": true
         },
         {
           "id": "sorina-0414",
@@ -22483,7 +22493,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "image": "events-images/sorina-0414.png"
+          "image": "events-images/sorina-0414.png",
+          "past": true
         },
         {
           "id": "zsn-cactus-x-concert-folk-patricia-0015",
@@ -22508,7 +22519,8 @@
           "image": "events-images/zsn-cactus-x-concert-folk-patricia-0015.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-tango-la-palat-concert-de-tang-0076",
@@ -22532,7 +22544,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-tango-la-palat-concert-de-tang-0076.png",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-tango-la-palat-concert-de-tang-0103",
@@ -22556,7 +22569,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-tango-la-palat-concert-de-tang-0103.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-festival-de-t-0056",
@@ -22580,7 +22594,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-festival-de-t-0056.jpg",
           "lat": 44.938248,
-          "lon": 26.022599
+          "lon": 26.022599,
+          "past": true
         },
         {
           "id": "zsn-the-hornies-the-pub-universit--0147",
@@ -22605,7 +22620,8 @@
           "image": "events-images/zsn-the-hornies-the-pub-universit--0147.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-turneu-aniversar-celelalte-cuv-0155",
@@ -22629,7 +22645,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-turneu-aniversar-celelalte-cuv-0155.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "buc-br-ursul-pacalit-de-vulpe-terasa--633",
@@ -22664,7 +22681,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-ursul-pacalit-de-vulpe-terasa--633.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-habarnam-1114",
@@ -22699,7 +22717,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-habarnam-1114.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-teo-magic-show-2611",
@@ -22734,7 +22753,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-teo-magic-show-2611.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-emeric-ienei-mostenirea-unei-l-3230",
@@ -22769,7 +22789,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-emeric-ienei-mostenirea-unei-l-3230.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-caligula-852",
@@ -22804,7 +22825,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-caligula-852.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-blackbriar-a-thousand-little-d-4557",
@@ -22839,7 +22861,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-blackbriar-a-thousand-little-d-4557.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-ion-merge-la-hollywood-compani-5321",
@@ -22874,7 +22897,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/buc-br-ion-merge-la-hollywood-compani-5321.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-emeric-ienei-mostenirea-unei-l-9319",
@@ -22909,7 +22933,8 @@
           "scraped_at": "2026-09-07",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-povestea-celor-trei-purcelusi--8274",
@@ -22944,7 +22969,8 @@
           "scraped_at": "2026-09-09",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-cine-mai-are-nevoie-de-iubire-8182",
@@ -22979,7 +23005,8 @@
           "scraped_at": "2026-09-12",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-tartuffe-teatrul-tineretului-p-351",
@@ -23014,7 +23041,8 @@
           "scraped_at": "2026-09-15",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-povestea-celor-trei-purcelusi--7692",
@@ -23049,7 +23077,8 @@
           "scraped_at": "2026-09-21",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-copiii-au-idei-trasnite-6183",
@@ -23084,7 +23113,8 @@
           "scraped_at": "2026-09-21",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "buc-br-povestea-celor-trei-purcelusi--983",
@@ -23119,7 +23149,8 @@
           "scraped_at": "2026-09-27",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "buc-br-copiii-au-idei-trasnite-2748",
@@ -23154,7 +23185,8 @@
           "scraped_at": "2026-09-27",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0415",
@@ -23180,7 +23212,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0415.jpg"
+          "image": "events-images/sorina-0415.jpg",
+          "past": true
         },
         {
           "id": "zsn-alt-jazz-yoni-mayraz-trio-cont-0014",
@@ -27510,6 +27543,30 @@
           "lon": 25.971693
         },
         {
+          "id": "zsn-vivaldi-rocks-orchestra-simfon-0007",
+          "title": "Vivaldi Rocks – Orchestra Simfonică București",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-15",
+          "time": "19:30",
+          "venue": "Casa De Cultură a Sindicatelor Râmnicu Vâlcea",
+          "address": "Str. TudorVladimirescu nr. 39, Râmnicu Vâlcea, Râmnicu-Vâlcea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/vivaldi-rocks-orchestra-simfonica-bucuresti-4/",
+          "description": "Turneul Național Vivaldi Rocks 2026 revine cu o ediție nouă explozivă! În premieră la Râmnicu Vâlcea, Orchestra Simfonică București și Vivaldi Rocks vin pe 15 octombrie la Casa de Cultură a Sindicatelor (ora 19:30), interpretând exclusiv pe instrumente electrice.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+De+Cultură+a+Sindicatelor+Râmnicu+Vâlcea+Râmnicu-Vâlcea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-vivaldi-rocks-orchestra-simfon-0007.png",
+          "lat": 45.105932,
+          "lon": 24.370527
+        },
+        {
           "id": "zsn-c-t-lin-stepa-iv-fix-the-pub-u-0094",
           "title": "Cătălin Stepa IV FIX @ The Pub – Universității",
           "category": "concert",
@@ -30430,6 +30487,30 @@
           "lon": 26.07492
         },
         {
+          "id": "zsn-robin-and-the-backstabbers-0009",
+          "title": "Robin and The Backstabbers",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "21:00",
+          "venue": "Aby Stage Bar",
+          "address": "Calea lui Traian nr. 158A, Râmnicu Vâlcea, Râmnicu-Vâlcea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/robin-and-the-backstabbers-9/",
+          "description": "vin la Aby Stage Bar. Acces de la 20:00, show de la 21:00",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Aby+Stage+Bar+Râmnicu-Vâlcea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-robin-and-the-backstabbers-0009.jpg",
+          "lat": 45.115365,
+          "lon": 24.36413
+        },
+        {
           "id": "zsn-bere-gratis-live-club-hush-pit-0014",
           "title": "Bere Gratis Live // Club Hush Pitesti",
           "category": "concert",
@@ -32925,6 +33006,30 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-luna-amara-lansare-single-ceva-0004",
+          "title": "Luna Amara – Lansare single \"Ceva de-mpărțit\" @Aby Stage Bar",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-21",
+          "time": "20:00",
+          "venue": "Aby Stage Bar",
+          "address": "Calea lui Traian nr. 158A, Râmnicu Vâlcea, Râmnicu-Vâlcea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/luna-amara-lansare-single-ceva-de-mpartit-at-aby-stage-bar/",
+          "description": "Pe 21 noiembrie, Luna Amara revine la Aby Stage Bar, Râmnicu Vâlcea cu lansarea noului single „Ceva de-mpărțit\" - o seară în care ne reamintim de ce muzica lor continuă să însemne atât de mult pentru atât de mulți oameni.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Aby+Stage+Bar+Râmnicu-Vâlcea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-luna-amara-lansare-single-ceva-0004.webp",
+          "lat": 45.115365,
+          "lon": 24.36413
+        },
+        {
           "id": "zsn-ashx-the-first-signal-w-isabel-0004",
           "title": "ASHX — The First Signal w/ Isabela Clerc @ Forge Club",
           "category": "concert",
@@ -33561,6 +33666,30 @@
           "image": "events-images/zsn-concert-direc-ia-5-100-directi-0045.png",
           "lat": 46.543383,
           "lon": 24.557949
+        },
+        {
+          "id": "zsn-concert-direc-ia-5-100-direc-i-0010",
+          "title": "Concert Direcția 5 – „100% Direcția 5&#8243;",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2027-02-21",
+          "time": "19:30",
+          "venue": "Cinema Mon Amour",
+          "address": "Piața Ştefan cel Mare, nr. 14, Piatra-Neamț, Piatra Neamţ",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-directia-5-100-directia-5-5/",
+          "description": "Îți dăm întâlnire în cadrul turneului „100% Direcția 5\" cu un concert care aduce pe scenă atât piesele cunoscute ale trupei Direcția 5, cât și cântece noi de pe cel mai recent disc „100% Direcția 5\".",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Cinema+Mon+Amour+Piatra Neamţ",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-direc-ia-5-100-direc-i-0010.webp",
+          "lat": 46.931046,
+          "lon": 26.371836
         },
         {
           "id": "zsn-horia-brenciu-hb-orchestra-de--0002",
@@ -35283,7 +35412,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-6-vie-i-6-destine-zerkovitz-b--0006.jpg",
           "lat": 46.770897,
-          "lon": 23.584861
+          "lon": 23.584861,
+          "past": true
         },
         {
           "id": "zsn-6-let-6-sors-zerkovitz-b-la-a--0062",
@@ -35307,7 +35437,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-6-let-6-sors-zerkovitz-b-la-a--0062.jpg",
           "lat": 46.770897,
-          "lon": 23.584861
+          "lon": 23.584861,
+          "past": true
         },
         {
           "id": "clu-br-untitled-no-7-6491",
@@ -35342,7 +35473,8 @@
           "scraped_at": "2026-09-26",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-bella-ciao-olasz-est-mah-andre-0059",
@@ -36432,7 +36564,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-violoncellissimo-teatrul-na-io-0049.jpg",
           "lat": 44.173333,
-          "lon": 28.638333
+          "lon": 28.638333,
+          "past": true
         },
         {
           "id": "zsn-violoncelissimo-0187",
@@ -36456,7 +36589,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-violoncelissimo-0187.jpg",
           "lat": 44.181752,
-          "lon": 28.650691
+          "lon": 28.650691,
+          "past": true
         },
         {
           "id": "zsn-cavalleria-rusticana-i-paia-e-0118",
@@ -36479,6 +36613,31 @@
           "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Constanţa+Constanţa",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0118.jpg",
+          "lat": 44.18072,
+          "lon": 28.634682,
+          "past": true
+        },
+        {
+          "id": "zsn-cavalleria-rusticana-i-paia-e-0122",
+          "title": "Cavalleria rusticana și Paiațe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-29",
+          "time": "09:45",
+          "venue": "Casa de Cultură a Sindicatelor Constanţa",
+          "address": "Bd. Alexandru Lăpușneanu nr, 1, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cavalleria-rusticana-si-paiate/",
+          "description": "CAVALLERIA RUSTICANA si PAIATE 18 Octombrie 2026, ora 18:30 Casa de Cultura a Sindicatelor Constanta - Sala mare Teatrul Național de Operă și Balet „Oleg Danovski\" Constanța prezintă „Cavalleria rusticana\" și „Paiațe\"",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Constanţa+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cavalleria-rusticana-i-paia-e-0122.jpg",
           "lat": 44.18072,
           "lon": 28.634682
         },
@@ -40645,7 +40804,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-serat-la-oper-pagini-celebre-0050.jpg",
           "lat": 45.756034,
-          "lon": 21.225779
+          "lon": 21.225779,
+          "past": true
         },
         {
           "id": "zsn-eufonia-festival-the-colors-of-0055",
@@ -40670,7 +40830,8 @@
           "image": "events-images/zsn-eufonia-festival-the-colors-of-0055.png",
           "lat": 45.7473293,
           "lon": 21.231261,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "tim-br-noua-poveste-a-scufitei-rosii-8410",
@@ -40704,7 +40865,8 @@
           "scraped_at": "2026-09-05",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "image": "events-images/tim-br-noua-poveste-a-scufitei-rosii-8410.jpg"
+          "image": "events-images/tim-br-noua-poveste-a-scufitei-rosii-8410.jpg",
+          "past": true
         },
         {
           "id": "tim-br-emeric-ienei-mostenirea-unei-l-8475",
@@ -40739,7 +40901,8 @@
           "scraped_at": "2026-09-21",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "tim-br-tartuffe-teatrul-tineretului-p-8983",
@@ -40774,7 +40937,8 @@
           "scraped_at": "2026-09-21",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "tim-br-ursul-pacalit-de-vulpe-teatru--3761",
@@ -40809,7 +40973,8 @@
           "scraped_at": "2026-09-26",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "tim-br-ursul-pacalit-de-vulpe-teatru--6174",
@@ -40844,7 +41009,8 @@
           "scraped_at": "2026-09-27",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "tim-br-festivalul-international-de-an-5243",
@@ -40982,6 +41148,76 @@
           "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
           "organizer": "bilete.ro",
           "scraped_at": "2026-09-26",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "tim-br-the-window-6714",
+          "title": "THE WINDOW",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-28",
+          "time": "20:00",
+          "venue": "loc în Timișoara",
+          "address": "loc în Timișoara",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/the-window/",
+          "image": "events-images/tim-br-the-window-6714.jpg",
+          "description": "THE WINDOW - eveniment la loc în Timișoara din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-28",
+            "loc: loc în Timișoara",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-28",
+          "lat": 45.7538355,
+          "lon": 21.2257474,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "tim-br-pescarul-si-sufletul-sau-2600",
+          "title": "PESCARUL ȘI SUFLETUL SĂU",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-09-29",
+          "time": "20:00",
+          "venue": "loc în Timișoara",
+          "address": "loc în Timișoara",
+          "city_slug": "timisoara",
+          "city_name": "Timișoara",
+          "price": "paid",
+          "price_value": 60,
+          "source": "bilete.ro",
+          "url": "https://www.bilete.ro/pescarul-si-sufletul-sau/",
+          "image": "events-images/tim-br-pescarul-si-sufletul-sau-2600.jpg",
+          "description": "PESCARUL ȘI SUFLETUL SĂU - eveniment la loc în Timișoara din Timișoara, conform calendarului bilete.ro.",
+          "highlights": [
+            "data: 2026-09-29",
+            "loc: loc în Timișoara",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "bilete-ro"
+          ],
+          "map_url": "https://maps.google.com/?q=loc+în+Timișoara",
+          "organizer": "bilete.ro",
+          "scraped_at": "2026-09-28",
           "lat": 45.7538355,
           "lon": 21.2257474,
           "geocode_quality": "cache"
@@ -42428,7 +42664,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-09-27",
-  "last_recategorized": "2026-09-27",
-  "last_images_sync": "2026-09-27"
+  "last_geocoded": "2026-09-28",
+  "last_recategorized": "2026-09-28",
+  "last_images_sync": "2026-09-28"
 }
