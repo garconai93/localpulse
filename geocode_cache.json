@@ -980,5 +980,25 @@
     45.7538355,
     21.2257474,
     "city_fallback"
+  ],
+  "Baroc Cafe Pub::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Opera Maghiară Cluj::cluj-napoca": [
+    46.7726144,
+    23.5841432,
+    "nominatim"
+  ],
+  "Auditorium Maximum::cluj-napoca": [
+    46.769379,
+    23.5899542,
+    "city_fallback"
+  ],
+  "Craiova::craiova": [
+    44.3190159,
+    23.7965614,
+    "nominatim"
   ]
 }
