@@ -1000,5 +1000,35 @@
     44.3190159,
     23.7965614,
     "nominatim"
+  ],
+  "Piața Ovidiu::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Restaurant Elisabeta::bucuresti": [
+    44.4345723,
+    26.0940905,
+    "nominatim"
+  ],
+  "Iaşi::bucuresti": [
+    44.3919912,
+    26.058806,
+    "nominatim"
+  ],
+  "UnTeatru::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "ALTFEL::bucuresti": [
+    44.4262903,
+    26.1067714,
+    "nominatim"
+  ],
+  "Ateneul Național din Iași::iasi": [
+    47.1617806,
+    27.6066595,
+    "nominatim"
   ]
 }
