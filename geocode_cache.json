@@ -1030,5 +1030,50 @@
     47.1617806,
     27.6066595,
     "nominatim"
+  ],
+  "O’Peter’s Irish Pub Brașov::brasov": [
+    45.6525105,
+    25.6105654,
+    "city_fallback"
+  ],
+  "Cinema Victoria &#8211; Sala Unirii::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Cabinet Irina Cosma::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Casa cu rost::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Promenada Lacului Morii::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Teatrul Coquette::bucuresti": [
+    44.4331807,
+    26.1178526,
+    "nominatim"
+  ],
+  "Ateneul Român::bucuresti": [
+    44.4413572,
+    26.097361,
+    "nominatim"
+  ],
+  "Sinagoga Neologă::cluj-napoca": [
+    46.7771223,
+    23.5867387,
+    "nominatim"
+  ],
+  "La Liman::tulcea": [
+    45.1812747,
+    28.7925038,
+    "nominatim"
   ]
 }
