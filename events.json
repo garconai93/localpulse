@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-02",
-  "last_scraped": "2026-10-02",
+  "generated_at": "2026-10-03",
+  "last_scraped": "2026-10-03",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -55,7 +55,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nostalgic-popcorn-concert-dony-0042.jpg",
           "lat": 56.490671,
-          "lon": -4.202646
+          "lon": -4.202646,
+          "past": true
         },
         {
           "id": "zsn-robin-and-the-backstabbers-rym-0016",
@@ -79,7 +80,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-robin-and-the-backstabbers-rym-0016.jpg",
           "lat": 56.490671,
-          "lon": -4.202646
+          "lon": -4.202646,
+          "past": true
         },
         {
           "id": "zsn-caf-concert-la-vizitiu-lauren--0009",
@@ -1748,7 +1750,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-asincron-turneu-2026-adonia-k-0031.jpg",
           "lat": 45.660381,
-          "lon": 25.582291
+          "lon": 25.582291,
+          "past": true
         },
         {
           "id": "zsn-organ-nights-nicoleta-paraschi-0057",
@@ -24724,7 +24727,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-spectacolul-de-folclor-tradi-i-0012.jpg",
           "lat": 44.862414,
-          "lon": 24.863889
+          "lon": 24.863889,
+          "past": true
         },
         {
           "id": "zsn-impersona-green-prophet-omul-d-0009",
@@ -24748,7 +24752,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-impersona-green-prophet-omul-d-0009.jpg",
           "lat": 44.443932,
-          "lon": 25.971693
+          "lon": 25.971693,
+          "past": true
         },
         {
           "id": "zsn-m-ria-f-hadnagy-a-kolozsv-ri-m-0008",
@@ -24773,7 +24778,8 @@
           "image": "events-images/zsn-m-ria-f-hadnagy-a-kolozsv-ri-m-0008.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-huszka-jen-m-ria-f-hadnagy-loc-0051",
@@ -24797,7 +24803,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-huszka-jen-m-ria-f-hadnagy-loc-0051.jpg",
           "lat": 47.145839,
-          "lon": 27.593917
+          "lon": 27.593917,
+          "past": true
         },
         {
           "id": "sorina-0421",
@@ -24823,7 +24830,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0421.jpg"
+          "image": "events-images/sorina-0421.jpg",
+          "past": true
         },
         {
           "id": "zsn-enescu-70-pe-n-elesul-tuturor-0010",
@@ -24847,7 +24855,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-enescu-70-pe-n-elesul-tuturor-0010.jpg",
           "lat": 44.434504,
-          "lon": 26.083654
+          "lon": 26.083654,
+          "past": true
         },
         {
           "id": "zsn-bistri-a-classic-jazz-voyage-p-0022",
@@ -24871,7 +24880,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bistri-a-classic-jazz-voyage-p-0022.jpg",
           "lat": 47.130318,
-          "lon": 24.499076
+          "lon": 24.499076,
+          "past": true
         },
         {
           "id": "zsn-muzica-marelui-ecran-0011",
@@ -24896,7 +24906,8 @@
           "image": "events-images/zsn-muzica-marelui-ecran-0011.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-vraciu-rock-comedy-the-pub-uni-0095",
@@ -24921,7 +24932,8 @@
           "image": "events-images/zsn-vraciu-rock-comedy-the-pub-uni-0095.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-dirty-shirt-ngeri-i-corbi-0199",
@@ -24945,7 +24957,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-dirty-shirt-ngeri-i-corbi-0199.jpg",
           "lat": 44.913418,
-          "lon": 26.035009
+          "lon": 26.035009,
+          "past": true
         },
         {
           "id": "zsn-ctrl18-live-liars-usa-au-lucy--0020",
@@ -24970,7 +24983,8 @@
           "image": "events-images/zsn-ctrl18-live-liars-usa-au-lucy--0020.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-fiord-club-t-rgovi-te-0058",
@@ -24995,7 +25009,8 @@
           "image": "events-images/zsn-concert-fiord-club-t-rgovi-te-0058.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-cine-e-zaran-omen-bar-0008",
@@ -25020,7 +25035,8 @@
           "image": "events-images/zsn-cine-e-zaran-omen-bar-0008.webp",
           "lat": 44.4356445,
           "lon": 26.1009263,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-l-veing-room-14-marcian-petres-0028",
@@ -25045,7 +25061,8 @@
           "image": "events-images/zsn-l-veing-room-14-marcian-petres-0028.jpg",
           "lat": 44.4356445,
           "lon": 26.1009263,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-nuante-lansare-de-album-bacau--0026",
@@ -25069,7 +25086,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nuante-lansare-de-album-bacau--0026.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "zsn-boomtown-pickers-ag-weinberger-0039",
@@ -25093,7 +25111,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-boomtown-pickers-ag-weinberger-0039.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-nuante-lansare-de-album-bacau--0111",
@@ -25117,7 +25136,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nuante-lansare-de-album-bacau--0111.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "zsn-concert-sur-austru-0028",
@@ -25141,7 +25161,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-sur-austru-0028.webp",
           "lat": 47.13609,
-          "lon": 24.48746
+          "lon": 24.48746,
+          "past": true
         },
         {
           "id": "zsn-sear-boiereasc-restaurant-elis-0032",
@@ -25166,7 +25187,8 @@
           "image": "events-images/zsn-sear-boiereasc-restaurant-elis-0032.jpg",
           "lat": 44.4345723,
           "lon": 26.0940905,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-mihail-hard-rock-cafe-0012",
@@ -25190,7 +25212,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-mihail-hard-rock-cafe-0012.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-mihai-m-rgineanu-14th-lane-0031",
@@ -25214,7 +25237,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-mihai-m-rgineanu-14th-lane-0031.png",
           "lat": 44.445214,
-          "lon": 26.060161
+          "lon": 26.060161,
+          "past": true
         },
         {
           "id": "zsn-vali-vijelie-i-orchestra-ber-r-0014",
@@ -25238,7 +25262,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vali-vijelie-i-orchestra-ber-r-0014.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "sorina-0422",
@@ -25265,7 +25290,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4790142,
           "lon": 26.1172529,
-          "image": "events-images/sorina-0422.jpg"
+          "image": "events-images/sorina-0422.jpg",
+          "past": true
         },
         {
           "id": "sorina-0423",
@@ -25291,7 +25317,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4434977,
           "lon": 26.0930387,
-          "image": "events-images/sorina-0423.webp"
+          "image": "events-images/sorina-0423.webp",
+          "past": true
         },
         {
           "id": "sorina-0424",
@@ -25317,7 +25344,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0424.jpg"
+          "image": "events-images/sorina-0424.jpg",
+          "past": true
         },
         {
           "id": "sorina-0425",
@@ -25343,7 +25371,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0425.jpg"
+          "image": "events-images/sorina-0425.jpg",
+          "past": true
         },
         {
           "id": "sorina-0426",
@@ -25370,7 +25399,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4400742,
           "lon": 26.0957884,
-          "image": "events-images/sorina-0426.jpg"
+          "image": "events-images/sorina-0426.jpg",
+          "past": true
         },
         {
           "id": "sorina-0427",
@@ -25396,7 +25426,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.439771,
           "lon": 26.0973129,
-          "image": "events-images/sorina-0427.jpg"
+          "image": "events-images/sorina-0427.jpg",
+          "past": true
         },
         {
           "id": "sorina-0428",
@@ -25423,7 +25454,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.439771,
           "lon": 26.0973129,
-          "image": "events-images/sorina-0428.jpg"
+          "image": "events-images/sorina-0428.jpg",
+          "past": true
         },
         {
           "id": "sorina-0429",
@@ -25449,7 +25481,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.439771,
           "lon": 26.0973129,
-          "image": "events-images/sorina-0429.png"
+          "image": "events-images/sorina-0429.png",
+          "past": true
         },
         {
           "id": "sorina-0430",
@@ -25476,7 +25509,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0430.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0431",
@@ -25503,7 +25537,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.439771,
           "lon": 26.0973129,
-          "image": "events-images/sorina-0431.png"
+          "image": "events-images/sorina-0431.png",
+          "past": true
         },
         {
           "id": "sorina-0432",
@@ -25923,6 +25958,30 @@
           "image": "events-images/zsn-jazzy-jo-14th-lane-0030.png",
           "lat": 44.445214,
           "lon": 26.060161
+        },
+        {
+          "id": "zsn-hitbox-hard-rock-cafe-0001",
+          "title": "Hitbox @ Hard Rock Cafe",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-10-03",
+          "time": "21:30",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/hitbox-hard-rock-cafe/",
+          "description": "Hitbox este o trupă de cover creată pentru showuri live în care muzica trebuie să se simtă, nu doar să se audă. Cu o formulă live dinamică, energie pe scenă și un repertoriu atent construit, Hitbox transformă fiecare apariție într-un show care aduce oamenii împreună și îi ține pe ringul de dans.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-hitbox-hard-rock-cafe-0001.jpg",
+          "lat": 44.444723,
+          "lon": 26.08565
         },
         {
           "id": "zsn-bairam-2000-cu-nick-n-d-live-s-0017",
@@ -26798,6 +26857,55 @@
           "lon": 26.094895
         },
         {
+          "id": "zsn-susanna-massetti-quartet-the-p-0006",
+          "title": "Susanna Massetti Quartet @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-07",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/susanna-massetti-quartet/",
+          "description": "The Susanna Massetti Quartet brings to the stage a repertoire connected to the vocal jazz tradition and to the mainstream jazz language, through a musical journey that moves between American standards and Italian songs reinterpreted in a jazz key.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-susanna-massetti-quartet-the-p-0006.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-aura-ova-band-live-peteras-ber-0002",
+          "title": "Aura Șova & Band LIVE #PeTerasă @ Berăria H",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-07",
+          "time": "20:15",
+          "venue": "Berăria H",
+          "address": "Kiseleff 32, Parc Herastrau (fostul Pavilion H), București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/aura-sova-band-live-beraria-h/",
+          "description": "Câștigătoarea Vocea României 2024, Aura Șova, urcă pe scena din Orașul cu Chef de Viață pentru o seară specială, alături de band-ul său. Cu o voce care a cucerit publicul și a dus-o până la marele trofeu Vocea României, Aura vine #PeTerasă cu un concert live plin de emoție, energie și momente muzicale care se simt de la primele acorduri. Aura Șova & Band LIVE #PeTerasă @ Berăria H",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Berăria+H+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-aura-ova-band-live-peteras-ber-0002.jpg",
+          "lat": 44.476513,
+          "lon": 26.076153
+        },
+        {
           "id": "sorina-0445",
           "title": "Alice în țara minunilor",
           "category": "teatru",
@@ -27163,6 +27271,31 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-monday-shadows-ghost-riders-li-0005",
+          "title": "Monday Shadows & Ghost Riders – Live/Bucuresti/Rock/Metal @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-09",
+          "time": "19:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/monday-shadows-ghost-riders/",
+          "description": "Hard rock și heavy metal cântate 100% live, riff-uri puternice, refrene pe care le vei fredona după primul refren și o energie care trece instant din scenă în public. Monday Shadows & Ghost Riders - Live/Bucuresti/Rock/Metal @ The Pub - Universității",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-monday-shadows-ghost-riders-li-0005.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-l-veing-room-16-rares-totu-pla-0006",
@@ -27899,6 +28032,31 @@
           "geocode_quality": "nominatim"
         },
         {
+          "id": "zsn-timpuri-noi-the-pub-universit--0004",
+          "title": "Timpuri Noi @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-10",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/timpuri-noi-the-pub-universitatii-3/",
+          "description": "Timpuri Noi revine la The Pub cu un concert maraton de peste două ore, concert în care veți putea asculta piese celebre compuse de inegalabilul Dan Iliescu de-a lungul istoriei de peste 40 de ani ai trupei.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-timpuri-noi-the-pub-universit--0004.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-hara-25-de-ani-0041",
           "title": "Hara – 25 de ani",
           "category": "concert",
@@ -28416,6 +28574,31 @@
           "map_url": "https://maps.google.com/?q=Cinema+Sergiu+Nicolaescu+Târgu Jiu",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vivaldi-rocks-orchestra-simfon-0065.png",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-monday-after-8-the-pub-univers-0008",
+          "title": "Monday After 8  @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-12",
+          "time": "20:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/monday-after-8-the-pub-universitatii-2/",
+          "description": "Trupa pune accent pe muzicalitate, energie și interacțiunea cu publicul, combinând influențele Soul și R&B cu elemente de Funk și Jazz. Repertoriul este adaptat atât pentru concerte live, cât și pentru evenimente private.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-monday-after-8-the-pub-univers-0008.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -31179,6 +31362,31 @@
           "lon": 26.022599
         },
         {
+          "id": "zsn-respect-mugurel-vrabete-the-pu-0003",
+          "title": "Respect – Mugurel Vrabete @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-22",
+          "time": "19:30",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/respect-mugurel-vrabete-the-pub/",
+          "description": "Paul Negoita si The Pub Universitatii va propune un concert din motive de respect si pretuire pentru cel care a fost MUGUREL IULIAN VRABETE, prietenul tuturor, omul de mare calitate, fondatorul trupei de blues Hot Leeks. Respect - Mugurel Vrabete @ The Pub - Universității",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-respect-mugurel-vrabete-the-pu-0003.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-villagers-of-ioannina-city-qua-0045",
           "title": "Villagers of Ioannina City @ Quantic",
           "category": "concert",
@@ -31357,7 +31565,7 @@
         {
           "id": "sorina-0522",
           "title": "Hansel și Gretel",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-23",
           "time": "18:30",
@@ -31647,6 +31855,31 @@
           "image": "events-images/zsn-jazzbook-standards-20-jazzbook-0040.jpg",
           "lat": 44.430552,
           "lon": 26.07492
+        },
+        {
+          "id": "zsn-odyssey-lansare-vinyl-the-pub--0007",
+          "title": "Odyssey – Lansare vinyl @ The Pub – Universității",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-10-23",
+          "time": "20:30",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/odyssey-the-pub-universitatii-3/",
+          "description": "Îmbinând armonios sunetul chitarelor cu cel al viorii, muzica lor capătă o dimensiune poetică aparte. Versurile sunt încărcate de sensibilitate și mister, iar fiecare piesă pare o poveste spusă la foc mic, cu răbdare și adevăr. Odyssey - Lansare vinyl  @ The Pub - Universității",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-odyssey-lansare-vinyl-the-pub--0007.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-3-sud-est-hard-rock-cafe-0007",
@@ -32709,7 +32942,7 @@
         {
           "id": "sorina-0565",
           "title": "Hansel și Gretel",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-25",
           "time": "11:00",
@@ -32841,7 +33074,7 @@
         {
           "id": "sorina-0569",
           "title": "Noaptea Vrăjitoarelor",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-25",
           "time": "17:00",
@@ -33513,6 +33746,31 @@
           "lon": 26.097882
         },
         {
+          "id": "zsn-taylor-de-la-r-s-rit-spre-asfi-0009",
+          "title": "Taylor „De la răsărit spre asfințit” @ The Pub – Universității",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-28",
+          "time": "19:00",
+          "venue": "The Pub &#8211; Universității",
+          "address": "Bulevardul Regina Elisabeta nr. 9, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/taylor-de-la-rasarit-spre-asfintit/",
+          "description": "Concertul marchează lansarea oficială ca single și premiera videoclipului piesei „De la răsărit spre asfințit”, cântec inclus pe cel de-al doilea album Taylor, „Noi fără 2”, și deja cunoscut celor care au urmărit parcursul trupei în ultimii ani.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-taylor-de-la-r-s-rit-spre-asfi-0009.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-vivaldi-rocks-orchestra-simfon-0063",
           "title": "Vivaldi Rocks – Orchestra Simfonică București",
           "category": "concert",
@@ -33819,7 +34077,7 @@
         {
           "id": "sorina-0588",
           "title": "Bubu la Zoo – Spectacol senzorial și muzical",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-30",
           "time": "17:00",
@@ -34262,7 +34520,7 @@
         {
           "id": "sorina-0598",
           "title": "Bubu la Zoo – Spectacol senzorial și muzical",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "10:00",
@@ -34289,7 +34547,7 @@
         {
           "id": "sorina-0600",
           "title": "Noaptea Magiei",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "10:00",
@@ -34307,6 +34565,36 @@
             "spectacol-de-magie"
           ],
           "image": "events-images/sorina-0600.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0561",
+          "title": "Târgul Vrăjitoarelor",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-10-31",
+          "time": "10:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "free",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/targul-vrajitoarelor-11/",
+          "description": "Târgul Vrăjitoarelor transformă Grădina OCC într-un spațiu în care fantezia și realitatea se împletesc armonios. Acest eveniment oferă copiilor oportunitatea de a interacționa cu personajele negative din spectacolele OCC – vrăjitoare, pirați, spiriduși și magicieni – și de a participa la diverse ateliere creative, precum pictura pe suporturi alternative, sculptura în dovleci și imprimarea 3D. Festivalul se desfășoară în perioada 9 octombrie – 1 noiembrie 2026 , doar în weekenduri. Te așteptăm...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "activitate-in-aer-liber",
+            "atelier",
+            "festival",
+            "in-familie"
+          ],
+          "image": "events-images/sorina-0561.jpg",
           "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
@@ -34503,7 +34791,7 @@
         {
           "id": "sorina-0608",
           "title": "Hansel și Gretel",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "11:00",
@@ -34692,7 +34980,7 @@
         {
           "id": "sorina-0615",
           "title": "Noaptea Vrăjitoarelor",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "17:00",
@@ -34851,7 +35139,7 @@
         {
           "id": "sorina-0620",
           "title": "Noaptea Vrăjitoarelor",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "18:30",
@@ -34977,7 +35265,7 @@
         {
           "id": "sorina-0621",
           "title": "Noaptea Vrăjitoarelor",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-10-31",
           "time": "20:00",
@@ -35219,7 +35507,7 @@
         {
           "id": "sorina-0626",
           "title": "Noaptea Magiei",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-11-01",
           "time": "10:00",
@@ -35300,7 +35588,7 @@
         {
           "id": "sorina-0629",
           "title": "Hansel și Gretel",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-11-01",
           "time": "11:00",
@@ -35590,7 +35878,7 @@
         {
           "id": "sorina-0638",
           "title": "Bubu la Zoo – Spectacol senzorial și muzical",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-11-06",
           "time": "17:00",
@@ -35665,7 +35953,7 @@
         {
           "id": "sorina-0639",
           "title": "Bubu la Zoo – Spectacol senzorial și muzical",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-11-07",
           "time": "10:00",
@@ -35825,7 +36113,7 @@
         {
           "id": "sorina-0645",
           "title": "Bubu la Zoo – Spectacol senzorial și muzical",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-11-08",
           "time": "10:00",
@@ -36920,6 +37208,30 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-enescu-70-pe-n-elesul-tuturor-0089",
+          "title": "Enescu 70 pe înțelesul tuturor",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-06",
+          "time": "11:00",
+          "venue": "Opera Națională București",
+          "address": "Bulevardul Mihail Kogălniceanu nr. 70-72, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/enescu-70-pe-intelesul-tuturor-3/",
+          "description": "",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Opera+Națională+București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-enescu-70-pe-n-elesul-tuturor-0089.jpg",
+          "lat": 44.434504,
+          "lon": 26.083654
+        },
+        {
           "id": "zsn-regal-vienez-concert-extraordi-0025",
           "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | TARGOVISTE",
           "category": "cinema",
@@ -37926,7 +38238,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0232",
@@ -39579,7 +39892,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-premier-romeo-i-julieta-charle-0166.jpg",
           "lat": 46.769175,
-          "lon": 23.598764
+          "lon": 23.598764,
+          "past": true
         },
         {
           "id": "zsn-resurface-tour-breathelast-gri-0017",
@@ -39603,7 +39917,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-resurface-tour-breathelast-gri-0017.jpg",
           "lat": 46.769379,
-          "lon": 23.5899542
+          "lon": 23.5899542,
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0032",
@@ -39627,7 +39942,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0032.webp",
           "lat": 46.774714,
-          "lon": 23.590197
+          "lon": 23.590197,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-dirijor-grego-0025",
@@ -39652,7 +39968,8 @@
           "image": "events-images/zsn-concert-simfonic-dirijor-grego-0025.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-premier-romeo-i-julieta-charle-0165",
@@ -41860,7 +42177,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-dvorak-ceaikovski-theo-wolters-0027.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-concert-bucovina-0028",
@@ -42326,7 +42644,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-trooper-uzina-0048.png",
           "lat": 45.42572,
-          "lon": 28.031044
+          "lon": 28.031044,
+          "past": true
         },
         {
           "id": "zsn-viorica-pintilie-friends-amor--0059",
@@ -42696,7 +43015,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ia-i-o-via-fitpti-2026-cafenea-0009.jpg",
           "lat": 47.158997,
-          "lon": 27.589825
+          "lon": 27.589825,
+          "past": true
         },
         {
           "id": "zsn-the-crazy-pony-show-fitpti-202-0010",
@@ -43419,7 +43739,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         }
       ]
     },
@@ -46512,7 +46833,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-carmina-burana-concert-vocal-s-0200.png",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "zsn-carmina-burana-deschiderea-sta-0105",
@@ -46536,7 +46858,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-carmina-burana-deschiderea-sta-0105.jpg",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "zsn-concert-pragu-de-sus-0030",
@@ -46560,7 +46883,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-pragu-de-sus-0030.jpg",
           "lat": 45.75058,
-          "lon": 21.219278
+          "lon": 21.219278,
+          "past": true
         },
         {
           "id": "zsn-resurface-tour-breathelast-i-n-0007",
@@ -48236,7 +48560,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0135",
@@ -48347,7 +48672,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-02",
-  "last_recategorized": "2026-10-02",
-  "last_images_sync": "2026-10-02"
+  "last_geocoded": "2026-10-03",
+  "last_recategorized": "2026-10-03",
+  "last_images_sync": "2026-10-03"
 }
