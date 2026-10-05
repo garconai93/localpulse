@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04",
-  "last_scraped": "2026-10-04",
+  "generated_at": "2026-10-05",
+  "last_scraped": "2026-10-05",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -461,7 +461,8 @@
           "image": "events-images/zsn-concert-caritabil-de-pian-din--0049.jpg",
           "lat": 46.190749,
           "lon": 21.3207014,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0030",
@@ -1054,7 +1055,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0023.webp",
           "lat": 47.643518,
-          "lon": 23.527365
+          "lon": 23.527365,
+          "past": true
         },
         {
           "id": "zsn-vlad-corb-baia-mare-rockwave-t-0025",
@@ -1828,7 +1830,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-cu-stasie-gon-0024.jpg",
           "lat": 45.647543,
-          "lon": 25.60426
+          "lon": 25.60426,
+          "past": true
         },
         {
           "id": "zsn-etjm-progressive-instrumental--0044",
@@ -26272,7 +26275,8 @@
           "lat": 44.4341166,
           "lon": 26.1023412,
           "image": "events-images/sorina-0440.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0441",
@@ -26298,7 +26302,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0441.jpg"
+          "image": "events-images/sorina-0441.jpg",
+          "past": true
         },
         {
           "id": "zsn-otello-de-giuseppe-verdi-0015",
@@ -26323,7 +26328,8 @@
           "image": "https://zilesinopti.ro/wp-content/uploads/2026/09/8a3c624e-9ee2-4b7d-97d1-ca184e6465ce.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-anotimpurile-de-a-vivaldi-0056",
@@ -26347,7 +26353,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-anotimpurile-de-a-vivaldi-0056.jpg",
           "lat": 45.450706,
-          "lon": 28.054352
+          "lon": 28.054352,
+          "past": true
         },
         {
           "id": "zsn-glances-of-colombia-sip-pop-up-0006",
@@ -26372,7 +26379,8 @@
           "image": "events-images/zsn-glances-of-colombia-sip-pop-up-0006.webp",
           "lat": 44.4356445,
           "lon": 26.1009263,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-nidal-lansare-de-album-ngeri-b-0027",
@@ -26396,7 +26404,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-nidal-lansare-de-album-ngeri-b-0027.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "zsn-slatina-concert-3-sud-est-amin-0066",
@@ -26420,7 +26429,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-slatina-concert-3-sud-est-amin-0066.png",
           "lat": 44.3845101,
-          "lon": 26.0467929
+          "lon": 26.0467929,
+          "past": true
         },
         {
           "id": "zsn-ctrl-live-uie-paparude-kung-fu-0013",
@@ -26445,7 +26455,8 @@
           "image": "events-images/zsn-ctrl-live-uie-paparude-kung-fu-0013.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-cobzarul-bogdan-simion-hard-ro-0004",
@@ -26469,7 +26480,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cobzarul-bogdan-simion-hard-ro-0004.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-collapse-spiritist-lux-mortist-0007",
@@ -26493,7 +26505,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-collapse-spiritist-lux-mortist-0007.jpg",
           "lat": 44.443932,
-          "lon": 25.971693
+          "lon": 25.971693,
+          "past": true
         },
         {
           "id": "sorina-0442",
@@ -26519,7 +26532,32 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0442.jpg"
+          "image": "events-images/sorina-0442.jpg",
+          "past": true
+        },
+        {
+          "id": "zsn-spectacolul-de-muzic-folk-hop--0001",
+          "title": "Spectacolul de muzică folk-hop „Quo vadis, mundus?\" cu M.C. Grăilă",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-05",
+          "time": "16:00",
+          "venue": "Complexul Expoziţional Casa Cărţii",
+          "address": "Strada Craiovei 2, Piteşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/spectacolul-de-muzica-folk-hop-quo-vadis-mundus-cu-mc-graila/",
+          "description": "Spectacolul de muzică folk-hop cu titlul „Quo vadis, mundus?\", susținut de M.C. Grăilă, pe numele real Octavian Dărmănescu, muzeograf, scriitor, cantautor, prof. dr. de istorie, eveniment care va avea loc luni, 5 octombrie, de la ora 16.00, în Sala Ars Nova de la Casa Cărții.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Complexul+Expoziţional+Casa+Cărţii+Piteşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-spectacolul-de-muzic-folk-hop--0001.jpg",
+          "lat": 44.853907,
+          "lon": 24.87662
         },
         {
           "id": "zsn-concert-cameral-0033",
@@ -41344,7 +41382,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-pescuitorii-de-perle-0197.jpg",
           "lat": 44.18072,
-          "lon": 28.634682
+          "lon": 28.634682,
+          "past": true
         },
         {
           "id": "zsn-classic-jazz-voyage-teatrul-na-0219",
@@ -43103,7 +43142,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-jordi-savall-opera-na-ional-ro-0013.jpg",
           "lat": 47.16216,
-          "lon": 27.585307
+          "lon": 27.585307,
+          "past": true
         },
         {
           "id": "zsn-clasic-la-puterea-a-treia-viol-0012",
@@ -44031,7 +44071,8 @@
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0025.webp",
           "lat": 47.7889756,
           "lon": 22.8717002,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-carmen-eterna-satu-mare-0161",
@@ -44813,7 +44854,8 @@
           "image": "events-images/zsn-concert-alex-tef-nescu-ia-i-o--0029.webp",
           "lat": 47.6393876,
           "lon": 26.2424061,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-bairam-2000-cu-nick-n-d-0043",
@@ -47001,7 +47043,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-otello-de-giuseppe-verdi-0015.jpg",
           "lat": 44.4361414,
-          "lon": 26.102684
+          "lon": 26.102684,
+          "past": true
         },
         {
           "id": "zsn-otello-de-giuseppe-verdi-0003",
@@ -47025,7 +47068,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-otello-de-giuseppe-verdi-0003.jpg",
           "lat": 45.756034,
-          "lon": 21.225779
+          "lon": 21.225779,
+          "past": true
         },
         {
           "id": "zsn-turneu-aniversar-25-de-ani-de--0004",
@@ -47049,7 +47093,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-turneu-aniversar-25-de-ani-de--0004.jpg",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "tim-timisoara-turneu-aniversar-25--8765",
@@ -47082,7 +47127,8 @@
           "scraped_at": "2026-09-14",
           "lat": 45.7538355,
           "lon": 21.2257474,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-in-obscurity-revealed-mexico-l-0047",
@@ -48685,7 +48731,8 @@
           "map_url": "https://maps.google.com/?q=TumiLand+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0295",
@@ -48718,7 +48765,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-04",
-  "last_recategorized": "2026-10-04",
-  "last_images_sync": "2026-10-04"
+  "last_geocoded": "2026-10-05",
+  "last_recategorized": "2026-10-05",
+  "last_images_sync": "2026-10-05"
 }
