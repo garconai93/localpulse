@@ -1075,5 +1075,20 @@
     45.1812747,
     28.7925038,
     "nominatim"
+  ],
+  "Grand Irish Pub::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "B52 The Club::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "O&#8217;Brothers Social Pub::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
