@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06",
-  "last_scraped": "2026-10-06",
+  "generated_at": "2026-10-07",
+  "last_scraped": "2026-10-07",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -487,7 +487,8 @@
           "image": "events-images/zsn-o-seara-de-neuitat-catalin-cri-0030.webp",
           "lat": 46.1866,
           "lon": 21.3123,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-joi-8-octombr-0044",
@@ -27029,7 +27030,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0444.jpg",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-ctrl-live-bad-decisions-shells-0021",
@@ -27054,7 +27056,8 @@
           "image": "events-images/zsn-ctrl-live-bad-decisions-shells-0021.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-groove-garden-by-sorin-zlat-fe-0003",
@@ -27078,7 +27081,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-groove-garden-by-sorin-zlat-fe-0003.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-the-show-must-go-on-queen-trib-0092",
@@ -27102,7 +27106,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-show-must-go-on-queen-trib-0092.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-b-rbierul-din-sevilla-0050",
@@ -29191,6 +29196,31 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-ctrl-brutus-live-natasha-cri-2-0001",
+          "title": "ctrl Brutus live: Natasha Cri & 2L3Y @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-13",
+          "time": "21:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/natasha-cri-2l3y-control-club/",
+          "description": "Synth-punk meets hyperpop for a Tuesday night somewhere between nostalgia, hard kicks and electronic chaos. Bucharest-born artist and producer Natasha Cri makes synth-punk powered by digital drums and a touch of Balkan influence. ctrl Brutus live: Natasha Cri & 2L3Y @ Control Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ctrl-brutus-live-natasha-cri-2-0001.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-ilinca-lansare-album-divin-f-m-0060",
           "title": "Ilinca • Lansare album „Divin Féminin” @ Expirat",
           "category": "concert",
@@ -29335,6 +29365,31 @@
           "image": "events-images/zsn-recital-de-vioar-cu-lumini-a-b-0026.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "zsn-stray-lights-showcase-the-amst-0002",
+          "title": "Stray Lights Showcase: The Amsterdams // Midpoint @ Control Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-14",
+          "time": "19:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-amsterdams-midpoint-control-club/",
+          "description": "We are an indie/alternative rock band from Bucharest. Embracing a wide sonic palette going from british indie to alternative rock and even a touch of disco, our constantly evolving sound was added electronica to the original indie roots. Stray Lights Showcase: The Amsterdams // Midpoint @ Control Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-stray-lights-showcase-the-amst-0002.jpg",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-amprenta-concert-electric-the--0019",
@@ -38951,7 +39006,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0233",
@@ -38978,7 +39034,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0300",
@@ -41173,6 +41230,39 @@
           "image": "events-images/zsn-10-years-of-form-space-with-wo-0099.jpg",
           "lat": 46.7675,
           "lon": 23.572794
+        },
+        {
+          "id": "clu-cluj-napoca-classix-lab-mustat-1762",
+          "title": "PROMOVAT Cluj-Napoca: Classix Lab :: Mustața lui Dali și alte culori Ma, 20 oct MINA Museum Cluj-Napoca",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-20",
+          "time": "20:00",
+          "venue": "loc în Cluj-Napoca",
+          "address": "loc în Cluj-Napoca",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-cluj-napoca-classix-lab-mustata-lui-dali-si-alte-culori-132629/?ica_source=TownPagePromoted&ica_medium=mobile&ica_campaign=cluj-napoca&ica_term=",
+          "image": "",
+          "description": "PROMOVAT Cluj-Napoca: Classix Lab :: Mustața lui Dali și alte culori Ma, 20 oct MINA Museum Cluj-Napoca — eveniment la locație necunoscută din Cluj-Napoca.",
+          "highlights": [
+            "dată: 2026-10-20",
+            "ora: 20:00",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "cluj-napoca"
+          ],
+          "map_url": "https://maps.google.com/?q=Cluj-Napoca",
+          "organizer": "iabilet.ro",
+          "scraped_at": "2026-10-07",
+          "lat": 46.769379,
+          "lon": 23.5899542,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-justin-sullivan-dean-white-new-0053",
@@ -44177,7 +44267,8 @@
           "image": "events-images/zsn-concert-la-palat-classic-jazz--0017.jpg",
           "lat": 47.1617806,
           "lon": 27.6066595,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-concert-la-palat-classic-jazz--0048",
@@ -44201,7 +44292,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-la-palat-classic-jazz--0048.jpg",
           "lat": 47.156944,
-          "lon": 27.590278
+          "lon": 27.590278,
+          "past": true
         },
         {
           "id": "zsn-3-tenori-ie-eni-friends-palatu-0018",
@@ -44549,6 +44641,30 @@
           "lat": 44.924928,
           "lon": 25.998131,
           "past": true
+        },
+        {
+          "id": "zsn-dinsubsol-turns-xiii-0003",
+          "title": "Dinsubsol turns XIII",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-09",
+          "time": "23:00",
+          "venue": "Oradea",
+          "address": "Oradea, jud. Bihor, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/dinsubsol-turns-xiii/",
+          "description": "THIS IS NOT A COMEBACK.\r\nIT'S A COLLISION.\r\nOn October 9, two cycles meet at the same point.\r\nDinsubsol turns XIII.\r\nThirteen years of underground culture, long nights, shifting spaces, artists, releases, cities, people, ruptures and reconstruction. What started in a basement in Oradea grew into a community, a label, a network and a reference point for Romanian underground electronic music.\r\nOn the same day, MOTIV turns XXXVI.\r\nTwo stories that grew through each other.\r\nThe artist and the collective.\r\nThe person and what he built.\r\nNeither is what it was in 2013.\r\nTime changes people.\r\nIt c...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Oradea+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-dinsubsol-turns-xiii-0003.jpg",
+          "lat": 47.072222,
+          "lon": 21.921111
         }
       ]
     },
@@ -48187,7 +48303,8 @@
           "image": "events-images/zsn-in-obscurity-revealed-mexico-l-0047.jpg",
           "lat": 45.757235,
           "lon": 21.2332078,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-o-seara-de-neuitat-catalin-cri-0021",
@@ -49996,7 +50113,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-06",
-  "last_recategorized": "2026-10-06",
-  "last_images_sync": "2026-10-06"
+  "last_geocoded": "2026-10-07",
+  "last_recategorized": "2026-10-07",
+  "last_images_sync": "2026-10-07"
 }
