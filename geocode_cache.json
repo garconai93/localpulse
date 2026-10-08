@@ -1090,5 +1090,25 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "La Tour Baia Mare::baia-mare": [
+    47.6565584,
+    23.5719843,
+    "city_fallback"
+  ],
+  "Centrul Multicultural al Universităţii Transilvania din Braşov::brasov": [
+    45.6525105,
+    25.6105654,
+    "city_fallback"
+  ],
+  "Uzina Coffee::bucuresti": [
+    44.4434999,
+    26.0939228,
+    "nominatim"
+  ],
+  "Casa de Cultura a Studentilor Dumitru Farcas::cluj-napoca": [
+    46.766753,
+    23.5863159,
+    "nominatim"
   ]
 }
