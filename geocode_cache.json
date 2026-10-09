@@ -1110,5 +1110,25 @@
     46.766753,
     23.5863159,
     "nominatim"
+  ],
+  "Family Place::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Trattoria Paradis::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Teatrul Național „Ion Luca Caragiale”::bucuresti": [
+    44.4372979,
+    26.1038036,
+    "nominatim"
+  ],
+  "Grădinița Rose Garden Kids::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
