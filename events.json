@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12",
-  "last_scraped": "2026-10-12",
+  "generated_at": "2026-10-13",
+  "last_scraped": "2026-10-13",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -1118,6 +1118,30 @@
           "image": "events-images/zsn-ludwig-van-beethoven-200-de-an-0001.jpg",
           "lat": 46.166667,
           "lon": 21.316667
+        },
+        {
+          "id": "zsn-sear-de-balet-francez-0004",
+          "title": "Seară de Balet Francez",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2027-01-28",
+          "time": "19:00",
+          "venue": "Filarmonica Arad",
+          "address": "Piața George Enescu nr. 1, Arad,, Arad",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/seara-de-balet-francez-joi-28-ianuarie-2027/",
+          "description": "O lume a baletului în plină revoluție în Parisul începutului de secol XIX își impune o nouă viziune, inspirată din tematica literaturii, a teatrului sau a operei, dominată de noile idei coregrafice ale marilor reformatori, precum aceea a ballet blanc-ului",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+Arad+Arad",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-sear-de-balet-francez-0004.jpg",
+          "lat": 46.166667,
+          "lon": 21.316667
         }
       ]
     },
@@ -1402,6 +1426,31 @@
           "map_url": "https://maps.google.com/?q=Baia+Mare+Baia Mare",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-regal-vienez-concert-extraordi-0077.jpg",
+          "lat": 47.6567,
+          "lon": 23.585,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-mo-cr-ciun-e-rocker-dirty-shir-0003",
+          "title": "Moș Crăciun e Rocker – Dirty Shirt @ Gran Gala",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-26",
+          "time": "19:30",
+          "venue": "Baia Mare",
+          "address": "Baia Mare, România, Baia Mare",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/mos-craciun-e-rocker-dirty-shirt-at-gran-gala/",
+          "description": "Organizat pentru prima dată în 2007, Moș Crăciun e Rocker revine și în 2026 cu două seri de concerte, două show-uri speciale și, ca de fiecare dată, o cauză caritabilă.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Baia+Mare+Baia Mare",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-mo-cr-ciun-e-rocker-dirty-shir-0003.webp",
           "lat": 47.6567,
           "lon": 23.585,
           "geocode_quality": "cache"
@@ -29852,7 +29901,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ana-everling-primul-concert-ja-0036.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-mozart-mendelssohn-beethoven-0034",
@@ -29876,7 +29926,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-mozart-mendelssohn-beethoven-0034.jpg",
           "lat": 45.104722,
-          "lon": 24.375556
+          "lon": 24.375556,
+          "past": true
         },
         {
           "id": "zsn-stagiunea-de-jazz-aripi-recita-0025",
@@ -29900,7 +29951,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stagiunea-de-jazz-aripi-recita-0025.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-vivaldi-rocks-orchestra-simfon-0065",
@@ -29925,7 +29977,8 @@
           "image": "events-images/zsn-vivaldi-rocks-orchestra-simfon-0065.png",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-monday-after-8-the-pub-univers-0008",
@@ -29950,7 +30003,8 @@
           "image": "events-images/zsn-monday-after-8-the-pub-univers-0008.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-aniversar-viitorul-are-0048",
@@ -29974,7 +30028,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-aniversar-viitorul-are-0048.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-ana-everling-al-doilea-concert-0035",
@@ -29998,7 +30053,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ana-everling-al-doilea-concert-0035.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-bitemarks-the-monday-showcase--0021",
@@ -30022,7 +30078,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bitemarks-the-monday-showcase--0021.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "sorina-0459",
@@ -30048,7 +30105,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0459.jpg"
+          "image": "events-images/sorina-0459.jpg",
+          "past": true
         },
         {
           "id": "zsn-afro-house-day-party-cu-dj-ede-0024",
@@ -30412,6 +30470,31 @@
           "map_url": "https://maps.google.com/?q=The+Pub+&#8211;+Universității+Bucureşti",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-amprenta-concert-electric-the--0019.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "zsn-davide-laugelli-it-0006",
+          "title": "DAVIDE LAUGELLI (IT)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-14",
+          "time": "20:00",
+          "venue": "Rock&#8217;n Roll Center",
+          "address": "Bulevardul Mihai Viteazul 14, Zalău, Zalău",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/davide-laugelli-it/",
+          "description": "Davide Laugelli Italy , Instrumental Metal YT; https://www.youtube.com/watch?v=XIH_eGhiWz4 YT; https://www.youtube.com/watch?v=UC46Djv6cXA In collaboration with TBD Music Management we are organizing a tour again for the band Davide Laugelli",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Rock&#8217;n+Roll+Center+Zalău",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-davide-laugelli-it-0006.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "cache"
@@ -33519,6 +33602,31 @@
           "lon": 26.08565
         },
         {
+          "id": "zsn-bachmann-reloaded-forumul-cult-0002",
+          "title": "Bachmann Reloaded (Forumul Cultural Austriac – FNT 2026) | FNT36",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-22",
+          "time": "21:00",
+          "venue": "Teatrul Național Ion Luca Caragiale &#8211; Sala Pictura",
+          "address": "Bulevardul Nicolae Bălcescu nr. 2, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/bachmann-reloaded-forumul-cultural-austriac-fnt-2026/",
+          "description": "Din poeme se nasc cântece – cântece împotriva îngustimii de spirit și a lipsei de imaginație. Cântece ca un semnal de alarmă, tras cu doar cinci minute înainte de miezul nopții…",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Național+Ion+Luca+Caragiale+&#8211;+Sala+Pictura+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-bachmann-reloaded-forumul-cult-0002.jpg",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "sorina-0542",
           "title": "Bubu și Anotimpurile – Spectacol senzorial și muzical",
           "category": "family",
@@ -35428,6 +35536,30 @@
           "map_url": "https://maps.google.com/?q=Opera+Națională+București+Bucureşti",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-b-rbierul-din-sevilla-0060.png",
+          "lat": 44.434504,
+          "lon": 26.083654
+        },
+        {
+          "id": "zsn-carmen-onb-fnt36-0001",
+          "title": "Carmen ONB | FNT36",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-25",
+          "time": "18:30",
+          "venue": "Opera Națională București",
+          "address": "Bulevardul Mihail Kogălniceanu nr. 70-72, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/carmen-4/",
+          "description": "Prin personajul său titular, liber, pasional și imposibil de supus, „Carmen” aduce pe scenă o dramă intensă despre iubire, gelozie și destin, susținută de o muzică devenită celebră prin energia ritmică, culoarea orchestrală și forța expresivă a ariilor și ansamblurilor.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Opera+Națională+București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-carmen-onb-fnt36-0001.jpg",
           "lat": 44.434504,
           "lon": 26.083654
         },
@@ -44596,7 +44728,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-panoramic-componistic-clujean--0059.jpg",
           "lat": 46.777248,
-          "lon": 23.59989
+          "lon": 23.59989,
+          "past": true
         },
         {
           "id": "zsn-c-ntece-patriotice-ost-e-ti-de-0025",
@@ -44621,7 +44754,8 @@
           "image": "events-images/zsn-c-ntece-patriotice-ost-e-ti-de-0025.jpg",
           "lat": 46.766753,
           "lon": 23.5863159,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-recital-cameral-valentin-erban-0058",
@@ -44645,7 +44779,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-recital-cameral-valentin-erban-0058.jpg",
           "lat": 46.777248,
-          "lon": 23.59989
+          "lon": 23.59989,
+          "past": true
         },
         {
           "id": "zsn-concert-alex-tef-nescu-ia-i-o--0054",
@@ -54928,7 +55063,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-12",
-  "last_recategorized": "2026-10-12",
-  "last_images_sync": "2026-10-12"
+  "last_geocoded": "2026-10-13",
+  "last_recategorized": "2026-10-13",
+  "last_images_sync": "2026-10-13"
 }
