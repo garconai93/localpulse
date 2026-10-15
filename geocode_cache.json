@@ -1135,5 +1135,10 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Sloane Coffee Roastery::bucuresti": [
+    44.4434437,
+    26.0563304,
+    "nominatim"
   ]
 }
