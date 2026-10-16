@@ -1140,5 +1140,20 @@
     44.4434437,
     26.0563304,
     "nominatim"
+  ],
+  "Cetatea Alba Carolina::alba-iulia": [
+    46.0736819,
+    23.5649456,
+    "nominatim"
+  ],
+  "Sepsi Aréna::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Lollipop Play::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
