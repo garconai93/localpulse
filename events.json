@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16",
-  "last_scraped": "2026-10-16",
+  "generated_at": "2026-10-17",
+  "last_scraped": "2026-10-17",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -181,7 +181,8 @@
           "image": "events-images/zsn-cin-cu-muzic-live-scuti-c-t-li-0043.jpg",
           "lat": 46.0736819,
           "lon": 23.5649456,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-concert-fittonia-hideout-0030",
@@ -205,7 +206,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-fittonia-hideout-0030.jpg",
           "lat": 56.490671,
-          "lon": -4.202646
+          "lon": -4.202646,
+          "past": true
         },
         {
           "id": "zsn-alba-iulia-concert-fittonia-hi-0033",
@@ -662,7 +664,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-bosquito-0048.jpg",
           "lat": 46.171704,
-          "lon": 21.317502
+          "lon": 21.317502,
+          "past": true
         },
         {
           "id": "zsn-dincolo-de-baghet-concert-simf-0054",
@@ -1378,7 +1381,8 @@
           "image": "events-images/zsn-june-turns-black-thedarkplace--0045.jpg",
           "lat": 47.6567,
           "lon": 23.585,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-omul-cu-sobolani-lansare-de-al-0151",
@@ -1403,7 +1407,8 @@
           "image": "events-images/zsn-omul-cu-sobolani-lansare-de-al-0151.png",
           "lat": 47.6567,
           "lon": 23.585,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-albin-kaczka-latour-0018",
@@ -1428,7 +1433,8 @@
           "image": "events-images/zsn-albin-kaczka-latour-0018.jpg",
           "lat": 47.6565584,
           "lon": 23.5719843,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-spp-sexpulapistol-live-la-baia-0051",
@@ -2632,7 +2638,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-chop-snobs-0032.jpg",
           "lat": 45.660381,
-          "lon": 25.582291
+          "lon": 25.582291,
+          "past": true
         },
         {
           "id": "zsn-brasov-metal-militia-metallica-0096",
@@ -31293,7 +31300,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-viaggio-nella-musica-opera-na--0052.jpg",
           "lat": 44.434504,
-          "lon": 26.083654
+          "lon": 26.083654,
+          "past": true
         },
         {
           "id": "zsn-fittonia-bistri-a-soho-music-h-0042",
@@ -31317,7 +31325,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-fittonia-bistri-a-soho-music-h-0042.jpg",
           "lat": 47.13609,
-          "lon": 24.48746
+          "lon": 24.48746,
+          "past": true
         },
         {
           "id": "zsn-armonii-2-0-gy-rf-s-istv-n-tri-0038",
@@ -31341,7 +31350,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-armonii-2-0-gy-rf-s-istv-n-tri-0038.jpg",
           "lat": 46.545556,
-          "lon": 24.5625
+          "lon": 24.5625,
+          "past": true
         },
         {
           "id": "zsn-concert-fittonia-0051",
@@ -31365,7 +31375,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-fittonia-0051.webp",
           "lat": 47.13609,
-          "lon": 24.48746
+          "lon": 24.48746,
+          "past": true
         },
         {
           "id": "zsn-tender-expirat-0058",
@@ -31389,7 +31400,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-tender-expirat-0058.jpg",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-looking-forward-to-the-past-co-0042",
@@ -31413,7 +31425,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-looking-forward-to-the-past-co-0042.jpg",
           "lat": 44.442886,
-          "lon": 26.09343
+          "lon": 26.09343,
+          "past": true
         },
         {
           "id": "zsn-armonii-2-0-gy-rf-s-istv-n-tri-0047",
@@ -31437,7 +31450,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-armonii-2-0-gy-rf-s-istv-n-tri-0047.jpg",
           "lat": 46.545556,
-          "lon": 24.5625
+          "lon": 24.5625,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0093",
@@ -31461,7 +31475,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-0093.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-soul-serenade-c-t-lin-milea-se-0041",
@@ -31486,7 +31501,8 @@
           "image": "events-images/zsn-soul-serenade-c-t-lin-milea-se-0041.jpg",
           "lat": 44.4434999,
           "lon": 26.0939228,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-ploie-ti-concert-alexandra-u-u-0050",
@@ -31510,7 +31526,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ploie-ti-concert-alexandra-u-u-0050.png",
           "lat": 44.913418,
-          "lon": 26.035009
+          "lon": 26.035009,
+          "past": true
         },
         {
           "id": "zsn-szeredai-t-nch-z-tokos-zenekar-0044",
@@ -31535,7 +31552,8 @@
           "image": "events-images/zsn-szeredai-t-nch-z-tokos-zenekar-0044.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-danko-jones-quantic-0054",
@@ -31559,7 +31577,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-danko-jones-quantic-0054.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-stefan-stoianovici-the-hard-bo-0041",
@@ -31583,7 +31602,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stefan-stoianovici-the-hard-bo-0041.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-evenin-jazz-restaurant-elisabe-0029",
@@ -31608,7 +31628,8 @@
           "image": "events-images/zsn-evenin-jazz-restaurant-elisabe-0029.jpg",
           "lat": 44.4345723,
           "lon": 26.0940905,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-alina-eremia-hard-rock-cafe-0011",
@@ -31632,7 +31653,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-alina-eremia-hard-rock-cafe-0011.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-jukebox-i-julie-mayaya-14th-la-0034",
@@ -31656,7 +31678,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-jukebox-i-julie-mayaya-14th-la-0034.png",
           "lat": 44.445214,
-          "lon": 26.060161
+          "lon": 26.060161,
+          "past": true
         },
         {
           "id": "zsn-spp-live-office-0031",
@@ -31680,7 +31703,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-spp-live-office-0031.jpg",
           "lat": 46.548335,
-          "lon": 24.568593
+          "lon": 24.568593,
+          "past": true
         },
         {
           "id": "zsn-sounds-of-the-castle-ultima-ed-0047",
@@ -31704,7 +31728,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sounds-of-the-castle-ultima-ed-0047.jpg",
           "lat": 46.545556,
-          "lon": 24.5625
+          "lon": 24.5625,
+          "past": true
         },
         {
           "id": "sorina-0460",
@@ -31731,7 +31756,8 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "image": "events-images/sorina-0460.webp",
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0495",
@@ -31758,7 +31784,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0497",
@@ -31786,7 +31813,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0461",
@@ -32148,6 +32176,30 @@
           "image": "events-images/zsn-recital-cameral-duo-org-i-clav-0023.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "zsn-white-mahala-0044",
+          "title": "White Mahala",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-17",
+          "time": "19:00",
+          "venue": "Teatrul Nației",
+          "address": "Bulevardul Bucureşti, nr. 28, Ploiești, Ploieşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/white-mahala-6/",
+          "description": "vin în premieră la Teatrul Nației din Ploiești cu un mix exploziv de ritmuri balcanice, funk și energie pură.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Nației+Ploieşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-white-mahala-0044.jpg",
+          "lat": 44.913418,
+          "lon": 26.035009
         },
         {
           "id": "zsn-sound-affairs-green-hours-0043",
@@ -34850,6 +34902,30 @@
           "image": "events-images/zsn-3-sud-est-hard-rock-cafe-0007.jpg",
           "lat": 44.444723,
           "lon": 26.08565
+        },
+        {
+          "id": "zsn-adrian-minune-i-orchestra-ber--0005",
+          "title": "Adrian Minune și orchestra @ Berăria H",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-23",
+          "time": "22:00",
+          "venue": "Berăria H",
+          "address": "Kiseleff 32, Parc Herastrau (fostul Pavilion H), București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/adrian-minune-beraria-h/",
+          "description": "Strânge gașca și pregătește-te să cânți cât te ține vocea! Avem refrene pe care le știi din prima, muzică live și toate motivele să te ridici de la masă la dans. De la piese de suflet la hituri de petrecere, le trăim pe toate împreună, în Orașul cu Chef de Viață! Adrian Minune și orchestra @ Berăria H",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Berăria+H+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-adrian-minune-i-orchestra-ber--0005.jpg",
+          "lat": 44.476513,
+          "lon": 26.076153
         },
         {
           "id": "zsn-botosani-bairam-2000-nick-n-d-0006",
@@ -40412,6 +40488,33 @@
           "geocode_quality": "nominatim"
         },
         {
+          "id": "sorina-0607",
+          "title": "Albă ca zăpada",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-11-08",
+          "time": "18:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/alba-ca-zapada-7/",
+          "description": "4 ani+ O poveste veche de când timpul, o mamă vitregă, care de data aceasta este și Împărăteasă, se simte amenințată de fiica sa mai tânără, mai frumoasă și mult mai apreciată de către supuși. Influențată de sfetnicii care nu sunt atât de loiali pe cât îi bănuiește, din poziția sa de putere, decide să elimine orice amenințare. O decizie extrem de drastică, dar dacă nu aparține în întregime Împărătesei? Când cineva este stăpânit de temeri, sunt de ajuns câteva cuvinte spuse la momentul potrivi...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0607.jpg",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-calarasi-concert-l-a-ochii-t-i-0070",
           "title": "Calarasi: Concert L.A. – Ochii tăi",
           "category": "concert",
@@ -41025,6 +41128,33 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0624",
+          "title": "Degețica – Teatru pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-14",
+          "time": "11:00",
+          "venue": "Restaurant LA MAMA Clubul Țăranului Român",
+          "address": "Strada Monetăriei 3, București 011216, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/degetica-teatru-pentru-copii/",
+          "description": "O femeie voia să aibă și ea un copilaș, iar Zâna Florilor îi dărui o sămânță fermecată de lalea să o sădească. Din sămânța sădită crescu o frumusețe de lalea, din care răsări Degețica, o fetiță mică, mică de tot. Degețica va trece prin mai multe peripeții în drumul ei către Țara Lalelelor în căutarea Prințului Lalelelor, se va întâlni o mulțime de personaje și în cele din urmă chiar cu rândunica ce o va purta în zbor către Țara Lalelelor, pentru a-l găsi pe Prinț. Îl va întâlni oare pe Prinț?...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0624.webp",
+          "map_url": "https://maps.google.com/?q=Restaurant+LA+MAMA+Clubul+Țăranului+Român+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
           "geocode_quality": "cache"
         },
         {
@@ -42099,6 +42229,33 @@
           "lat": 44.4452933,
           "lon": 26.1010628,
           "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0655",
+          "title": "Fram, ursul polar",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-11-22",
+          "time": "10:00",
+          "venue": "Teatrul Actorilor",
+          "address": "Splaiul Unirii 160, 040041 București, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/fram-ursul-polar/",
+          "description": "Fram, ursul polar\" este o poveste emoționantă despre prietenie și apartenență. Timp de 50 de minute, copiii mari si mici parcurg, alături de Fram și prietenii săi un drum al inițierii și maturizării, rămânând totodată copii. Un spectacol live, cu mascote, păpuși și actori la vedere, cu muzică originală și nu numai, îi îndeamnă pe cei mici să trăiască, să râdă și să descopere alături de Fram acel loc magic numit \"acasă\". Un spectacol pentru cei mici, la care se distrează și părinții!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0655.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Actorilor+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "sorina-0493",
@@ -47322,7 +47479,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-battle-mc-all-star-2026-concer-0007.jpg",
           "lat": 46.770868,
-          "lon": 23.592976
+          "lon": 23.592976,
+          "past": true
         },
         {
           "id": "zsn-concert-vocal-simfonic-extraor-0008",
@@ -47347,7 +47505,8 @@
           "image": "events-images/zsn-concert-vocal-simfonic-extraor-0008.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-10-years-of-form-space-with-va-0093",
@@ -47371,7 +47530,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-10-years-of-form-space-with-va-0093.jpg",
           "lat": 46.7675,
-          "lon": 23.572794
+          "lon": 23.572794,
+          "past": true
         },
         {
           "id": "zsn-recital-cameral-trio-pascal-0004",
@@ -48851,7 +49011,8 @@
           "scraped_at": "2026-10-12",
           "lat": 44.1767161,
           "lon": 28.6507598,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-cargo-14-ani-music-for-autism-0017",
@@ -48875,7 +49036,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cargo-14-ani-music-for-autism-0017.jpg",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-constanta-concert-caritabil-ca-0049",
@@ -48899,7 +49061,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-constanta-concert-caritabil-ca-0049.webp",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-mamaia-mircea-vintil-o-sear-de-0048",
@@ -48923,7 +49086,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-mamaia-mircea-vintil-o-sear-de-0048.webp",
           "lat": 44.251747,
-          "lon": 28.620972
+          "lon": 28.620972,
+          "past": true
         },
         {
           "id": "zsn-efemeride-misiunea-spa-ial-iri-0028",
@@ -50238,7 +50402,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-mozart-rimski-korsakov-0046.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-craiova-paul-ciuci-compact-imi-0040",
@@ -50830,7 +50995,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-blue-notes-feat-nicolla-jazz-s-0009.jpg",
           "lat": 45.42572,
-          "lon": 28.031044
+          "lon": 28.031044,
+          "past": true
         },
         {
           "id": "zsn-c-t-lina-cara-what-a-feeling-t-0042",
@@ -52196,7 +52362,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0508",
@@ -53458,7 +53625,8 @@
           "image": "events-images/zsn-the-kryptonite-sparks-lansare--0043.jpg",
           "lat": 47.6393876,
           "lon": 26.2424061,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-timpuri-noi-hituri-la-suceava-0015",
@@ -56252,7 +56420,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-arta-propor-iei-dirijor-christ-0097.jpg",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "zsn-concert-tribut-abba-0006",
@@ -56276,7 +56445,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-tribut-abba-0006.jpg",
           "lat": 45.751158,
-          "lon": 21.22557
+          "lon": 21.22557,
+          "past": true
         },
         {
           "id": "zsn-faust-lansare-secrete-din-jobe-0019",
@@ -56300,7 +56470,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-faust-lansare-secrete-din-jobe-0019.jpg",
           "lat": 45.758392,
-          "lon": 21.229014
+          "lon": 21.229014,
+          "past": true
         },
         {
           "id": "zsn-anarhia-live-nemesis-art-club-0005",
@@ -56325,7 +56496,8 @@
           "image": "events-images/zsn-anarhia-live-nemesis-art-club-0005.jpg",
           "lat": 45.757235,
           "lon": 21.2332078,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-blutrin-vaginal-reflux-exhumed-0046",
@@ -58180,7 +58352,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0226",
@@ -58452,7 +58625,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-16",
-  "last_recategorized": "2026-10-16",
-  "last_images_sync": "2026-10-16"
+  "last_geocoded": "2026-10-17",
+  "last_recategorized": "2026-10-17",
+  "last_images_sync": "2026-10-17"
 }
