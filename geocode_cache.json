@@ -1155,5 +1155,15 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Sfântu Gheorghe (Covasna)::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Universitatea Ștefan Cel Mare::suceava": [
+    47.6410688,
+    26.2439935,
+    "nominatim"
   ]
 }
