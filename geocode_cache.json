@@ -1165,5 +1165,10 @@
     47.6410688,
     26.2439935,
     "nominatim"
+  ],
+  "Edison House of Music Cluj::cluj-napoca": [
+    46.769379,
+    23.5899542,
+    "city_fallback"
   ]
 }
