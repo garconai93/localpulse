@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20",
-  "last_scraped": "2026-10-20",
+  "generated_at": "2026-10-21",
+  "last_scraped": "2026-10-21",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -2940,7 +2940,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-tango-meets-opera-gala-de-tang-0042.jpg",
           "lat": 45.654351,
-          "lon": 25.590026
+          "lon": 25.590026,
+          "past": true
         },
         {
           "id": "zsn-roata-vie-ii-0207",
@@ -34214,7 +34215,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-recital-de-pian-la-patru-m-ini-0040.jpg",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-roata-vietii-irina-loghin-i-ma-0051",
@@ -34238,7 +34240,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-roata-vietii-irina-loghin-i-ma-0051.webp",
           "lat": 47.130318,
-          "lon": 24.499076
+          "lon": 24.499076,
+          "past": true
         },
         {
           "id": "zsn-stagiunea-de-mar-i-seara-cu-co-0006",
@@ -34262,7 +34265,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stagiunea-de-mar-i-seara-cu-co-0006.webp",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-v-duva-vesel-de-franz-leh-r-0015",
@@ -34287,7 +34291,8 @@
           "image": "events-images/zsn-v-duva-vesel-de-franz-leh-r-0015.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-folk-andrei-paunescu-c-0034",
@@ -34312,7 +34317,8 @@
           "image": "events-images/zsn-concert-folk-andrei-paunescu-c-0034.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-vasile-eicaru-quantic-0051",
@@ -34336,7 +34342,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vasile-eicaru-quantic-0051.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-autentic-l-ut-resc-cu-taraful--0066",
@@ -34360,7 +34367,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-autentic-l-ut-resc-cu-taraful--0066.webp",
           "lat": 44.437863,
-          "lon": 26.094895
+          "lon": 26.094895,
+          "past": true
         },
         {
           "id": "zsn-emil-b-zga-jazz-orchestra-the--0003",
@@ -34385,7 +34393,8 @@
           "image": "events-images/zsn-emil-b-zga-jazz-orchestra-the--0003.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-killa-fonic-x-sfera-lansare-ep-0036",
@@ -34409,7 +34418,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-killa-fonic-x-sfera-lansare-ep-0036.jpg",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-ctrl-brutus-live-far-away-from-0004",
@@ -34434,7 +34444,8 @@
           "image": "events-images/zsn-ctrl-brutus-live-far-away-from-0004.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0540",
@@ -34461,7 +34472,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-tango-at-brukenhalle-0036",
@@ -46570,7 +46582,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0250",
@@ -46597,7 +46610,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0293",
@@ -49258,7 +49272,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sound-encounters-03-a-listenin-0039.jpg",
           "lat": 46.777248,
-          "lon": 23.59989
+          "lon": 23.59989,
+          "past": true
         },
         {
           "id": "zsn-de-la-contemporani-la-clasici--0044",
@@ -49282,7 +49297,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-de-la-contemporani-la-clasici--0044.jpg",
           "lat": 46.767986,
-          "lon": 23.586376
+          "lon": 23.586376,
+          "past": true
         },
         {
           "id": "clu-cluj-napoca-classix-lab-mustat-1762",
@@ -49315,7 +49331,8 @@
           "scraped_at": "2026-10-07",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concertissimo-abaris-biserica--0041",
@@ -49339,7 +49356,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concertissimo-abaris-biserica--0041.jpg",
           "lat": 46.777248,
-          "lon": 23.59989
+          "lon": 23.59989,
+          "past": true
         },
         {
           "id": "zsn-recital-de-pian-0037",
@@ -53743,7 +53761,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-la-palat-giovanni-bott-0019.jpg",
           "lat": 47.156944,
-          "lon": 27.590278
+          "lon": 27.590278,
+          "past": true
         },
         {
           "id": "zsn-giovanni-bottesini-fantezii-pe-0043",
@@ -53767,7 +53786,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-giovanni-bottesini-fantezii-pe-0043.jpg",
           "lat": 47.156944,
-          "lon": 27.590278
+          "lon": 27.590278,
+          "past": true
         },
         {
           "id": "zsn-laureat-al-concursului-interna-0007",
@@ -54067,6 +54087,102 @@
           "lat": 47.072222,
           "lon": 21.921111,
           "past": true
+        },
+        {
+          "id": "zsn-concert-alexia-nicole-alb-40-d-0004",
+          "title": "Concert Alexia Nicole Alb | 40 de Muzicanți",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-22",
+          "time": "19:00",
+          "venue": "Casa de Cultură a Sindicatelor Oradea",
+          "address": "Parcul 1 Decembrie 1, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-alexia-nicole-alb-40-de-muzicanti/",
+          "description": "Pe 22 octombrie 2026, vă invit la un eveniment cu totul special: primul meu concert de lansare, un proiect născut din pasiune, muncă și un vis pe care mi l-am dorit de foarte mult timp.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Oradea+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-alexia-nicole-alb-40-d-0004.jpg",
+          "lat": 47.052844,
+          "lon": 21.936758
+        },
+        {
+          "id": "zsn-regal-vienez-concert-extraordi-0003",
+          "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | ORADEA",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-05",
+          "time": "20:00",
+          "venue": "Casa de Cultură a Sindicatelor Oradea",
+          "address": "Parcul 1 Decembrie 1, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/regal-vienez-concert-extraordinar-de-craciun-oradea/",
+          "description": "SPECTACOL EXTRAORDINAR DE CRĂCIUN – 200 DE ANI DE LA NAȘTEREA LUI JOHANN STRAUSS Participă: Orchestra di Teatro d’Opera Italiana, Orchestra Operei Vox, Corul Operei Vox, Ansamblul de Balet al Operei Vox",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Oradea+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-regal-vienez-concert-extraordi-0003.jpg",
+          "lat": 47.052844,
+          "lon": 21.936758
+        },
+        {
+          "id": "zsn-madrigal-de-cr-ciun-2-n-1-la-o-0001",
+          "title": "MADRIGAL DE CRĂCIUN | 2 în 1 la Oradea",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-12-10",
+          "time": "19:00",
+          "venue": "Oradea Arena",
+          "address": "Strada Traian Blajovici, Nr. 24, Oradea, România 410209, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/madrigal-de-craciun-2-in-1-la-oradea/",
+          "description": "De peste 60 de ani, sărbătoarea Nașterii Domnului la români are sunetul Madrigalului.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Oradea+Arena+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-madrigal-de-cr-ciun-2-n-1-la-o-0001.jpg",
+          "lat": 44.924928,
+          "lon": 25.998131
+        },
+        {
+          "id": "zsn-georgiana-lobont-stiu-romanii--0002",
+          "title": "Georgiana Lobont – Stiu romanii sa colinde",
+          "category": "sport",
+          "vibe": "casual",
+          "date": "2026-12-19",
+          "time": "19:00",
+          "venue": "Oradea Arena",
+          "address": "Strada Traian Blajovici, Nr. 24, Oradea, România 410209, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/georgiana-lobont-stiu-romanii-sa-colinde/",
+          "description": "Vă invit cu toată inima la „ȘTIU ROMÂNII SĂ COLINDE”, un concert de Crăciun magic, spectaculos și unic, creat din dorința de a ne întoarce, măcar pentru câteva ore, la frumusețea sărbătorilor de altădată.✨Va fi o seară plină de emoție, colinde, tradiții și momente speciale, care să ne trezească acea nostalgie frumoasă a Crăciunului copilăriei, dorul de casă, de familie și de oamenii dragi. ❤️Alături de extraordinara Orchestră „Lăutarii” din Chișinău, condusă de maestrul Nicolae Botgros, și de invitați speciali surpriză, am pregătit un spectacol grandios, așa cum nu ați mai trăit până acum.V...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Oradea+Arena+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-georgiana-lobont-stiu-romanii--0002.png",
+          "lat": 44.924928,
+          "lon": 25.998131
         }
       ]
     },
@@ -54567,6 +54683,84 @@
           "lon": 26.1025
         },
         {
+          "id": "sorina-0161",
+          "title": "Mozaic de toamnă",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-10-24",
+          "time": "15:30",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 130,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/mozaic-de-toamna/",
+          "description": "🍂 Toamna prinde viață la Bloom&Joy! 🌻 Weekendul acesta, îi invităm pe micii artiști la trei ateliere Waldorf pline de culoare, texturi naturale și creativitate! 💛 🍁 SÂMBĂTĂ, 24 OCTOMBRIE Mozaic de toamnă 🌾 🕒 15:30–17:30 | 4–12 ani 💰 130 lei/copil Transformăm semințele în tablouri de toamnă unice! 🧶 DUMINICĂ, 25 OCTOMBRIE Lână de poveste ☁️ 🕥 10:30–12:00 | 3–6 ani 💰 120 lei/copil Descoperim magia lânii și creăm cu apă, săpun și multă imaginație! Dovlecei pufoși de toamnă 🎃 🕧 12:30–14:30 | 7–12...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/10/Screenshot-2026-10-20-210320.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0209",
+          "title": "Lână de poveste",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-10-25",
+          "time": "10:30",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 120,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/lana-de-poveste/",
+          "description": "🍂 Toamna prinde viață la Bloom&Joy! 🌻 Weekendul acesta, îi invităm pe micii artiști la trei ateliere Waldorf pline de culoare, texturi naturale și creativitate! 💛 🍁 SÂMBĂTĂ, 24 OCTOMBRIE Mozaic de toamnă 🌾 🕒 15:30–17:30 | 4–12 ani 💰 130 lei/copil Transformăm semințele în tablouri de toamnă unice! 🧶 DUMINICĂ, 25 OCTOMBRIE Lână de poveste ☁️ 🕥 10:30–12:00 | 3–6 ani 💰 120 lei/copil Descoperim magia lânii și creăm cu apă, săpun și multă imaginație! Dovlecei pufoși de toamnă 🎃 🕧 12:30–14:30 | 7–12...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/10/Screenshot-2026-10-20-210320.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0235",
+          "title": "Dovlecei pufoși de toamnă",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-10-25",
+          "time": "12:30",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 150,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/dovlecei-pufosi-de-toamna/",
+          "description": "🍂 Toamna prinde viață la Bloom&Joy! 🌻 Weekendul acesta, îi invităm pe micii artiști la trei ateliere Waldorf pline de culoare, texturi naturale și creativitate! 💛 🍁 SÂMBĂTĂ, 24 OCTOMBRIE Mozaic de toamnă 🌾 🕒 15:30–17:30 | 4–12 ani 💰 130 lei/copil Transformăm semințele în tablouri de toamnă unice! 🧶 DUMINICĂ, 25 OCTOMBRIE Lână de poveste ☁️ 🕥 10:30–12:00 | 3–6 ani 💰 120 lei/copil Descoperim magia lânii și creăm cu apă, săpun și multă imaginație! Dovlecei pufoși de toamnă 🎃 🕧 12:30–14:30 | 7–12...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/10/Screenshot-2026-10-20-210320.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0508",
           "title": "Neînfricata – Teatru interactiv",
           "category": "family",
@@ -54993,7 +55187,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-cameral-0038.jpg",
           "lat": 47.792804,
-          "lon": 22.874683
+          "lon": 22.874683,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-nchiderea-fes-0036",
@@ -60936,7 +61131,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-20",
-  "last_recategorized": "2026-10-20",
-  "last_images_sync": "2026-10-20"
+  "last_geocoded": "2026-10-21",
+  "last_recategorized": "2026-10-21",
+  "last_images_sync": "2026-10-21"
 }
