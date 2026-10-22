@@ -1170,5 +1170,50 @@
     46.769379,
     23.5899542,
     "city_fallback"
+  ],
+  "Teatrul Odeon::bucuresti": [
+    44.4360167,
+    26.0990692,
+    "nominatim"
+  ],
+  "Cinema Unirea Botoșani::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Palatul Național al Copiilor din București::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Cinema Victoria::cluj-napoca": [
+    46.7707978,
+    23.5961028,
+    "nominatim"
+  ],
+  "Chez Les Amis::iasi": [
+    47.1681477,
+    27.558019,
+    "nominatim"
+  ],
+  "Rocknrolla::iasi": [
+    47.1615598,
+    27.5837814,
+    "city_fallback"
+  ],
+  "Moszkva Cafe::oradea": [
+    47.0549163,
+    21.9285231,
+    "city_fallback"
+  ],
+  "Out Events, Oradea::oradea": [
+    47.0549163,
+    21.9285231,
+    "city_fallback"
+  ],
+  "Sala Europa Slobozia::slobozia": [
+    44.5629686,
+    27.3604906,
+    "nominatim"
   ]
 }
