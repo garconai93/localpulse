@@ -1215,5 +1215,15 @@
     44.5629686,
     27.3604906,
     "nominatim"
+  ],
+  "ETOS Academy::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "loc în Iași::iasi": [
+    47.1615598,
+    27.5837814,
+    "city_fallback"
   ]
 }

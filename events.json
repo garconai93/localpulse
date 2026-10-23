@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22",
-  "last_scraped": "2026-10-22",
+  "generated_at": "2026-10-23",
+  "last_scraped": "2026-10-23",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -714,7 +714,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-dincolo-de-baghet-concert-simf-0054.jpg",
           "lat": 46.166667,
-          "lon": 21.316667
+          "lon": 21.316667,
+          "past": true
         },
         {
           "id": "zsn-new-disorder-alternative-metal-0053",
@@ -738,7 +739,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-new-disorder-alternative-metal-0053.jpg",
           "lat": 46.171704,
-          "lon": 21.317502
+          "lon": 21.317502,
+          "past": true
         },
         {
           "id": "zsn-concert-tribut-abba-0090",
@@ -3139,7 +3141,8 @@
           "image": "events-images/zsn-concert-corul-de-stat-i-al-dom-0037.jpg",
           "lat": 45.6427,
           "lon": 25.5887,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-cu-orchestra-na-ional--0025",
@@ -3163,7 +3166,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-cu-orchestra-na-ional--0025.jpg",
           "lat": 45.647543,
-          "lon": 25.60426
+          "lon": 25.60426,
+          "past": true
         },
         {
           "id": "zsn-concert-petru-c-linescu-quarte-0029",
@@ -3188,7 +3192,8 @@
           "image": "events-images/zsn-concert-petru-c-linescu-quarte-0029.jpg",
           "lat": 45.6525105,
           "lon": 25.6105654,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-katharein-live-tamplarie-braso-0013",
@@ -3679,6 +3684,31 @@
           "image": "events-images/zsn-brian-liao-roman-kim-i-orchest-0066.jpg",
           "lat": 45.647543,
           "lon": 25.60426
+        },
+        {
+          "id": "zsn-dracu-live-0001",
+          "title": "DRACU Live",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-05",
+          "time": "19:00",
+          "venue": "O’Peter’s Irish Pub Brașov",
+          "address": "Strada Republicii Nr.19, Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/dracu-live-opeters-pub-brasov-romania-tour-2026/",
+          "description": "Award winning Rocker DRACU hits Romania for the first time!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=O’Peter’s+Irish+Pub+Brașov+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-dracu-live-0001.webp",
+          "lat": 45.6525105,
+          "lon": 25.6105654,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "zsn-hvnds-out-of-control-0027",
@@ -35126,7 +35156,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sear-de-jazz-0034.jpg",
           "lat": 45.640272,
-          "lon": 25.614267
+          "lon": 25.614267,
+          "past": true
         },
         {
           "id": "zsn-concert-vocal-simfonic-cu-juli-0003",
@@ -35150,7 +35181,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-vocal-simfonic-cu-juli-0003.webp",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-the-coffee-shop-music-tefan-or-0045",
@@ -35174,7 +35206,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-coffee-shop-music-tefan-or-0045.jpg",
           "lat": 44.677023,
-          "lon": 25.774439
+          "lon": 25.774439,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-sala-ion-baci-0002",
@@ -35198,7 +35231,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-sala-ion-baci-0002.jpg",
           "lat": 44.938248,
-          "lon": 26.022599
+          "lon": 26.022599,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0035",
@@ -35222,7 +35256,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-0035.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-respect-mugurel-vrabete-the-pu-0003",
@@ -35247,7 +35282,8 @@
           "image": "events-images/zsn-respect-mugurel-vrabete-the-pu-0003.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-odyssey-0032",
@@ -35271,7 +35307,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-odyssey-0032.jpg",
           "lat": 44.913418,
-          "lon": 26.035009
+          "lon": 26.035009,
+          "past": true
         },
         {
           "id": "zsn-villagers-of-ioannina-city-qua-0045",
@@ -35295,7 +35332,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-villagers-of-ioannina-city-qua-0045.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-pinholes-aniversare-15-ani-tri-0057",
@@ -35319,7 +35357,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-pinholes-aniversare-15-ani-tri-0057.jpg",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-petric-andrei-trio-jazzbook-0003",
@@ -35343,7 +35382,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-petric-andrei-trio-jazzbook-0003.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-irina-rimes-hard-rock-cafe-0006",
@@ -35367,7 +35407,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-irina-rimes-hard-rock-cafe-0006.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-bachmann-reloaded-forumul-cult-0002",
@@ -35392,7 +35433,8 @@
           "image": "events-images/zsn-bachmann-reloaded-forumul-cult-0002.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-sorinel-pu-tiu-orchestra-ber-r-0082",
@@ -35416,7 +35458,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sorinel-pu-tiu-orchestra-ber-r-0082.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-concert-lec-ie-i-educativ-sec--0033",
@@ -39456,6 +39499,30 @@
           "image": "events-images/zsn-bacau-concert-white-mahala-30--0013.jpg",
           "lat": 46.563748,
           "lon": 26.913259
+        },
+        {
+          "id": "zsn-the-function-rap-by-tecko-star-0002",
+          "title": "The function RAP by Tecko Starr X Bocaseca X Dragonu aka 47 X MAX K X BMC + Invitați @ nJoy Club",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-30",
+          "time": "20:00",
+          "venue": "nJoy Garden &#038; Club",
+          "address": "Șoseaua Mihai Bravu 223, București 030301, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/the-function-rap-by-tecko-starr/",
+          "description": "Tecko Starr prezinta concertul sustinut impreuna cu Bocaseca, Dragonu aka 47, trupa BMC, Dascalu, Max Konstant, Verigalipsa, Pati. Warm-up si after-party: Zgarie Nori. The function RAP by Tecko Starr X Bocaseca X Dragonu aka 47 X MAX K X BMC + Invitați @ nJoy Club",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=nJoy+Garden+&#038;+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-the-function-rap-by-tecko-star-0002.jpg",
+          "lat": 44.431387,
+          "lon": 26.140114
         },
         {
           "id": "zsn-night-dreamer-wayne-shorter-s--0036",
@@ -43499,6 +43566,33 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "sorina-0605",
+          "title": "Provocarea LEGO",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-11-15",
+          "time": "12:00",
+          "venue": "Muzeul Național de Istorie Naturală „Grigore Antipa”",
+          "address": "Şoseaua Pavel D. Kiseleff 1, București 011341, București",
+          "price": "paid",
+          "price_value": 85,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/provocarea-lego-3/",
+          "description": "Muzeul Național de Istorie Naturală „Grigore Antipa” și e² Young Engineers vă invită să participați la un program educațional de succes! N-ar fi drăguț ca micuții tăi să vină la tine și să-ți explice cum funcționează un lift sau o mașină de spălat, sau dacă ți-ar explica ce este un diferențial? Înscrie-l pe copilul tău la un program de educație prin aplicații teoretice și practice distractive, Provocarea Lego. Prin intermediul poveștilor interesante, experimentelor incitante și modelelor de c...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "events-images/sorina-0605.png",
+          "map_url": "https://maps.google.com/?q=Muzeul+Național+de+Istorie+Naturală+„Grigore+Antipa”+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4530836,
+          "lon": 26.0845751,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0652",
           "title": "Motanul încălțat",
           "category": "teatru",
@@ -43621,6 +43715,33 @@
           "image": "events-images/zsn-concert-de-jazz-cvartetul-elev-0037.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "sorina-0611",
+          "title": "Ziua Porților Deschise | Școala Primară ETOS Academy București",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-11-19",
+          "time": "09:30",
+          "venue": "ETOS Academy",
+          "address": "Calea Vitan 206, București 031301, București",
+          "price": "free",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/ziua-portilor-deschise-scoala-primara-etos-academy-bucuresti/",
+          "description": "Ziua Porților Deschise | Școala Primară ETOS Academy București Cum arată prima zi de școală atunci când copilul tău se simte în largul lui? Înainte să alegi școala potrivită, vino să o descoperi alături de copilul tău! Te invităm la Ziua Porților Deschise ETOS Academy București, o întâlnire dedicată familiilor care se pregătesc pentru înscrierea în **clasa pregătitoare 2027–2028. 19 noiembrie 2026 09:30–11:00 Calea Vitan 206–208, Sector 3, București Vei descoperi sălile de clasă, vei cunoaște...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "in-familie"
+          ],
+          "image": "events-images/sorina-0611.jpg",
+          "map_url": "https://maps.google.com/?q=ETOS+Academy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "sorina-0653",
@@ -44455,6 +44576,34 @@
           "image": "events-images/zsn-recital-vocal-0033.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "sorina-0648",
+          "title": "Atelier de iarnă",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-11-26",
+          "time": "18:00",
+          "venue": "Lollipop Play",
+          "address": "Drumul Jilavei 72, 042147 București, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-de-iarna/",
+          "description": "NOIEMBRIE CREATIVĂ LA LOLLIPOP PLAY! Luna noiembrie vine cu 4 ateliere speciale, multă creativitate, distracție și invitați surpriză! La fiecare atelier, cei mici vor crea, vor descoperi lucruri noi, vor pleca acasă cu propria creație și se vor bucura de întâlnirea cu un personaj îndrăgit, alături de care vor putea face poze! 5 NOIEMBRIE – Pictură creativă Ne jucăm cu frunze și culori, iar fiecare copil își pictează propriul tablou pe pânză, pe care îl ia acasă! Invitată specială: Buburuza! 1...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "play-session"
+          ],
+          "image": "events-images/sorina-0648.jpg",
+          "map_url": "https://maps.google.com/?q=Lollipop+Play+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "sorina-0726",
@@ -45369,6 +45518,33 @@
           "geocode_quality": "nominatim"
         },
         {
+          "id": "sorina-0679",
+          "title": "Sasa și poveștile de Craciun",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-06",
+          "time": "12:00",
+          "venue": "Teatrul Actorilor",
+          "address": "Splaiul Unirii 160, 040041 București, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/sasa-in-seara-de-halloween/",
+          "description": "Acest spectacol este primul dintr-un șir de spectacole, ce o au ca protagonista pe micuța Sasa, fetita de 8 ani, care îi va lua pe copii într-o serie de aventuri, purtandu-i într-o lume magică, a poveștilor, construită chiar de tatăl ei. Este un exemplu de parenting, care pune accent pe importanta jocului, a cantecului si a prieteniei, într-o lume a tehnologizarii tot mai acute. Se adresează copiilor cu varste cuprinse între 3 si 99 de ani, fiind o lecție pentru toate varstele. Informatii: Pe...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0679.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Actorilor+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "sorina-0740",
           "title": "Frozen Regatul Înghețat",
           "category": "cinema",
@@ -46014,6 +46190,33 @@
           "lon": 26.097882
         },
         {
+          "id": "sorina-0698",
+          "title": "Petrecerea de Crăciun a lui Pettson și Findus",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-18",
+          "time": "18:30",
+          "venue": "Teatrul Coquette",
+          "address": "Calea Călărași 94, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/petrecerea-de-craciun-a-lui-pettson-si-findus-5/",
+          "description": "Îndrăgitele personaje Pettson și motanul lui, Findus, prind viață în noul spectacol marca Teatrul Coquette București, dedicat sărbătorilor de iarnă. În Ajunul Crăciunului, motanul vorbăreț Findus caută să îl convingă pe Pettson să meargă să aducă un brăduț și să îl împodobească. O sanie buclucașă le strică planurile și cei doi se găsesc într-o situație nu prea bucuroasă: cineva le-a luat bradutul. Acum, Crăciunul lor pare distrus! Dar, chiar așa să fie? Puterea prieteniei și a bunătății readu...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0698.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Coquette+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4331807,
+          "lon": 26.1178526,
+          "geocode_quality": "nominatim"
+        },
+        {
           "id": "sorina-0589",
           "title": "Creative.Me Atelier de Artă & Mindfulness părinte–copil | 3–6 ani",
           "category": "atelier",
@@ -46151,7 +46354,7 @@
         {
           "id": "sorina-0703",
           "title": "Tronos Junior – Concert de Colinde",
-          "category": "teatru",
+          "category": "family",
           "vibe": "family",
           "date": "2026-12-19",
           "time": "13:00",
@@ -46350,6 +46553,33 @@
           "image": "events-images/zsn-regal-vienez-0008.jpg",
           "lat": 45.699202,
           "lon": 27.185797
+        },
+        {
+          "id": "sorina-0710",
+          "title": "Petrecerea de Crăciun a lui Pettson și Findus",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-23",
+          "time": "18:30",
+          "venue": "Teatrul Coquette",
+          "address": "Calea Călărași 94, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/petrecerea-de-craciun-a-lui-pettson-si-findus-9/",
+          "description": "Îndrăgitele personaje Pettson și motanul lui, Findus, prind viață în noul spectacol marca Teatrul Coquette București, dedicat sărbătorilor de iarnă. În Ajunul Crăciunului, motanul vorbăreț Findus caută să îl convingă pe Pettson să meargă să aducă un brăduț și să îl împodobească. O sanie buclucașă le strică planurile și cei doi se găsesc într-o situație nu prea bucuroasă: cineva le-a luat bradutul. Acum, Crăciunul lor pare distrus! Dar, chiar așa să fie? Puterea prieteniei și a bunătății readu...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0710.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Coquette+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4331807,
+          "lon": 26.1178526,
+          "geocode_quality": "nominatim"
         },
         {
           "id": "zsn-recital-de-org-0027",
@@ -47716,7 +47946,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0091",
@@ -47743,7 +47974,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0327",
@@ -50537,7 +50769,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-live-music-daniela-cernica-0027.jpg",
           "lat": 46.768695,
-          "lon": 23.579584
+          "lon": 23.579584,
+          "past": true
         },
         {
           "id": "zsn-recital-cameral-0081",
@@ -50561,7 +50794,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-recital-cameral-0081.jpg",
           "lat": 46.767986,
-          "lon": 23.586376
+          "lon": 23.586376,
+          "past": true
         },
         {
           "id": "zsn-shores-of-null-machines-venue-0026",
@@ -50586,7 +50820,8 @@
           "image": "events-images/zsn-shores-of-null-machines-venue-0026.webp",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-the-kryptonite-sparks-lansare--0031",
@@ -50610,7 +50845,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-kryptonite-sparks-lansare--0031.jpg",
           "lat": 46.7675,
-          "lon": 23.572794
+          "lon": 23.572794,
+          "past": true
         },
         {
           "id": "zsn-concert-extraordinar-de-nchide-0080",
@@ -52286,7 +52522,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-silviu-covaci-doors-0032.jpg",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-collapse-tour-hakairi-neon-pro-0118",
@@ -53725,7 +53962,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-tribut-abba-0033.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-giovanni-bottesini-messa-da-re-0029",
@@ -55649,6 +55887,39 @@
           "lon": 27.575842
         },
         {
+          "id": "ias-iasi-classix-lab-trick-or-tril-3934",
+          "title": "PROMOVAT Iași: Classix Lab :: Trick or Trill Sâ, 31 oct Aula Bibliotecii Centrala Universitara Mihai Eminescu · Iasi",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-31",
+          "time": "20:00",
+          "venue": "loc în Iași",
+          "address": "loc în Iași",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-iasi-classix-lab-trick-or-trill-133442/?ica_source=TownPagePromoted&ica_medium=mobile&ica_campaign=iasi&ica_term=",
+          "image": "",
+          "description": "PROMOVAT Iași: Classix Lab :: Trick or Trill Sâ, 31 oct Aula Bibliotecii Centrala Universitara Mihai Eminescu · Iasi — eveniment la locație necunoscută din Iași.",
+          "highlights": [
+            "dată: 2026-10-31",
+            "ora: 20:00",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "iasi"
+          ],
+          "map_url": "https://maps.google.com/?q=Iași",
+          "organizer": "iabilet.ro",
+          "scraped_at": "2026-10-23",
+          "lat": 47.1615598,
+          "lon": 27.5837814,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-ana-coman-hidden-gems-0017",
           "title": "Ana Coman | Hidden Gems",
           "category": "concert",
@@ -56043,7 +56314,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-alexia-nicole-alb-40-d-0004.jpg",
           "lat": 47.052844,
-          "lon": 21.936758
+          "lon": 21.936758,
+          "past": true
         },
         {
           "id": "zsn-destin-i-libertate-0038",
@@ -56067,7 +56339,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-destin-i-libertate-0038.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-harry-potter-concerte-educativ-0036",
@@ -56091,7 +56364,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-harry-potter-concerte-educativ-0036.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-harry-potter-concerte-educativ-0035",
@@ -56115,7 +56389,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-harry-potter-concerte-educativ-0035.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-harry-potter-concerte-educativ-0034",
@@ -57511,7 +57786,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-nchiderea-fes-0036.jpg",
           "lat": 47.792804,
-          "lon": 22.874683
+          "lon": 22.874683,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0070",
@@ -58071,7 +58347,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-bogdan-postol-0001.jpg",
           "lat": 45.787441,
-          "lon": 24.143259
+          "lon": 24.143259,
+          "past": true
         }
       ]
     },
@@ -58104,7 +58381,8 @@
           "image": "events-images/zsn-alina-manole-trio-luna-p-trat--0073.jpg",
           "lat": 44.5629686,
           "lon": 27.3604906,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-concert-direc-ia-5-100-direc-i-0087",
@@ -58422,7 +58700,8 @@
           "image": "events-images/zsn-suceava-arhaic-beats-0033.webp",
           "lat": 47.6410688,
           "lon": 26.2439935,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-hvnds-out-of-control-art-rock--0031",
@@ -63352,7 +63631,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0067",
@@ -63757,7 +64037,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-22",
-  "last_recategorized": "2026-10-22",
-  "last_images_sync": "2026-10-22"
+  "last_geocoded": "2026-10-23",
+  "last_recategorized": "2026-10-23",
+  "last_images_sync": "2026-10-23"
 }
