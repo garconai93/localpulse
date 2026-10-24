@@ -1225,5 +1225,10 @@
     47.1615598,
     27.5837814,
     "city_fallback"
+  ],
+  "Republic Hub::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }

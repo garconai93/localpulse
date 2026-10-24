@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23",
-  "last_scraped": "2026-10-23",
+  "generated_at": "2026-10-24",
+  "last_scraped": "2026-10-24",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -1608,7 +1608,8 @@
           "image": "events-images/zsn-ozzmozys-rockwave-tavern-nagyb-0077.jpg",
           "lat": 47.6567,
           "lon": 23.585,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-baia-mare-concert-fittonia-0024",
@@ -1633,7 +1634,8 @@
           "image": "events-images/zsn-baia-mare-concert-fittonia-0024.webp",
           "lat": 47.6567,
           "lon": 23.585,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-fittonia-baia-mare-rockwave-ta-0023",
@@ -3218,7 +3220,8 @@
           "image": "events-images/zsn-katharein-live-tamplarie-braso-0013.jpg",
           "lat": 45.6408673,
           "lon": 25.5908384,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-portret-hans-zimmer-0031",
@@ -3242,7 +3245,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-portret-hans-zimmer-0031.jpg",
           "lat": 45.647543,
-          "lon": 25.60426
+          "lon": 25.60426,
+          "past": true
         },
         {
           "id": "zsn-chamber-jazz-transilvania-univ-0032",
@@ -3267,7 +3271,8 @@
           "image": "events-images/zsn-chamber-jazz-transilvania-univ-0032.jpg",
           "lat": 45.6525105,
           "lon": 25.6105654,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-hans-zimmer-0027",
@@ -3291,7 +3296,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-hans-zimmer-0027.jpg",
           "lat": 45.647543,
-          "lon": 25.60426
+          "lon": 25.60426,
+          "past": true
         },
         {
           "id": "zsn-concert-r-mi-dugu-trio-0028",
@@ -3316,7 +3322,8 @@
           "image": "events-images/zsn-concert-r-mi-dugu-trio-0028.jpg",
           "lat": 45.6427,
           "lon": 25.5887,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-omul-cu-sobolani-lansare-de-al-0012",
@@ -3584,6 +3591,30 @@
           "map_url": "https://maps.google.com/?q=Rockstadt+Braşov",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-byron-7305-bra-ov-rockstadt-0086.jpg",
+          "lat": 45.648071,
+          "lon": 25.607652
+        },
+        {
+          "id": "zsn-brasov-concert-aniversar-byron-0005",
+          "title": "Brasov: Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-31",
+          "time": "19:00",
+          "venue": "Rockstadt",
+          "address": "Strada Nicolae Titulescu nr. 2, Brașov, Braşov",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/brasov-concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Rockstadt+Braşov",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-brasov-concert-aniversar-byron-0005.png",
           "lat": 45.648071,
           "lon": 25.607652
         },
@@ -35483,7 +35514,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-lec-ie-i-educativ-sec--0033.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-concert-lec-ie-i-educativ-leck-0039",
@@ -35507,7 +35539,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-lec-ie-i-educativ-leck-0039.jpg",
           "lat": 46.543277,
-          "lon": 24.558218
+          "lon": 24.558218,
+          "past": true
         },
         {
           "id": "zsn-concert-lec-ie-i-educativ-sec--0030",
@@ -35531,7 +35564,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-lec-ie-i-educativ-sec--0030.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-concert-lec-ie-i-educativ-leck-0040",
@@ -35555,7 +35589,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-lec-ie-i-educativ-leck-0040.jpg",
           "lat": 46.543277,
-          "lon": 24.558218
+          "lon": 24.558218,
+          "past": true
         },
         {
           "id": "sorina-0542",
@@ -35582,7 +35617,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0508",
@@ -35609,7 +35645,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-fittonia-zal-u-rock-n-roll-cen-0074",
@@ -35634,7 +35671,8 @@
           "image": "events-images/zsn-fittonia-zal-u-rock-n-roll-cen-0074.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-fittonia-0098",
@@ -35659,7 +35697,8 @@
           "image": "events-images/zsn-concert-fittonia-0098.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0522",
@@ -35686,7 +35725,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-botosani-cenaclul-flac-ra-simf-0030",
@@ -35711,7 +35751,8 @@
           "image": "events-images/zsn-botosani-cenaclul-flac-ra-simf-0030.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-golan-v-album-release-control--0003",
@@ -35736,7 +35777,8 @@
           "image": "events-images/zsn-golan-v-album-release-control--0003.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-schirenc-plays-pungent-stench--0048",
@@ -35760,7 +35802,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-schirenc-plays-pungent-stench--0048.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-blaze-rengoku-europe-tour-2026-0056",
@@ -35784,7 +35827,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-blaze-rengoku-europe-tour-2026-0056.jpg",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-t-rgu-mure-mock-surprise-iasom-0030",
@@ -35808,7 +35852,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-t-rgu-mure-mock-surprise-iasom-0030.png",
           "lat": 46.542935,
-          "lon": 24.56413
+          "lon": 24.56413,
+          "past": true
         },
         {
           "id": "zsn-dumas-collective-0028",
@@ -35832,7 +35877,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-dumas-collective-0028.png",
           "lat": 44.442886,
-          "lon": 26.09343
+          "lon": 26.09343,
+          "past": true
         },
         {
           "id": "zsn-concert-ada-milea-bacau-0079",
@@ -35856,7 +35902,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-ada-milea-bacau-0079.jpg",
           "lat": 46.564016,
-          "lon": 26.897233
+          "lon": 26.897233,
+          "past": true
         },
         {
           "id": "zsn-the-urs-live-in-concert-bacau--0001",
@@ -35880,7 +35927,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-urs-live-in-concert-bacau--0001.jpg",
           "lat": 46.56139,
-          "lon": 26.906543
+          "lon": 26.906543,
+          "past": true
         },
         {
           "id": "zsn-the-misfits-collective-funk-ja-0039",
@@ -35905,7 +35953,8 @@
           "image": "events-images/zsn-the-misfits-collective-funk-ja-0039.jpg",
           "lat": 44.4434999,
           "lon": 26.0939228,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-the-urs-teatrul-de-vara-radu-b-0074",
@@ -35929,7 +35978,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-urs-teatrul-de-vara-radu-b-0074.png",
           "lat": 46.564021,
-          "lon": 26.83882
+          "lon": 26.83882,
+          "past": true
         },
         {
           "id": "zsn-the-powerslave-iron-maiden-tri-0002",
@@ -35953,7 +36003,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-powerslave-iron-maiden-tri-0002.jpg",
           "lat": 44.443932,
-          "lon": 25.971693
+          "lon": 25.971693,
+          "past": true
         },
         {
           "id": "zsn-analog-balaton-ii-szimpla-seps-0091",
@@ -35977,7 +36028,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-analog-balaton-ii-szimpla-seps-0091.jpg",
           "lat": 45.864816,
-          "lon": 25.791078
+          "lon": 25.791078,
+          "past": true
         },
         {
           "id": "zsn-nidal-lansare-de-album-ngeri-0052",
@@ -36002,7 +36054,8 @@
           "image": "events-images/zsn-nidal-lansare-de-album-ngeri-0052.webp",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-alutus-live-la-baroc-cafe-pub-0055",
@@ -36027,7 +36080,8 @@
           "image": "events-images/zsn-alutus-live-la-baroc-cafe-pub-0055.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-kempes-cargo-set-bacau-0056",
@@ -36051,7 +36105,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-kempes-cargo-set-bacau-0056.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "zsn-vasi-cimpeanu-retro-pub-rock-n-0031",
@@ -36075,7 +36130,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vasi-cimpeanu-retro-pub-rock-n-0031.jpg",
           "lat": 44.453228,
-          "lon": 26.120082
+          "lon": 26.120082,
+          "past": true
         },
         {
           "id": "zsn-jazzbook-standards-20-jazzbook-0040",
@@ -36099,7 +36155,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-jazzbook-standards-20-jazzbook-0040.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-odyssey-lansare-vinyl-the-pub--0007",
@@ -36124,7 +36181,8 @@
           "image": "events-images/zsn-odyssey-lansare-vinyl-the-pub--0007.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-the-cuban-project-0078",
@@ -36149,7 +36207,8 @@
           "image": "events-images/zsn-the-cuban-project-0078.jpg",
           "lat": 44.4345723,
           "lon": 26.0940905,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-3-sud-est-hard-rock-cafe-0007",
@@ -36173,7 +36232,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-3-sud-est-hard-rock-cafe-0007.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-adrian-minune-i-orchestra-ber--0005",
@@ -36197,7 +36257,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-adrian-minune-i-orchestra-ber--0005.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-botosani-bairam-2000-nick-n-d-0006",
@@ -36222,7 +36283,8 @@
           "image": "events-images/zsn-botosani-bairam-2000-nick-n-d-0006.webp",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "sorina-0509",
@@ -36249,7 +36311,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4452933,
           "lon": 26.1010628,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0546",
@@ -36276,7 +36339,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0547",
@@ -36303,7 +36367,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0471",
@@ -39450,6 +39515,30 @@
           "lat": 44.4434999,
           "lon": 26.0939228,
           "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-ploiesti-concert-aniversar-byr-0014",
+          "title": "Ploiesti: Concert aniversar byron",
+          "category": "teatru",
+          "vibe": "intim",
+          "date": "2026-10-30",
+          "time": "19:30",
+          "venue": "Teatrul Nației",
+          "address": "Bulevardul Bucureşti, nr. 28, Ploiești, Ploieşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/ploiesti-concert-aniversar-byron/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Teatrul+Nației+Ploieşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-ploiesti-concert-aniversar-byr-0014.png",
+          "lat": 44.913418,
+          "lon": 26.035009
         },
         {
           "id": "zsn-l-veing-room-17-rares-totu-pla-0005",
@@ -42728,6 +42817,30 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-concert-aniversar-byron-20-de--0013",
+          "title": "Concert aniversar byron 20 de ani – Încefluturi | Hard Rock Cafe",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-11",
+          "time": "21:00",
+          "venue": "Hard Rock Cafe",
+          "address": "Șoseaua Kiseleff nr. 32C, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-aniversar-byron-20-de-ani-incefluturi-hard-rock-cafe/",
+          "description": "Va invitam la Hard Rock Cafe, miercuri, 11 noiembrie, incepand cu ora 21:00, la un concert cu byron!Copiii sub 7 ani au intrarea libera.7.305 zile de byron. 20 de ani. Un concert aniversar care dureaza de fapt 4 concerte, in 4 locatii diferite. Patru seri, patru playlisturi care te trec prin toata discografia, patru felii din povestea byron, povestea unor oameni care au devenit artistii care i-ar fi inspirat in adolescenta.Biletele se gasesc in format electronic pe www.iabilet.ro si in magazinele Flanco, Muzica si pe terminalele Selfpay. Online, puteti plati cu cardul, Paypal, carduri de ti...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Hard+Rock+Cafe+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-aniversar-byron-20-de--0013.png",
+          "lat": 44.444723,
+          "lon": 26.08565
+        },
+        {
           "id": "zsn-concert-simfonic-0040",
           "title": "Concert simfonic",
           "category": "concert",
@@ -43193,6 +43306,30 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-concert-aniversar-byron-20-de--0015",
+          "title": "Concert aniversar byron 20 de ani – Idolescență | Quantic",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-14",
+          "time": "19:00",
+          "venue": "Quantic Pub",
+          "address": "Intrarea Grozăvești, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-aniversar-byron-20-de-ani-idolescenta-quantic/",
+          "description": "7.305 zile de byron. 20 de ani. Un concert aniversar care dureaza de fapt 4 concerte, in 4 locatii diferite.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Quantic+Pub+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-aniversar-byron-20-de--0015.png",
+          "lat": 44.437414,
+          "lon": 26.059285
         },
         {
           "id": "zsn-abba-tribute-band-revival-uk-c-0046",
@@ -44657,6 +44794,31 @@
           "lon": 26.097882
         },
         {
+          "id": "zsn-targu-mures-s-ntana-de-mure-co-0009",
+          "title": "Targu Mures ( Sântana de Mureș) : Concert aniversar byron – 20 de ani",
+          "category": "expo",
+          "vibe": "intim",
+          "date": "2026-11-26",
+          "time": "19:00",
+          "venue": "Republic Hub",
+          "address": "strada Scolii nr 229, Santana-de-Mures, Romania, Târgu Mureş",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/targu-mures-concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Republic+Hub+Târgu Mureş",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-targu-mures-s-ntana-de-mure-co-0009.png",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "sorina-0727",
           "title": "Aventurile unui prieten imaginar",
           "category": "teatru",
@@ -45130,6 +45292,55 @@
           "geocode_quality": "cache"
         },
         {
+          "id": "zsn-concert-aniversar-byron-20-de--0004",
+          "title": "Concert aniversar byron 20 de ani – Matouring",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-01",
+          "time": "19:00",
+          "venue": "Expirat Halele Carol",
+          "address": "Strada Constantin Istrati nr. 1, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-aniversar-byron-20-de-ani-matouring/",
+          "description": "7.305 zile de byron. 20 de ani. Un concert aniversar care dureaza de fapt 4 concerte, in 4 locatii diferite. Patru seri, patru playlisturi care te trec prin toata discografia, patru felii din povestea byron, povestea unor oameni care au devenit artistii care i-ar fi inspirat in adolescenta.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Expirat+Halele+Carol+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-aniversar-byron-20-de--0004.png",
+          "lat": 44.414925,
+          "lon": 26.092052
+        },
+        {
+          "id": "zsn-concert-aniversar-byron-20-de--0008",
+          "title": "Concert aniversar byron 20 de ani – Dorigini | Control",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-02",
+          "time": "19:00",
+          "venue": "Control Club",
+          "address": "Strada Constantin Mille nr. 4, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-aniversar-byron-20-de-ani-dorigini-control/",
+          "description": "7.305 zile de byron. 20 de ani. Un concert aniversar care dureaza de fapt 4 concerte, in 4 locatii diferite.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Control+Club+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-aniversar-byron-20-de--0008.png",
+          "lat": 44.4355973,
+          "lon": 26.0969873,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-regal-vienez-concert-extraordi-0071",
           "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | SATU MARE",
           "category": "concert",
@@ -45331,6 +45542,33 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4286032,
           "lon": 26.1536935,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "sorina-0640",
+          "title": "Petrecerea de Crăciun a lui Pettson și Findus",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-05",
+          "time": "11:00",
+          "venue": "Teatrul Coquette",
+          "address": "Calea Călărași 94, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/petrecerea-de-craciun-a-lui-pettson-si-findus/",
+          "description": "Îndrăgitele personaje Pettson și motanul lui, Findus, prind viață în noul spectacol marca Teatrul Coquette București, dedicat sărbătorilor de iarnă. În Ajunul Crăciunului, motanul vorbăreț Findus caută să îl convingă pe Pettson să meargă să aducă un brăduț și să îl împodobească. O sanie buclucașă le strică planurile și cei doi se găsesc într-o situație nu prea bucuroasă: cineva le-a luat bradutul. Acum, Crăciunul lor pare distrus! Dar, chiar așa să fie? Puterea prieteniei și a bunătății readu...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0640.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Coquette+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4331807,
+          "lon": 26.1178526,
           "geocode_quality": "nominatim"
         },
         {
@@ -50871,7 +51109,8 @@
           "image": "events-images/zsn-concert-extraordinar-de-nchide-0080.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-celelalte-cuvinte-aniversare-t-0094",
@@ -50896,7 +51135,8 @@
           "image": "events-images/zsn-celelalte-cuvinte-aniversare-t-0094.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-robin-and-the-backstabbers-0025",
@@ -50920,7 +51160,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-robin-and-the-backstabbers-0025.jpg",
           "lat": 46.7675,
-          "lon": 23.572794
+          "lon": 23.572794,
+          "past": true
         },
         {
           "id": "zsn-nidal-lansare-de-album-ngeri-b-0024",
@@ -51016,6 +51257,31 @@
           "map_url": "https://maps.google.com/?q=Edison+House+of+Music+Cluj+Cluj-Napoca",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-when-jazz-meets-taragot-0076.png",
+          "lat": 46.769379,
+          "lon": 23.5899542,
+          "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-metal-legends-round-ii-machine-0010",
+          "title": "METAL LEGENDS ROUND II @ Machines Venue (Metallica & Rammstein tribute)",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-24",
+          "time": "20:00",
+          "venue": "Machines Venue",
+          "address": "Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/metal-legends-round-ii-at-machines-venue-metallica-rammstein-tribute/",
+          "description": "Metal Legends - Round II. Pe 24 octombrie, ne vedem la Machines Venue, Cluj-Napoca, pentru o seară plină de riff-uri legendare și energie pură!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Machines+Venue+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-metal-legends-round-ii-machine-0010.webp",
           "lat": 46.769379,
           "lon": 23.5899542,
           "geocode_quality": "city_fallback"
@@ -51458,6 +51724,31 @@
           "lon": 23.5899542
         },
         {
+          "id": "zsn-aephanemer-symphress-machines--0017",
+          "title": "Aephanemer, Symphress @Machines Venue",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-17",
+          "time": "20:00",
+          "venue": "Machines Venue",
+          "address": "Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/aephanemer-symphress-at-machines-venue/",
+          "description": "Formația franceză Aephanemer revine în România cu două concerte în luna noiembrie: 17.11.2026 – Machines Venue, Cluj-Napoca, în deschidere Symphress (Cluj-Napoca) 18.11.2026 – Quantic, București",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Machines+Venue+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-aephanemer-symphress-machines--0017.webp",
+          "lat": 46.769379,
+          "lon": 23.5899542,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-orkid-lansare-ep-mult-mai-bun--0008",
           "title": "Orkid (lansare EP – Mult Mai Bun) + Rotko @Machines, Cluj",
           "category": "concert",
@@ -51530,6 +51821,31 @@
           "lon": 23.570286
         },
         {
+          "id": "zsn-orkid-lansare-ep-mult-mai-bun--0016",
+          "title": "Orkid (lansare EP – Mult Mai Bun) + Rotko @Machines, Cluj",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-19",
+          "time": "19:00",
+          "venue": "Machines Venue",
+          "address": "Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/orkid-lansare-ep-mult-mai-bun-rotko-at-machines-cluj/",
+          "description": "Orkid lansează EP-ul \"Mult mai bun\", un material discografic care încheie cel mai prolific an al formației. Trei piese care îmbină armoniile liniștite și înecate în reverb cu momente de wall-of-sound darkgaze și chiar noise.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Machines+Venue+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-orkid-lansare-ep-mult-mai-bun--0016.jpg",
+          "lat": 46.769379,
+          "lon": 23.5899542,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-carla-s-dreams-simfonic-sala-p-0009",
           "title": "Carla's Dreams SIMFONIC @ Sala Polivalentă",
           "category": "sport",
@@ -51576,6 +51892,30 @@
           "image": "events-images/zsn-carla-s-dreams-simfonic-0084.png",
           "lat": 46.767207,
           "lon": 23.570286
+        },
+        {
+          "id": "zsn-cluj-napoca-concert-aniversar--0007",
+          "title": "Cluj-Napoca: Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-28",
+          "time": "20:00",
+          "venue": "Form Space",
+          "address": "Aleea Stadionului nr. 2, Cluj Napoca, Cluj-Napoca",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/cluj-napoca-concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Form+Space+Cluj-Napoca",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-cluj-napoca-concert-aniversar--0007.png",
+          "lat": 46.7675,
+          "lon": 23.572794
         },
         {
           "id": "zsn-carmina-burana-cluj-napoca-0004",
@@ -52547,7 +52887,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-collapse-tour-hakairi-neon-pro-0118.jpg",
           "lat": 44.211743,
-          "lon": 28.62419
+          "lon": 28.62419,
+          "past": true
         },
         {
           "id": "zsn-concert-tribut-abba-0029",
@@ -52571,7 +52912,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-tribut-abba-0029.webp",
           "lat": 44.18072,
-          "lon": 28.634682
+          "lon": 28.634682,
+          "past": true
         },
         {
           "id": "zsn-voltaj-doors-0028",
@@ -52595,7 +52937,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-voltaj-doors-0028.jpg",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-o-noapte-de-vene-ia-0012",
@@ -52813,6 +53156,30 @@
           "image": "events-images/zsn-r-pirea-din-serai-0007.jpg",
           "lat": 44.181752,
           "lon": 28.650691
+        },
+        {
+          "id": "zsn-concert-aniversar-byron-20-de--0012",
+          "title": "Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-05",
+          "time": "20:00",
+          "venue": "Doors Club",
+          "address": "Str. Traian nr. 68A, Constanța, Constanţa",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Doors+Club+Constanţa",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-aniversar-byron-20-de--0012.jpg",
+          "lat": 44.174519,
+          "lon": 28.645236
         },
         {
           "id": "zsn-vasile-eicaru-nae-matei-0012",
@@ -53987,7 +54354,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-giovanni-bottesini-messa-da-re-0029.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-concert-denis-ws-club-elix-0026",
@@ -54012,7 +54380,8 @@
           "image": "events-images/zsn-concert-denis-ws-club-elix-0026.jpg",
           "lat": 44.3190159,
           "lon": 23.7965614,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-nabucco-0019",
@@ -54679,7 +55048,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sorin-zlat-quartet-feat-sergiu-0057.jpg",
           "lat": 45.42572,
-          "lon": 28.031044
+          "lon": 28.031044,
+          "past": true
         },
         {
           "id": "zsn-vlad-corb-lansare-de-album-0022",
@@ -55401,7 +55771,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-laureat-al-concursului-interna-0007.jpg",
           "lat": 47.169336,
-          "lon": 27.579927
+          "lon": 27.579927,
+          "past": true
         },
         {
           "id": "zsn-adi-bezna-0037",
@@ -55425,7 +55796,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-adi-bezna-0037.jpg",
           "lat": 47.164759,
-          "lon": 27.580952
+          "lon": 27.580952,
+          "past": true
         },
         {
           "id": "zsn-puya-adev-rul-gol-golu-fratell-0002",
@@ -55449,7 +55821,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-puya-adev-rul-gol-golu-fratell-0002.webp",
           "lat": 47.155736,
-          "lon": 27.588826
+          "lon": 27.588826,
+          "past": true
         },
         {
           "id": "zsn-puya-adev-rul-gol-golu-fratell-0113",
@@ -55473,7 +55846,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-puya-adev-rul-gol-golu-fratell-0113.webp",
           "lat": 47.155736,
-          "lon": 27.588826
+          "lon": 27.588826,
+          "past": true
         },
         {
           "id": "zsn-best-off-generatia-de-aur-iasi-0033",
@@ -55497,7 +55871,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-best-off-generatia-de-aur-iasi-0033.jpg",
           "lat": 47.155701,
-          "lon": 27.586709
+          "lon": 27.586709,
+          "past": true
         },
         {
           "id": "zsn-cand-dorul-intalneste-pasiunea-0046",
@@ -56414,7 +56789,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-harry-potter-concerte-educativ-0034.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-analog-balaton-ii-lokal-nagyv--0031",
@@ -56657,6 +57033,30 @@
           "lat": 47.0549163,
           "lon": 21.9285231,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "zsn-oradea-concert-aniversar-byron-0006",
+          "title": "Oradea: Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-03",
+          "time": "19:30",
+          "venue": "Lokal &#8211; Oradea",
+          "address": "Strada Aurel Lazăr, 1, Oradea",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/oradea-concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Lokal+&#8211;+Oradea+Oradea",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-oradea-concert-aniversar-byron-0006.jpg",
+          "lat": 47.057452,
+          "lon": 21.933116
         },
         {
           "id": "zsn-regal-vienez-concert-extraordi-0003",
@@ -57227,7 +57627,8 @@
           "map_url": "https://maps.google.com/?q=Yardinia+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0161",
@@ -58349,6 +58750,54 @@
           "lat": 45.787441,
           "lon": 24.143259,
           "past": true
+        },
+        {
+          "id": "zsn-concert-simfonic-stagiunea-202-0001",
+          "title": "Concert simfonic, stagiunea 2026-2027 @ Filarmonica de Stat Sibiu",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-10-29",
+          "time": "19:00",
+          "venue": "Filarmonica de Stat Sibiu",
+          "address": "Strada Cetății 3-5, Sibiu",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-simfonic-2026/",
+          "description": "Concerte simfonice, ateliere pentru copii și multe alte evenimente vă așteaptă în lunile octombrie, noiembrie și decembrie la Filarmonica de Stat Sibiu.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu+Sibiu",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-simfonic-stagiunea-202-0001.jpg",
+          "lat": 46.225646,
+          "lon": 24.577982
+        },
+        {
+          "id": "zsn-concert-educativ-filarmonica-d-0002",
+          "title": "Concert educativ @ Filarmonica de Stat Sibiu",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-10-30",
+          "time": "10:00",
+          "venue": "Filarmonica de Stat Sibiu",
+          "address": "Strada Cetății 3-5, Sibiu",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concerte-educativ-filarmonica/",
+          "description": "În lunile octombrie și noiembrie, Filarmonica de Stat Sibiu îi invită pe cei mici, de la bebeluși la copiii dornici să afle mai multe despre lumea sunetelor, la o serie de concerte și ateliere educative dedicate muzicii și instrumentelor muzicale.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Filarmonica+de+Stat+Sibiu+Sibiu",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-educativ-filarmonica-d-0002.jpg",
+          "lat": 46.225646,
+          "lon": 24.577982
         }
       ]
     },
@@ -58726,7 +59175,8 @@
           "image": "events-images/zsn-hvnds-out-of-control-art-rock--0031.jpg",
           "lat": 47.6393876,
           "lon": 26.2424061,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-classic-unlimited-2026-la-sire-0012",
@@ -58899,6 +59349,31 @@
           "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-masterpiece-metallica-tribute--0081.jpg",
+          "lat": 47.6393876,
+          "lon": 26.2424061,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "zsn-suceava-concert-aniversar-byro-0011",
+          "title": "Suceava: Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-21",
+          "time": "19:00",
+          "venue": "Art Rock Cafe",
+          "address": "Strada Scurtă, Suceava 720237, Suceava",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/suceava-concert-aniversar-byron-20-de-ani/",
+          "description": "7.305 zile de byron. 20 de ani. byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Art+Rock+Cafe+Suceava",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-suceava-concert-aniversar-byro-0011.webp",
           "lat": 47.6393876,
           "lon": 26.2424061,
           "geocode_quality": "nominatim"
@@ -61722,7 +62197,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-punct-de-plecare-orchestra-sim-0095.jpg",
           "lat": 45.750936,
-          "lon": 21.226226
+          "lon": 21.226226,
+          "past": true
         },
         {
           "id": "zsn-shores-of-null-it-aeger-ro-liv-0029",
@@ -61747,7 +62223,8 @@
           "image": "events-images/zsn-shores-of-null-it-aeger-ro-liv-0029.jpg",
           "lat": 45.757235,
           "lon": 21.2332078,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-the-kryptonite-sparks-lansare--0074",
@@ -62157,6 +62634,30 @@
           "map_url": "https://maps.google.com/?q=Casa+Tineretului+(FITT)+Timişoara",
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-celelalte-cuvinte-aniversare-t-0083.jpg",
+          "lat": 45.759722,
+          "lon": 21.23
+        },
+        {
+          "id": "zsn-timisoara-concert-aniversar-by-0003",
+          "title": "Timisoara: Concert aniversar byron – 20 de ani",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-04",
+          "time": "19:00",
+          "venue": "Casa Tineretului (FITT)",
+          "address": "Strada Arieș, nr. 19, Timișoara, Timişoara",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/timisoara-concert-aniversar-byron-20-de-ani/",
+          "description": "byron este una dintre cele mai consistente și inventive prezențe din muzica românească a ultimelor două decenii. Înființată în 2006, trupa cântă rock cu influențe diverse și a crescut organic, construind în jurul muzicii sale o comunitate loială și implicată.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+Tineretului+(FITT)+Timişoara",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-timisoara-concert-aniversar-by-0003.png",
           "lat": 45.759722,
           "lon": 21.23
         },
@@ -63658,7 +64159,8 @@
           "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0191",
@@ -64037,7 +64539,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-10-23",
-  "last_recategorized": "2026-10-23",
-  "last_images_sync": "2026-10-23"
+  "last_geocoded": "2026-10-24",
+  "last_recategorized": "2026-10-24",
+  "last_images_sync": "2026-10-24"
 }
