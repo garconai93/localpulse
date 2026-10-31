@@ -1270,5 +1270,20 @@
     44.412965,
     26.0928334,
     "nominatim"
+  ],
+  "PUB23::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Domul Romano-Catolic „Sfântul Gheorghe” Timisoara::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Cinema Csíki Mozi::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
