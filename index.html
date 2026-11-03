@@ -2064,6 +2064,10 @@ if ('serviceWorker' in navigator) {
 migrateStorage();
 initTheme();
 initLang();
+// applyI18n() sets the static texts and the live date (Live · DD Month YYYY).
+// Without this call the eyebrow keeps the hardcoded build-time value and the
+// page never switches to the language stored in localStorage.
+applyI18n();
 loadData();
 </script>
 </body>
