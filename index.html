@@ -1794,6 +1794,17 @@ const state_i18n = { lang: 'ro' };
 function t(key) { return I18N[state_i18n.lang][key] || key; }
 
 function applyI18n() {
+  // Guard: a missing element must never abort the boot sequence. applyI18n()
+  // runs before loadData(), so a throw here would leave the page with no
+  // events, no cities and no stats.
+  try {
+    applyI18nInner();
+  } catch (e) {
+    console.error('[i18n] applyI18n failed:', e);
+  }
+}
+
+function applyI18nInner() {
   document.documentElement.setAttribute('lang', state_i18n.lang);
   // Set live date in eyebrow (Live · DD Month YYYY)
   const lang = state_i18n.lang;
@@ -1821,7 +1832,11 @@ function applyI18n() {
   // Static text
   document.querySelector('[data-i18n="hero_title"]').innerHTML = t('hero_title_html');
   document.querySelector('[data-i18n="hero_lead"]').textContent = t('hero_lead');
-  document.querySelector('[data-i18n="geo_text"]').textContent = t('geo_text');
+  // The geo button label lives in #geoText (there is no [data-i18n="geo_text"]
+  // element). The null guard keeps applyI18n() from throwing and aborting the
+  // rest of the boot sequence.
+  const geoText = document.getElementById('geoText');
+  if (geoText) geoText.textContent = t('geo_text');
   document.querySelector('[data-i18n="stat_total"]').textContent = t('stat_total');
   document.querySelector('[data-i18n="stat_free"]').textContent = t('stat_free');
   document.querySelector('[data-i18n="stat_weekend"]').textContent = t('stat_weekend');
