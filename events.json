@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02",
-  "last_scraped": "2026-11-02",
+  "generated_at": "2026-11-03",
+  "last_scraped": "2026-11-03",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -43383,7 +43383,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-soul-songs-zeyla-tomlyn-0023.jpg",
           "lat": 44.42797,
-          "lon": 26.0719
+          "lon": 26.0719,
+          "past": true
         },
         {
           "id": "zsn-vortex-concert-multimedia-0047",
@@ -43407,7 +43408,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vortex-concert-multimedia-0047.png",
           "lat": 44.434504,
-          "lon": 26.083654
+          "lon": 26.083654,
+          "past": true
         },
         {
           "id": "zsn-concert-extraordinar-razvan-st-0049",
@@ -43431,7 +43433,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-extraordinar-razvan-st-0049.jpg",
           "lat": 45.104722,
-          "lon": 24.375556
+          "lon": 24.375556,
+          "past": true
         },
         {
           "id": "zsn-concert-extraordinar-ashley-pe-0050",
@@ -43455,7 +43458,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-extraordinar-ashley-pe-0050.jpg",
           "lat": 46.566366,
-          "lon": 26.912417
+          "lon": 26.912417,
+          "past": true
         },
         {
           "id": "zsn-alt-jazz-elijah-fox-usa-0028",
@@ -43480,7 +43484,8 @@
           "image": "events-images/zsn-alt-jazz-elijah-fox-usa-0028.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-all-stars-monday-night-blues-r-0057",
@@ -43504,7 +43509,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-all-stars-monday-night-blues-r-0057.png",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-concert-outflow-the-monday-sho-0045",
@@ -43528,7 +43534,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-outflow-the-monday-sho-0045.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "sorina-0483",
@@ -43554,7 +43561,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.455062,
           "lon": 26.0577274,
-          "image": "events-images/sorina-0483.jpg"
+          "image": "events-images/sorina-0483.jpg",
+          "past": true
         },
         {
           "id": "zsn-tudor-gheorghe-iarna-2026-0061",
@@ -50551,6 +50559,30 @@
           "geocode_quality": "nominatim"
         },
         {
+          "id": "zsn-raoul-de-dragul-tau-piatra-nea-0002",
+          "title": "RAOUL – De dragul tau – Piatra Neamt",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-12-01",
+          "time": "19:00",
+          "venue": "Cinema Mon Amour",
+          "address": "Piața Ştefan cel Mare, nr. 14, Piatra-Neamț, Piatra Neamţ",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/raoul-de-dragul-tau-piatra-neamt/",
+          "description": "Sunt seri în care muzica nu se ascultă, ci se trăiește. Sunt întâlniri în care nu mai contează scena, distanța sau luminile, ci doar ceea ce se întâmplă între oameni.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Cinema+Mon+Amour+Piatra Neamţ",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-raoul-de-dragul-tau-piatra-nea-0002.jpg",
+          "lat": 46.931046,
+          "lon": 26.371836
+        },
+        {
           "id": "zsn-concert-aniversar-byron-20-de--0008",
           "title": "Concert aniversar byron 20 de ani – Dorigini | Control",
           "category": "concert",
@@ -51978,6 +52010,30 @@
           "image": "events-images/zsn-christmas-extravaganza-0004.jpg",
           "lat": 44.441989,
           "lon": 26.094227
+        },
+        {
+          "id": "zsn-regal-vienez-concert-extraordi-0001",
+          "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN – Piatra Neamt",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-12-18",
+          "time": "20:00",
+          "venue": "Cinema Mon Amour",
+          "address": "Piața Ştefan cel Mare, nr. 14, Piatra-Neamț, Piatra Neamţ",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/regal-vienez-concert-extraordinar-de-craciun-piatra-neamt/",
+          "description": "ORCHESTRA DI TEATRO D'OPERA ITALIANA, una dintre cele mai celebre orchestre din Europa, a fost aplaudată pe marile scene de operă și filarmonice din toată lumea.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Cinema+Mon+Amour+Piatra Neamţ",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-regal-vienez-concert-extraordi-0001.jpg",
+          "lat": 46.931046,
+          "lon": 26.371836
         },
         {
           "id": "sorina-0589",
@@ -54021,6 +54077,60 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "past": true
+        },
+        {
+          "id": "sorina-0013",
+          "title": "Curs de autoapărare",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-03",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-autoaparare/",
+          "description": "Din 29 septembrie începem cursurile de autoapărare Vovinam Viet Vo Dao, alături de Sensei Bogdan! 💪 Prin povești, jocuri și multă mișcare, copiii vor învăța tehnici de autoapărare într-un mod distractiv și potrivit vârstei lor. Își vor dezvolta echilibrul, coordonarea și reflexele și vor căpăta mai multă disciplină, încredere și curaj. Totul se desfășoară prin joacă, pentru ca fiecare antrenament să fie o experiență pe care cei mici să o aștepte cu nerăbdare! 🤩 📅 Începem pe 29 septembrie 🗓️ M...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/09/Screenshot-2026-09-24-174317.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0060",
+          "title": "Curs de autoapărare",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-05",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-autoaparare-2/",
+          "description": "Din 29 septembrie începem cursurile de autoapărare Vovinam Viet Vo Dao, alături de Sensei Bogdan! 💪 Prin povești, jocuri și multă mișcare, copiii vor învăța tehnici de autoapărare într-un mod distractiv și potrivit vârstei lor. Își vor dezvolta echilibrul, coordonarea și reflexele și vor căpăta mai multă disciplină, încredere și curaj. Totul se desfășoară prin joacă, pentru ca fiecare antrenament să fie o experiență pe care cei mici să o aștepte cu nerăbdare! 🤩 📅 Începem pe 29 septembrie 🗓️ M...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/09/Screenshot-2026-09-24-174317.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     },
@@ -57519,7 +57629,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-metamorfoze-clujene-0048.jpg",
           "lat": 46.768734,
-          "lon": 23.593044
+          "lon": 23.593044,
+          "past": true
         },
         {
           "id": "zsn-concert-extraordinar-orchestra-0031",
@@ -61650,7 +61761,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-la-dolce-vita-0003.jpg",
           "lat": 44.393889,
-          "lon": 23.789719
+          "lon": 23.789719,
+          "past": true
         },
         {
           "id": "zsn-duo-resonanz-elvis-ciuculescu--0001",
@@ -73041,11 +73153,37 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
+        },
+        {
+          "id": "sorina-0269",
+          "title": "Atelier creativ – Magie de toamnă",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-14",
+          "time": "13:00",
+          "venue": "TeachMe",
+          "address": "Strada Tudor Vladimirescu 20, 077190 Voluntari, București",
+          "price": "paid",
+          "price_value": 100,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-creativ-magie-de-toamna/",
+          "description": "10% reducere dacă spui #stiudelasorina 🍂☔ **PLOAIE AFARĂ, MAGIE DE TOAMNĂ ÎNĂUNTRU!** 🍁 Când afară plouă, frunzele dansează în vânt și zilele devin tot mai răcoroase, noi transformăm o după-amiază de toamnă într-o poveste plină de culoare! 🎨❤️ La TeachMe, cei mici sunt invitați să creeze propria **Vază de Toamnă**! Cu frunze colorate, flori și multă imaginație, fiecare copil va realiza un tablou deosebit, pe care îl va lua acasă ca amintire. Și pentru că orice poveste frumoasă merită și ceva ...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/IMG_1278.png",
+          "map_url": "https://maps.google.com/?q=TeachMe+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     }
   ],
-  "last_geocoded": "2026-11-02",
-  "last_recategorized": "2026-11-02",
-  "last_images_sync": "2026-11-02"
+  "last_geocoded": "2026-11-03",
+  "last_recategorized": "2026-11-03",
+  "last_images_sync": "2026-11-03"
 }
