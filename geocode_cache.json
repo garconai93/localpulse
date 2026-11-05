@@ -1285,5 +1285,25 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Muzeul Municipiului București &#8211; Palatul Șuțu::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Asociația HEARTH &#8211; Casa Kerim București::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Compania de Teatru Concordia::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Cinema Ateneu Iași::iasi": [
+    47.1615598,
+    27.5837814,
+    "city_fallback"
   ]
 }
