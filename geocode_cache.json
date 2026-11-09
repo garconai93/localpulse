@@ -1305,5 +1305,10 @@
     47.1615598,
     27.5837814,
     "city_fallback"
+  ],
+  "Tipografia::brasov": [
+    45.6418115,
+    25.5907682,
+    "nominatim"
   ]
 }
