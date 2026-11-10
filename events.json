@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09",
-  "last_scraped": "2026-11-09",
+  "generated_at": "2026-11-10",
+  "last_scraped": "2026-11-10",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -1213,7 +1213,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-orchestra-de-camer-franz-liszt-0047.jpg",
           "lat": 46.166667,
-          "lon": 21.316667
+          "lon": 21.316667,
+          "past": true
         },
         {
           "id": "zsn-festivalul-interna-ional-toamn-0010",
@@ -47900,7 +47901,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-reverii-de-toamn-bogdana-ilies-0027.jpg",
           "lat": 44.42797,
-          "lon": 26.0719
+          "lon": 26.0719,
+          "past": true
         },
         {
           "id": "zsn-ochii-tai-trupa-l-a-ramnicu-va-0012",
@@ -47924,7 +47926,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ochii-tai-trupa-l-a-ramnicu-va-0012.webp",
           "lat": 47.145839,
-          "lon": 27.593917
+          "lon": 27.593917,
+          "past": true
         },
         {
           "id": "zsn-stagiunea-de-jazz-0042",
@@ -47948,7 +47951,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stagiunea-de-jazz-0042.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-opera-night-0061",
@@ -47972,7 +47976,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-opera-night-0061.jpg",
           "lat": 45.104722,
-          "lon": 24.375556
+          "lon": 24.375556,
+          "past": true
         },
         {
           "id": "zsn-ochii-tai-trupa-l-a-pitesti-0003",
@@ -47996,7 +48001,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ochii-tai-trupa-l-a-pitesti-0003.jpg",
           "lat": 44.856102,
-          "lon": 24.877123
+          "lon": 24.877123,
+          "past": true
         },
         {
           "id": "zsn-monday-with-after-8-la-the-pub-0028",
@@ -48021,7 +48027,8 @@
           "image": "events-images/zsn-monday-with-after-8-la-the-pub-0028.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-concert-exuviath-the-monday-sh-0090",
@@ -48045,7 +48052,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-exuviath-the-monday-sh-0090.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-spectacolul-vocal-ultimul-refr-0002",
@@ -57859,6 +57867,59 @@
           "lat": 44.4268,
           "lon": 26.1025,
           "past": true
+        },
+        {
+          "id": "sorina-0074",
+          "title": "Curs de autoapărare",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-12",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-autoaparare-2/",
+          "description": "Din 29 septembrie începem cursurile de autoapărare Vovinam Viet Vo Dao, alături de Sensei Bogdan! 💪 Prin povești, jocuri și multă mișcare, copiii vor învăța tehnici de autoapărare într-un mod distractiv și potrivit vârstei lor. Își vor dezvolta echilibrul, coordonarea și reflexele și vor căpăta mai multă disciplină, încredere și curaj. Totul se desfășoară prin joacă, pentru ca fiecare antrenament să fie o experiență pe care cei mici să o aștepte cu nerăbdare! 🤩 📅 Începem pe 29 septembrie 🗓️ M...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/09/Screenshot-2026-09-24-174317.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0251",
+          "title": "Seară de film",
+          "category": "cinema",
+          "vibe": "intim",
+          "date": "2026-11-15",
+          "time": "17:00",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 120,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/seara-de-film-2/",
+          "description": "Două filme. O singură seară. Toată familia fericită. 🎬🍿 Duminică, 15.11, ora 17:00 Copiii: film, popcorn și limonadă. Părinții: filmul vostru, în zona adulților. ☕ 📩 Înscrieri în DM sau pe WhatsApp: 0778 744 935 📍 Fairy Forest, Clinceni",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "film"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-10-073624.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     },
@@ -61810,7 +61871,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-il-tabarro-gianni-schicchi-gia-0059.jpg",
           "lat": 46.769175,
-          "lon": 23.598764
+          "lon": 23.598764,
+          "past": true
         },
         {
           "id": "zsn-dima-belinski-transylvania-jaz-0056",
@@ -61835,7 +61897,8 @@
           "image": "events-images/zsn-dima-belinski-transylvania-jaz-0056.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-the-red-hot-experience-red-hot-0014",
@@ -66937,7 +67000,8 @@
           "image": "events-images/zsn-riff-acustic-0059.jpg",
           "lat": 45.8817402,
           "lon": 22.9008611,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-moro-enii-v-colind-0085",
@@ -69014,7 +69078,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ia-i-tudor-gheorghe-iarna-2026-0012.webp",
           "lat": 47.16216,
-          "lon": 27.585307
+          "lon": 27.585307,
+          "past": true
         },
         {
           "id": "zsn-seara-c-ntecelor-de-munte-la-i-0008",
@@ -71445,6 +71510,32 @@
           ],
           "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-04-050745.png",
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0131",
+          "title": "Ateliere creative",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-14",
+          "time": "10:00",
+          "venue": "MUZE Kids",
+          "address": "Strada Ion Creangă 5, Odăile 075100, Otopeni",
+          "price": "paid",
+          "price_value": 100,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/ateliere-creative/",
+          "description": "🎨 Sâmbătă, 14 noiembrie | Ateliere de creație la Muze Kids O nouă zi de joacă, creativitate și descoperiri! Am pregătit trei ateliere speciale pentru cei mici. 🍁 10:00–11:15 | Atelier senzorial (1–3 ani) Explorăm texturi, culori și materiale, învățând prin joacă, alături de părinți. Ofertă Black Friday: 90 lei/copil 🧸 11:30–12:30 | Atelier de ursuleți (3+ ani) Colorăm și decorăm ursuleți textili, pe care copiii îi vor lua acasă. Preț: 100 lei/copil 🔨 13:00–14:00 | Atelier de tâmplărie (5+ ani...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-10-070918.png",
+          "map_url": "https://maps.google.com/?q=MUZE+Kids+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
@@ -79871,7 +79962,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-11-09",
-  "last_recategorized": "2026-11-09",
-  "last_images_sync": "2026-11-09"
+  "last_geocoded": "2026-11-10",
+  "last_recategorized": "2026-11-10",
+  "last_images_sync": "2026-11-10"
 }
