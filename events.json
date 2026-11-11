@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10",
-  "last_scraped": "2026-11-10",
+  "generated_at": "2026-11-11",
+  "last_scraped": "2026-11-11",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -48077,7 +48077,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-spectacolul-vocal-ultimul-refr-0002.jpg",
           "lat": 44.853907,
-          "lon": 24.87662
+          "lon": 24.87662,
+          "past": true
         },
         {
           "id": "sorina-0642",
@@ -48104,7 +48105,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-hatebreed-life-of-agony-take-n-0026",
@@ -48128,7 +48130,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-hatebreed-life-of-agony-take-n-0026.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-stagiunea-de-mar-i-seara-0041",
@@ -48152,7 +48155,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stagiunea-de-mar-i-seara-0041.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-slow-pilot-sings-jeff-buckley--0013",
@@ -48176,7 +48180,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-slow-pilot-sings-jeff-buckley--0013.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-ctrl-brutus-live-rotko-0094",
@@ -48201,7 +48206,8 @@
           "image": "events-images/zsn-ctrl-brutus-live-rotko-0094.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0696",
@@ -48228,7 +48234,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-solstafir-la-quantic-0027",
@@ -57916,6 +57923,60 @@
             "film"
           ],
           "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-10-073624.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0303",
+          "title": "Curs de autoapărare",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-17",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-autoaparare/",
+          "description": "Din 29 septembrie începem cursurile de autoapărare Vovinam Viet Vo Dao, alături de Sensei Bogdan! 💪 Prin povești, jocuri și multă mișcare, copiii vor învăța tehnici de autoapărare într-un mod distractiv și potrivit vârstei lor. Își vor dezvolta echilibrul, coordonarea și reflexele și vor căpăta mai multă disciplină, încredere și curaj. Totul se desfășoară prin joacă, pentru ca fiecare antrenament să fie o experiență pe care cei mici să o aștepte cu nerăbdare! 🤩 📅 Începem pe 29 septembrie 🗓️ M...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/09/Screenshot-2026-09-24-174317.png",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0321",
+          "title": "Curs de limba engleză",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-18",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-limba-engleza/",
+          "description": "Cursurile de engleză revin la Fairy Forest într-o formulă nouă, alături de Miss Cătălina, o prezență caldă și tare îndrăgită de cei mici!! Din 18 noiembrie, în fiecare miercuri, de la 17:30, ne jucăm, descoperim și învățăm împreună, în limba engleză!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/900605045_122139655743220868_802834664481404913_n.jpg",
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
@@ -70244,7 +70305,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn--0021.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-vlad-corb-lansare-de-album-ora-0006",
@@ -71330,7 +71392,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0259",
@@ -71356,7 +71419,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0260",
@@ -71382,7 +71446,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0263",
@@ -73487,7 +73552,8 @@
           "image": "events-images/zsn-rapsodii-de-toamn-cu-ansamblul-0013.jpg",
           "lat": 47.6410688,
           "lon": 26.2439935,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-darkness-over-bucovina-symphre-0023",
@@ -79908,6 +79974,58 @@
           "past": true
         },
         {
+          "id": "sorina-0040",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-12",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-24/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/475235771_17930281025996361_3464651805394407268_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0074",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-13",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/475235771_17930281025996361_3464651805394407268_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0269",
           "title": "Atelier creativ – Magie de toamnă",
           "category": "workshop",
@@ -79958,11 +80076,167 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
+        },
+        {
+          "id": "sorina-0388",
+          "title": "Neon Fun Party",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-11-21",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/party-fun-neon/",
+          "description": "NEON FUN PARTY la Tumi Land! Pregătiți pentru o explozie de culoare și distracție? Muzică, dans și jocuri trăsnite Face Painting Neon Crazy Challenge Disco Party & surprize spectaculoase! Totul alături de Seeria Events! 21 noiembrie | 17:00 2h 30min de distracție Tumi Land – Pipera, Voluntari 0769 636 574 Locuri limitate! Rezervă acum! Voi aduceți energia, noi facem magia!",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/897038688_17915068605518464_8318706805988434789_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0479",
+          "title": "Winterland la Tumi Land",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-11-28",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/winterland-la-tumi-land/",
+          "description": "MAGIA SĂRBĂTORILOR ÎNCEPE LA TUMI LAND! Nu aveți încă planuri cu cei mici? Noi v-am pregătit un calendar plin de magie, aventură, distracție și surprize de poveste! Petreceri spectaculoase, personaje îndrăgite, misiuni secrete, ateliere creative și o mulțime de momente care se vor transforma în amintiri de neuitat! Noi pregătim magia, voi aduceți micii aventurieri! Tumi Land – Pipera, Voluntari 0769 636 574 Locurile sunt limitate! Rezervările au început! Ne vedem acolo unde copilăria devine o...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/890611500_17915063532518464_6873293695984911971_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0509",
+          "title": "Winterland la Tumi Land",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-11-29",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/winterland-la-tumi-land-2/",
+          "description": "MAGIA SĂRBĂTORILOR ÎNCEPE LA TUMI LAND! Nu aveți încă planuri cu cei mici? Noi v-am pregătit un calendar plin de magie, aventură, distracție și surprize de poveste! Petreceri spectaculoase, personaje îndrăgite, misiuni secrete, ateliere creative și o mulțime de momente care se vor transforma în amintiri de neuitat! Noi pregătim magia, voi aduceți micii aventurieri! Tumi Land – Pipera, Voluntari 0769 636 574 Locurile sunt limitate! Rezervările au început! Ne vedem acolo unde copilăria devine o...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/890611500_17915063532518464_6873293695984911971_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0515",
+          "title": "Winterland la Tumi Land",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-11-30",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/winterland-la-tumi-land-3/",
+          "description": "MAGIA SĂRBĂTORILOR ÎNCEPE LA TUMI LAND! Nu aveți încă planuri cu cei mici? Noi v-am pregătit un calendar plin de magie, aventură, distracție și surprize de poveste! Petreceri spectaculoase, personaje îndrăgite, misiuni secrete, ateliere creative și o mulțime de momente care se vor transforma în amintiri de neuitat! Noi pregătim magia, voi aduceți micii aventurieri! Tumi Land – Pipera, Voluntari 0769 636 574 Locurile sunt limitate! Rezervările au început! Ne vedem acolo unde copilăria devine o...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/890611500_17915063532518464_6873293695984911971_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0521",
+          "title": "1 Decembrie la Tumi Land",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-12-01",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/1-decembrie-la-tumi-land/",
+          "description": "MAGIA SĂRBĂTORILOR ÎNCEPE LA TUMI LAND! Nu aveți încă planuri cu cei mici? Noi v-am pregătit un calendar plin de magie, aventură, distracție și surprize de poveste! Petreceri spectaculoase, personaje îndrăgite, misiuni secrete, ateliere creative și o mulțime de momente care se vor transforma în amintiri de neuitat! Noi pregătim magia, voi aduceți micii aventurieri! Tumi Land – Pipera, Voluntari 0769 636 574 Locurile sunt limitate! Rezervările au început! Ne vedem acolo unde copilăria devine o...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/890611500_17915063532518464_6873293695984911971_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0567",
+          "title": "Operațiune Secretă: Poșta Moșului",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-12-06",
+          "time": "17:00",
+          "venue": "TumiLand",
+          "address": "Str. Șerban Cantacuzino 120, Voluntari 077191, București",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/operatiune-secreta-posta-mosului/",
+          "description": "MAGIA SĂRBĂTORILOR ÎNCEPE LA TUMI LAND! Nu aveți încă planuri cu cei mici? Noi v-am pregătit un calendar plin de magie, aventură, distracție și surprize de poveste! Petreceri spectaculoase, personaje îndrăgite, misiuni secrete, ateliere creative și o mulțime de momente care se vor transforma în amintiri de neuitat! Noi pregătim magia, voi aduceți micii aventurieri! Tumi Land – Pipera, Voluntari 0769 636 574 Locurile sunt limitate! Rezervările au început! Ne vedem acolo unde copilăria devine o...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/890611500_17915063532518464_6873293695984911971_n.jpg",
+          "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
         }
       ]
     }
   ],
-  "last_geocoded": "2026-11-10",
-  "last_recategorized": "2026-11-10",
-  "last_images_sync": "2026-11-10"
+  "last_geocoded": "2026-11-11",
+  "last_recategorized": "2026-11-11",
+  "last_images_sync": "2026-11-11"
 }
