@@ -1310,5 +1310,15 @@
     45.6418115,
     25.5907682,
     "nominatim"
+  ],
+  "Times Brașov::brasov": [
+    45.6446364,
+    25.5948306,
+    "nominatim"
+  ],
+  "Sinagoga Mare Constanța::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
