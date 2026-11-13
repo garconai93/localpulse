@@ -1320,5 +1320,20 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Seawolves MC Clubhouse Galati::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Sala Sporturilor Târgu Jiu::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Teatrul Infinit::bucuresti": [
+    44.4469113,
+    26.1124893,
+    "nominatim"
   ]
 }
