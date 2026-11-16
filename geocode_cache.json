@@ -1335,5 +1335,15 @@
     44.4469113,
     26.1124893,
     "nominatim"
+  ],
+  "BEAT bar umanist::bucuresti": [
+    44.4404135,
+    26.0723312,
+    "nominatim"
+  ],
+  "Teatrul Național Ion Luca Caragiale București::bucuresti": [
+    44.4372979,
+    26.1038036,
+    "nominatim"
   ]
 }
