@@ -1345,5 +1345,15 @@
     44.4372979,
     26.1038036,
     "nominatim"
+  ],
+  "Sala Polivalentă Arad::arad": [
+    46.1795566,
+    21.3343298,
+    "nominatim"
+  ],
+  "Casa Bals::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
