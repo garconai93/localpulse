@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17",
-  "last_scraped": "2026-11-17",
+  "generated_at": "2026-11-18",
+  "last_scraped": "2026-11-18",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -5196,7 +5196,8 @@
           "image": "events-images/zsn-chamber-jazz-universitatea-tra-0071.jpg",
           "lat": 45.6525105,
           "lon": 25.6105654,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-theo-rose-acorduri-ample-0003",
@@ -52230,7 +52231,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-stagiunea-de-mar-i-seara-0038.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-concert-caritabil-heart-rock-v-0009",
@@ -52254,7 +52256,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-caritabil-heart-rock-v-0009.webp",
           "lat": 44.437863,
-          "lon": 26.094895
+          "lon": 26.094895,
+          "past": true
         },
         {
           "id": "zsn-viva-la-musica-corul-de-b-ie-i-0031",
@@ -52278,7 +52281,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-viva-la-musica-corul-de-b-ie-i-0031.jpg",
           "lat": 44.441225,
-          "lon": 26.084461
+          "lon": 26.084461,
+          "past": true
         },
         {
           "id": "zsn-recital-de-pian-josef-filtsch-0012",
@@ -52302,7 +52306,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-recital-de-pian-josef-filtsch-0012.webp",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-ctrl-live-horse-jumper-of-love-0051",
@@ -52327,7 +52332,8 @@
           "image": "events-images/zsn-ctrl-live-horse-jumper-of-love-0051.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-tribut-coldplay-imagine-dragon-0052",
@@ -52351,7 +52357,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-tribut-coldplay-imagine-dragon-0052.jpg",
           "lat": 44.441899,
-          "lon": 26.098514
+          "lon": 26.098514,
+          "past": true
         },
         {
           "id": "zsn-edi-ivascu-band-concert-la-the-0055",
@@ -52376,7 +52383,8 @@
           "image": "events-images/zsn-edi-ivascu-band-concert-la-the-0055.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-diana-c-ld-raru-ce-bine-c-am-g-0070",
@@ -52400,7 +52408,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-diana-c-ld-raru-ce-bine-c-am-g-0070.jpg",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-r-zvan-cipca-oleg-lascu-anthon-0048",
@@ -52424,7 +52433,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-r-zvan-cipca-oleg-lascu-anthon-0048.jpg",
           "lat": 44.683562,
-          "lon": 25.774443
+          "lon": 25.774443,
+          "past": true
         },
         {
           "id": "zsn-recitalul-armonii-de-sf-r-it-d-0040",
@@ -54453,6 +54463,30 @@
           "image": "events-images/zsn-ploiesti-concert-phoenix-0009.jpg",
           "lat": 44.913418,
           "lon": 26.035009
+        },
+        {
+          "id": "zsn-concert-direc-ia-5-100-direc-i-0009",
+          "title": "Concert Direcția 5 – „100% Direcția 5”",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-11-21",
+          "time": "19:30",
+          "venue": "Casa de Cultură a Sindicatelor Ploieşti",
+          "address": "Bd. Republicii nr. 65, Ploiești, Ploieşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/concert-directia-5-100-directia-5-16/",
+          "description": "Concert Aniversar 100% Direcția 5. Vă invităm la un concert special în care vom sărbători împreună muzica Direcția 5, într-o seară dedicată celor mai frumoase melodii care au marcat generații.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Casa+de+Cultură+a+Sindicatelor+Ploieşti+Ploieşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-concert-direc-ia-5-100-direc-i-0009.png",
+          "lat": 44.942309,
+          "lon": 26.018743
         },
         {
           "id": "zsn-luna-amara-lansare-single-ceva-0004",
@@ -61836,7 +61870,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0321",
@@ -66348,7 +66383,8 @@
           "image": "events-images/zsn-tudor-gheorghe-iarna-2026-0041.png",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-gustav-mahler-simfonia-nr-2-nv-0064",
@@ -66372,7 +66408,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-gustav-mahler-simfonia-nr-2-nv-0064.jpg",
           "lat": 46.768734,
-          "lon": 23.593044
+          "lon": 23.593044,
+          "past": true
         },
         {
           "id": "zsn-aephanemer-symphress-machines--0061",
@@ -66396,7 +66433,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-aephanemer-symphress-machines--0061.webp",
           "lat": 46.769379,
-          "lon": 23.5899542
+          "lon": 23.5899542,
+          "past": true
         },
         {
           "id": "zsn-aephanemer-symphress-machines--0017",
@@ -66421,7 +66459,8 @@
           "image": "events-images/zsn-aephanemer-symphress-machines--0017.webp",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-pasha-fedotov-reziden-concert--0066",
@@ -66446,7 +66485,8 @@
           "image": "events-images/zsn-pasha-fedotov-reziden-concert--0066.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-trubadurul-giuseppe-verdi-0099",
@@ -69704,7 +69744,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bella-voce-bella-muzica-0036.jpg",
           "lat": 44.181752,
-          "lon": 28.650691
+          "lon": 28.650691,
+          "past": true
         },
         {
           "id": "zsn-vlad-corb-lansare-de-album-0058",
@@ -73970,7 +74011,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-la-palat-vioara-lui-en-0020.jpg",
           "lat": 47.156944,
-          "lon": 27.590278
+          "lon": 27.590278,
+          "past": true
         },
         {
           "id": "zsn-concert-bosquito-0004",
@@ -76662,7 +76704,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0293",
@@ -76688,7 +76731,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0375",
@@ -77472,7 +77516,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-cameral-exhibition-duo-0009.jpg",
           "lat": 47.792804,
-          "lon": 22.874683
+          "lon": 22.874683,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0076",
@@ -82927,7 +82972,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-gerdband-live-in-timi--0008.jpg",
           "lat": 45.742977,
-          "lon": 21.224123
+          "lon": 21.224123,
+          "past": true
         },
         {
           "id": "zsn-timi-oara-balade-rock-la-lumin-0010",
@@ -82951,7 +82997,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-timi-oara-balade-rock-la-lumin-0010.jpg",
           "lat": 45.751158,
-          "lon": 21.22557
+          "lon": 21.22557,
+          "past": true
         },
         {
           "id": "zsn-om-la-lun-timi-oara-19-nov-0012",
@@ -85995,7 +86042,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-11-17",
-  "last_recategorized": "2026-11-17",
-  "last_images_sync": "2026-11-17"
+  "last_geocoded": "2026-11-18",
+  "last_recategorized": "2026-11-18",
+  "last_images_sync": "2026-11-18"
 }
