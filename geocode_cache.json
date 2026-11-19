@@ -1355,5 +1355,40 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Muzeul de Artă Brașov::brasov": [
+    45.645004,
+    25.593788,
+    "nominatim"
+  ],
+  "The Urbanist::bucuresti": [
+    44.429519,
+    26.1017986,
+    "nominatim"
+  ],
+  "Mojo Club::bucuresti": [
+    44.43182,
+    26.1023567,
+    "nominatim"
+  ],
+  "Club Șurubelnița::bucuresti": [
+    44.4347509,
+    26.1080883,
+    "nominatim"
+  ],
+  "Biserica Evanghelică Luterană, Parohia Cluj – Biserica Pietati::cluj-napoca": [
+    46.769379,
+    23.5899542,
+    "city_fallback"
+  ],
+  "Sky Flavor::deva": [
+    45.8817402,
+    22.9008611,
+    "city_fallback"
+  ],
+  "Casa de Cultura Cisnadie::sibiu": [
+    45.7973912,
+    24.1519202,
+    "city_fallback"
   ]
 }
