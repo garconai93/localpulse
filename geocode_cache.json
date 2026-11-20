@@ -1390,5 +1390,20 @@
     45.7973912,
     24.1519202,
     "city_fallback"
+  ],
+  "Aula Magna Politehnica București::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Play Caffe::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Palatul Ghica-Tei::bucuresti": [
+    44.4662459,
+    26.1284586,
+    "nominatim"
   ]
 }

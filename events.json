@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19",
-  "last_scraped": "2026-11-19",
+  "generated_at": "2026-11-20",
+  "last_scraped": "2026-11-20",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -1435,7 +1435,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-semper-mozart-concert-vocal-si-0026.png",
           "lat": 46.166667,
-          "lon": 21.316667
+          "lon": 21.316667,
+          "past": true
         },
         {
           "id": "zsn-white-mahala-0098",
@@ -5321,7 +5322,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bra-ov-anais-vacariu-lansare-a-0097.jpg",
           "lat": 45.648071,
-          "lon": 25.607652
+          "lon": 25.607652,
+          "past": true
         },
         {
           "id": "zsn-cristian-oro-anu-dorel-golan-i-0103",
@@ -5345,7 +5347,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-cristian-oro-anu-dorel-golan-i-0103.jpg",
           "lat": 45.647543,
-          "lon": 25.60426
+          "lon": 25.60426,
+          "past": true
         },
         {
           "id": "zsn-concert-bardo-noir-0001",
@@ -5370,7 +5373,8 @@
           "image": "events-images/zsn-concert-bardo-noir-0001.jpg",
           "lat": 45.6525105,
           "lon": 25.6105654,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-carmen-repeti-ie-general-cu-pu-0102",
@@ -5394,7 +5398,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-carmen-repeti-ie-general-cu-pu-0102.jpg",
           "lat": 45.654351,
-          "lon": 25.590026
+          "lon": 25.590026,
+          "past": true
         },
         {
           "id": "zsn-protocol-pentru-natur-econcert-0071",
@@ -52946,7 +52951,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-19-11-2026-0014",
@@ -52970,7 +52976,8 @@
           "organizer": "zilesinopti.ro",
           "image": "",
           "lat": 46.556086,
-          "lon": 26.885465
+          "lon": 26.885465,
+          "past": true
         },
         {
           "id": "zsn-bistrita-bella-voce-bella-musi-0041",
@@ -52994,7 +53001,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-bistrita-bella-voce-bella-musi-0041.png",
           "lat": 47.138114,
-          "lon": 24.506144
+          "lon": 24.506144,
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-0036",
@@ -53018,7 +53026,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-0036.jpg",
           "lat": 44.441199,
-          "lon": 26.097882
+          "lon": 26.097882,
+          "past": true
         },
         {
           "id": "zsn-the-coffee-shop-music-mircea-v-0003",
@@ -53042,7 +53051,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-coffee-shop-music-mircea-v-0003.jpg",
           "lat": 44.677023,
-          "lon": 25.774439
+          "lon": 25.774439,
+          "past": true
         },
         {
           "id": "zsn-iordache-live-frumos-poetic-in-0014",
@@ -53066,7 +53076,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-iordache-live-frumos-poetic-in-0014.jpg",
           "lat": 44.442886,
-          "lon": 26.09343
+          "lon": 26.09343,
+          "past": true
         },
         {
           "id": "zsn-simion-bogdan-mihai-i-l-utarii-0015",
@@ -53090,7 +53101,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-simion-bogdan-mihai-i-l-utarii-0015.webp",
           "lat": 44.437863,
-          "lon": 26.094895
+          "lon": 26.094895,
+          "past": true
         },
         {
           "id": "zsn-aproape-alternosfera-tot-ce-a--0100",
@@ -53114,7 +53126,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-aproape-alternosfera-tot-ce-a--0100.jpg",
           "lat": 46.563748,
-          "lon": 26.913259
+          "lon": 26.913259,
+          "past": true
         },
         {
           "id": "zsn-concert-c-t-lin-stepa-n-club-p-0013",
@@ -53139,7 +53152,8 @@
           "image": "events-images/zsn-concert-c-t-lin-stepa-n-club-p-0013.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-un-concert-clar-obscur-cristin-0021",
@@ -53164,7 +53178,8 @@
           "image": "events-images/zsn-un-concert-clar-obscur-cristin-0021.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-simfonic-19-noiembrie--0075",
@@ -53188,7 +53203,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-19-noiembrie--0075.jpg",
           "lat": 44.938248,
-          "lon": 26.022599
+          "lon": 26.022599,
+          "past": true
         },
         {
           "id": "zsn-live-hanno-hoefer-raul-kusak-b-0022",
@@ -53213,7 +53229,8 @@
           "image": "events-images/zsn-live-hanno-hoefer-raul-kusak-b-0022.jpg",
           "lat": 44.4434999,
           "lon": 26.0939228,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-eshtadur-melodic-death-metal-c-0008",
@@ -53238,7 +53255,8 @@
           "image": "events-images/zsn-eshtadur-melodic-death-metal-c-0008.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-marquis-collective-metamorphos-0035",
@@ -53262,7 +53280,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-marquis-collective-metamorphos-0035.webp",
           "lat": 45.115365,
-          "lon": 24.36413
+          "lon": 24.36413,
+          "past": true
         },
         {
           "id": "zsn-mi-ma-progresiv-l-ut-resc-0039",
@@ -53286,7 +53305,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-mi-ma-progresiv-l-ut-resc-0039.jpg",
           "lat": 44.44165,
-          "lon": 26.109424
+          "lon": 26.109424,
+          "past": true
         },
         {
           "id": "zsn-the-earliest-xmas-party-in-tow-0035",
@@ -53311,7 +53331,8 @@
           "image": "events-images/zsn-the-earliest-xmas-party-in-tow-0035.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-gramofone-0037",
@@ -53335,7 +53356,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-gramofone-0037.png",
           "lat": 44.942876,
-          "lon": 25.987398
+          "lon": 25.987398,
+          "past": true
         },
         {
           "id": "zsn-l-veing-room-petric-andrei-tri-0053",
@@ -53359,7 +53381,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-l-veing-room-petric-andrei-tri-0053.jpg",
           "lat": 44.418066,
-          "lon": 26.115052
+          "lon": 26.115052,
+          "past": true
         },
         {
           "id": "zsn-concert-anton-simfonic-de-10-a-0020",
@@ -53384,7 +53407,8 @@
           "image": "events-images/zsn-concert-anton-simfonic-de-10-a-0020.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-between-soul-groove-r-zvan-tri-0037",
@@ -53408,7 +53432,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-between-soul-groove-r-zvan-tri-0037.jpg",
           "lat": 44.430552,
-          "lon": 26.07492
+          "lon": 26.07492,
+          "past": true
         },
         {
           "id": "zsn-hvnds-out-of-control-0049",
@@ -53432,7 +53457,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-hvnds-out-of-control-0049.png",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-concert-acustic-mark-stam-0001",
@@ -53456,7 +53482,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-acustic-mark-stam-0001.png",
           "lat": 44.442524,
-          "lon": 26.081368
+          "lon": 26.081368,
+          "past": true
         },
         {
           "id": "zsn-november-retroverse-0034",
@@ -53481,7 +53508,8 @@
           "image": "events-images/zsn-november-retroverse-0034.png",
           "lat": 44.4315012,
           "lon": 26.1031083,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-concert-luna-amar-0036",
@@ -53505,7 +53533,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-luna-amar-0036.png",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-two-wrongs-actress-dj-set-hern-0049",
@@ -53530,7 +53559,8 @@
           "image": "events-images/zsn-two-wrongs-actress-dj-set-hern-0049.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "sorina-0654",
@@ -53557,7 +53587,8 @@
           "organizer": "stiudelasorina.ro",
           "lat": 44.4438781,
           "lon": 26.0952464,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-bubu-concert-de-craciun-0018",
@@ -57794,6 +57825,31 @@
           "lon": 26.12156
         },
         {
+          "id": "zsn-artms-art-of-blue-blood-world--0001",
+          "title": "ARTMS – Art Of BLUE BLOOD World Tour | București",
+          "category": "concert",
+          "vibe": "loud",
+          "date": "2026-12-01",
+          "time": "18:00",
+          "venue": "Aula Magna Politehnica București",
+          "address": "Splaiul Independentei nr. 313, București, Bucureşti",
+          "price": "unknown",
+          "price_value": 0,
+          "source": "zilesinopti",
+          "url": "https://zilesinopti.ro/evenimente/artms-art-of-blue-blood-world-tour/",
+          "description": "Concert ARTMS la București, 1 decembrie 2026 – bilete și detalii.",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [],
+          "map_url": "https://maps.google.com/?q=Aula+Magna+Politehnica+București+Bucureşti",
+          "organizer": "zilesinopti.ro",
+          "image": "events-images/zsn-artms-art-of-blue-blood-world--0001.webp",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-la-mul-i-ani-rom-nia-0005",
           "title": "La mulți ani, România!",
           "category": "teatru",
@@ -60279,6 +60335,33 @@
           "lon": 26.084461
         },
         {
+          "id": "sorina-0681",
+          "title": "Poveste de Crăciun",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-20",
+          "time": "11:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/poveste-de-craciun-6/",
+          "description": "Poveste de Crăciun, + 5 ani, Sala Mare Durata: 120 de minute Se apropie timpul minunat când Opera Comică pentru Copii se transformă într-un tărâm fermecat, în preajma sărbătorilor sfârşitului de an! Aici, în seri cum nu mai există altele, se întâmplă ceva extraordinar: o scenă uriașă prinde viață sub bagheta magică a maestrului regizor Cristian Mihăilescu, iar ceea ce urmează te va face să crezi că visezi cu ochii deschiși! Te așteaptă o sală strălucitoare, în...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0681.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "sorina-0574",
           "title": "Magia Crăciunului – Călătorie muzicală în jurul lumii",
           "category": "concert",
@@ -60379,6 +60462,33 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "sorina-0697",
+          "title": "Crăciun la Play Caffe",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-12-21",
+          "time": "17:00",
+          "venue": "Play Caffe",
+          "address": "Strada Emancipării 37, București 022531, București",
+          "price": "paid",
+          "price_value": 85,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/craciun-la-play-caffe/",
+          "description": "🚨🎄 ALERTĂ DE CRĂCIUN! GRINCH VREA SĂ FURE CRĂCIUNUL DE LA PLAY CAFFE! 😱💚 🎅 Moș Crăciun tocmai ne-a anunțat că vine la Play Caffe pe 21 și 22 DECEMBRIE, de la ora 17:00! 🎁✨ DAR AVEM O PROBLEMĂ MAAAARE! 🙈 💚 GRINCH A AFLAT ȘI VINE ȘI EL! 😈 Și ghiciți ce și-a pus în cap? Să încurce petrecerea, să facă numai năzbâtii și să strice Crăciunul! 😂🎄 🆘 AVEM NEVOIE URGENTĂ DE O ARMATĂ DE COPILAȘI CURAJOȘI! Cine îl ajută pe Moș Crăciun să salveze magia sărbătorilor? ❤️ 🎉 Pregătim două zile de poveste, cu h...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "events-images/sorina-0697.png",
+          "map_url": "https://maps.google.com/?q=Play+Caffe+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "city_fallback"
+        },
+        {
           "id": "zsn-concert-tavi-clonda-band-i-21--0001",
           "title": "Concert Tavi Clonda Band I 21 decembrie I Intrare liberă",
           "category": "concert",
@@ -60426,6 +60536,33 @@
           "lat": 44.4361414,
           "lon": 26.102684,
           "geocode_quality": "city_fallback"
+        },
+        {
+          "id": "sorina-0702",
+          "title": "Poveste de Crăciun",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-22",
+          "time": "17:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 60,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/poveste-de-craciun-16/",
+          "description": "Poveste de Crăciun, + 5 ani, Sala Mare Durata: 120 de minute Se apropie timpul minunat când Opera Comică pentru Copii se transformă într-un tărâm fermecat, în preajma sărbătorilor sfârşitului de an! Aici, în seri cum nu mai există altele, se întâmplă ceva extraordinar: o scenă uriașă prinde viață sub bagheta magică a maestrului regizor Cristian Mihăilescu, iar ceea ce urmează te va face să crezi că visezi cu ochii deschiși! Te așteaptă o sală strălucitoare, în...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0702.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
         },
         {
           "id": "sorina-0706",
@@ -60703,6 +60840,141 @@
           "lon": 24.36413
         },
         {
+          "id": "sorina-0715",
+          "title": "Cred în unicorni",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-27",
+          "time": "11:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/cred-in-unicorni/",
+          "description": "6 ani+ Adaptat după micul, dar atât de puternicul roman scris de Michael Morpurgo, spectacolul „ Cred în unicorni ” aduce pe scena TIC o poveste fascinantă despre forța lecturii și lumile imaginare pe care aceasta le deschide, plecând de la emoționanta întâlnire dintre un băiețel și o bibliotecară. „Scufundarea băiatului în povestea originară a lui Noe, felul în care realul și fantasticul se modelează reciproc, pledoaria superbă pentru salvarea cărților m-au făcut să îmi doresc să scriu un sc...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0715.png",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0716",
+          "title": "Marea aventură urbană",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-27",
+          "time": "11:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/marea-aventura-urbana/",
+          "description": "3 ani+ Teatrul pentru copii, în afară de rolul lui esențial estetic – de formare a gustului pentru frumos, de încurajare a imaginației și a libertății de a crea -, are și darul de a educa. „Marea aventură urbană” își propune să îi familiarizeze pe copii, prin elemente de recuzită tematică, cu regulile de circulație rutieră. Într-o frumoasă zi de vară, Iepurașul află că se va muta din pădure la oraș, iar prima emoție pe care o încearcă este frica. Se va descurca în noul mediu atât de aglomerat...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0716.png",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0717",
+          "title": "Omul de zăpadă care voia să întâlnească soarele",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-27",
+          "time": "12:00",
+          "venue": "Teatrul Țăndărică",
+          "address": "Strada General Eremia Grigorescu 24, București 010476, București",
+          "price": "paid",
+          "price_value": 35,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/omul-de-zapada-care-voia-sa-intalneasca-soarele-2/",
+          "description": "4 ani+ În premieră națională, Matei Vișniec, cel mai jucat dramaturg român atât în țară, cât și în străinătate, „debutează” pe scena de la Țăndărică, cu o piesă scrisă pentru copii. „Omul de zăpadă care voia să întâlnească soarele” este un poem plin de tandrețe, de candoare și sensibilitate, care vorbește despre prietenie, tristețe, bucurie, speranță. Când simte cum razele soarelui îl topesc încetul cu încetul, Omul de zăpadă pornește într-o călătorie pentru a-l ruga pe astrul ceresc să-i fie...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0717.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Țăndărică+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4452933,
+          "lon": 26.1010628,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0718",
+          "title": "Crăiasa Zăpezii – by Qfeel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-27",
+          "time": "12:00",
+          "venue": "Sala Luceafărul",
+          "address": "Strada Ion Ghica 3, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/craiasa-zapezii-by-qfeel/",
+          "description": "Crăiasa Zăpezii – Teatru interactiv pentru copii 📆Data: 27 decembrie ⏰ Ora: 12:00 📍 Locația: Sala Luceafărul 🎟️ Vârsta recomandată: +2 ani ⏳ Durată: 60 min ✨🎭 O aventură muzicală prin zăpadă și gheață, despre prietenia care învinge tot! 🎭✨ 📖 Bunicuța le citește copiilor povestea Crăiesei Zăpezii&#8230; dar are o mică problemă: adoarme după fiecare capitol! Și numai copiii din sală o pot trezi, cu parola magică: „Prietenia învinge tot!” 😴 ❄️ În poveste, Kay se laudă că o va topi pe Crăiasa Zăp...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0718.webp",
+          "map_url": "https://maps.google.com/?q=Sala+Luceafărul+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4341166,
+          "lon": 26.1023412,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0720",
+          "title": "Amintiri din copilărie",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-27",
+          "time": "18:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/amintiri-din-copilarie-3/",
+          "description": "6 ani+ Numele Ion Creangă este un sinonim al copilăriei. Este primul autor român care a surprins ideile universale ale copilăriei, dorința de explorare și de cunoaștere, importanța prieteniei, puterea imaginației, îndârjirea, dar și fragilitatea, emoții puternice sau trăiri foarte intense. Teatrul nostru se identifică cu toate aceste valori, de aceea purtăm numele autorului. Activitatea noastră gravitează în jurul idealului copilăriei, prin tot ceea ce facem, ne dorim să ajutăm copiii în a de...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0720.jpg",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-christmas-rock-night-manifest--0077",
           "title": "CHRISTMAS ROCK NIGHT | MANIFEST live & Rockotecă cu Mihai Venedict",
           "category": "concert",
@@ -60752,6 +61024,87 @@
           "lon": 26.097882
         },
         {
+          "id": "sorina-0723",
+          "title": "Harap Alb",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-29",
+          "time": "11:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/harap-alb-2/",
+          "description": "6 ani+ Dintre toate scrierile ficționale ale lui Ion Creangă, „Povestea lui Harap-Alb” este și cea mai complexă, și cea mai apropiată de formula basmului. Acțiunea se desfășoară pe mai multe planuri, implică un număr record de personaje fantastice, probele de trecut depășesc cifra 3, iar călătoria pe care o face eroul principal este o metaforă a procesului de maturizare. Avântul naivității îl determină pe un tânăr crai să își încerce norocul în a deveni împărat. Pentru a-și atinge scopul, ple...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0723.jpg",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0724",
+          "title": "Fetița cu chibrituri",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-29",
+          "time": "18:00",
+          "venue": "Teatrul Ion Creangă",
+          "address": "Strada Piața Amzei 13, 010343 București, București",
+          "price": "paid",
+          "price_value": 37,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/fetita-cu-chibrituri-10/",
+          "description": "3 ani+ Imaginația este, la vârsta copilăriei, o superputere – datorită ei, putem accesa universuri fantastice, putem ajunge, cât ai clipi, în lumi fermecate. Când realitatea apasă prea tare, iar singurătatea ne înconjoară, doar în această forță interioară aflăm salvarea. „Fetița cu chibrituri” este o poveste care a impresionat generații de cititori. Chiar dacă sentimentul predominant este tristețea, mesajul final aduce speranță. Văzută din perspectiva refugiului în imaginar, Fetița cu chibrit...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0724.jpg",
+          "map_url": "https://maps.google.com/?q=Teatrul+Ion+Creangă+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4438781,
+          "lon": 26.0952464,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0725",
+          "title": "Cartea junglei",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2026-12-30",
+          "time": "10:00",
+          "venue": "Teatrul Țăndărică",
+          "address": "Strada General Eremia Grigorescu 24, București 010476, București",
+          "price": "paid",
+          "price_value": 35,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/cartea-junglei-5/",
+          "description": "4 ani+ „Cartea junglei” este considerată o lucrare clasică a literaturii universale și încântă pe orice spectator, mai tânăr sau mai vârstnic, prin umorul cu care sunt reproduse întâmplări din viața animalelor, care ar putea foarte uşor sa semene cu aspecte din societatea umana. Contactul lui Mowgli cu animalele junglei descoperă însușiri care, cu ușurința, pot fi asemuite cu cele ale oamenilor: curaj, înțelepciune, demnitate, dar si lăudăroșenie, oportunism, dorinta de a stapâni abuziv. Ajut...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0725.webp",
+          "map_url": "https://maps.google.com/?q=Teatrul+Țăndărică+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4452933,
+          "lon": 26.1010628,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-regal-vienez-concert-extraordi-0137",
           "title": "REGAL VIENEZ – CONCERT EXTRAORDINAR DE CRACIUN | RAMNICU VALCEA",
           "category": "concert",
@@ -60798,6 +61151,89 @@
           "image": "events-images/zsn-concert-alexia-la-hard-rock-ca-0004.png",
           "lat": 44.444723,
           "lon": 26.08565
+        },
+        {
+          "id": "sorina-0728",
+          "title": "Revelion de Poveste – Vrăjitorul din Oz",
+          "category": "family",
+          "vibe": "loud",
+          "date": "2026-12-31",
+          "time": "19:00",
+          "venue": "MINA Museum",
+          "address": "Strada George Constantinescu 2-4, București 020339, București",
+          "price": "paid",
+          "price_value": 950,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/revelion-de-poveste-vrajitorul-din-oz/",
+          "description": "Începeți 2027 împreună, în lumea Vrăjitorului din Oz! La MINA București, Revelionul e pentru întreaga familie: cină festivă, proiecții imersive tematice și DJ set, iar pentru copii — animatori, magician, surprize și joacă la MINA Kids. Întâmpinăm noul an cu un show digital de artificii! 31 decembrie · 19:00–02:00 Str. George Constantinescu 2–4 Rezervați-vă seara de poveste pe minamuseum.com. REVELION ÎN OZ – O NOAPTE DINCOLO DE IMAGINAȚIE Anul acesta, te invităm să pășești pe drumul de cărămi...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "in-familie",
+            "play-session"
+          ],
+          "image": "events-images/sorina-0728.jpg",
+          "map_url": "https://maps.google.com/?q=MINA+Museum+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4790142,
+          "lon": 26.1172529,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0729",
+          "title": "Revelionul Copiilor 2027",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-12-31",
+          "time": "21:00",
+          "venue": "Palatul Ghica-Tei",
+          "address": "Str. Doamna Ghica 3-5, 022822 București, București",
+          "price": "paid",
+          "price_value": 1090,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/revelionul-copiilor-2027/",
+          "description": "Revelion parinti si copii la Palat 2027 @ Palatul Ghica Tei Palatul Ghica Tei isi deschide portile pentru Revelionul Copiilor 2027. Povestea noastra incepe in familie. Sarbatorile sunt pentru a petrece timpul alaturi de cei dragi, asa ca Palatul Ghica Tei va asteapta alaturi de cei mici pentru o noapte plina de activitati creative si povesti. Cei mici vor avea parte de o sala de joaca speciala in noaptea de Revelion, unde vor avea acces la un bufet exclusiv cu mancaruri special pregatite pent...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "in-familie",
+            "play-session"
+          ],
+          "image": "events-images/sorina-0729.jpg",
+          "map_url": "https://maps.google.com/?q=Palatul+Ghica-Tei+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4662459,
+          "lon": 26.1284586,
+          "geocode_quality": "nominatim"
+        },
+        {
+          "id": "sorina-0730",
+          "title": "Iată vin Colindătorii – Teatru pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2027-01-03",
+          "time": "11:00",
+          "venue": "Hanu' lui Manuc",
+          "address": "Str. Franceză 62-64, București 030106, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/iata-vin-colindatorii-teatru-pentru-copii-4/",
+          "description": "Copiii sunt invitați la un spectacol tradiţional cu actori la vedere, păpuşi şi marionete, la o poveste cu obiceiuri şi tradiţii de iarnă, în care muzica, umorul şi veselia se împletesc în jocul păpuşilor şi recreează minunata atmosferă a sărbatorilor de iarnă. Bineînţeles mult aşteptatul Moş Crăciun este personajul favorit. Actorii vor da viață personajelor : Fănică, Moș Crăciun, Toader, Colindătorii, Mihăiță, Păcală, Safta, Porcul, Anuța, Ilinca, Capra și Ieduțul. Spectacol de teatru intera...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0730.webp",
+          "map_url": "https://maps.google.com/?q=Hanu'+lui+Manuc+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4297201,
+          "lon": 26.102347,
+          "geocode_quality": "cache"
         },
         {
           "id": "sorina-0665",
@@ -60899,6 +61335,60 @@
           "lon": 26.097882
         },
         {
+          "id": "sorina-0732",
+          "title": "Peștișorul de Aur – Teatru pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2027-01-09",
+          "time": "10:00",
+          "venue": "Amicii Cafe București",
+          "address": "Str. Biruinței 87, Popești-Leordeni 077160, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/pestisorul-de-aur-teatru-pentru-copii/",
+          "description": "Peștisorul, cu glas de om, îi ceru pescarului să-l lase în viață și să-l arunce înapoi în apă. Pescarul era un om milostiv, însă îi era teamă de gura spurcată a nevestei, gândindu-se că se va întoarce acasă fără hrană. În cele din urmă, cruță viața bietei ființe, hotărându-se să o lase să se întoarcă în împărăția apelor. Peștișorul, drept răsplată, îi promise pescarului că-i va îndeplini trei dorințe. Însă pescarul, trecut prin atâtea necazuri, nu mai credea în minuni. Când pescarul se întoar...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0732.webp",
+          "map_url": "https://maps.google.com/?q=Amicii+Cafe+București+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4361414,
+          "lon": 26.102684,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0733",
+          "title": "Fram, ursul polar – by Qfeel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-01-10",
+          "time": "10:00",
+          "venue": "Sala Luceafărul",
+          "address": "Strada Ion Ghica 3, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/fram-ursul-polar-by-qfeel-3/",
+          "description": "Fram, ursul polar – Teatru interactiv pentru copii 📆Data: 10 ianuarie 2027 ⏰Ora: 10:00 📍Locația: Sala Luceafărul – București 🎟️ Vârsta recomandată: +2 ani ⏳ Durată: 60 min ✨🎭 O aventură de la circ până la Polul Nord, despre dorul de casă și prietenie! 🎭✨ 🎪 Fram, ursul alb, mare, dar puțin fricos – este vedeta Circului Struțki. Blând și iubit de toți copiii, își face numerele singur. Dar într-o seară&#8230; uită tot! Numerele îi ies pe dos, iar sala râde. Lui Fram nu-i e lene. Îi e dor. Dor de...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0733.webp",
+          "map_url": "https://maps.google.com/?q=Sala+Luceafărul+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4341166,
+          "lon": 26.1023412,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-concert-simfonic-0025",
           "title": "Concert simfonic",
           "category": "concert",
@@ -60923,6 +61413,33 @@
           "lon": 26.097882
         },
         {
+          "id": "sorina-0736",
+          "title": "Scufița Roșie – by Qfeel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-01-17",
+          "time": "12:00",
+          "venue": "Sala Luceafărul",
+          "address": "Strada Ion Ghica 3, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/scufita-rosie-by-qfeel-2/",
+          "description": "Scufița Roșie – O aventură isteață, plină de ghicitori și curaj! Vârsta recomandată: 2+ ani Durată: aprox. 60 min Trupa de Teatru Qfeel are bucuria de a vă invita la spectacolul „Scufița Roșie”, o adaptare savuroasă, modernă și extrem de prietenoasă cu copiii de toate vârstele! O poveste clasică reinterpretată cu mult umor, muzică și interactivitate, în care cei mici nu sunt doar spectatori, ci devin parte activă din aventură! În această versiune Qfeel, Scufița Roșie este o fetiță foarte iste...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0736.jpg",
+          "map_url": "https://maps.google.com/?q=Sala+Luceafărul+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4341166,
+          "lon": 26.1023412,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-concert-simfonic-0024",
           "title": "Concert simfonic",
           "category": "concert",
@@ -60945,6 +61462,60 @@
           "image": "events-images/zsn-concert-simfonic-0024.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "sorina-0737",
+          "title": "Dumbo cel Isteț – Teatru interactiv pentru copii",
+          "category": "family",
+          "vibe": "family",
+          "date": "2027-01-23",
+          "time": "11:00",
+          "venue": "Hanu' lui Manuc",
+          "address": "Str. Franceză 62-64, București 030106, București",
+          "price": "paid",
+          "price_value": 45,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/dumbo-cel-istet-teatru-interactiv-pentru-copii/",
+          "description": "Cei mici sunt invitați să li se alăture faimosului elefanțel Dumbo în lunga și fascinanta sa călătorie în găsirea fluturașului său. În drumul său, Dumbo va fi acompaniat, pe lângă micii spectactori, și de îngerașul său care îi va sta drept sfătuitor și îndrumător. Cu ajutorul copiilor, elefănțelul va reuși să răspundă ghicitorilor adresate de prietenii pe care îi va întâlni în calea sa și va reuși să destrame vraja Duhului. Odată ruptă vraja, acesta se va transforma în prinț și fluturașul înt...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0737.webp",
+          "map_url": "https://maps.google.com/?q=Hanu'+lui+Manuc+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4297201,
+          "lon": 26.102347,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0738",
+          "title": "Fata Babei și Fata Moșului – by Qfeel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-01-24",
+          "time": "10:00",
+          "venue": "Sala Luceafărul",
+          "address": "Strada Ion Ghica 3, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/fata-babei-si-fata-mosului-by-qfeel/",
+          "description": "Fata Babei și Fata Moșului – Teatru interactiv pentru copii 🎟️ Vârsta recomandată: 2+ ani ⏳ Durată: aprox. 60 min ✨🎭 O poveste clasică, așa cum nu ai mai văzut-o! 🎭✨ Trupa de Teatru Qfeel te invită la o reinterpretare surprinzătoare a povești i \"Fata babei și fata moșneagului\" – un spectacol plin de umor, dans, emoție și lecții valoroase! 🌳 🌈 O aventură interactivă, unde copiii nu sunt doar spectatori, ci și parte din poveste! Ei pot pune întrebări, pot descoperi răspunsuri direct de la perso...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0738.webp",
+          "map_url": "https://maps.google.com/?q=Sala+Luceafărul+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4341166,
+          "lon": 26.1023412,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-concert-vocal-simfonic-0023",
@@ -60995,6 +61566,33 @@
           "lon": 26.125561
         },
         {
+          "id": "sorina-0739",
+          "title": "Hansel și Gretel – by Qfeel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-01-31",
+          "time": "12:00",
+          "venue": "Sala Luceafărul",
+          "address": "Strada Ion Ghica 3, București 030167, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/hansel-si-gretel-by-qfeel/",
+          "description": "Hansel și Gretel – Teatru interactiv pentru copii Vârsta recomandată: 2+ ani Durată: aprox. 60 min Un spectacol pentru toată familia! Lăsați-vă purtați de farmecul teatrului și pășiți alături de Hansel și Gretel într-o aventură plină de suspans, umor și învățăminte prețioase! Trupa de Teatru Qfeel aduce pe scenă un spectacol fascinant, regizat de Vero Căliman, care îi va ține pe cei mici cu sufletul la gură, iar pe cei mari îi va încânta. Pregătiți-vă pentru hohote de râs, momente emoționante...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "events-images/sorina-0739.jpg",
+          "map_url": "https://maps.google.com/?q=Sala+Luceafărul+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4341166,
+          "lon": 26.1023412,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-concert-simfonic-0022",
           "title": "Concert simfonic",
           "category": "concert",
@@ -61017,6 +61615,33 @@
           "image": "events-images/zsn-concert-simfonic-0022.jpg",
           "lat": 44.441199,
           "lon": 26.097882
+        },
+        {
+          "id": "sorina-0741",
+          "title": "Hansel și Gretel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-07",
+          "time": "11:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/hansel-si-gretel-5/",
+          "description": "Hansel și Gretel, Operă, +7 ani, Sala Mare Durata: 90 de minute Uneori, pădurea poate ascunde secrete dulci și primejdioase, iar curajul și istețimea sunt cele mai de preț comori și cei mai buni aliați! După mai bine de un deceniu de la prima sa montare la Opera Comică pentru Copii, povestea fascinantă a lui Hänsel și Gretel revine într-o viziune proaspătă și spectaculoasă. Maestrul Cristian Mihăilescu readuce la viață capodopera muzicală semnată de Engelbert Humperdinck într-o producție care...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0741.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-recital-de-pian-0021",
@@ -61067,6 +61692,33 @@
           "lon": 26.097882
         },
         {
+          "id": "sorina-0742",
+          "title": "Bubu Simfonie în farfurie – Spectacol senzorial și muzical",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-12",
+          "time": "17:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/bubu-simfonie-in-farfurie-spectacol-senzorial-si-muzical/",
+          "description": "Ora 17:00 & 18:00 Spectacol senzorial și muzical pentru spectatori 0 – 3 ani, Sala Undergrant Durata: 30 de minute Concept, regie și text: Andreea Soare și Irina Furdui „Bubu – Simfonie în farfurie” este un spectacol special pentru cei mai mici spectatori, unde muzica, culorile și joaca se împletesc într-o aventură plină de descoperiri. Copiii, alături de Bubu, învață despre fructe, legume și culori într-un mod interactiv. Este o experiență senzorială care stimulează curiozitatea, dezvoltă s...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0742.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-concert-trooper-0002",
           "title": "Concert Trooper",
           "category": "concert",
@@ -61092,6 +61744,60 @@
           "geocode_quality": "city_fallback"
         },
         {
+          "id": "sorina-0744",
+          "title": "Bubu Simfonie în farfurie – Spectacol senzorial și muzical",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-13",
+          "time": "10:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/bubu-simfonie-in-farfurie-spectacol-senzorial-si-muzical-2/",
+          "description": "Ora 10:00, 11:00, 12:00, 16:00, 17:00 & 18:00 Spectacol senzorial și muzical pentru spectatori 0 – 3 ani, Sala Undergrant Durata: 30 de minute Concept, regie și text: Andreea Soare și Irina Furdui „Bubu – Simfonie în farfurie” este un spectacol special pentru cei mai mici spectatori, unde muzica, culorile și joaca se împletesc într-o aventură plină de descoperiri. Copiii, alături de Bubu, învață despre fructe, legume și culori într-un mod interactiv. Este o experiență senzorială care stimule...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0744.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0746",
+          "title": "Hansel și Gretel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-13",
+          "time": "17:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/hansel-si-gretel-6/",
+          "description": "Hansel și Gretel, Operă, +7 ani, Sala Mare Durata: 90 de minute Uneori, pădurea poate ascunde secrete dulci și primejdioase, iar curajul și istețimea sunt cele mai de preț comori și cei mai buni aliați! După mai bine de un deceniu de la prima sa montare la Opera Comică pentru Copii, povestea fascinantă a lui Hänsel și Gretel revine într-o viziune proaspătă și spectaculoasă. Maestrul Cristian Mihăilescu readuce la viață capodopera muzicală semnată de Engelbert Humperdinck într-o producție care...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0746.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
           "id": "zsn-concert-direc-ia-5-100-directi-0045",
           "title": "Concert Direcția 5 – \"100% Directia 5\"",
           "category": "expo",
@@ -61114,6 +61820,60 @@
           "image": "events-images/zsn-concert-direc-ia-5-100-directi-0045.png",
           "lat": 46.543383,
           "lon": 24.557949
+        },
+        {
+          "id": "sorina-0747",
+          "title": "Bubu Simfonie în farfurie – Spectacol senzorial și muzical",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-14",
+          "time": "10:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/bubu-simfonie-in-farfurie-spectacol-senzorial-si-muzical-3/",
+          "description": "Ora 10:00, 11:00, 12:00, 16:00, 17:00 & 18:00 Spectacol senzorial și muzical pentru spectatori 0 – 3 ani, Sala Undergrant Durata: 30 de minute Concept, regie și text: Andreea Soare și Irina Furdui „Bubu – Simfonie în farfurie” este un spectacol special pentru cei mai mici spectatori, unde muzica, culorile și joaca se împletesc într-o aventură plină de descoperiri. Copiii, alături de Bubu, învață despre fructe, legume și culori într-un mod interactiv. Este o experiență senzorială care stimule...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0747.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
+        },
+        {
+          "id": "sorina-0749",
+          "title": "Hansel și Gretel",
+          "category": "teatru",
+          "vibe": "family",
+          "date": "2027-02-14",
+          "time": "11:00",
+          "venue": "Opera Comică pentru Copii",
+          "address": "Calea Giulești 16, București 060276, București",
+          "price": "paid",
+          "price_value": 40,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/hansel-si-gretel-7/",
+          "description": "Hansel și Gretel, Operă, +7 ani, Sala Mare Durata: 90 de minute Uneori, pădurea poate ascunde secrete dulci și primejdioase, iar curajul și istețimea sunt cele mai de preț comori și cei mai buni aliați! După mai bine de un deceniu de la prima sa montare la Opera Comică pentru Copii, povestea fascinantă a lui Hänsel și Gretel revine într-o viziune proaspătă și spectaculoasă. Maestrul Cristian Mihăilescu readuce la viață capodopera muzicală semnată de Engelbert Humperdinck într-o producție care...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol"
+          ],
+          "image": "events-images/sorina-0749.jpg",
+          "map_url": "https://maps.google.com/?q=Opera+Comică+pentru+Copii+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.455062,
+          "lon": 26.0577274,
+          "geocode_quality": "cache"
         },
         {
           "id": "zsn-o-sear-cu-andrei-tudor-de-drag-0001",
@@ -62793,7 +63553,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0248",
@@ -62844,6 +63605,60 @@
             "curs"
           ],
           "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/914139265_122140339977220868_3165980613052994657_n.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0319",
+          "title": "Curs de autoapărare",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-26",
+          "time": "17:30",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 50,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/curs-de-autoaparare-2/",
+          "description": "Siguranța începe cu încrederea de a spune „Stop!” Când ceva îi face să se simtă în nesiguranță, copiii au nevoie să știe că pot spune „nu”, că se pot îndepărta și că pot cere ajutor unui adult de încredere. La cursurile de autoapărare de la Fairy Forest, cei mici își dezvoltă atenția, autocontrolul și încrederea în propriile reacții, prin exerciții adaptate vârstei lor. Ne dorim să plece de la fiecare curs cu mai mult curaj să își facă vocea auzită și să își respecte propriile limite. Marți ș...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "curs"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/09/912355549_122140405953220868_4898354825335168379_n.jpg",
+          "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0448",
+          "title": "1 decembrie la Fairy Forest",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-12-01",
+          "time": "15:00",
+          "venue": "Fairy Forest Clinceni",
+          "address": "Str. Ciocârliei 79, 077060 Clinceni, București",
+          "price": "paid",
+          "price_value": 150,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/seara-de-film-2/",
+          "description": "Cine se prinde cu noi în horă?!🇷🇴 De 1 Decembrie, îmbrăcăm straie populare și facem petrecere la Fairy Forest! Cei mici se joacă alături de animator, meșteresc la atelier și se bucură de suc și bucate românești. Iar vouă, dragi părinți, vă păstrăm o felie de cozonac! Poate chiar două!🤭",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier",
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-19-200356.png",
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
@@ -67509,7 +68324,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-orkid-lansare-ep-mult-mai-bun--0008.jpg",
           "lat": 46.769379,
-          "lon": 23.5899542
+          "lon": 23.5899542,
+          "past": true
         },
         {
           "id": "zsn-subcarpa-i-bt-arena-cluj-napoc-0021",
@@ -67533,7 +68349,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-subcarpa-i-bt-arena-cluj-napoc-0021.jpg",
           "lat": 46.767207,
-          "lon": 23.570286
+          "lon": 23.570286,
+          "past": true
         },
         {
           "id": "zsn-concert-subcarpa-i-0023",
@@ -67557,7 +68374,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-subcarpa-i-0023.jpg",
           "lat": 46.767207,
-          "lon": 23.570286
+          "lon": 23.570286,
+          "past": true
         },
         {
           "id": "zsn-orkid-lansare-ep-mult-mai-bun--0016",
@@ -67582,7 +68400,8 @@
           "image": "events-images/zsn-orkid-lansare-ep-mult-mai-bun--0016.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn--0080",
@@ -67606,7 +68425,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn--0080.jpg",
           "lat": 46.758962,
-          "lon": 23.562761
+          "lon": 23.562761,
+          "past": true
         },
         {
           "id": "zsn-orkid-lansare-ep-mult-mai-bun--0009",
@@ -67630,7 +68450,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-orkid-lansare-ep-mult-mai-bun--0009.jpg",
           "lat": 46.757182,
-          "lon": 23.593765
+          "lon": 23.593765,
+          "past": true
         },
         {
           "id": "zsn-concert-orchestra-antonin-ciol-0065",
@@ -67654,7 +68475,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-orchestra-antonin-ciol-0065.jpg",
           "lat": 46.768734,
-          "lon": 23.593044
+          "lon": 23.593044,
+          "past": true
         },
         {
           "id": "zsn-thursday-listening-session-w-b-0067",
@@ -67678,7 +68500,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-thursday-listening-session-w-b-0067.jpg",
           "lat": 46.76969,
-          "lon": 23.587723
+          "lon": 23.587723,
+          "past": true
         },
         {
           "id": "zsn-ana-coman-hidden-gems-0092",
@@ -67702,7 +68525,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ana-coman-hidden-gems-0092.png",
           "lat": 46.7675,
-          "lon": 23.572794
+          "lon": 23.572794,
+          "past": true
         },
         {
           "id": "zsn-carla-s-dreams-simfonic-sala-p-0009",
@@ -67726,7 +68550,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-carla-s-dreams-simfonic-sala-p-0009.jpg",
           "lat": 46.767207,
-          "lon": 23.570286
+          "lon": 23.570286,
+          "past": true
         },
         {
           "id": "zsn-v-duva-vesel-i-franz-leh-r-0062",
@@ -70963,7 +71788,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-pandora-tour-presented-by-vlad-0050.jpg",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-vlad-corb-lansare-de-album-0058",
@@ -70987,7 +71813,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-vlad-corb-lansare-de-album-0058.webp",
           "lat": 44.174519,
-          "lon": 28.645236
+          "lon": 28.645236,
+          "past": true
         },
         {
           "id": "zsn-mihai-m-rgineanu-i-banda-14-an-0064",
@@ -72787,7 +73614,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-elena-0011.jpg",
           "lat": 44.319167,
-          "lon": 23.799107
+          "lon": 23.799107,
+          "past": true
         },
         {
           "id": "zsn-aprinderea-luminilor-de-cr-ciu-0077",
@@ -75472,7 +76300,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-bosquito-0004.jpg",
           "lat": 47.166263,
-          "lon": 27.579664
+          "lon": 27.579664,
+          "past": true
         },
         {
           "id": "zsn-romanian-jazz-connection-0034",
@@ -75496,7 +76325,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-romanian-jazz-connection-0034.jpg",
           "lat": 47.169011,
-          "lon": 27.574052
+          "lon": 27.574052,
+          "past": true
         },
         {
           "id": "zsn-ia-i-omul-cu-sobolani-lansare--0032",
@@ -75520,7 +76350,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-ia-i-omul-cu-sobolani-lansare--0032.webp",
           "lat": 47.158742,
-          "lon": 27.588248
+          "lon": 27.588248,
+          "past": true
         },
         {
           "id": "zsn-gerdband-de-concert-extraordin-0044",
@@ -77052,7 +77883,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-locotenent-maria-0097.jpg",
           "lat": 47.056647,
-          "lon": 21.930184
+          "lon": 21.930184,
+          "past": true
         },
         {
           "id": "zsn--0074",
@@ -77076,7 +77908,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn--0074.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn-monday-shadows-ghost-riders-li-0006",
@@ -78462,7 +79295,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0096",
@@ -78488,7 +79322,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0164",
@@ -78544,6 +79379,58 @@
           "lon": 26.1025
         },
         {
+          "id": "sorina-0261",
+          "title": "Atelier creativ: Borcanul Românesc",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-24",
+          "time": "17:00",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-creativ/",
+          "description": "Continuăm seria atelierelor creative la Bloom & Joy, în parteneriat cu Ateliere de Creație pentru Copii! 🧡 Ne bucurăm încă de culorile minunate ale toamnei 🍂, ne apropiem cu pași repezi de sărbătorile naționale 🇷🇴 și dăm frâu liber imaginației cu un strop de distracție senzorială! 🌈 Săptămâna aceasta, cei mici sunt invitați să creeze, să experimenteze și să descopere bucuria lucrurilor făcute cu propriile mânuțe! 🤲✨ 🍁 Marți, 17 noiembrie * 🎨 17:00–18:00 | Pictură de toamnă pe pânză – 75 lei *...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-16-050428.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0271",
+          "title": "Atelier creativ: România mea creativă",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-24",
+          "time": "18:30",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 90,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-creativ-2/",
+          "description": "Continuăm seria atelierelor creative la Bloom & Joy, în parteneriat cu Ateliere de Creație pentru Copii! 🧡 Ne bucurăm încă de culorile minunate ale toamnei 🍂, ne apropiem cu pași repezi de sărbătorile naționale 🇷🇴 și dăm frâu liber imaginației cu un strop de distracție senzorială! 🌈 Săptămâna aceasta, cei mici sunt invitați să creeze, să experimenteze și să descopere bucuria lucrurilor făcute cu propriile mânuțe! 🤲✨ 🍁 Marți, 17 noiembrie * 🎨 17:00–18:00 | Pictură de toamnă pe pânză – 75 lei *...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-16-050428.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0446",
           "title": "Atelier Waldorf: Lampioane de hârtie",
           "category": "atelier",
@@ -78565,6 +79452,58 @@
           ],
           "image": "",
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0316",
+          "title": "Atelier creativ: Tradiții românești",
+          "category": "workshop",
+          "vibe": "casual",
+          "date": "2026-11-26",
+          "time": "17:00",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-creativ-3/",
+          "description": "Continuăm seria atelierelor creative la Bloom & Joy, în parteneriat cu Ateliere de Creație pentru Copii! 🧡 Ne bucurăm încă de culorile minunate ale toamnei 🍂, ne apropiem cu pași repezi de sărbătorile naționale 🇷🇴 și dăm frâu liber imaginației cu un strop de distracție senzorială! 🌈 Săptămâna aceasta, cei mici sunt invitați să creeze, să experimenteze și să descopere bucuria lucrurilor făcute cu propriile mânuțe! 🤲✨ 🍁 Marți, 17 noiembrie * 🎨 17:00–18:00 | Pictură de toamnă pe pânză – 75 lei *...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-16-050439.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0414",
+          "title": "Ursul păcălit de vulpe",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-29",
+          "time": "11:00",
+          "venue": "MUZE Kids",
+          "address": "Strada Ion Creangă 5, Odăile 075100, Otopeni",
+          "price": "paid",
+          "price_value": 80,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/ursul-pacalit-de-vulpe-6/",
+          "description": "Spectacol „Ursul păcălit de vulpe”, de Ion Creangă Duminică, 29 noiembrie, 11:00–12:30 Vârstă: 3–10 ani 80 lei/copil, acces gratuit pentru părinți Un spectacol interactiv, muzical și educativ, prezentat de Asociația Culturală Arts Camp , în regia Magdei Condurache . Prețul include spectacolul de 45 de minute, joacă liberă, o gustare dulce și sărată și apă. Locația: MUZE Kids, Str. Belgrad 13, Otopeni . Înscrieri pentru toate evenimentele: https://wa.me/40722167842",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "spectacol-de-teatru"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/unnamed-4.png",
+          "map_url": "https://maps.google.com/?q=MUZE+Kids+Otopeni",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
@@ -79246,7 +80185,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-simfonic-0076.jpg",
           "lat": 47.792804,
-          "lon": 22.874683
+          "lon": 22.874683,
+          "past": true
         },
         {
           "id": "zsn-concert-extraordinar-0019",
@@ -84875,7 +85815,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-om-la-lun-timi-oara-19-nov-0012.jpg",
           "lat": 45.759722,
-          "lon": 21.23
+          "lon": 21.23,
+          "past": true
         },
         {
           "id": "zsn-concert-elevation-0024",
@@ -84899,7 +85840,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-elevation-0024.jpg",
           "lat": 45.751158,
-          "lon": 21.22557
+          "lon": 21.22557,
+          "past": true
         },
         {
           "id": "zsn-they-start-to-look-like-smoke--0025",
@@ -84923,7 +85865,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-they-start-to-look-like-smoke--0025.jpg",
           "lat": 45.742977,
-          "lon": 21.224123
+          "lon": 21.224123,
+          "past": true
         },
         {
           "id": "zsn-generation-breakdown-de-live-n-0027",
@@ -84948,7 +85891,8 @@
           "image": "events-images/zsn-generation-breakdown-de-live-n-0027.jpg",
           "lat": 45.757235,
           "lon": 21.2332078,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-punct-de-inflexiune-0101",
@@ -87807,6 +88751,59 @@
           "past": true
         },
         {
+          "id": "sorina-0007",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-20",
+          "time": "10:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/475235771_17930281025996361_3464651805394407268_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025,
+          "past": true
+        },
+        {
+          "id": "sorina-0128",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-21",
+          "time": "16:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-11/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/475235771_17930281025996361_3464651805394407268_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0388",
           "title": "Neon Fun Party",
           "category": "family",
@@ -87828,6 +88825,32 @@
           ],
           "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/897038688_17915068605518464_8318706805988434789_n.jpg",
           "map_url": "https://maps.google.com/?q=TumiLand+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0227",
+          "title": "Joacă liberă",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-11-22",
+          "time": "16:00",
+          "venue": "Little Ones KIDS-PLAY-CAFE",
+          "address": "Strada Erou Iancu Nicolae 67, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 75,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/joaca-libera-14/",
+          "description": "O nouă săptămână de joacă și voie bună la Little Ones! ✨ Cei mici se răsfață cu un babyccino, iar părinții își iau doza de relaxare cu o cafea aromată. ☕️ 🕙 Program: Luni & Marți – închis Miercuri-Duminică • 10:00–21:00 💛 Vă așteptăm cu drag! 📞 Sună-ne la 0741 561 840",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "play-session"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/06/475235771_17930281025996361_3464651805394407268_n.jpg",
+          "map_url": "https://maps.google.com/?q=Little+Ones+KIDS-PLAY-CAFE+Voluntari",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
           "lon": 26.1025
@@ -87992,7 +89015,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-11-19",
-  "last_recategorized": "2026-11-19",
-  "last_images_sync": "2026-11-19"
+  "last_geocoded": "2026-11-20",
+  "last_recategorized": "2026-11-20",
+  "last_images_sync": "2026-11-20"
 }
