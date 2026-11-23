@@ -1405,5 +1405,35 @@
     44.4662459,
     26.1284586,
     "nominatim"
+  ],
+  "Cinema City Brașov::brasov": [
+    45.6498717,
+    25.6110693,
+    "nominatim"
+  ],
+  "Centrul De Cultură Arcuş::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "3g HUB::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Civico Venue::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Online::bucuresti": [
+    44.5370042,
+    26.0828512,
+    "nominatim"
+  ],
+  "Teatrul de Artă Deva::deva": [
+    45.8826281,
+    22.9002944,
+    "nominatim"
   ]
 }
