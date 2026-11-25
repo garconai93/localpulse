@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24",
-  "last_scraped": "2026-11-24",
+  "generated_at": "2026-11-25",
+  "last_scraped": "2026-11-25",
   "cities": [
     {
       "slug": "alba-iulia",
@@ -56389,7 +56389,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-sub-fereastr-la-om-bun-suzana--0091.jpg",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-napalm-death-master-brat-goatb-0043",
@@ -56413,7 +56414,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-napalm-death-master-brat-goatb-0043.jpg",
           "lat": 44.437414,
-          "lon": 26.059285
+          "lon": 26.059285,
+          "past": true
         },
         {
           "id": "zsn-gala-tinerilor-piani-ti-partea-0014",
@@ -56437,7 +56439,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-gala-tinerilor-piani-ti-partea-0014.jpg",
           "lat": 44.938248,
-          "lon": 26.022599
+          "lon": 26.022599,
+          "past": true
         },
         {
           "id": "zsn-dresch-von-s-quartet-0026",
@@ -56462,7 +56465,8 @@
           "image": "events-images/zsn-dresch-von-s-quartet-0026.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-cameral-kamarazene-est-0016",
@@ -56486,7 +56490,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-cameral-kamarazene-est-0016.jpg",
           "lat": 46.543383,
-          "lon": 24.557949
+          "lon": 24.557949,
+          "past": true
         },
         {
           "id": "zsn-sz-lk-k-kurt-g-100-0014",
@@ -56511,7 +56516,8 @@
           "image": "events-images/zsn-sz-lk-k-kurt-g-100-0014.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-kurt-g-a-chii-sz-lk-k--0015",
@@ -56536,7 +56542,8 @@
           "image": "events-images/zsn-concert-kurt-g-a-chii-sz-lk-k--0015.jpg",
           "lat": 44.4361414,
           "lon": 26.102684,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-nicole-cherry-infinit-0020",
@@ -56560,7 +56567,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-nicole-cherry-infinit-0020.webp",
           "lat": 44.437863,
-          "lon": 26.094895
+          "lon": 26.094895,
+          "past": true
         },
         {
           "id": "zsn-chillvibes-cu-mihai-meiro-meci-0035",
@@ -56584,7 +56592,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-chillvibes-cu-mihai-meiro-meci-0035.jpg",
           "lat": 44.476513,
-          "lon": 26.076153
+          "lon": 26.076153,
+          "past": true
         },
         {
           "id": "zsn-kovacs-la-hard-rock-cafe-0011",
@@ -56608,7 +56617,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-kovacs-la-hard-rock-cafe-0011.jpg",
           "lat": 44.444723,
-          "lon": 26.08565
+          "lon": 26.08565,
+          "past": true
         },
         {
           "id": "zsn-ctrl-brutus-live-machedon-0123",
@@ -56633,7 +56643,8 @@
           "image": "events-images/zsn-ctrl-brutus-live-machedon-0123.jpg",
           "lat": 44.4355973,
           "lon": 26.0969873,
-          "geocode_quality": "cache"
+          "geocode_quality": "cache",
+          "past": true
         },
         {
           "id": "zsn-the-groovy-bastards-lansare-de-0019",
@@ -56657,7 +56668,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-groovy-bastards-lansare-de-0019.png",
           "lat": 44.414925,
-          "lon": 26.092052
+          "lon": 26.092052,
+          "past": true
         },
         {
           "id": "zsn-folk-n-pub-o-sear-o-scen-o-pov-0014",
@@ -65954,7 +65966,8 @@
           "map_url": "https://maps.google.com/?q=Fairy+Forest+Clinceni+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0259",
@@ -71429,7 +71442,8 @@
           "image": "events-images/zsn-concert-de-colinde-paula-hrisc-0019.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-concert-pentru-cor-i-org-0058",
@@ -71454,7 +71468,8 @@
           "image": "events-images/zsn-concert-pentru-cor-i-org-0058.jpg",
           "lat": 46.769379,
           "lon": 23.5899542,
-          "geocode_quality": "city_fallback"
+          "geocode_quality": "city_fallback",
+          "past": true
         },
         {
           "id": "zsn-rock-live-la-casa-de-cultur-a--0059",
@@ -71478,7 +71493,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-rock-live-la-casa-de-cultur-a--0059.jpg",
           "lat": 46.766834,
-          "lon": 23.586026
+          "lon": 23.586026,
+          "past": true
         },
         {
           "id": "zsn-concert-direc-ia-5-100-direc-i-0088",
@@ -75143,6 +75159,39 @@
           "image": "events-images/zsn-carmen-0068.jpg",
           "lat": 44.18072,
           "lon": 28.634682
+        },
+        {
+          "id": "con-constanta-tudor-gheorghe-iarna-1343",
+          "title": "PROMOVAT Constanța: Tudor Gheorghe : Iarna 2026 Lu, 14 dec Centrul Multifuncțional Educativ pentru Tineret Jean Constant",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-12-14",
+          "time": "20:00",
+          "venue": "loc în Constanța",
+          "address": "loc în Constanța",
+          "price": "paid",
+          "price_value": 60,
+          "source": "iabilet",
+          "url": "https://m.iabilet.ro/bilete-constanta-tudor-gheorghe-iarna-2026-135253/?ica_source=TownPagePromoted&ica_medium=mobile&ica_campaign=constanta&ica_term=",
+          "image": "",
+          "description": "PROMOVAT Constanța: Tudor Gheorghe : Iarna 2026 Lu, 14 dec Centrul Multifuncțional Educativ pentru Tineret Jean Constantin · Constanța — eveniment la locație necunoscută din Constanța.",
+          "highlights": [
+            "dată: 2026-12-14",
+            "ora: 20:00",
+            "categorie: concert"
+          ],
+          "duration": "1h 30min",
+          "age": "All ages",
+          "tags": [
+            "concert",
+            "constanta"
+          ],
+          "map_url": "https://maps.google.com/?q=Constanța",
+          "organizer": "iabilet.ro",
+          "scraped_at": "2026-11-25",
+          "lat": 44.1767161,
+          "lon": 28.6507598,
+          "geocode_quality": "city_fallback"
         },
         {
           "id": "zsn-doomnezeu-the-wise-become-fool-0061",
@@ -79543,7 +79592,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-the-sound-of-autumn-0036.jpg",
           "lat": 47.156944,
-          "lon": 27.590278
+          "lon": 27.590278,
+          "past": true
         },
         {
           "id": "zsn-disco-time-machine-0053",
@@ -81164,7 +81214,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-recital-de-pian-la-patru-m-ini-0018.jpg",
           "lat": 47.058774,
-          "lon": 21.930189
+          "lon": 21.930189,
+          "past": true
         },
         {
           "id": "zsn--0013",
@@ -82757,7 +82808,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0037",
@@ -82783,7 +82835,8 @@
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
-          "lon": 26.1025
+          "lon": 26.1025,
+          "past": true
         },
         {
           "id": "sorina-0446",
@@ -82806,6 +82859,32 @@
             "atelier"
           ],
           "image": "",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0021",
+          "title": "Atelier senzorial tradițional",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-11-25",
+          "time": "17:00",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 100,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-creativ/",
+          "description": "Intrăm în atmosfera sărbătorilor naționale cu joacă, tradiții și creativitate! 🎨✨ 🌾 Ateliere senzoriale și creative pentru cei mici, la Bloom & Joy! 🎁 Și asta nu e tot… De Sf. Andrei pregătim o surpriză! 🤫 👉 Swipe pentru detalii! 📍 Otopeni 📲 Rezervări: 0729 710 654 / 0750291269",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-23-052250.png",
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
@@ -82884,6 +82963,32 @@
             "atelier"
           ],
           "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-16-050439.png",
+          "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
+          "id": "sorina-0077",
+          "title": "Origami",
+          "category": "atelier",
+          "vibe": "intim",
+          "date": "2026-11-26",
+          "time": "19:00",
+          "venue": "Bloom&Joy",
+          "address": "Strada Argeș 35, 075100 Otopeni, București",
+          "price": "paid",
+          "price_value": 80,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/origami/",
+          "description": "🎭🐢 Ne jucăm, creăm și dăm frâu liber imaginației! ✨ La Bloom & Joy, alături de Artemi’s, îi invităm pe cei mici la două experiențe pline de creativitate! 🎭 Joculețe teatrale – expresivitate, emoții și improvizație. 🐠 Origami & Quilling – peștișori și broscuțe țestoase din hârtie! 🌈 Activități adaptate grupelor de vârstă 3–6 ani și 7–10 ani. 🕖 Ora 19:00 📍 Bloom & Joy, Otopeni 📲 Înscrieri: 0750 291 269 sau DM",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/Screenshot-2026-11-23-051246-1.png",
           "map_url": "https://maps.google.com/?q=Bloom&Joy+București",
           "organizer": "stiudelasorina.ro",
           "lat": 44.4268,
@@ -83695,7 +83800,8 @@
           "organizer": "zilesinopti.ro",
           "image": "events-images/zsn-concert-extraordinar-0019.jpg",
           "lat": 47.792804,
-          "lon": 22.874683
+          "lon": 22.874683,
+          "past": true
         },
         {
           "id": "zsn-muzica-rom-niei-de-alt-dat-0032",
@@ -89633,7 +89739,8 @@
           "image": "events-images/zsn-urstaat-gr-sevengill-gr-live-n-0017.jpg",
           "lat": 45.757235,
           "lon": 21.2332078,
-          "geocode_quality": "nominatim"
+          "geocode_quality": "nominatim",
+          "past": true
         },
         {
           "id": "zsn-am-fost-la-munte-10-ani-live-n-0003",
@@ -92562,6 +92669,32 @@
           "lon": 26.1025
         },
         {
+          "id": "sorina-0395",
+          "title": "Atelier de Crăciun",
+          "category": "family",
+          "vibe": "family",
+          "date": "2026-12-05",
+          "time": "14:30",
+          "venue": "Kids’ Nest",
+          "address": "Strada Mircea Marinescu 21, Voluntari 077190, Voluntari",
+          "price": "paid",
+          "price_value": 100,
+          "source": "stiudelasorina",
+          "url": "https://stiudelasorina.ro/event/atelier-de-craciun-2/",
+          "description": "Continuăm să adunăm momente mici, care vor deveni amintiri mari. În noiembrie, am dat culoare figurinelor din ceramică și ne-am bucurat de zâmbetele copiilor și de magia lucrurilor create de mânuțele lor. Iar acum, când se aprind primele luminițe și lumea începe să miroasă a sărbătoare, continuăm povestea cu cea mai frumoasă magie a copilăriei: așteptarea Crăciunului. Pe 5 decembrie, la Kids’ Nest, alături de un spiriduș tare special, vom crea într-o atmosferă cu miros de brad, portocală, cea...",
+          "highlights": [],
+          "duration": "",
+          "age": "",
+          "tags": [
+            "atelier"
+          ],
+          "image": "https://stiudelasorina.ro/wp-content/uploads/2026/11/915460344_17970398241209068_4432617576996179617_n.jpg",
+          "map_url": "https://maps.google.com/?q=Kids’+Nest+Voluntari",
+          "organizer": "stiudelasorina.ro",
+          "lat": 44.4268,
+          "lon": 26.1025
+        },
+        {
           "id": "sorina-0567",
           "title": "Operațiune Secretă: Poșta Moșului",
           "category": "family",
@@ -92590,7 +92723,7 @@
       ]
     }
   ],
-  "last_geocoded": "2026-11-24",
-  "last_recategorized": "2026-11-24",
-  "last_images_sync": "2026-11-24"
+  "last_geocoded": "2026-11-25",
+  "last_recategorized": "2026-11-25",
+  "last_images_sync": "2026-11-25"
 }
