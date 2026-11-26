@@ -1435,5 +1435,25 @@
     45.8826281,
     22.9002944,
     "nominatim"
+  ],
+  "Terasa Viilor::alba-iulia": [
+    46.0682753,
+    23.5664761,
+    "city_fallback"
+  ],
+  "Manasia Hub::bucuresti": [
+    44.4318869,
+    26.1066618,
+    "nominatim"
+  ],
+  "Palatul Cesianu-Racoviţă::bucuresti": [
+    44.4404537,
+    26.0979133,
+    "nominatim"
+  ],
+  "INVENTA CLUB::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
