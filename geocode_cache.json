@@ -1455,5 +1455,20 @@
     44.4361414,
     26.102684,
     "city_fallback"
+  ],
+  "Miercurea Ciuc::bucuresti": [
+    44.3963717,
+    26.0566797,
+    "nominatim"
+  ],
+  "Circul Metropolitan București::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
+  ],
+  "Sala Polivalenta Unirea::bucuresti": [
+    44.4361414,
+    26.102684,
+    "city_fallback"
   ]
 }
